@@ -15,11 +15,11 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
   * Aligning the images in the center of each page
   * Thinking of the layout in terms of rows and columns
 
-##Bonus
-Design agencies will usually have you own and create the whole page, not just a small portion of it. Try recreating the rest of the Airbnb home page!
-
 ##Deliverable
 
 Here's a screenshot of the portion that should be replicated.
 
 ![Solution](solution.jpg)
+
+##Bonus
+Design agencies will usually have you own and create the whole page, not just a small portion of it. Try recreating the rest of the Airbnb home page!
