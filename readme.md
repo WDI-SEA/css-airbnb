@@ -4,7 +4,11 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
 
 ##Getting Started
 * Fork and clone this repository to your computer
-* Create an `index.html` file and a `style.css` file. You may want to put the CSS file in its own folder, in order to keep your file structure organized
+* Run `npm install` in the folder to install dependencies
+* A HTML file (`index.html`) has been created for you. The next step will involve creating a CSS file in the correct location.
+* List of handy scripts for this assignment
+  - `npm start` - start the BrowserSync server
+  - `npm run lint:css` - lint your CSS
 
 ##Requirements
 * Look at the deliverable screenshot and see how well you can match it.
@@ -17,7 +21,7 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
 
 ##Deliverable
 
-Here's a screenshot of the portion that should be replicated.
+Here's a screenshot of the portion that should be replicated. Deliver the mockup as close as possible. In addition, code should be well-indented and follow best practices, including no linter errors.
 
 ![Solution](solution.jpg)
 
