@@ -6,8 +6,8 @@
   "scripts": {
     "lint:js": "node_modules/eslint/bin/eslint.js src/js; exit 0",
     "lint:css": "node_modules/csslint/cli.js src/css/; exit 0",
-    "test": "npm run lint:js && npm run lint:css",
-    "start": "node_modules/browser-sync/bin/browser-sync.js start --server 'src' --files 'src'"
+    "start": "node_modules/browser-sync/bin/browser-sync.js start --server 'src' --files 'src'",
+    "deploy": "git subtree push --prefix src origin gh-pages"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "csslint": "^0.10.0",
     "eslint": "^2.9.0",
     "eslint-plugin-import": "^1.6.1",
+    "eslint-config-airbnb": "^8.0.0",
     "eslint-plugin-react": "^5.0.1"
   }
 }
