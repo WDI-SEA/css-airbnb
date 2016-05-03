@@ -6,5 +6,10 @@
     "jquery": true
   },
 
-  "globals": {}
+  "globals": {},
+
+  "rules": {
+    "func-names": 0,
+    "space-before-function-paren": 0
+  }
 }
