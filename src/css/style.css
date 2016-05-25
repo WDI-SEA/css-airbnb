@@ -1,3 +1,8 @@
-h1 {
-  color: salmon;
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.spots {
+  text-align: center;
 }
