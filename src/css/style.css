@@ -1,3 +1,147 @@
-h1 {
-  color: salmon;
+*{
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
 }
+
+body{
+  background-color: #c5c5c5;
+}
+
+button {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: .8em;
+  border: 1px solid #747474;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.wrapper h2,h5 {
+  text-align: center;
+  color: #6B6B6B;
+}
+
+.rowtwowrapper {
+  padding: 15px;
+  margin: 0 auto;
+  width: 475px;
+  position: relative;
+}
+
+.rowthree,.rowfive {
+  position: relative;
+  text-align: center;
+}
+
+.rowfourwrapper {
+  margin: 0 auto;
+  width: 475px;
+}
+
+.sanfran {
+  background-image: url(../images/san-francisco.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+
+.sanfrantext {
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  color: white;
+}
+
+.newyork {
+  background-image: url(../images/new-york.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+
+.newyorktext {
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  color: white;
+}
+
+.london {
+  background-image: url(../images/london.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+
+.londontext {
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  color: white;
+}
+
+/*second image row*/
+
+.napa {
+  background-image: url(../images/napa.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+
+.napatext {
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  color: white;
+}
+
+.sonoma {
+  background-image: url(../images/sonoma.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+
+.sonomatext {
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  color: white;
+}
+
+.sanfran2 {
+  background-image: url(../images/san-francisco-2.jpg);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+}
+
+.sanfran2text {
+  width: 100%;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  color: white;
+}
+
