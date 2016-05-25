@@ -1,3 +1,180 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #eee;
+}
+
+p {
+  font-family: helvetica;
+  color: #565a5c;
+  text-align: center;
+}
+
+button {
+  font-family: helvetica;
+  border-radius: 2px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 1.43;
+  border-color: #c4c4c4;
+  background: white;
+  color: #565a5c;
+  font-size: 14px;
+  padding: 9px 60px;
+
+}
+
+h2 {
+  font-family: helvetica;
+  color: #565a5c;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+.h2pic {
+  vertical-align: middle;
+  color: white;
+  margin-top: 155px;
+}
+
+#maindiv {
+  /*border: 1px solid black;*/
+}
+
+.title {
+  /*border: 1px solid black;*/
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#header1 {
+
+}
+
+#header2 {
+
+}
+
+.para {
+  /*border: 1px solid black;*/
+  margin-bottom: 25px;
+}
+
+#para1 {
+
+}
+
+#para2 {
+
+}
+
+.picdiv3 {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.picdiv {
+  /*border: 1px solid black;*/
+  margin: 0px 10px;
+}
+
+.button {
+  /*border: 1px solid black;*/
+  text-align: center;
+  margin-top: 50px;
+}
+
+#button1 {
+
+}
+
+#button2 {
+
+}
+
+
+
+#london {
+  background-image: url("../images/london.jpg");
+  width: 314px;
+  height: 344px;
+  background-size: cover;
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+}
+
+#napa {
+  background-image: url("../images/napa.jpg");
+  width: 314px;
+  height: 344px;
+  background-size: cover;
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+}
+
+#new-york {
+  background-image: url("../images/new-york.jpg");
+  width: 314px;
+  height: 344px;
+  background-size: cover;
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+}
+
+#san-francisco-2 {
+  background-image: url("../images/san-francisco-2.jpg");
+  width: 314px;
+  height: 344px;
+  background-size: cover;
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+}
+
+#san-francisco {
+  background-image: url("../images/san-francisco.jpg");
+  width: 314px;
+  height: 344px;
+  background-size: cover;
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+}
+
+#sonoma {
+  background-image: url("../images/sonoma.jpg");
+  width: 314px;
+  height: 344px;
+  background-size: cover;
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
 }
