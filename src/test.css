@@ -1,0 +1,24 @@
+.img-holder {
+  border: 1px solid red;
+  /*height: 100px;*/
+  width: 100px;
+  overflow-x: hidden;
+
+}
+
+.imgbox {
+  border: 1px solid blue;
+  height: 100px;
+  /*height: 100px;*/
+}
+
+.example {
+  border: solid 1px red;
+  width: 200px;
+  height: 200px;
+  background-image: url('images/london.jpg');
+  background-size: 200px 200px;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+}
