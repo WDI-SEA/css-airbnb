@@ -36,7 +36,7 @@ span{
 }
 
 .image-san-francisco-1{
-  background: url(/images/san-francisco.jpg);
+  background: url(../images/san-francisco.jpg);
   background-size: cover;
   color:white;
   display:inline-block;
@@ -45,7 +45,7 @@ span{
   float:left;
 }
 .image-new-york{
-  background: url(/images/new-york.jpg);
+  background: url(../images/new-york.jpg);
   background-size: cover;
   color:white;
   display:inline-block;
@@ -55,7 +55,7 @@ span{
 }
 
 .image-london{
-  background: url(/images/london.jpg);
+  background: url(../images/london.jpg);
   background-size: cover;
   color:white;
   display:inline-block;
@@ -65,7 +65,7 @@ span{
 }
 
 .image-napa{
-  background: url(/images/napa.jpg);
+  background: url(../images/napa.jpg);
   background-size: cover;
   color:white;
   display:inline-block;
@@ -75,7 +75,7 @@ span{
 }
 
 .image-sonoma{
-  background: url(/images/sonoma.jpg);
+  background: url(../images/sonoma.jpg);
   background-size: cover;
   color:white;
   display:inline-block;
@@ -85,7 +85,7 @@ span{
 }
 
 .image-san-francisco-2{
-  background: url(/images/san-francisco-2.jpg);
+  background: url(../images/san-francisco-2.jpg);
   background-size: cover;
   color:white;
   display:inline-block;
