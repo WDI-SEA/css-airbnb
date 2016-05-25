@@ -1,3 +1,111 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #eee;
+  font-family: helvetica;
+}
+
+.city {
+  margin-top: 50%;
+}
+
+p {
+  font-size: 12px;
+}
+
+.topdiv{
+  margin-top: 30px;
+  text-align: center;
+  color: grey;
+}
+
+.middlediv {
+  text-align: center;
+  color:grey;
+}
+
+.bottomdiv {
+  text-align: center;
+}
+
+.toprow {
+  margin-left: 27%;
+  margin-bottom: 2%;
+}
+
+.bottomrow {
+  margin-left: 27%;
+  margin-bottom: 2%;
+}
+
+.sanfran {
+  color: white;
+  background-image: url("../images/san-francisco.jpg");
+  background-size: cover;
+  text-align: center;
+  width:19%;
+  height: 255px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.newyork {
+  color: white;
+  background-image: url("../images/new-york.jpg");
+  background-size: cover;
+  text-align: center;
+  width:19%;
+  height: 255px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.london {
+  color: white;
+  background-image: url("../images/london.jpg");
+  background-size: cover;
+  text-align: center;
+  width:19%;
+  height: 255px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.napa {
+  color: white;
+  background-image: url("../images/napa.jpg");
+  background-size: cover;
+  text-align: center;
+  width:19%;
+  height: 255px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.sonoma {
+  color: white;
+  background-image: url("../images/sonoma.jpg");
+  background-size: cover;
+  text-align: center;
+  width:19%;
+  height: 255px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.SFdiv {
+  color: white;
+  background-image: url("../images/san-francisco-2.jpg");
+  background-size: cover;
+  text-align: center;
+  width:19%;
+  height: 255px;
+  display: inline-block;
+  margin: 6px;
+}
+
+.guidebooks {
+  padding: 5px 50px;
+}
+
+.destinations {
+  padding: 5px 50px;
 }
