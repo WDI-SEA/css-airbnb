@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  background-color: #E9EBE7;
+  color: #45484D;
+  font-family: Helvetica, sans-serif;
+}
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -9,13 +16,25 @@
 
 .spots-images {
   margin: 20px 0;
+  color: white;
 }
 
 .spots-images div {
+  position: relative;
   display: inline-block;
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+
+.spots-images h3 {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
 }
 
 .san-francisco-1 {
