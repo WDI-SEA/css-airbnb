@@ -1,3 +1,87 @@
+header {
+  color: #43494D;
+  text-align: center;
+}
 h1 {
-  color: salmon;
+  font-family: 'Varela Round', sans-serif;
+}
+p {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pageDiv {
+  background-color: #E5EBE7;
+  max-width: 1000px;
+}
+.guideBook {
+  text-align: center;
+  margin: 50px;
+}
+.SF1 {
+  width: 500px;
+  height: 500px;
+  background: url(../images/san-francisco.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
+}
+.NY {
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/new-york.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
+}
+.London {
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/London.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
+}
+button {
+  padding: 10px 200px 10px 200px;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.destinations {
+  text-align: center;
+  margin: 50px;
+}
+.Napa {
+  width: 500px;
+  height: 500px;
+  background: url(../images/napa.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
+}
+.Sonoma {
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/sonoma.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
+}
+.SF2 {
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/san-francisco-2.jpg);
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
 }
