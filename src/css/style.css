@@ -1,3 +1,68 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #E9ECE8;
+  /*border: 1px solid red;*/
+  text-align: center;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666666
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #C4C4C4;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  color: #666666;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 9pt;
+}
+
+img, h4 {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#images1 {
+  position: relative;
+}
+
+#images2 {
+  position: relative;
+}
+
+#titles1 {
+  /*border: solid 1px red;*/
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: white;
+  line-height: 200px;
+}
+
+#titles2 {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  color: white;
+  line-height: 200px;
+}
+
+.image, h4 {
+  height: 200px;
+  width: 200px;
+}
+
+h4 {
+  display: inline-block;
+}
+.description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+body div h1 {
+  margin-top: 35px;
 }
