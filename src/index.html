@@ -1,12 +1,109 @@
+<!-- When running lint 12 warnings popped up, which are commented out at the bottom of this html file.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+  <title>Airbnb, Inc.</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div>
+    <span class="section"><h1>Meet Guidebooks</h1></span>
+    <span class="description">Discover hundreds of local spots recommended by Airbnb hosts</span>
+  </div>
+  <div id="images1">
+    <img src="images/san-francisco.jpg" class="image">
+    <img src="images/new-york.jpg" class="image">
+    <img src="images/london.jpg" class="image">
+    <div id="titles1">
+      <h4>San Francisco</h4>
+      <h4>New York</h4>
+      <h4>London</h4>
+    </div>
+  </div>
+
+  <button type="button" href=#>See All Guidebooks</button>
+
+  <div>
+    <span class="section"><h1>Just for the weekend</h2></span>
+    <span class="description">Discover new, inspiring places close to home</span>
+  </div>
+  <div id="images2">
+    <img src="images/napa.jpg" class="image">
+    <img src="images/sonoma.jpg" class="image">
+    <img src="images/san-francisco-2.jpg" class="image">
+    <div id="titles2">
+      <h4>Napa</h4>
+      <h4>Sonoma</h4>
+      <h4>San Francisco</h4>
+    </div>
+  </div>
+
+
+  <button type="button" href=#>See All Destinations</button>
 </body>
 </html>
+
+<!--csslint: There are 12 problems in /Users/administrator/Code/css-airbnb/src/css/style.css.
+
+style.css
+1: warning at line 12, col 3
+Using height with border can sometimes make elements larger than you expect.
+  border: 1px solid #C4C4C4;
+
+style.css
+2: warning at line 12, col 3
+Using width with border can sometimes make elements larger than you expect.
+  border: 1px solid #C4C4C4;
+
+style.css
+3: warning at line 28, col 1
+Don't use IDs in selectors.
+#images1 {
+
+style.css
+4: warning at line 32, col 1
+Don't use IDs in selectors.
+#images2 {
+
+style.css
+5: warning at line 36, col 1
+Don't use IDs in selectors.
+#titles1 {
+
+style.css
+6: warning at line 39, col 8
+Values of 0 shouldn't have units specified.
+  top: 0px;
+
+style.css
+7: warning at line 45, col 1
+Don't use IDs in selectors.
+#titles2 {
+
+style.css
+8: warning at line 47, col 8
+Values of 0 shouldn't have units specified.
+  top: 0px;
+
+style.css
+9: warning at line 53, col 9
+Heading (h4) has already been defined.
+.image, h4 {
+
+style.css
+10: warning at line 58, col 1
+Heading (h4) has already been defined.
+h4 {
+
+style.css
+11: warning at line 66, col 10
+Heading (h1) should not be qualified.
+body div h1 {
+
+style.css
+12: warning
+You have 3 h4s defined in this stylesheet.-->
