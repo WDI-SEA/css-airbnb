@@ -1,3 +1,65 @@
+
+body {
+ text-align: center;
+ background-color: lightgrey;
+ font-family: helvetica;
+}
+
 h1 {
-  color: salmon;
+ text-align: center;
+}
+
+h3 {
+ text-align: center;
+}
+
+.smaller-text {
+  font-size: smaller;
+}
+
+img, .titles1 h4 {
+ width: 200px;
+ height: 200px;
+ padding: 20px;
+}
+
+
+img, .titles2 h4 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+button {
+  width: 23.5%;
+}
+
+.titles1 h4 {
+ display: inline-block;
+ color: white;
+ z-index: 1;
+}
+
+.images1 {
+ position: relative;
+}
+
+.titles1 {
+ position: absolute;
+ top: 70px;
+ text-align: center;
+ width: 100%;
+}
+
+.titles2 h4 {
+ display: inline-block;
+ color: white;
+ z-index: 1;
+}
+
+.titles2 {
+ position: absolute;
+ top: 70px;
+ text-align: center;
+ width: 100%;
 }
