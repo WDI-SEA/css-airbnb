@@ -29,7 +29,7 @@ body {
   color: white;
 }
 
-.spots-images div {
+.spots-images .spot {
   position: relative;
   display: inline-block;
   background-size: cover;
@@ -39,7 +39,7 @@ body {
   margin: 15px;
 }
 
-.spots-images h3 {
+.spots-images .spot-title {
   margin: 0;
   position: absolute;
   width: 100%;
