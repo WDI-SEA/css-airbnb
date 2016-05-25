@@ -6,3 +6,38 @@
 .spots {
   text-align: center;
 }
+
+.spots-images {
+  margin: 20px 0;
+}
+
+.spots-images div {
+  display: inline-block;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.san-francisco-1 {
+  background-image: url("../images/san-francisco.jpg");
+}
+
+.san-francisco-2 {
+  background-image: url("../images/san-francisco-2.jpg");
+}
+
+.new-york {
+  background-image: url("../images/new-york.jpg");
+}
+
+.london {
+  background-image: url("../images/london.jpg");
+}
+
+.napa {
+  background-image: url("../images/napa.jpg");
+}
+
+.sonoma {
+  background-image: url("../images/sonoma.jpg");
+}
