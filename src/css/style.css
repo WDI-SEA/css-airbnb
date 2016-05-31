@@ -1,3 +1,46 @@
-h1 {
-  color: salmon;
+body {
+ text-align: center;
+ background-color: #CCCCCC ;
+}
+
+h1, p, h4 {
+ color: #55585C ;
+ text-align: center;
+ font-family: "Open Sans";
+}
+
+.ctext {
+ text-align: center;
+}
+
+img, .images1 h4, .images2 h4{
+ width: 200px;
+ height: 200px;
+ padding: 20px;
+}
+
+.titles1, .titles2 {
+ position: absolute;
+ top:0px;
+ text-align: center;
+ width: 100%;
+ line-height: 200px;
+/* padding-top: 70px;*/
+}
+
+h4 {
+ margin: 0px;
+}
+
+.titles1 h4, .titles2 h4 {
+ display: inline-block;
+ color: white;
+ z-index: 1;
+}
+
+.images1, .images2 {
+ position: relative;
+}
+button {
+ padding: 5px 25px 5px 25px;
 }
