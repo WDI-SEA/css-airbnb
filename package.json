@@ -1,10 +1,9 @@
 {
   "name": "TEMPLATE-js",
   "scripts": {
-    "lint:js": "node_modules/eslint/bin/eslint.js src/js; exit 0",
-    "lint:css": "node_modules/csslint/cli.js src/css/; exit 0",
-    "start": "node_modules/browser-sync/bin/browser-sync.js start --server 'src' --files 'src'",
-    "deploy": "git subtree push --prefix src origin gh-pages"
+    "lint:js": "node_modules/eslint/bin/eslint.js js --fix; exit 0",
+    "lint:css": "node_modules/csslint/cli.js css/; exit 0",
+    "start": "node_modules/browser-sync/bin/browser-sync.js start --server . --files ."
   },
   "author": "",
   "license": "MIT",
