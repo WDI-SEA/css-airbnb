@@ -8,7 +8,7 @@ body {
 }
 
 section {
-	width: 66%;
+	max-width: 1002px;
 	margin: 0 auto;
 }
 
