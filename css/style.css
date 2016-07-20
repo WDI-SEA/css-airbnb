@@ -1,3 +1,40 @@
-h1 {
-  color: salmon;
+body {
+	font-family: "Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.43;
+    color: #484848;
+    background-color: rgb(236,240,237);
+}
+
+.content {
+	text-align: center;
+}
+
+.header {
+	display: block;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 35.2px;
+	padding-bottom: 5px;
+}
+
+.description {
+	margin-bottom: 15px;
+
+}
+
+.images {
+
+}
+
+.photo-text {
+
+}
+
+.clearfix {
+
+}
+
+.button {
+
 }
