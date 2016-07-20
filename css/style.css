@@ -1,3 +1,5 @@
+/*images are 427x516
+*/
 body {
 	font-family: "Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -7,6 +9,7 @@ body {
 }
 
 .content {
+	margin-top: 50px;
 	text-align: center;
 }
 
@@ -20,7 +23,6 @@ body {
 
 .description {
 	margin-bottom: 15px;
-
 }
 
 .images {
@@ -36,5 +38,18 @@ body {
 }
 
 .button {
-
+	border: 1px solid #aaa;
+    color: #484848;
+    text-decoration: none;
+    width: 427px;
+    background: #ffffff;
+    padding: 9px 27px;
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 1.43;
+    text-align: center;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
