@@ -1,3 +1,93 @@
-h1 {
-  color: salmon;
+body{
+	background-color: rgb(245, 247, 243);
+	color: grey;
+	font-family: arial, helvetica, sans-serif;
+	text-align: center;
+}
+
+p{
+	font-size: 10px;
+}
+
+h3{
+	margin: 30px 0 0;
+}
+
+#container{
+	width: 100%;
+	text-align: center;
+}
+/*
+#container div{
+	display: inline-block;
+	width: 10%;
+	height: auto;
+	margin: 10px 3.5%;
+}
+*/
+#weekend{
+	margin: 1.5%;
+}
+/*BACKGGROUND IMAGE TAGS*/
+#sanFran{
+	background-image: url("/img/san-francisco.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+#newYork{
+	background-image: url("/img/new-york.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+#london{
+	background-image: url("/img/london.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+#napa{
+	background-image: url("/img/napa.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+#sonoma{
+	background-image: url("/img/sonoma.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+#sanFran2{
+	background-image: url("/img/san-francisco-2.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+
+.cityNames{
+	color: white;
+	font-size: 15px;
+	height: 175px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+button{
+	background-color: white;
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+	width: 12.5%;
+	height: 25px;
+	margin: 1.5%;
+	box-shadow: none;
+	border: solid grey 1px;
 }
