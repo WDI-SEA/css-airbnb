@@ -1,3 +1,48 @@
-h1 {
-  color: salmon;
+h1, h2, h3{
+  color: #484848;
+  text-align: center;
+  font-family: sans-serif;
+}
+body{
+	background-color: rgb(237, 239, 237);
+}
+h3{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.newButton{
+	background-color: rgb(255,255,255);
+	width: 400px;
+	height: 50px;
+	border: 2px solid grey;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 50px;
+	margin: 40px auto;
+}
+
+.imageLabel{
+	width: 400px;
+	height: 400px;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 400px;
+	font-size: 40px;
+	float: left;
+	margin: 5px;
+	background-size: auto 100%;
+}
+
+.imageWrapper{
+	display: flex;
+	justify-content: center;
+}
+
+p.imageLabel{
+	color: white;
+}
+
+.clearFix{
+	clear: both;
 }
