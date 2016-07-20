@@ -1,3 +1,131 @@
 h1 {
   color: salmon;
 }
+
+body{
+	background-color: #E6E6E6;
+	
+}
+
+.heading{
+	color: #757575;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 40px 0 0 38%;
+}
+
+.subtext{
+	font-size: 13px;
+	color: #757575;
+	margin: 10px 0 0 35%;
+}
+
+.heading2{
+	color: #757575;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 22% 0 0 37%;
+}
+
+.subtext2{
+	font-size: 13px;
+	color: #757575;
+	margin: 10px 0 0 35%;
+}
+
+img{
+	height: 200px;
+	width: 220px;
+}
+
+#sfPic{
+
+}
+
+#nycPic{
+
+}
+
+#londonPic{
+
+}
+
+.sfText{
+	color: white;
+	position: absolute;
+	margin: 120px 0 0 23%;
+	z-index: 2;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nycText{
+	color: white;
+	position: absolute;
+	margin: 120px 0 0 40%;
+	z-index: 2;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.londonText{
+	color: white;
+	position: absolute;
+	margin: 120px 0 0 56%;
+	z-index: 2;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.napaText{
+	color: white;
+	position: absolute;
+	margin: 120px 0 0 41%;
+	z-index: 2;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sonomaText{
+	color: white;
+	position: absolute;
+	margin: 120px 0 0 23%;
+	z-index: 2;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sf2Text{
+	color: white;
+	position: absolute;
+	margin: 120px 0 0 54%;
+	z-index: 2;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.guideButton{
+	position: absolute;
+	margin: 18% 0 0 35%;
+	width: 220px;
+	height: 30px;
+}
+
+#top-pics{
+	position: absolute;
+	margin: 2% 0 0 20%;
+}
+
+#bot-pics{
+	position: absolute;
+	margin:20px 0 0 20%;
+}
+
+.weekendButton{
+	position: absolute;
+	margin: 18% 0 0 35%;
+	width: 220px;
+	height: 30px;
+}
