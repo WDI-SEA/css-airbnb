@@ -38,6 +38,7 @@ section {
 	height: 300px;
 	width: 300px;
 	margin: 17px;
+	background-size: cover;
 	float: left;
 }
 
