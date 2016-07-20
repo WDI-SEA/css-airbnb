@@ -1,11 +1,15 @@
-/*images are 427x516
-*/
+
 body {
 	font-family: "Varela Round","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.43;
     color: #484848;
     background-color: rgb(236,240,237);
+}
+
+section {
+	width: 66%;
+	margin: 0 auto;
 }
 
 .content {
@@ -25,16 +29,28 @@ body {
 	margin-bottom: 15px;
 }
 
-.images {
+.images-row {
+	width: 100%;
+	float: left;
+}
 
+.photo {
+	height: 300px;
+	width: 300px;
+	margin: 17px;
+	float: left;
 }
 
 .photo-text {
-
+	text-align: center;
+	padding-top: 130px;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
 }
 
 .clearfix {
-
+	clear: both;
 }
 
 .button {
@@ -52,4 +68,28 @@ body {
     border-radius: 2px;
     margin: 0 auto;
     margin-top: 40px;
+}
+
+#san-francisco {
+	background-image: url('../img/san-francisco.jpg');
+}
+
+#new-york {
+	background-image: url('../img/new-york.jpg');
+}
+
+#london {
+	background-image: url('../img/london.jpg');
+}
+
+#napa {
+	background-image: url('../img/napa.jpg');
+}
+
+#sonoma {
+	background-image: url('../img/sonoma.jpg');
+}
+
+#san-francisco-2 {
+	background-image: url('../img/san-francisco-2.jpg');
 }
