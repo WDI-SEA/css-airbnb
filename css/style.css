@@ -1,3 +1,37 @@
-h1 {
-  color: salmon;
+body{
+	background: #e0e0e0;
+	max-width: 800px;
+	margin: 0 auto !important;
+	float: none !important;
+	text-align: center;
+}
+img{
+	height:200px;
+	width:200px;
+	margin: 20px;
+}
+h2{
+	font-family: "Verdana", Verdana, sans-serif;
+}
+p{
+	font-family: "Verdana", Verdana, sans-serif;
+}
+button{
+	border: 1px solid black;
+	background: #f4f4f4;
+	width: 200px;
+	height: 30px;
+	font-size: 12px;
+	margin: 20px;
+}
+div{
+	display: inline-block;
+}
+.over{
+	color: #ffffff;
+	font-family: "Verdana", Verdana, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	position: relative;
+	top: -150px;
 }
