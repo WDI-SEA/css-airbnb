@@ -1,3 +1,18 @@
-h1 {
-  color: salmon;
+body{
+	background: gray;
+	max-width: 800px;
+	margin: 0 auto !important;
+	float: none !important;
+	text-align: center;
+}
+img{
+	height:200px;
+	width:200px;
+}
+h1{
+	font-family: "Verdana", Verdana, sans-serif;
+}
+button{
+	border: 1px solid black;
+	background: #999999;
 }
