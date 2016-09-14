@@ -1,3 +1,141 @@
-h1 {
-  color: salmon;
+h1, h4 {
+	text-align: center;
+	display: block;
+	font-family: Helvetica;
+	color: #484848;
+
 }
+
+img {
+	width: 270px;
+	height: 300px;
+
+
+	
+}
+
+body {
+	background-color: #EEF0EE;
+}
+
+.floatBoxesROne {
+
+	width: 300px;
+	height: 300px;
+
+	margin-bottom: 75px;
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+
+
+  
+  
+}
+
+.floatBoxesRTwo {
+
+	width: 300px;
+	height: 300px;
+	margin-bottom: 50px;
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+
+}
+
+#sf {
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 250px;
+	left: 340px;
+}
+
+#ny {
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 250px;
+	left: 665px
+}
+
+#ld {
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 250px;
+	left: 975px;
+}
+
+#np {
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 800px;
+	left: 380px;
+}
+
+#sn {
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 800px;
+	left: 675px;
+}
+
+#sf2 {
+	font-family: helvetica;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 800px;
+	left: 935px;
+}
+
+.left {
+	float: left;
+  
+  
+}
+
+.container {
+  
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+ 
+  
+}
+
+.clear {
+	clear: both;
+}
+
+.button {
+	margin-left: 540px;
+	bottom: 20px;
+	position: relative;
+	border: 1px solid lightgrey;
+	border-radius: 1px;
+	background-color: white;
+	width: 300px;
+	height: 10px;
+	padding: 20px;
+	text-align: center;
+	line-height: 10px;
+	font-family: helvetica;
+	color: #484848;
+
+}
+
+
+
+
+
+
