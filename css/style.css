@@ -1,3 +1,67 @@
-h1 {
-  color: salmon;
+body {
+	background-color: #edefec;
+	font-family: 'Source Sans Pro', sans-serif;
 }
+.page_wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.section {
+	width: 100%;
+	margin: 0 auto;
+	display: inline;
+}
+
+.heading {
+	color: #565a5d;
+	text-align: center;
+	padding: 10px;
+}
+
+.location_wrapper {
+	width: inherit;%;
+	display: inline-block;
+	text-align: center;
+}
+
+.title {
+	font-size: 24px;
+	padding: 10px 0;
+	font-weight: 600;
+}
+
+.sub_title {
+	font-size: 11px;
+}
+
+.location {
+	color: white;
+	font-size: 24px;
+	display: inline-block;
+	margin: 6px;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.location {
+
+}
+
+.more_info {
+	margin: 20px 37.5% 0 37.5%;
+	width: 200px;
+	background-color: #fff;
+	line-height: 24px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 10px;
+	font-weight: 600;
+	border: 1px solid #c4c4c4;
+
+
+}
+
