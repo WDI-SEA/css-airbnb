@@ -50,22 +50,22 @@ h3 {
 	background-size: auto 340px;
 }
 .sanFrancisco {
-	background-image: url("/img/san-francisco.jpg");
+	background-image: url("img/san-francisco.jpg");
 }
 .newYork {
-	background-image: url("/img/new-york.jpg");
+	background-image: url("img/new-york.jpg");
 }
 .london {
-	background-image: url("/img/london.jpg");
+	background-image: url("img/london.jpg");
 }
 .napa {
-	background-image: url("/img/napa.jpg");
+	background-image: url("img/napa.jpg");
 }
 .sonoma {
-	background-image: url("/img/sonoma.jpg");
+	background-image: url("img/sonoma.jpg");
 }
 .sanFrancisco2 {
-	background-image: url("/img/san-francisco-2.jpg");
+	background-image: url("img/san-francisco-2.jpg");
 }
 .clear {
 	clear: both;
