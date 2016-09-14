@@ -1,3 +1,52 @@
+body {
+	background-color: #EEF0EE;
+	color: #484848;
+}
+h1, h2 {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+}
 h1 {
-  color: salmon;
+	font-size: 30px;	
+}
+h2 {
+	font-size: 16px;
+}
+img {
+    height: 100%;
+    width: auto;
+}
+
+.container {
+	margin: 0px auto;
+	width: 1000px;
+}
+.floatIt {
+	float: left;
+	justify-content: center;
+  	align-items: center;
+	width: 300px;
+	height: 300px;
+	margin: 12px;
+	padding-top: 30px;
+  	padding-bottom: 30px;
+	overflow: hidden;
+	display: flex;
+}
+.image {
+	position: absolute;
+	color: white;
+	margin: 0px;
+	padding: 10px;
+}
+.clear {
+	clear: both;
+}
+.button {
+	justify-content: center;
+  	align-items: center;
+	margin-left: 350px;
+	margin-right: 350px;
+  	border: 1px solid grey;
+  	background-color: white;
 }
