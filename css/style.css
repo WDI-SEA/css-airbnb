@@ -1,3 +1,114 @@
-h1 {
-  color: salmon;
+body {
+	background-color: #edefec;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.43;
+}
+
+.container {
+	width: 1066px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	color: #484848;
+	line-height: 1.1;
+	margin: 0 0 6px 0;
+	font-weight: normal;
+}
+
+p {
+	color: #484848;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.sectionHeading {
+	margin-top: 48px;
+	margin-bottom: 36px;
+	text-align: center;
+}
+
+.divRow {
+	width: 1054px;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+.destinationBoxRow {
+	margin-bottom: 20px;
+}
+
+.destinationBox {
+	height: 324px;
+	width: 324px;
+	/*border: 1px solid black;*/
+	/*float: left;*/
+	padding: 0 12px;
+	display: inline-block;
+}
+
+.destContain {
+	height: 100%;
+	width: 100%;
+	display: table;
+	/*background-color: blue;*/
+	position: relative;
+}
+
+.textContain {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+.h2 {
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+.btn {
+	background: white;
+	color: #484848;
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #c4c4c4;
+	padding: 9px 27px;
+	border-radius: 2px;
+	line-height: 1.43;
+	cursor: pointer;
+	margin-bottom: 0;
+	margin-top: 24px;
+}
+
+.destBG {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sanFran {
+	background-image: url('/img/san-francisco.jpg');	
+}
+
+.newYork {
+	background-image: url('/img/new-york.jpg');
+}
+
+.london {
+	background-image: url('/img/london.jpg');
+}
+
+.napa {
+	background-image: url('/img/napa.jpg');	
+}
+
+.sonoma {
+	background-image: url('/img/sonoma.jpg');	
+}
+
+.sanFran2 {
+	background-image: url('/img/san-francisco-2.jpg');	
 }
