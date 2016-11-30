@@ -1,0 +1,70 @@
+body {
+  background-color: CCCCCC;
+}
+
+#container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 10px;
+  text-align: center;
+}
+
+.textBox  {
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
+}
+
+.imageRow {
+  border-style: dotted;
+  border-width: 10px;
+  border-color: yellow;
+}
+
+.imageContainer  {
+  display: inline-block;
+
+  border-style: dotted;
+  border-width: 10px;
+  border-color: blue;
+
+  width: 150px;
+  height: 150px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  position: relative;
+}
+
+.imageContainer h3 {
+  margin: 0;
+  line-height: 150px;
+  color: white;
+}
+
+.imageContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+}
+
+.buttonContainer  {
+  border-style: solid;
+  border-width: 10px;
+  border-color: green;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+#SF {
+    background-image: "img/san-francisco.jpg";
+}
