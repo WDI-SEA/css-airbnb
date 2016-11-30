@@ -1,3 +1,55 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #DCDCDC;
+  font-family: Arial,sans-serif;
 }
+
+.text {
+  display:block;
+  width:100%;
+  text-align: center;
+  position: absolute;
+  color:white;
+  font-size:larger;
+  top: 36%;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+h5 {
+  margin-top: 0px;
+}
+
+h1, h5 {
+  text-align: center;
+  color: #696969;
+}
+
+img {
+  height:220px;
+  width:200px;
+  padding:0px 5px;
+}
+
+.row {
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  position: relative;
+}
+
+button {
+  background-color: white;
+  width:200px;
+  display: block;
+  margin: 25px auto;
+  border: 1px solid #696969;
+  padding: 5px 30px;
+}
+
+/*.clearfix {
+  clear: both;
+}*/
