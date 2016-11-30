@@ -1,3 +1,42 @@
 h1 {
   color: salmon;
 }
+.img-class1{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  /*text-align: center;*/
+  color: white;
+  display: inline-block;
+}
+/*section {
+  display: inline-block;
+}*/
+/*div {
+  display: inline-block;
+  margin: 0 auto;
+}*/
+input {
+  align-items: center;
+}
+.container {
+  align: center;
+}
+.lo {
+  background-image: url(../img/london.jpg);
+}
+.na {
+  background-image: url(../img/napa.jpg);
+}
+.ny {
+  background-image: url(../img/new-york.jpg);
+}
+.sf2 {
+  background-image: url(../img/san-francisco-2.jpg);
+}
+.sf1 {
+  background-image: url(../img/san-francisco.jpg);
+}
+.so {
+  background-image: url(../img/sonoma.jpg);
+}
