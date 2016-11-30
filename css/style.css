@@ -1,3 +1,115 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  font-family: sans-serif;
 }
+h1, p {
+color: rgb(125, 123, 131);
+}
+
+
+.container {
+  height: 300px;
+  width: 900px;
+  margin-top: 10px;
+  margin:0 auto;
+}
+.container2 {
+  height: 300px;
+  width: 900px;
+  margin:0 auto;
+  position: absolute;
+  top: 600px;
+  left: 178px;
+}
+#san-francisco {
+  background: url(/img/san-francisco.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  margin:6px;
+  display: inline-block;
+  position: relative;
+}
+
+#newYork {
+  background: url(/img/new-york.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  margin:6px 13px;
+  display: inline-block;
+}
+#london {
+  background: url(/img/london.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  margin:6px;
+  display: inline-block;
+}
+#napa {
+  background: url(/img/napa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  margin:6px 13px;
+  display: inline-block;
+}
+#sonoma {
+  background: url(/img/sonoma.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  margin:6px;
+  display: inline-block;
+}
+#sanfran {
+  background: url(/img/san-francisco-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  margin:6px;
+  display: inline-block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+.button {
+  background-color: rgb(234, 230, 237);
+  height: 30px;
+  width: 21.3%;
+  padding-top: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 475px;
+  left: 503px;
+  border: 1px solid rgb(125, 123, 131);
+  border-radius: 2px;
+  color: rgb(125, 123, 131);
+  font-weight: bold;
+}
+.button2 {
+  background-color: rgb(234, 230, 237);
+  height: 30px;
+  width: 21.3%;
+  padding-top: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 475px;
+  left: 320px;
+  padding: 10px 40px 0px 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(125, 123, 131);
+  border-radius: 2px;
+  color: rgb(125, 123, 131);
+  font-weight: bold;
