@@ -1,14 +1,14 @@
 body{
   text-align: center;
   width: 700px;
-  background-color: rgb(241, 239, 239);
-  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-family: sans-serif;
   font-stretch: expanded;
   margin: 20px auto;
 }
 
 h1 {
-  color: rgb(100, 100, 100);
+  color: rgb(85, 85, 85);
   margin-top: 30px;
   margin-bottom: 0px;
   font-weight: bolder;
@@ -19,18 +19,18 @@ h1 {
 p{
   margin-top: 3px;
   margin-bottom: 25px;
-  color: rgb(120, 120, 120);
+  color: rgb(85, 85, 85);
   font-size: 15px;
 }
 
 button{
   background-color: white;
-  color: rgb(120, 120, 120);
+  color: rgb(85, 85, 85);
   font-weight: bold;
   width: 200px;
   height: 30px;
-  border-radius: 0px;
-  border: 1.5px solid rgb(140, 140, 140);
+  border-radius: 2px;
+  border: 1.5px solid rgb(192, 192, 192);
   margin-top: 30px;
 }
 
