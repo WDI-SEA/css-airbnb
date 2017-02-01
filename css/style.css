@@ -5,8 +5,8 @@ body {
 	background-color: #f3f4f5;
 }
 
-h1 {
-  color: salmon;
+h1, p, footer {
+  color: grey;
 }
 
 .top {
