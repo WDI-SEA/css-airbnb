@@ -13,19 +13,12 @@ body{
 }
 h3{
   font-size: 18;
+  position: absolute;
+  padding: 100px 90px;
 }
 .firstRow{
    color: white;
-}
-.sanFrancisco1{
-  position: relative;
-}
-.newYork{
-  position: relative;
-}
-.london{
-  position: relative;
-}
+ }
 .secondRow{
   color: white;
 }
