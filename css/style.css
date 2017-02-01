@@ -1,5 +1,17 @@
+body {
+	width: 850px;
+	margin: 0 auto;
+	font-family: 'Francois One', sans-serif;
+	color: grey;
+}
 h1 {
-  color: salmon;
+	margin-bottom: 5px;	
+}
+p {
+	margin: 0 0 35px 0;
+}
+.top-div {
+	text-align: center;
 }
 .san-fran {
 	background-image: url('../img/san-francisco.jpg');	
@@ -31,11 +43,4 @@ h1 {
 	font-size: 28px;
 	display: inline-block;
 	color: white;
-/*	font-family: ;	
-*/}
-
-
-
-div-nav {
-	margin: 0 auto;
 }
