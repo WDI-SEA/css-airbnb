@@ -1,3 +1,108 @@
-h1 {
-  color: salmon;
+
+body { 
+	display: flex;
+	background: lightgrey;
+}
+.leftContainer {
+	width: 20%;
+	height: 1000px;
+}
+.mainContainer {
+	width: 60%;
+	height: 1200px;
+	text-align: center;
+}
+.text {
+	text-align: center;
+	font-family: arial;
+}
+.SF {
+	position: absolute;
+	font-size: 200%;
+	margin: 150px 0 0 80px;
+	color: white;
+}
+.ny {
+	position: absolute;
+	font-size: 200%;
+	margin: 150px 0 0 100px;
+	color: white;
+}
+.ldn {
+	position: absolute;
+	font-size: 200%;
+	margin: 150px 0 0 120px;
+	color: white;
+}
+.Napa {
+	position: absolute;
+	font-size: 200%;
+	margin: 150px 0 0 140px;
+	color: white;
+}
+.SMA {
+	position: absolute;
+	font-size: 200%;
+	margin: 150px 0 0 120px;
+	color: white;
+}
+button {
+	padding: 15px 100px 15px 100px;
+	margin: 30px 0 30px 0;
+	font-size: 16px;
+
+}
+.img1 {
+	height: 350px;
+	width: 350px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+	background-image: url("file:///Users/MarkChiWoo/CODE/1.31%20Tuesday/css-airbnb/img/san-francisco.jpg");
+	background-position: center;
+}
+.img2 {
+	height: 350px;
+	width: 350px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	background-position: center;
+	background-image: url("file:///Users/MarkChiWoo/CODE/1.31%20Tuesday/css-airbnb/img/new-york.jpg");
+}
+.img3 {
+	height: 350px;
+	width: 350px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	background-position: center;
+	background-image: url("file:///Users/MarkChiWoo/CODE/1.31%20Tuesday/css-airbnb/img/london.jpg");
+}
+.img4 {
+	height: 350px;
+	width: 350px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	background-position: center;
+	background-image: url("file:///Users/MarkChiWoo/CODE/1.31%20Tuesday/css-airbnb/img/napa.jpg");
+}
+.img5 {
+	height: 350px;
+	width: 350px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	background-position: center;
+	background-image: url("file:///Users/MarkChiWoo/CODE/1.31%20Tuesday/css-airbnb/img/sonoma.jpg");
+}
+.img6 {
+	height: 350px;
+	width: 350px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	background-position: center;
+	background-image: url("file:///Users/MarkChiWoo/CODE/1.31%20Tuesday/css-airbnb/img/san-francisco-2.jpg");
 }
