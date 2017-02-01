@@ -1,3 +1,40 @@
+body{
+  text-align: center;
+}
 h1 {
-  color: salmon;
+  color: grey;
+}
+h3 {
+  color: grey;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-left: 2rem;
+}
+img{
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.clear{
+  clear: both;
+  padding-top: 2rem;
+}
+button{
+  padding: 0.7rem 4rem 0.7rem 4rem;
+  font-size: 15px;
+  background-color: white;
+  color: grey;
+}
+h4{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+.images{
+  margin-left: 19%;
 }
