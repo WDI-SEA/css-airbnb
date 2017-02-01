@@ -1,3 +1,41 @@
 h1 {
   color: salmon;
 }
+.san-fran {
+	background-image: url('../img/san-francisco.jpg');	
+}
+.new-york {
+	background-image: url('../img/new-york.jpg');
+}
+.london {
+	background-image: url('../img/london.jpg');
+}
+.napa {
+	background-image: url('../img/napa.jpg');
+}
+.sonoma {
+	background-image: url('../img/sonoma.jpg');
+}
+.san-fran2 {
+	background-image: url('../img/san-francisco-2.jpg');
+}
+.city {
+	height: 270px;
+	width: 250px;
+	margin-left: 20px;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid red;
+	line-height: 250px;
+	text-align: center;
+	font-size: 28px;
+	display: inline-block;
+	color: white;
+/*	font-family: ;	
+*/}
+
+
+
+div-nav {
+	margin: 0 auto;
+}
