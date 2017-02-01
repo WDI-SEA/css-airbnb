@@ -1,3 +1,89 @@
-h1 {
-  color: salmon;
+body {
+	text-align: center;
+	background: #ECEEED;
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+
+}
+
+h2 {
+	margin-left: 10px;
+	margin-bottom: -5px; 
+}
+
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.photos {
+	margin: 0 auto;
+}
+
+.box {
+	float: left;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.box span {
+	display:block;
+	color: white;
+	margin-top: 40%;
+	font-size: 20px;
+}
+
+.pic1 {
+	background:url("../img/san-francisco.jpg");
+	background-size: 100% 100%;
+	margin-left: 50px;
+}
+
+.pic2 {
+ 	background:url("../img/new-york.jpg");
+	background-size: 100% 100%;
+}
+
+.pic3 {
+ 	background:url("../img/london.jpg");
+	background-size: 100% 100%;
+}
+
+.pic4 {
+ 	background:url("../img/napa.jpg");
+	background-size: 100% 100%;
+	margin-left: 50px;
+}
+
+.pic5 {
+ 	background:url("../img/sonoma.jpg");
+	background-size: 100% 100%;
+}
+
+.pic6 {
+ 	background:url("../img/san-francisco-2.jpg");
+	background-size: 100% 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+button {
+	width: 180px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: .8em;
+	margin: 10px 0;
+	background: #FFFFFF;
+	color: #696969;
+
+}
+
+.sub {
+	font-size: 12px;
+	margin-left: 10px;
 }
