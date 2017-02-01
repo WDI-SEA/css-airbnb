@@ -24,6 +24,20 @@ h1, p, footer {
 	color: white;
 	/*display: block;*/
 }
+.cityName {
+	color: white;
+	font-size: 15px;
+	margin-top: 50%;
+}
+button {
+	background-color: white;
+	color: grey;
+	width: 40px;
+	height: 25px;
+	margin: 30px 0 0 0;
+	box-shadow: none;
+	border: 1px solid white;
+}
 #top1 {
 	background: url("../img/san-francisco.jpg");
 }
