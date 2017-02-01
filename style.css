@@ -1,0 +1,41 @@
+
+body{
+  text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
+  background: #DDDDDD;
+  color: black;
+}
+.float{
+  display: inline-block;
+  width: 225px;
+  height: 225px;
+  margin: 10px;
+}
+h3{
+  font-size: 18;
+}
+.firstRow{
+   color: white;
+}
+.sanFrancisco1{
+  position: relative;
+}
+.newYork{
+  position: relative;
+}
+.london{
+  position: relative;
+}
+.secondRow{
+  color: white;
+}
+button{
+  width: 20%;
+  height: auto;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid gray;
+  margin: 10px;
+  font-size: 12;
+}
