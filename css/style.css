@@ -1,15 +1,15 @@
 body {
   background-color: WhiteSmoke;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  color: DimGray;
 }
 
 h2 {
-  color: DimGray;
   margin: 20px auto 5px auto;
 }
 
 p {
-  color: DimGray;
   font-size: 0.7em;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -22,22 +22,15 @@ button {
   padding: 8px 10px;
   margin:30px auto 20px auto;
   font-weight: bold;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: DimGray;
-}
-
-.container {
-  text-align: center;
 }
 
 .image {
   height: 220px;
   width: 200px;
   margin: 5px;
-  text-align: center;
   background-position: center;
   background-size: cover;
-  position: relative;
   display:inline-block;
 }
 
