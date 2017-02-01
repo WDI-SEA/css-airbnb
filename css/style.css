@@ -1,3 +1,73 @@
-h1 {
-  color: salmon;
+body {
+	background: beige;
+	text-align: center;
 }
+
+
+h1, p {
+	color: #383838;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cityTitle {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin-top: 110px;
+}
+
+.city {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.sanfran {
+	background: url("../img/san-francisco.jpg") no-repeat center;
+}
+
+.newyork {
+	background: url("../img/new-york.jpg") no-repeat center;
+}
+
+.london {
+	background: url("../img/london.jpg") no-repeat center;
+}
+
+.napa {
+	background: url("../img/napa.jpg") no-repeat center;
+}
+
+.sonoma {
+	background: url("../img/sonoma.jpg") no-repeat center;
+}
+
+.sanfran1 {
+	background: url("../img/san-francisco-2.jpg") no-repeat center;
+}
+
+button {
+	width: 250px;
+	height: 50px;
+	color: #272727;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: 25px;
+	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	background-color: salmon;
+	color: white;
+	border: none;
+}
+
+
