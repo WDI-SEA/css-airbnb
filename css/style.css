@@ -18,9 +18,11 @@ h1 {
 .column {
 	float: left;
 	width: 260px;
-	height: 50%;
+	height: 360px;
 	padding: 20px;
 	margin: 10px;
+	color: white;
+	/*display: block;*/
 }
 #top1 {
 	background: url("../img/san-francisco.jpg");
@@ -44,6 +46,7 @@ footer {
 	clear:left;
 	font-size: 10px;
 }
+
 
 
 
