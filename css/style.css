@@ -20,23 +20,20 @@ h1, p {
 	width: 250px;
 	height: 250px;
 	display: inline-block;
+	margin-right: 10px;
 }
 
-
 .container {
-	width: 800px;
+	width: 100%;
 	margin: 0 auto;
-	
 }
 
 .sanfran {
 	background: url("../img/san-francisco.jpg") no-repeat center;
-	margin-right: 10px;
 }
 
 .newyork {
 	background: url("../img/new-york.jpg") no-repeat center;
-	margin-right: 10px;
 }
 
 .london {
@@ -45,12 +42,10 @@ h1, p {
 
 .napa {
 	background: url("../img/napa.jpg") no-repeat center;
-	margin-right: 10px;
 }
 
 .sonoma {
 	background: url("../img/sonoma.jpg") no-repeat center;
-	margin-right: 10px;
 }
 
 .sanfran1 {
@@ -60,12 +55,19 @@ h1, p {
 button {
 	width: 250px;
 	height: 50px;
-	color: #383838;
+	color: #272727;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 	margin-top: 25px;
 	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	background-color: salmon;
+	color: white;
+	border: none;
 }
 
 
