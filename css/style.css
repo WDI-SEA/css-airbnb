@@ -1,3 +1,63 @@
-h1 {
-  color: salmon;
+body {
+	/*need to look up color requirements*/
+	background-color: lightgrey;
 }
+
+.text {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #484848;
+	text-align: center;
+}
+
+
+.container {
+  width: 100%;
+  height: 275px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.crop {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	overflow: hidden;
+  	margin: 0 2%;
+
+}
+
+.noCrop {
+	display: inline-block;
+	overflow: hidden;
+  	margin: 0 2%;;
+}
+
+ .imageText {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: white;
+   font-weight: bold;
+   position: relative;
+   z-index: 99;
+   text-align: center;
+   top: -150px;
+ }
+
+ .box {
+  width: 250px;
+  height: 30px;
+  padding-bottom: 15px;
+  background: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 5px;
+ }
+
+ .textbox {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #484848;
+  font-size: 15px;
+  font-weight: bold;
+ }
