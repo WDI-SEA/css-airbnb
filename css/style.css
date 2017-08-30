@@ -1,3 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E6EEF0;
+}
+
+div {
+  text-align: center;
+  display: block;
+  padding: 30px;
+}
+
 h1 {
-  color: salmon;
+  color: rgb(50,50,50);
+  font-family: sans-serif;
+}
+h2 {
+  color: rgb(100,100,100);
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+div.image {
+  width: 200px;
+  overflow: auto;
+  display: inline-block;
+  background-size: 100% 100%;
+  color: white;
+  font-size: 26px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  vertical-align: middle;
+  line-height: 200px;
+  margin: 10px;
+}
+
+#san-fran {
+  background-image: url("/img/san-francisco.jpg");
+}
+
+#new-york {
+  background-image: url("/img/new-york.jpg");
+}
+
+#london {
+  background-image: url("/img/london.jpg");
+}
+
+#napa {
+  background-image: url("/img/napa.jpg");
+}
+
+#sonoma {
+  background-image: url("/img/sonoma.jpg");
+}
+
+#san-fran-2 {
+  background-image: url("/img/san-francisco-2.jpg");
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #F3F3F3;
+}
+
+button:focus {
+  outline: none;
 }
