@@ -1,3 +1,36 @@
 h1 {
   color: salmon;
 }
+
+.container{
+	text-align: center;
+}
+
+.section{
+	width:780px;
+	margin: auto;
+	text-align: center;
+}
+
+.top-line{
+	display: inline-block;
+	padding: 0 3px;
+	height: 210px;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+.bottom-line{
+	display: inline-block;
+	padding: 0 3px;
+	height: 210px;
+}
+
+.city{
+	color:white;
+	position: relative;
+	top: -60%;
+}
