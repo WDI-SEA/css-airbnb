@@ -1,3 +1,92 @@
-h1 {
+/*h1 {
   color: salmon;
+}*/
+body{
+	background:azure;
+}
+h1{
+	text-align: center;
+}
+
+#subhead{
+	text-align: center;
+}
+.box{
+	margin: 10px;
+	display: inline-block;
+}
+.box2{
+	margin: 10px;
+	display: inline-block;
+}
+
+#boxsan{
+	background:url(../img/san-francisco.jpg) no-repeat center;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+#boxny{
+	background:url(../img/new-york.jpg)no-repeat center;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+#boxlon{
+	background:url(../img/london.jpg)no-repeat center;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+#boxnapa{
+	background:url(../img/napa.jpg)no-repeat center;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+#boxson{
+	background:url(../img/sonoma.jpg)no-repeat center;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+#boxsan2{
+	background:url(../img/san-francisco-2.jpg)no-repeat center;
+	font-size: 24px;
+	color: ghostwhite;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+.rows{
+text-align: center;
+}
+.rows2{
+text-align: center;
+}
+#button {
+	text-align: center;
+	border: solid lightgrey 1px;
+	width: 200px;
+	height: 20px;
+	margin:0 auto;
+	background:white;
+	border: solid 3px lightgrey
+
 }
