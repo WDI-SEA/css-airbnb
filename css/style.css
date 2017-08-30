@@ -1,19 +1,45 @@
 h1 {
-  color: salmon;
+  color:rgb(75,69,69);
   text-align: center;
 }
 h4 {
 	text-align: center;
+	color: rgb(105,105,105);
 }
 body {
-	background-color: grey;
+	background-color: rgb(211,211,211);
 }
 
+.sub-container {
+	width: 100%;
+
+	}
 .city-box {
 	display: inline-block;
-	height: 200px;
-	width: 200px;
+	max-height: 200px;
+	max-width: 200px;
 	text-align: center;
+}
+
+.city-box img {
+	max-width: 200px;
+	max-height: 200px;
+	display: inline-block;
+	text-align: center;
+}
+
+.container { 
+	text-align: center;
+	display: inline-block;
+ }
+
+.city-name { 
+	position: relative;
+	top: -100px;
+	left: 0;
+	width: 100%;
+	font-weight: bold;
+	color: white;
 }
 
 /*.button {
