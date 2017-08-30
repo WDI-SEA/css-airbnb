@@ -1,3 +1,65 @@
+body {
+	background: lightgrey;
+}
+
 h1 {
-  color: salmon;
+  color: grey;
+}
+.firstheader {
+	text-align: center;
+}
+.header1 {
+	font-size: 45px;
+	margin: 10px 0px 3px 0px;
+	font-family: sans-serif;
+}
+.sub1 {
+	font-size: 25px;
+	margin: 2px 0px 30px 0px;
+	font-family: sans-serif;
+}
+
+.boxes1 {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+}
+.boxset1 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 1px 1px;
+  text-align: center;
+}
+.SF {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.NY {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.L {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.name1 {
+	position: relative;
+	top: -60%;
+	color: white;
+	text-transform: bold;
+}
+.bottombutton1 {
+	text-align: center;
+	position: relative;
+	left: 46%;
+	margin: 10px 0px;
+	background-color: #F5F5F5;
+	font-size: 15px;
+	border-radius: 15px;
+	font-family: sans-serif;
 }
