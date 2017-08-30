@@ -1,3 +1,86 @@
+body {
+	text-align: center;
+	background-color: #EDF0EA;
+	font-family: arial, sans-serif;
+	color: #606060;
+}
+
 h1 {
-  color: salmon;
+	font-size: 20px;
+	margin: 5px;
+}
+
+h2 {
+	font-size: 9px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+header {
+	margin: 50px 0 20px 0;
+}
+
+#weekend {
+	margin: 20px;
+}
+
+a {
+	border: 1px solid gray;
+	background-color: white;
+	padding: 8px 50px;
+	font-weight: bold;
+	color: gray;
+	font-size: 9px;
+	margin: 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+p {
+	padding: 75px 0;
+	color: white;
+	font-size: 20px;
+}
+
+.citypics {
+	width: 200px;
+	height: 225px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#sanfran {
+	background: url(../img/san-francisco.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#newyork {
+	background: url(../img/new-york.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#london {
+	background: url(../img/london.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#napa {
+	background: url(../img/napa.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#sonoma {
+	background: url(../img/sonoma.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#sanfran2 {
+	background: url(../img/san-francisco.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
 }
