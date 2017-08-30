@@ -1,3 +1,33 @@
-h1 {
-  color: salmon;
+body {
+	background-color:lightgrey;
+	text-align:center;
+}
+
+h3 {
+	color:white;
+	position:relative;
+	top:-60%;
+}
+
+button {
+	padding :5px;
+	width: 200px;
+}
+
+#content1 {
+text-align: center;
+width: 100%;
+display: inline-block;d
+
+}
+
+.image {
+	height: 200px;
+	display: inline-block;
+	margin: 0 3px;
+}
+
+img {
+	height: 200px;
+	width:  200px;
 }
