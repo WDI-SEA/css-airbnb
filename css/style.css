@@ -1,3 +1,65 @@
-h1 {
-  color: salmon;
+html, body {
+	color: #484848;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	background-color: #edefec;
 }
+
+h2 {
+	font-size: 22px;
+	font-weight: 800px;	
+
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: normal;
+	
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	position: relative;
+	top: -55%;
+}
+
+img {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+button {
+	width: 200px;
+	height: 25px;
+}
+
+.pics {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	/*border: 1px solid black;*/
+	color: white;
+	/*text-align:center;
+	line-height:200px;*/
+}
+
+#description {
+	margin: 0 0 25 0;
+}
+
+
+
+/*pics p {
+	display: inline-block;
+	position: relative;
+}*/
+
+/*Circular,-apple-system,BlinkMacSystemFont,
+Roboto,Helvetica Neue,sans-serif*/
+
+
