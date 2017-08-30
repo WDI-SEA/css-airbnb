@@ -1,3 +1,38 @@
 h1 {
   color: salmon;
+  text-align: center;
 }
+h4 {
+	text-align: center;
+}
+body {
+	background-color: grey;
+}
+
+.city-box {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+
+/*.button {
+    background-color: #4CAF50; /* Green */
+ /*   border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}*/
+/*.box{
+  width: 100px;
+  height: 100px;
+  background: green;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0 2%;*/
+
+/*}*/*/
+
