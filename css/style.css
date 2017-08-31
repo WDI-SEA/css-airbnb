@@ -1,3 +1,51 @@
+main {
+	display: block;
+	margin: auto;
+	width: 50%;
+	/*border: ;*/
+	padding: 10px;
+	border: 0;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+  position: block;
+  width: 100%;
+  text-align: center;
+}
 h1 {
   color: salmon;
+  position: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+
 }
+
+p {
+	/*color: salmon;
+	color: salmon;*/
+  position: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: salmon;
+}
+#city1 {
+	position: inline-block;
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.images {
+	width: 150px;
+	height: 150px;
+	margin: 0 10px;
+}
+#button{
+	text-align: center;
+	/*border: ;*/
+	margin: 0 auto;
+}
+/* Div does not have a 'size' unitil you set them. they also do not have a height*/
