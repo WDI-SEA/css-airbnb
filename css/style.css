@@ -1,51 +1,117 @@
-main {
-	display: block;
-	margin: auto;
+.container {
 	width: 50%;
-	/*border: ;*/
-	padding: 10px;
-	border: 0;
-	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-.header {
-  position: block;
-  width: 100%;
-  text-align: center;
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 60px;
+	font-family: sans-serif;
+	color: #666;
 }
 h1 {
-  color: salmon;
-  position: block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 0;
-
+	margin-bottom: 5px;
 }
-
 p {
-	/*color: salmon;
-	color: salmon;*/
-  position: block;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  color: salmon;
+	margin: 0;
+	margin-bottom: 30px;
 }
-#city1 {
-	position: inline-block;
-	width: 100%;
-	margin: 20px auto;
-	text-align: center;
-}
-
-.images {
-	width: 150px;
-	height: 150px;
-	margin: 0 10px;
-}
-#button{
-	text-align: center;
-	/*border: ;*/
+.city1 {
+	
 	margin: 0 auto;
+	height: 100px;
+	width: ;
+	position: fixed;
+	/*position: absolute;
+	display: inline-block;*/
+	/*"img/new-york.jpg", "img/london.jpg";)*/
+	/*background-image: 200px;*/
 }
-/* Div does not have a 'size' unitil you set them. they also do not have a height*/
+.SF {
+	float: 
+	background-image: url("img/san-francisco.jpg");
+	background-size: 20%;
+	position:absolute 30%;
+	display: inline-block;
+	margin: 15px;
+	/*text-align: center;*/
+	/*width: 30px;
+	height: 30px;*/
+	
+	/*background-image: url("img/san-francisco.jpg")
+	background-image: url("img/snew-york.jpg")
+	background-image: url("img/london.jpg")*/
+}
+.NY {
+	background-image: url("img/new-york.jpg");
+	background-size: 20%;
+	position: absolute 30%;
+	display: inline-block;
+	margin: 15px;
+	/*text-align: center;*/
+	/*width: 30px;
+	height: 30px;*/
+}
+.LD {
+	background-image: url("img/london.jpg");
+	background-size: 0%;
+	position: absolute 30%;
+	display: inline-block;
+	margin: 15px;
+	/*text-align: center;*/
+	/*width: 30px;
+	height: 30px;*/
+}
+/*body {
+	font-family: Circular,'sans-serif'; 
+	display: relative;
+	border-width: 4px;
+	border-color: purple ;
+	border-style: dashed;
+	
+}
+#imgBox {
+	display: inline-block;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+
+	/*position: inline-block;*/
+/*}
+#city1 {
+	height: 20px;
+	width: 20px;
+}*/
+/*.san-fran {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	background: url("img/san-francisco.jpg");
+	
+
+}
+.new-york{
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	background: url("img/new-york.jpg");
+	width: 20px;
+	height: 20px;
+}
+.london {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	background: url("img/london.jpg");
+	width: 200px;
+	height: 200px;
+}*/
+
+
+
+/*.floating-box src("img/london.jpg") {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21; 
+}*/
