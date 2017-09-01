@@ -1,3 +1,64 @@
 h1 {
-  color: salmon;
+  color:rgb(75,69,69);
+  text-align: center;
 }
+h4 {
+	text-align: center;
+	color: rgb(105,105,105);
+}
+body {
+	background-color: rgb(211,211,211);
+}
+
+.sub-container {
+	width: 100%;
+
+	}
+.city-box {
+	display: inline-block;
+	max-height: 200px;
+	max-width: 200px;
+	text-align: center;
+}
+
+.city-box img {
+	max-width: 200px;
+	max-height: 200px;
+	display: inline-block;
+	text-align: center;
+}
+
+.container { 
+	text-align: center;
+	display: inline-block;
+ }
+
+.city-name { 
+	position: relative;
+	top: -100px;
+	left: 0;
+	width: 100%;
+	font-weight: bold;
+	color: white;
+}
+
+/*.button {
+    background-color: #4CAF50; /* Green */
+ /*   border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}*/
+/*.box{
+  width: 100px;
+  height: 100px;
+  background: green;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0 2%;*/
+
+/*}*/*/
+
