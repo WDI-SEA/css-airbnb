@@ -1,117 +1,85 @@
-.container {
-	width: 50%;
-	margin:0 auto;
-	position: relative;
-	text-align: center;
-	padding-bottom: 40px;
-	padding-top: 60px;
-	font-family: sans-serif;
-	color: #666;
+/*after learning that it is possible to declare a background img 
+straight from CSS and due to the fact that there is a text 
+inside the image, it seems more logical to design the page this way.*/
+
+body {
+	background-color: #bbb;
+	border-bottom: 10px;
+	font-family: Arial,'Sans-Serif';
+	color: #555;
+/*	text-align: center;*/
+	
 }
-h1 {
-	margin-bottom: 5px;
+.wrapper {
+	background-color: #eee;
+	border: 2px solid black;
+	width: 70%;
+	margin: 5% auto;
+	text-align: center;
+}
+.cityName {
+	color: white;
+	display: inline-flex;
+	align-items: center;
+	height: 250px;
+	width: 250px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: 0 10px;
+
+}
+h2 {
+/*	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;*/
+	margin: auto;
 }
 p {
-	margin: 0;
-	margin-bottom: 30px;
+ margin-top: 1px;
+ padding-bottom: 10px;
+ font-size: 10pt;
 }
-.city1 {
-	
-	margin: 0 auto;
-	height: 100px;
-	width: ;
-	position: fixed;
-	/*position: absolute;
-	display: inline-block;*/
-	/*"img/new-york.jpg", "img/london.jpg";)*/
-	/*background-image: 200px;*/
-}
-.SF {
-	float: 
-	background-image: url("img/san-francisco.jpg");
-	background-size: 20%;
-	position:absolute 30%;
-	display: inline-block;
-	margin: 15px;
-	/*text-align: center;*/
-	/*width: 30px;
-	height: 30px;*/
-	
-	/*background-image: url("img/san-francisco.jpg")
-	background-image: url("img/snew-york.jpg")
-	background-image: url("img/london.jpg")*/
-}
-.NY {
-	background-image: url("img/new-york.jpg");
-	background-size: 20%;
-	position: absolute 30%;
-	display: inline-block;
-	margin: 15px;
-	/*text-align: center;*/
-	/*width: 30px;
-	height: 30px;*/
-}
-.LD {
-	background-image: url("img/london.jpg");
-	background-size: 0%;
-	position: absolute 30%;
-	display: inline-block;
-	margin: 15px;
-	/*text-align: center;*/
-	/*width: 30px;
-	height: 30px;*/
-}
-/*body {
-	font-family: Circular,'sans-serif'; 
-	display: relative;
-	border-width: 4px;
-	border-color: purple ;
-	border-style: dashed;
-	
-}
-#imgBox {
-	display: inline-block;
-	margin: 0 auto;
-	width: 200px;
-	height: 200px;
 
-	/*position: inline-block;*/
-/*}
-#city1 {
-	height: 20px;
-	width: 20px;
-}*/
-/*.san-fran {
-	position: absolute;
-	display: inline-block;
-	text-align: center;
-	background: url("img/san-francisco.jpg");
-	
+h1 {
+	margin-bottom: 2px;
+	font-size: 16pt;
+}
+.guidebooks {
+	padding-top: 15px;
 
 }
-.new-york{
-	position: absolute;
-	display: inline-block;
-	text-align: center;
-	background: url("img/new-york.jpg");
-	width: 20px;
-	height: 20px;
+.weekend {
+	padding-bottom: 10px;
 }
-.london {
-	position: absolute;
-	display: inline-block;
-	text-align: center;
-	background: url("img/london.jpg");
-	width: 200px;
-	height: 200px;
-}*/
+#SF {
+	background-image: url("../img/san-francisco.jpg");
+}
+#NY {
+	background-image: url("../img/new-york.jpg");
+}
+#London {
+	background-image: url("../img/london.jpg");
+}
+#Napa {
+	background-image: url("../img/napa.jpg");
+}
+#sonoma {
+	background-image: url("../img/sonoma.jpg");
+}
+#SF2 {
+	background-image: url("../img/san-francisco-2.jpg");
+}
+button {
+	color: #555;
+	font-family: Arial, 'Sans-Serif';
+	border: 1px solid darkgrey;
+	background-color: #fff;
+	display: block;
+	margin: 40px auto;
+	padding: 5px 15px;
+	width: 250px;
+	/*ext-align: center;*/
 
 
-
-/*.floating-box src("img/london.jpg") {
-    float: left;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #73AD21; 
-}*/
+}
