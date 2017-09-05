@@ -1,3 +1,87 @@
+/*after learning that it is possible to declare a background img 
+straight from CSS and due to the fact that there is a text 
+inside the image, it seems more logical to design the page this way.*/
+ 
+body {
+	background-color: #bbb;
+	border-bottom: 10px;
+	font-family: Arial,'Sans-Serif';
+	color: #555;
+/*	text-align: center;*/
+	
+}
+.wrapper {
+	background-color: #eee;
+	border: 2px solid black;
+	width: 70%;
+	margin: 5% auto;
+	text-align: center;
+}
+.cityName {
+	color: white;
+	display: inline-block;
+	/*display: inline-flex;*/
+	align-items: center;
+	height: 250px;
+	width: 250px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: 0 10px;
+
+}
+h2 {
+/*	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;*/
+	margin: auto;
+	margin-top: 50%;
+}
+p {
+ margin-top: 1px;
+ padding-bottom: 10px;
+ font-size: 10pt;
+}
+
 h1 {
-  color: salmon;
+	margin-bottom: 2px;
+	font-size: 16pt;
+}
+.guidebooks {
+	padding-top: 15px;
+
+}
+.weekend {
+	padding-bottom: 10px;
+}
+#SF {
+	background-image: url("../img/san-francisco.jpg");
+}
+#NY {
+	background-image: url("../img/new-york.jpg");
+}
+#London {
+	background-image: url("../img/london.jpg");
+}
+#Napa {
+	background-image: url("../img/napa.jpg");
+}
+#sonoma {
+	background-image: url("../img/sonoma.jpg");
+}
+#SF2 {
+	background-image: url("../img/san-francisco-2.jpg");
+}
+button {
+	color: #555;
+	font-family: Arial, 'Sans-Serif';
+	border: 1px solid darkgrey;
+	background-color: #fff;
+	display: block;
+	margin: 40px auto;
+	padding: 5px 15px;
+	width: 250px;
+	/*ext-align: center;*/
+
+
 }
