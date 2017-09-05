@@ -1,7 +1,7 @@
 /*after learning that it is possible to declare a background img 
 straight from CSS and due to the fact that there is a text 
 inside the image, it seems more logical to design the page this way.*/
-
+ 
 body {
 	background-color: #bbb;
 	border-bottom: 10px;
@@ -19,7 +19,8 @@ body {
 }
 .cityName {
 	color: white;
-	display: inline-flex;
+	display: inline-block;
+	/*display: inline-flex;*/
 	align-items: center;
 	height: 250px;
 	width: 250px;
@@ -34,6 +35,7 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;*/
 	margin: auto;
+	margin-top: 50%;
 }
 p {
  margin-top: 1px;
