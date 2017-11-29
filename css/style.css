@@ -1,3 +1,118 @@
+body {
+	text-align: center;
+	font-family: "Helvetica";
+	background-color: #EDEFEC;
+}
+
 h1 {
-  color: salmon;
+  color: black;
+  font-size: 22px; 
+}
+
+h2 {
+	color: black;
+	font-size: 15px;
+	font-weight: 10;
+
+}
+
+h3 {
+	color: white;
+	position: relative;
+	top:95px;
+
+}
+
+p {
+	position: relative;
+	top: 1px;
+}
+/*div {
+	text-align: center;
+}*/
+
+img {
+	height: 220px;
+	width: 220px;
+	text-align: center;
+}
+
+
+.sanfran {
+	background: url(../img/san-francisco.jpg);
+	display: inline-block;
+	width:220px;
+	height:220px;
+	text-align: center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.newyork {
+	background: url(../img/new-york.jpg);
+	display: inline-block;
+	width:220px;
+	height:220px;
+	text-align: center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.london{
+	background: url(../img/london.jpg);
+	display: inline-block;
+	width:220px;
+	height:220px;
+	text-align: center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.napa {
+	background: url(../img/napa.jpg);
+	display: inline-block;
+	width:220px;
+	height:220px;
+	text-align: center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.sonoma {
+	background: url(../img/sonoma.jpg);
+	display: inline-block;
+	width:220px;
+	height:220px;
+	text-align: center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.sanfran2 {
+	background: url(../img/san-francisco-2.jpg);
+	display: inline-block;
+	width:220px;
+	height:220px;
+	text-align: center;
+	background-size: cover;
+	overflow: auto;
+}
+.block1 {
+	text-align: center;
+}
+
+.block2 {
+	text-align: center;
+}
+
+.button {
+	margin: 20px;
+	width: 120px;
+	height: 30px;
+	border: .45px solid black;
+	display: inline-block;
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+	top: 10px;
 }
