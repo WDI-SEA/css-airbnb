@@ -1,3 +1,99 @@
+body {
+	background-color: rgb(236,239,236);
+}
+
+
 h1 {
-  color: salmon;
+  color: rgb(85,90,94);
+  text-align: center;
+  font-family: helvetica neue, sans-serif;
+  font-size: 18px;
+  font-weight: 15px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin: 7px;
+}
+
+
+.block1 {
+	text-align: center;
+}
+
+.block2 {
+	text-align: center;
+	/*position: relative;*/
+}
+
+p {
+	text-align: center;
+	font-family: helvetica neue, sans-serif;
+	font-size: 12px;
+}
+
+#sf1 {
+	color: white;
+	position: relative;
+	font-family: helvetica neue, sans-serif;
+	font-size: 20px;
+	bottom: 137px;
+	right: 218px;
+}
+
+#ny {
+	color: white;
+	position: relative;
+	font-family: helvetica neue, sans-serif;
+	font-size: 20px;
+	bottom: 181px;
+}
+
+#london {
+	color: white;
+	position: relative;
+	font-family: helvetica neue; sans-serif;
+	font-size: 20px;
+	bottom: 225px;
+	left: 218px;
+}
+
+#napa {
+	color: white;
+	position: relative;
+	font-size: 20px;
+	top: 290px;
+	right: 217px;
+}
+
+#sonoma {
+	color: white;
+	position: relative;
+	font-size: 20px;
+	top: 250px;
+}
+
+#sf2 {
+	color: white;
+	position: relative;
+	font-size: 20px;
+	top: 210px;
+	left: 218px;
+}
+
+
+form {
+	border-radius: 10;
+	text-align: center;
+	height: 50px
+	width: 150px;
+	position: relative;
+	top: -100px;
+}
+
+#form1 {
+	border-radius: 0;
+	position: relative;
+	top: 150px;
 }
