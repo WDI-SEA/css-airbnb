@@ -13,7 +13,6 @@ p {
 div {
 	width: 250px;
 	height: 250px;
-	text-align: center;
 	color: white;
 	display: inline-block;
 	line-height: 250px;
@@ -22,27 +21,27 @@ div {
 	margin: 5px;
 }
 .SF {
-	background: url("/img/san-francisco.jpg");
+	background: url(../img/san-francisco.jpg);
 	background-size: cover;
 }
 .napa {
-	background: url("/img/napa.jpg");
+	background: url(../img/napa.jpg);
 	background-size: cover;
 }
 .sonoma {
-	background: url("/img/sonoma.jpg");
+	background: url(../img/sonoma.jpg);
 	background-size: cover;
 }
 .SF2 {
-	background: url("/img/san-francisco-2.jpg");
+	background: url(../img/san-francisco-2.jpg);
 	background-size: cover;
 }
 .NY {
-	background: url("/img/new-york.jpg");
+	background: url(../img/new-york.jpg);
 	background-size: cover;
 }
 .LN {
-	background: url("/img/london.jpg");
+	background: url(../img/london.jpg);
 	background-size: cover;
 }
 input {
