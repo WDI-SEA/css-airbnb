@@ -1,3 +1,45 @@
 h1 {
-  color: salmon;
+  color: DimGrey;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 12px;
+  color: DimGrey;
+}
+
+body {
+  font-family: circular, roboto, helvetica;
+  text-align: center;
+  background-color: LightGrey;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+}
+
+p {
+  font-size: 35px;
+  position: absolute;
+  color: white;
+  width: 300px;
+  bottom: 50px;
+  top: 100px;
 }
