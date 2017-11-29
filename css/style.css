@@ -1,3 +1,103 @@
-h1 {
-  color: salmon;
+/* Element Styling */
+body {
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	background-color: #EDEFEC;
+	font-size: 24px;
 }
+
+a {
+	text-decoration: none;
+	color: #616566;
+	font-weight: bold;
+}
+
+h1 {
+  color: #616566;
+  text-align: center;
+  font-size: 26px;
+}
+
+h2 {
+	color: #616566;
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/* Class Styling */
+
+.intro_text {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.container {
+  width:100%;
+  height:350px;
+  text-align: center;
+/*  margin-top: 50px;*/
+} 
+
+.inline-block{
+  	display:inline-block;
+  	color:white;
+  	font-weight: bold;
+	width: 300px;
+	height: 300px;
+	line-height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.more_information {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+
+/* Location Tiles */
+#tile1 {
+	background: url('../img/san-francisco.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+
+#tile2 {
+	background: url('../img/new-york.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#tile3 {
+	background: url('../img/london.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#tile4 {
+	background: url('../img/napa.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#tile5 {
+	background: url('../img/sonoma.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#tile6 {
+	background: url('../img/san-francisco-2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
