@@ -1,3 +1,57 @@
+body {
+  margin: 0;
+  background: rgb(237, 239, 236);
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+
+.heading {
+  margin: 0 auto;
+  color: rgb(92, 96, 97);
+}
+
+.heading p {
+  color: rgb(92, 96, 97);
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 14px;
+  top: -15px;
+}
+
+.cards {
+  width: 100%;
+  overflow: hidden;
+  justify-content: space-around;
+  color: white;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.cards p {
+  position: relative;
+  top: -150px;
+}
+
+.place {
+  display: inline-block;
+}
+
+img {
+  height: 230px;
+  width: 200px;
+  margin: 5px;
+}
+
+button {
+  padding: 0 50px;
+  position: relative;
+  top: -45px;
+}
+
 h1 {
-  color: salmon;
+  font-size: 25px;
 }
