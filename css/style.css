@@ -1,3 +1,102 @@
-h1 {
-  color: salmon;
+/* Main page styling and settings */
+
+body {
+	margin: 0 auto;
+	background: #EDEFEC;
+	text-align: center;
+	color: #565A5D;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+p {
+	line-height: 14px;
+}
+
+
+/* Main section styling to separate key page sections */
+
+section {
+	margin: 40px auto 40px auto;
+}
+
+
+/* Setting up container for image sections so that they wrap as inline block */
+
+.discover {
+	display: inline-block;
+	text-align: center;
+}
+
+
+/* City images section */
+
+.london {
+	background: url('../img/london.jpg');
+	background-position: 50%;
+}
+.napa {
+	background: url('../img/napa.jpg');
+}
+.newyork {
+	background: url('../img/new-york.jpg');
+	background-position: 50%;
+}
+.sanfrancisco_guidebooks {
+	background: url('../img/san-francisco.jpg');
+}
+.sanfrancisco_weekend {
+	background: url('../img/san-francisco-2.jpg');
+}
+.sonoma {
+	background: url('../img/sonoma.jpg');
+}
+
+
+/* Universal styling for city images and links */
+
+.city {
+	width: 250px;
+	height: 250px;
+	line-height: 250px;
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	background-size: cover;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.city a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* Styling for 'see all' links */
+
+.seemore {
+	margin: 20px auto;
+	width: 240px;
+}
+
+.seemore p {
+	background: white;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 10px;
+	border: 1px solid #565A5D;
+}
+
+.seemore a {
+	text-decoration: none;
+	color: #484848;
 }
