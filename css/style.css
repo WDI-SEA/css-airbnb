@@ -1,3 +1,57 @@
+body {
+	background: #EDEFEC;
+}
+
 h1 {
   color: salmon;
+
+}
+
+h3 {
+	font-family: sans-serif;
+	font-weight: 700;	
+	color: #575B5E;
+	margin-top: 50px;
+}
+
+h4 {
+	position: relative;
+	text-align: center;
+	top: -120px;
+	color: white;
+	opacity: 0.8;
+	font-family: sans-serif;	
+
+}
+
+h5 {
+	font-family: sans-serif;
+	color: #575B5E;
+	font-weight: 200;	
+
+}
+
+div {
+	display: inline-block;
+	padding: 5px;
+
+}
+
+img {
+	width: 200px;
+	height: 200px;
+
+}
+
+.button {
+	position: relative;
+	color: #575B5E;
+	font-family: sans-serif;
+	letter-spacing: .08em;
+	width: 200px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 0;
+	top: -50px;
+
 }
