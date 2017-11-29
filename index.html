@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+	<title>Airbnb Mockup</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<nav>
+		<div class="navLogo"></div>
+		<ul class="navLinks">
+			<li onclick="navClick(this)" id="host-nav-btn" class="navItem">Become a Host</li>
+			<li onclick="navClick(this)" id="help-nav-btn" class="navItem">Help</li>
+			<li onclick="showSignup()" id="signup-nav-btn" class="navItem">Sign Up</li>
+			<li onclick="navClick(this)" id="login-nav-btn" class="navItem">Login</li>
+		</ul>
+	</nav>
+	<main>
+		<div class="landing-text-wrapper">
+			<h1><span class="airLabel">Airbnb</span></h1>
+			<h1><span class="airLabel-undertext">Book unique homes and experience a city like a local.</span></h1>
+		<div class="searchbox-wrapper">
+			<img src="img/searchicon.png" class="searchbox-icon">
+			<input type="text" placeholder="Try “Seattle”" class="searchbox-text">
+			<button class="searchbox-submit">Search</button>
+		</div>
+		</div>
+		<div class="content-wrapper">
+			<h1 class="content-cat-label">Explore Airbnb</h1>
+			<div class="explore-btns-wrapper">
+				<div alt="homes" class="explore-btn">
+					<img class="explore-btn-img" src="img/home.jpg">
+					<strong><a class="explore-label">Homes</a></strong>
+				</div>
+				<div alt="experiences" class="explore-btn">
+					<img class="explore-btn-img" src="img/experiences.jpg">
+					<strong><a class="explore-label">Experiences</a></strong>
+				</div>
+				<div alt="restaurants" class="explore-btn">
+					<img class="explore-btn-img" src="img/restaurants.jpg">
+					<strong><a class="explore-label">Restaurants</a></strong>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="signup-backdrop" onclick="closeSignup();"></div>
+		<div class="signup-wrapper">
+			<div class="signup-close-btn" onclick="closeSignup();">
+				<a>X</a>
+			</div>
+			<div class="signup-option option-facebook">
+				<a>Continue with Facebook</a>
+			</div>
+			<div class="signup-option option-google">
+				<a>Continue with Google</a>
+			</div>
+			<div class="signup-option option-email">
+				<a>Sign up with Email</a>
+			</div>
+
+		</div>
+	<script type="text/javascript">
+		function closeSignup(){
+			document.getElementsByClassName("signup-backdrop")[0].style.setProperty("display","none");
+			document.getElementsByClassName("signup-wrapper")[0].style.setProperty("display","none");
+		}
+		function showSignup() {
+		    document.getElementsByClassName("signup-backdrop")[0].style.setProperty("display", "block");
+		    document.getElementsByClassName("signup-wrapper")[0].style.setProperty("display", "block");
+		}
+		function navClick(e){
+			console.log(e.id);
+		}
+		function addExternalLinking(){
+			//last minute functionality . fix later.
+			let x=document.getElementsByClassName("explore-btn");
+			for(let i =0;i<x.length;i++){
+				document.getElementsByClassName("explore-btn")[i].addEventListener("click",function(){
+					window.location.href = "https://www.airbnb.com/s/"+x[i].getAttribute("alt")+"?refinement_paths%5B%5D=%2F"+x[i].getAttribute("alt");
+				})
+			}
+			document.getElementsByClassName("searchbox-submit")[0].addEventListener("click",function(){
+				window.location.href = "https://www.airbnb.com/s/"+document.getElementsByClassName("searchbox-text")[0].value+"/all";
+			})
+		}
+		addExternalLinking();
+	</script>
 </body>
 </html>
