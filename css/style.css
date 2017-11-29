@@ -39,7 +39,7 @@ img {
 
 
 .sanfran {
-	background: url(/img/san-francisco.jpg);
+	background: url(../img/san-francisco.jpg);
 	display: inline-block;
 	width:220px;
 	height:220px;
@@ -49,7 +49,7 @@ img {
 }
 
 .newyork {
-	background: url(/img/new-york.jpg);
+	background: url(../img/new-york.jpg);
 	display: inline-block;
 	width:220px;
 	height:220px;
@@ -59,7 +59,7 @@ img {
 }
 
 .london{
-	background: url(/img/london.jpg);
+	background: url(../img/london.jpg);
 	display: inline-block;
 	width:220px;
 	height:220px;
@@ -69,7 +69,7 @@ img {
 }
 
 .napa {
-	background: url(/img/napa.jpg);
+	background: url(../img/napa.jpg);
 	display: inline-block;
 	width:220px;
 	height:220px;
@@ -79,7 +79,7 @@ img {
 }
 
 .sonoma {
-	background: url(/img/sonoma.jpg);
+	background: url(../img/sonoma.jpg);
 	display: inline-block;
 	width:220px;
 	height:220px;
@@ -89,7 +89,7 @@ img {
 }
 
 .sanfran2 {
-	background: url(/img/san-francisco-2.jpg);
+	background: url(../img/san-francisco-2.jpg);
 	display: inline-block;
 	width:220px;
 	height:220px;
