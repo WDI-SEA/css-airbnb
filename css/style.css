@@ -1,66 +1,47 @@
 body {
 	background: #EEEEEE;
-	font-family: 'Arial', san-serif;
+	font-family: sans-serif;
 	color: #696969;
-
+	text-align: center;
 }
-
-h1 h2 {
-  
-}
-
-/*.frames1 {
-	width: auto;
-	display: inline-block;*/
-}
-
-h1 {
-	margin-bottom: 0px;
-}
-
-h2 {
-	margin-top: 0px;
-	font-size: 12px;
-}
-
-#img1 {
-	background-image: url("../img/san-francisco.jpg")
-}
-
-#img2 {
-	background-image: url("../img/new-york.jpg")
-}
-
-#img3 {
-	background-image: url("../img/london.jpg")
-}
-
-#img4 {
-	background-image: url("../img/napa.jpg")
-}
-
-#img5 {
-	background-image: url("../img/sonoma.jpg")
-}
-
-#img6 {
-	background-image: url("../img/san-francisco-2.jpg")
-}
-
-.frames1 {
+.img-divs{
 	width: 300px;
 	height: 300px;
 	display: inline-block;
-	position: relative;
-	
+	background-size: cover;
+	background-position: center;
+	border: none;
 }
-
+h3 {
+	position: relative;
+	top: 100px;
+	color: white;
+}
+#img1 {
+	background-image: url("../img/san-francisco.jpg")
+}
+#img2 {
+	background-image: url("../img/new-york.jpg")
+}
+#img3 {
+	background-image: url("../img/london.jpg")
+}
+#img4 {
+	background-image: url("../img/napa.jpg")
+}
+#img5 {
+	background-image: url("../img/sonoma.jpg")
+}
+#img6 {
+	background-image: url("../img/san-francisco-2.jpg")
+}
 button {
 	width: 300px;
 	height: 40px;
 	margin: 20px;
 	background: white;
-	border: ;
+	margin-bottom: 50px;
+	border-style: none;
 
 }
 
