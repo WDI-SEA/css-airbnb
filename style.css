@@ -1,0 +1,31 @@
+body {
+  background: tan;
+p {
+    color: purple;
+    font-size: 24px;
+    h1 {
+      color: B4D455
+      color: rgba(255, 0, 0, 0.5);
+    }
+    div {
+      border: 5px dashed black;
+    }
+.Fool {
+  font-weight: 400;
+}
+#Shark {
+  color: black;
+  font-size: 30px;
+}
+.Rawr {
+  font-weight: 40px;
+}
+.relative-item {
+  position: relative;
+  top: 0;
+  left: 40px;
+}
+.Mad {
+  font-style: italic;
+  font-size: 30px;
+}
