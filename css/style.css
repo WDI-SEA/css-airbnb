@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+div {
+	text-align: center;
+	display: inline-block;
+}
+h1 h2 h3{
+	font-family: : Railway, sans-serif;
+	text-align: center;
+}
+h3 {
+  color: white;
+  height: 100%;
+}
+#container {
+
+}
+#top {
+	/*display: inline-block;*/
+}
+#bottom {
+	/*display: inline-block;*/
+}
+.img {
+	height: 200px;
+	width: 200px;
+	background: center;
+	max-width: 100%;
+	margin: 0 10px;
+	float: left;
+}
+#sanfran1 {
+	background-image: url("../img/san-francisco.jpg");
+}
+#ny {
+	background-image: url("../img/new-york.jpg");
+}
+#london {
+	background-image: url("../img/london.jpg");
+}
+#napa {
+	background-image: url("../img/napa.jpg");
+}
+#sonoma {
+	background-image: url("../img/sonoma.jpg");
+}
+#sanfran2 {
+	background-image: url("../img/san-francisco-2.jpg");
+}
+button {
+	margin-top: 20px;
 }
