@@ -1,3 +1,56 @@
-h1 {
-  color: salmon;
+body {
+	background: #EEEEEE;
+	font-family: sans-serif;
+	color: #696969;
+	text-align: center;
 }
+.img-divs{
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	border: none;
+}
+h3 {
+	position: relative;
+	top: 100px;
+	color: white;
+}
+#img1 {
+	background-image: url("../img/san-francisco.jpg")
+}
+#img2 {
+	background-image: url("../img/new-york.jpg")
+}
+#img3 {
+	background-image: url("../img/london.jpg")
+}
+#img4 {
+	background-image: url("../img/napa.jpg")
+}
+#img5 {
+	background-image: url("../img/sonoma.jpg")
+}
+#img6 {
+	background-image: url("../img/san-francisco-2.jpg")
+}
+button {
+	width: 300px;
+	height: 40px;
+	margin: 20px;
+	background: white;
+	margin-bottom: 50px;
+	border-style: none;
+
+}
+
+/*p {
+	position: absolute;
+	color: white;
+	width: 300px;
+	bottom: 50px;
+	top: 100px;
+	font-size: 35px;
+	text-align: center;
+}*/
