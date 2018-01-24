@@ -1,3 +1,88 @@
+body {
+  font-family: helvetica;
+  background-color: #efefef;
+}
+
 h1 {
-  color: salmon;
+  color: gray;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+  margin-bottom: -5px;
+}
+
+h2 {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding: 100px 40px;
+  font-size: 30px;
+}
+
+.guidebooks {
+  height: 400px;
+  text-align: center;
+}
+
+.weekend {
+  height: 400px;
+  text-align: center;
+}
+
+.picture {
+  width: 300px;
+  height: 300px;
+  margin: 20px 10px 10px 10px;
+  display: inline-block;
+}
+
+#sanfrancisco {
+  background-size: cover;
+  background-image: url("../img/san-francisco.jpg");
+}
+
+#newyork {
+  background-size: cover;
+  background-image: url("../img/new-york.jpg");
+}
+
+#london {
+  background-size: cover;
+  background-image: url("../img/london.jpg");
+}
+
+#napa {
+  background-size: cover;
+  background-image: url("../img/napa.jpg");
+}
+
+#sonoma {
+  background-size: cover;
+  background-image: url("../img/sonoma.jpg");
+}
+
+#sanfrancisco2 {
+  background-size: cover;
+  background-image: url("../img/san-francisco-2.jpg");
+}
+
+.box {
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 10px 70px;
+  color: gray;
+  background-color: white;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
 }
