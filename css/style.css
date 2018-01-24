@@ -1,3 +1,85 @@
-h1 {
-  color: salmon;
+h2 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	padding-top: 20px; 
+}
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+	color: gray;
+	background-color: e5e5d3;
+}
+
+p {
+	font-size: 12px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+}
+
+.vacation {
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin: 5px;
+}
+
+#sanfrancisco1 {
+	background-image: url(../img/san-francisco.jpg);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#newyork {
+	background-image: url(../img/new-york.jpg);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#london {
+	background-image: url(../img/london.jpg);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#napa {
+	background-image: url(../img/napa.jpg);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#sonoma {
+	background-image: url(../img/sonoma.jpg);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#sanfrancisco2 {
+	background-image: url(../img/san-francisco-2.jpg);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h3 {
+	padding-top: 110px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+button {
+	padding: 10px 40px 10px 40px;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: sans-serif;
+	color: gray;
 }
