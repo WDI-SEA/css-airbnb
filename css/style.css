@@ -1,3 +1,79 @@
-h1 {
-  color: salmon;
+h2 {
+  color: #A9A9A9;
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 30%;
+}
+
+body {
+	background-color: #DCDCDC;
+	text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: #696969;
+}
+
+#sanfrancisco{ 
+	background-size: cover;
+	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/san-francisco.jpg?raw=true");
+ }
+ #newyork{ 
+	background-size: cover;
+	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/new-york.jpg?raw=true");
+ }
+ #london{ 
+	background-size: cover;
+	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/london.jpg?raw=true");
+ }
+ #napa{ 
+	background-size: cover;
+	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/napa.jpg?raw=true");
+ }
+ #sonoma{ 
+	background-size: cover;
+	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/sonoma.jpg?raw=true");
+ }
+ #sanfrancisco2{ 
+	background-size: cover;
+	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/san-francisco-2.jpg?raw=true");
+
+ }
+
+#container {
+  height: 250px;
+  background: #DCDCDC;
+  text-align: center;
+  margin: 0px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 10px;
+ 
+}
+.button {
+	margin: 10px;
+	background-color: #F8F8FF;
+	font: black;
+	padding-right:40px;
+	padding-left:40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-color: black;
+	border-width: 0.5px;
+}
+
+.fillwidth {
+    min-width: 100%;
+    height: auto;
+}
+img {
+	display: inline-block;
 }
