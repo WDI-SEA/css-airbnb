@@ -1,3 +1,72 @@
-h1 {
-  color: salmon;
+body {
+	margin: 0;
+	padding: 0;
+}
+.top {
+	margin-top: 2vh;
+}
+.container {
+	text-align: center;
+	height: 120vh;
+	background-color: #b8bec6;
+}
+.guide {
+	color: #525459;
+}
+p {
+	font-size: 10px;
+}
+.smbox {
+	display: inline-block;
+	height: 25vh;
+	width: 18vw;
+	margin: 8px;
+}
+.smbox p {
+	color: white;
+	padding-top: 25%;
+}
+#sanfran {
+	background-size: cover;
+	/*background-position: center;*/
+	background-image: url("../img/san-francisco.jpg")
+	/*background-size: cover; (Don't put here!)*/
+	
+}
+
+#ny {
+	background-size: cover;
+	background-image: url("../img/new-york.jpg")
+}
+
+#london {
+	background-size: cover;
+	background-image: url("../img/london.jpg")
+}
+
+.boxguide {
+	display: inline-block;
+	height: 20vh;
+	width: 18vw;
+	margin: 8px;
+}
+
+#guidebook {
+	width: 16vw;
+	margin: 0;
+}
+
+#napa {
+	background-position: center;
+	background-image: url("../img/napa.jpg")
+}
+
+#sono {
+	background-size: cover;
+	background-image: url("../img/sonoma.jpg")
+}
+
+#sanfrancisco {
+	background-size: cover;
+	background-image: url("../img/san-francisco-2.jpg")
 }
