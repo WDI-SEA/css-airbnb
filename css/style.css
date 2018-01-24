@@ -1,3 +1,45 @@
-h1 {
-  color: salmon;
+body {
+	text-align: center;
+	background-color: #dddddd;
+	color: #515151;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: white;
+	margin: auto 8px;
+
+}
+
+.places {
+	width: 200px;
+	height: 200px;
+}
+
+.text_center {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 0%;
+	right: 0%;
+}
+
+.description {
+	line-height: 10%;
+	letter-spacing: 1px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.button {
+	margin-top: 30px;
+}
+
+button {
+	padding: 8px 50px;
+	color: #515151;
 }
