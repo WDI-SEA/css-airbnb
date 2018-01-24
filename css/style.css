@@ -38,6 +38,7 @@ body {
 	margin: 10px;
 	text-align: center;
 	position: relative;
+	cursor: pointer;
 }
 
 .imgtxt {
@@ -63,4 +64,8 @@ button {
 	border: solid silver 1px;
 	font-weight: bold;
 	border-radius: 2px;
+}
+
+button:hover {
+	box-shadow: 0px 0px 5px grey;
 }
