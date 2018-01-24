@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+body {
+  font-family: Arial, Times, serif;
+  color: black;
+  background: rgb(239,239,239);
+}
+.content {
+	margin: 0 auto;
+	text-align: center;
+}
+img {
+	width: 200px;
+	height: 230px;
+} 
+.container {
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+}
+.text {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	color: white;
+	font-size: 20px;
+}
+.button {
+    background-color: white;
+	text-align: center;
+	padding: 7px 50px;
+	border-radius: none;
+	background: #ffffff;
+	margin: 30px;
+
 }
