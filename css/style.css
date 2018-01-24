@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+#container {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 0;
+  background-color: lightgray;
+  font-family: sans-serif;
+  color: gray;
+  cursor: pointer;
+}
+
+.row {
+  padding: 10px;
+}
+
+.imageDiv {
+  padding: 5px;
+  height: 160px;
+  display: inline-block;
+}
+
+.imageText{
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  position: relative;
+  top:-90px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+h3 {
+  color: gray;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 5px 0 15px;
+  font-size: 10px;
+}
+
+.button {
+  font-size: 8px;
+  font-weight: bold;
+  width: 150px;
+  margin: 0;
+  padding: 5px 0;
 }
