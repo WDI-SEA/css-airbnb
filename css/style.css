@@ -1,3 +1,23 @@
 h1 {
-  color: salmon;
+  color: grey;
+  text-align: center;
+}
+.img {
+margin: 0auto;
+display: inline-block;
+position: relative;
+text-align: center;
+color: grey;
+}
+body {
+text-align: center;
+color: black;
+font-family: helvetica;
+background: #eaedf2;
+}
+button {
+background-color: white;
+border: 1px solid lightgrey;
+columns: grey;
+text-align: center;
 }
