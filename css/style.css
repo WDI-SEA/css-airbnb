@@ -1,3 +1,58 @@
-h1 {
-  color: salmon;
+@font-face{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	src: url("linotype.com/1308886/helvetica-family.html");
+}
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: lightgrey;
+}
+h2{
+	color: #4d4d4d;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+h3{
+	padding-top: 40%;
+	text-align: center;
+	color: white;
+}
+p{
+	padding-top: 0px;
+	margin: 0px;
+}
+button{
+	background-color: #e6e6e6;
+	width: 175px;
+	height: 25px;
+	font-size: 12px;
+}
+.container{
+	margin: 10px;
+	color: grey;
+	text-align: center;
+}
+
+.box{
+	display: inline-block;
+	background-size: cover;
+	width: 200px;
+	height: 225px;
+}
+#top1{
+	background-image: url("../img/san-francisco.jpg");
+}
+#top2{
+	background-image: url("../img/new-york.jpg");
+}
+#top3{
+	background-image: url("../img/london.jpg");
+}
+#bot1{
+	background-image: url("../img/napa.jpg");
+}
+#bot2{
+	background-image: url("../img/sonoma.jpg");
+}
+#bot3{
+	background-image: url("../img/san-francisco-2.jpg");
 }
