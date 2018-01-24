@@ -1,13 +1,15 @@
-h2 {
-  color: #A9A9A9;
+h3 {
+  color: #36454f;
   text-align: center;
   font-family: sans-serif;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
-h3 {
+h4 {
   color: white;
   text-align: center;
   font-family: sans-serif;
-  padding-top: 30%;
+  padding-top: 40%;
 }
 
 body {
@@ -16,35 +18,50 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    color: #696969;
+    color: #36454f;
+}
+p {
+	margin: 0px;
+	font-size: 10px;
 }
 
 #sanfrancisco{ 
 	background-size: cover;
 	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/san-francisco.jpg?raw=true");
+	cursor: pointer;
+	font-size: 12px;
  }
  #newyork{ 
 	background-size: cover;
 	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/new-york.jpg?raw=true");
+	cursor: pointer;
+	font-size: 12px;
  }
  #london{ 
 	background-size: cover;
 	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/london.jpg?raw=true");
+	cursor: pointer;
+	font-size: 12px;
  }
  #napa{ 
 	background-size: cover;
 	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/napa.jpg?raw=true");
+	cursor: pointer;
+	font-size: 12px;
  }
  #sonoma{ 
 	background-size: cover;
 	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/sonoma.jpg?raw=true");
+	cursor: pointer;
+	font-size: 12px;
  }
  #sanfrancisco2{ 
 	background-size: cover;
 	background-image: url("https://github.com/WDI-SEA/css-airbnb/blob/master/img/san-francisco-2.jpg?raw=true");
+	cursor: pointer;
+	font-size: 12px;
 
  }
-
 #container {
   height: 250px;
   background: #DCDCDC;
@@ -52,22 +69,25 @@ body {
   margin: 0px;
 }
 .box {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   display: inline-block;
   margin: 10px;
+  padding-bottom: 20px;
  
 }
 .button {
-	margin: 10px;
+	margin-bottom: 20px;
+	margin-top:20px;
 	background-color: #F8F8FF;
 	font: black;
 	padding-right:40px;
 	padding-left:40px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: gray;
 	border-width: 0.5px;
+	cursor: pointer;
 }
 
 .fillwidth {
