@@ -1,3 +1,74 @@
+body {
+	font-family: "Century Gothic", sans-serif;
+	letter-spacing: 0.5px;
+	font-weight: 200;
+	margin: 0px;
+	padding: 0px;
+	color: #515151;
+}
+
 h1 {
-  color: salmon;
+	margin: 0;
+}
+
+button {
+	color: #515151;
+	padding: 10px 70px;
+	background-color: white;
+	border: solid silver 1px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+button:hover {
+	box-shadow: 0px 0px 5px grey;
+}
+
+
+.container {
+	position: relative;
+	text-align: center;
+	background: #f9fbfc;
+	padding: 30px;
+}
+
+.gallery1 {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	text-align: center;
+}
+
+.gallery2 {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.images {
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	overflow:hidden;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.imgtxt {
+	color: white;
+	font-size: 24px;
+	background-color: transparent;
+	position: absolute;
+	padding-top: 90px;
+	text-align: center;
+	width: 100%;
+	font-weight: 500;
+}
+
+.images img {
+	height: 250px;
+	width: auto;
 }
