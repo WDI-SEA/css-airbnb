@@ -1,3 +1,55 @@
-h1 {
-  color: salmon;
+body {
+  font-family: "Helvetica"; sans-serif;
+  background-color: #f5f5f0;
+}
+
+.toph {
+  color: grey;
+  text-align: center;
+  margin: 50px 0 -5px 0;
+}
+
+.lowerh {
+  color: grey;
+  text-align: center;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+}
+
+.first {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  margin: 15px 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.gd1 {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+button {
+  width: 350px;
+  height 40px;
+  font-size: 15px;
+  font-weight: 600;
+  color: grey;
+  margin 1%;
 }
