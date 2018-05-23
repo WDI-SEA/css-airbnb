@@ -19,6 +19,7 @@ button {
   text-align: center;
   font-size: 36px;
   margin-bottom: 1%;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px;
 }
 .subhead h2 {
   text-align: center;
