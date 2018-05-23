@@ -1,3 +1,65 @@
+@font-face {
+   font-family: 'Avenir Next';
+   src: local('AvenirNext-DemiBold');
+   font-weight: bold;
+   font-style: normal;
+ }
+
+body {
+  background: #ebebeb;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin: auto;
+  font-family: 'Avenir Next';
+  font-weight: bold;
+  
+}
+
 h1 {
   color: salmon;
+}
+
+h2 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 0.2em;
+  margin-bottom: 1.5em;
+}
+
+img {
+  width: 25%;
+  margin: .8em;
+  
+}
+
+button {
+  background: #ffffff;
+  border: 1px solid #b9b7b7d0;
+  border-radius: 2px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 0.5em 4em;
+  font-family: 'Avenir Next';
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.centered {
+    position: absolute;
+    top: -200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
