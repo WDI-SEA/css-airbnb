@@ -1,3 +1,48 @@
-h1 {
-  color: salmon;
+body {
+  background: rgb(212, 208, 211);
+  font-family: sans-serif;
+}
+
+h2, p {
+  color: #525557;
+}
+
+button {
+  padding: .7em 5em;
+  margin: 1.9em 0 2.2em 0;
+}
+
+.middle-pic {
+    margin: 0 1em;
+}
+
+.centered {
+/*everything positioned from top left corner
+position absolute,
+top: 50% moves it down 50percent of it's container's height
+left: 50% moves it to the right (from the left) 50percent of it's container's width
+transform: translate moves it away from normal positioning
+first -50% moves .centered 50% to the left of the width of .centered
+second -50% moves .centered 50% up of the height of .centered*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+}
+
+.pics {
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+#content {
+  text-align: center;
 }
