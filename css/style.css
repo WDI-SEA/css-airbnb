@@ -1,3 +1,75 @@
+body {
+    font-family: 'Avenir Next', sans-serif;
+    background-color: #ECEFEC;
+}
+
 h1 {
-  color: salmon;
+  color: #565A5B;
+  font-weight: 600;
+  line-height: 0.5em;
+}
+
+.image-row {
+    margin-top: 40px;
+}
+
+
+.container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.locations {
+    width: 355px;
+    height: 389px;
+    background: #fff;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+/* thanks https://css-tricks.com/centering-css-complete-guide/ for the hint*/
+.locations h1{
+    color: #fff;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sanfrancisco1 {
+    background: url('../img/san-francisco.jpg') no-repeat center;
+}
+
+#newyork {
+    background:url('../img/new-york.jpg') no-repeat center;
+}
+
+#london {
+    background:url('../img/london.jpg') no-repeat center;
+}
+
+#napa {
+    background:url('../img/napa.jpg') no-repeat center;
+}
+
+#sonoma {
+    background:url('../img/sonoma.jpg') no-repeat center;
+}
+
+#sanfrancisco2 {
+    background:url('../img/san-francisco-2.jpg') no-repeat center;
+}
+
+button {
+    padding: 15px;
+    width: 355px;
+    margin: 40px auto;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+button a {
+    color: #565A5B;
+    text-decoration: none;
 }
