@@ -1,3 +1,46 @@
-h1 {
-  color: salmon;
+body {
+	background-color: #ededed;
+	font-family: 'Nunito Sans', sans-serif;
 }
+
+h1 {
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: bottom;
+}
+
+h4 {
+  color: gray;
+  text-align: center;
+  line-height: 0.5em;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.firstimage {
+	margin-left: 27%;
+	position: relative;
+}
+
+.clear {
+	clear: left;
+}
+
+a {
+	background-color: white;
+	text-align: center;
+	margin-left: 43%;
+	border: 2px solid #d3d3d3;
+	padding: 2px 36px 2px 36px;
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+}
+
