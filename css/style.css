@@ -1,3 +1,68 @@
-h1 {
-  color: salmon;
+
+
+
+
+
+.pic {
+	position: relative;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+
+
 }
+img {
+	
+	width: 150px  ;
+	height: 150px;
+
+
+}
+#piccon{
+	margin-left: 23%;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    }
+
+#meet {text-align: center;
+		}
+#button {text-align: center;
+
+		padding-top: 20px;
+		background-color: #D3D3D2;
+		font-family: helvetica;
+
+}
+
+p{font-size: 26px;}
+
+#top {font-family: helvetica;
+	  color: grey;
+	  padding-top: 20px;
+	}
+
+#piccon2{
+	margin-left: 23%;
+}
+#button2 {text-align: center;
+
+		padding-top: 20px;
+		 
+
+}
+#weekend {text-align: center;
+		}
+
+#bottom {font-family: helvetica;
+	  color: grey;
+	  font-family: helvetica;
+		padding-top: 20px;}
+
+
+body h1 {font-size: 20px;}
+body p  {font-size: 15px;}
+body {background-color: #D3D3D3}
