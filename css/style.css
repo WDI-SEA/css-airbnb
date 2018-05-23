@@ -1,3 +1,62 @@
-h1 {
-  color: salmon;
+html, body {
+	background: #edefec;
+	color: #404040;
+	font-family: 'Helvetica', sans-serif;
 }
+
+h1 {
+	text-align: center;
+	margin: .5% 0;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.pic-box {
+	text-align: center;
+}
+
+.column {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+img {
+	width: 350px;
+	margin: 0 10px;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+
+#bottom {
+	text-align: center;
+	margin: 20px 5px;
+}
+
+.btn {
+	width: 350px;
+	height: 40px;
+	font-size: 17px;
+	font-weight: 640;
+	margin: 1%;
+}
+
+.btn:hover {
+	color: #5B0CE8;
+}
+
+
+
+
+
