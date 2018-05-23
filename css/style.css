@@ -1,3 +1,58 @@
-h1 {
-  color: salmon;
+body {
+  background: #EDEFEC;
 }
+
+h2, h5, [type="button"]{
+  color: #575A5D;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.images {
+  height: 250px;
+  width: 250px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: 10px;
+  margin-right:10px;
+
+}
+.pictures {
+  margin: auto;
+  width: 50%;
+}
+
+[type="button"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-grid;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+  }
