@@ -1,3 +1,123 @@
-h1 {
-  color: salmon;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #edefec;
+	font-family: sans-serif;
+	text-align: center;
 }
+
+.template {
+	height: 420px;
+}
+
+.template h1 {
+	color: #565a5d;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	margin-top: 2%;
+	margin-bottom: 0.5%;
+}
+
+.template p {
+	color: #7c7f7e;
+	font-size: 10px;
+	margin: 0;
+	margin-bottom: 2%;
+}
+
+.template h4 {
+	color: #565a5d;
+	line-height: 0px;
+}
+
+.template img {
+
+}
+
+.template span {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+}
+
+.cityImage {
+	height: 240px;
+	width: 220px;
+	background-position: 44% 100%;
+	display: inline-block;
+	margin-left: 1%;
+	background-size: cover;
+}
+
+#san-francisco-img {
+	background-image: url("../img/san-francisco.jpg");
+}
+
+#new-york-img {
+	background-image: url("../img/new-york.jpg");
+}
+
+#london-img {
+	background-image: url("../img/london.jpg");
+}
+
+#napa-img {
+	background-image: url(../img/napa.jpg);
+}
+
+#sonoma-img {
+	background-image: url("../img/sonoma.jpg");
+}
+
+#san-francisco2-img {
+	background-image: url("../img/san-francisco-2.jpg");
+}
+
+.button {
+	border: 1px solid #c9c9c9;
+	width: 215px;
+	height: 30px;
+	margin: auto;
+	margin-top: 40px;
+	background-color: #ffffff;
+	font-size: 12px;
+}
+
+#san-francisco {
+	right: 885px;
+    bottom: 498px;
+}
+
+#new-york {
+	right: 670px;
+	bottom: 498px;
+}
+
+#london {
+	right: 445px;
+	bottom: 498px;
+}
+
+#napa {
+	right: 930px;
+	bottom: 53px;
+}
+
+#sonoma {
+	right: 675px;
+	bottom: 53px;
+}
+
+#san-francisco2 {
+	right: 410px;
+    bottom: 53px;
+}
+
+
+
+
+
+
+
+
