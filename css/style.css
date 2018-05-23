@@ -30,6 +30,7 @@ button {
 .button {
   margin: 0 auto;
   text-align: center;
+  text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px;
 }
 .box {
   display: inline-block;
@@ -73,20 +74,15 @@ button {
 }
 @media screen and (max-width: 900px) {
   .box {
-    width: 20%;
-    padding-bottom: 20%;
+    width: 28%;
+    padding-bottom: 28%;
     height: 0;
   }
   .box p {
-    font-size: 18px;
+    font-size: 100%;
   }
 }
 @media screen and (max-width: 600px) {
-  .box {
-    width: 10%;
-    padding-bottom: 10%;
-    height: 0;
-  }
   .box p {
     font-size: 50%;
   }
