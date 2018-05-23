@@ -1,3 +1,57 @@
 h1 {
-  color: salmon;
+  color: #000;
+  margin-top: 2em;
+}
+
+body {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f2efea;
+}
+
+.images {
+  display: inline-block;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.middle-image {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.button {
+  margin-top: 3em;
+}
+
+button {
+  padding: 1em;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-button {
+  margin-bottom: 3em;
 }
