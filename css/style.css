@@ -81,9 +81,28 @@ button {
   .box p {
     font-size: 100%;
   }
+  button {
+    width: 28%;
+    height: 15%;
+    background-color: white;
+    font-size: 100%;
+    font-weight: 600;
+    border: 1px solid grey;
+    padding: 15px 5px;
+    margin-top: 15px;
+  }
+  .button {
+    margin-right: 6%;
+  }
 }
 @media screen and (max-width: 600px) {
   .box p {
     font-size: 50%;
+  }
+  .subhead h2 {
+    font-size: 14px;
+  }
+  button {
+    font-size: 60%;
   }
 }
