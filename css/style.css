@@ -6,10 +6,17 @@ body {
 h1 {
   color: #565A5B;
   font-weight: 600;
+  line-height: 0.5em;
 }
+
+.image-row {
+    margin-top: 40px;
+}
+
 
 .container {
     text-align: center;
+    padding-top: 40px;
 }
 
 .locations {
