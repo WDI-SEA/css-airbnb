@@ -1,51 +1,51 @@
 body {
-	font-family: sans-serif;
-	background-color: #edefec;
+  font-family: sans-serif;
+  background-color: #edefec;
 }
 
 h1 {
-	margin-bottom: 4px;
+  margin-bottom: 4px;
   margin-top: 45px;
-	font-size: 20px;
+  font-size: 20px;
   color: #565a5d;
 }
 
 h3 {
   position: absolute;
-  top: 100px;
+  top: 40%;
   width: 100%;
   color: white;
 }
 
 img {
   width: 250px;
-	height: 250px;
+  height: 250px;
 }
 
 .image {
-	display: inline-block;
+  display: inline-block;
   position: relative;
-	margin: 8px;
+  margin: 8px;
 }
 
 p {
-	margin-top: 0;
-	font-size: 11px;
-	color: #565a5d;
+  margin-top: 0;
+  font-size: 11px;
+  color: #565a5d;
 }
 
 button {
-	margin-top: 20px;
-	width: 250px;
-	height: 30px;
-	font-weight: bold;
-	font-size: 10px;
-	color: #565a5d;
-	background: #fff;
-	border: 1px solid #c4c4c4;
+  margin-top: 20px;
+  width: 250px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #565a5d;
+  background: #fff;
+  border: 1px solid #c4c4c4;
 }
 
 .section-1,
 .section-2 {
-	text-align: center;
+  text-align: center;
 }
