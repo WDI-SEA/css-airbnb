@@ -1,3 +1,25 @@
-h1 {
-  color: salmon;
+body {
+	background-color: #E7E8EB;
+}
+
+img {
+	border: 10px;
+	display: inline-block;
+	margin: 10px;
+	width: 15%;
+	position: relative;
+}
+
+form {
+	text-align: center;
+	padding: 10px;
+}
+
+.images {
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+  	color: grey;
 }
