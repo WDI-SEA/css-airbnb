@@ -1,3 +1,106 @@
-h1 {
-  color: salmon;
+
+
+header{
+	padding-bottom: 2%;
 }
+
+body{
+	max-width: 100%;
+	background-color: white;
+}
+
+h1 {
+  color: grey;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  padding-bottom: -7%;
+}
+
+h2 {
+	color: grey;
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Arimo', sans-serif;
+	padding-top: -10px;
+}
+
+img{
+	text-align: center;
+	width: 30%;
+	height: 50%;
+}
+
+.img1{
+	height: 80%;
+	width:70%;
+	display: inline;
+	position: relative;
+}
+
+.img2{
+	height: 80%;
+	width:70%;
+	display: inline;
+	position: relative;
+}
+
+.img3{
+	height: 80%;
+	width: 70%;
+	display: inline;
+	position: relative;
+}
+
+.img4{
+	height: 80%;
+	width:70%;
+	display: inline;
+}
+
+.img5{
+	height: 80%;
+	width:70%;
+	display: inline;
+}
+
+.img6{
+	height: 80%;
+	width:70%;
+	display: inline;
+}
+
+.container1{
+	width: 75%;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin: 0 auto;
+}
+
+.container2{
+	width: 75%;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+
+.guidebooks{
+	text-align: center;
+}
+
+button{
+	background-color: #d3d3d3;
+    border: none;
+    padding-top: -30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+
+
