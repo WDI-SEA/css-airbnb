@@ -1,3 +1,100 @@
-h1 {
-  color: salmon;
+body {
+	background-color: #edefec;
 }
+
+h1 {
+ 	color: #54585b;
+ 	font-size: 37px;
+ 	padding-bottom: 0px;
+ 	margin-bottom: 0px;
+ 	border-bottom: 0px;
+ 	font-family: Helvetica;
+}
+
+h3 {
+	color: #6f7170;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	font-family: Helvetica;
+}
+
+section {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+button {
+	padding: 10px 100px;
+	font-size: 17px;
+	margin-top: 32px;
+	border: 2px solid #d5d5d5;
+	display: inline-block;
+	background-color: #ffffff;
+}
+
+.bkgimg1 {
+	background: url(../img/san-francisco.jpg) no-repeat;
+	background-position: center;
+}
+
+.bkgimg2 {
+	background: url(../img/new-york.jpg) no-repeat;
+	background-position: center;
+}
+
+.bkgimg3 {
+	background: url(../img/london.jpg) no-repeat;
+	background-position: center;
+}
+
+.bkgimg4 {
+	background: url(../img/napa.jpg) no-repeat;
+	background-position: center;
+}
+
+.bkgimg5 {
+	background: url(../img/sonoma.jpg) no-repeat;
+	background-position: center;
+}
+
+.bkgimg6 {
+	background: url(../img/san-francisco-2.jpg) no-repeat;
+	background-position: center;
+}
+
+td {
+	width: 380px;
+	height: 400px;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	font-family: Helvetica;
+}
+
+img {
+	/*width: 600px;*/
+	/*height: auto;*/
+}
+
+table {
+	border-spacing: 25px;
+	margin: 0 auto;
+
+/*	width: 600px;
+	max-width: 400px;
+	overflow: hidden;*/
+}
+
+/*.column {
+	flex: 25%;
+	max-width: 33.33%;
+	padding: 0 4px;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap: nowrap ;
+	padding: 0 4px; 
+}*/

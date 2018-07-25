@@ -1,16 +1,16 @@
 {
-  "name": "css-airbnb",
-  "version": "1.0.0",
-  "description": "Airbnb mockup practice",
-  "main": "index.js",
+  "name": "css-positioning",
   "scripts": {
     "lint:css": "node_modules/csslint/cli.js css/; exit 0",
-    "start": "node_modules/browser-sync/bin/browser-sync.js start --server . --files ."
+    "start": "browser-sync start --server . --files ."
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.12.5",
     "csslint": "^0.10.0"
+  },
+  "dependencies": {
+    "npm": "^6.2.0"
   }
 }
