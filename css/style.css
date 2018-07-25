@@ -1,3 +1,18 @@
-h1 {
-  color: salmon;
+body{
+	font-family: arial;
+	text-align:center;
+	background-color: #e8e8e8;
+}
+h2{
+	text-align: center;
+	color:white;}
+button{
+	width:200px;
+	height:25px;
+	margin:0 auto;
+}
+img{
+	width:200px;
+	height:200px;
+	margin:10px;
 }
