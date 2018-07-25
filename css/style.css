@@ -27,9 +27,9 @@ input {
 	height: 10% 0;
 }
 .images {
-	width: 80%;
-/*	height: 90%;
-*/	margin: 10px auto;
+	width: 90%;
+  margin: 10px auto;
+  height: 200px;
 }
 
 .container {
