@@ -1,3 +1,77 @@
 h1 {
-  color: salmon;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+
+
+p {
+	margin: 0 auto;
+}
+body {
+	background-color: #efefef;
+	font-family: "avenir next demi bold", avenir, arial, sans-serif;
+	color: grey;
+}
+
+.topimages {
+	display: inline-block;
+
+}
+
+.sanfran {
+	display: inline-block;
+}
+
+.top {
+	text-align: center;
+
+}
+
+.bottom {
+	text-align: center;
+}
+
+img {
+	width: 20%;
+	height: 30%;
+	margin: 25px 25px;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+	border: 1px solid black;
+}
+
+.sanfran {
+	position: relative;
+  text-align: center;
+}
+
+#sanfrantext {
+	position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.newyork {
+	position: relative;
+	text-align: center;
+}
+
+#newyorktext {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
 }

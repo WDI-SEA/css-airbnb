@@ -1,0 +1,103 @@
+.whole {
+  text-align: center;
+}
+h1 {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+p {
+	margin: 0 auto;
+}
+body {
+	background-color: #efefef;
+	font-family: "avenir next demi bold", avenir, arial, sans-serif;
+	color: grey;
+}
+
+.topimages {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+.bottomimages {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.sanfran1 {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+
+}
+
+.newyork {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+}
+
+.london {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+}
+
+.napa {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+}
+
+.sonoma {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+}
+
+.sanfran2 {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+}
+
+input {
+  text-align: center;
+	width: 200px;
+	height: 30px;
+	border: 1px solid black;
+}
