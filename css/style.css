@@ -1,3 +1,55 @@
-h1 {
-  color: salmon;
+
+
+body {
+	background-color: #a2b9bc;
+	text-align: center;
+}
+
+h3 {
+  color: rgba(0,0,0,0.6);
+  margin: 0;
+}
+
+h6 {
+  color: rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+.content {
+	margin: 10% 0;
+}
+
+.section {
+	height: 10% 0;
+}
+.images {
+	width: 90%;
+  margin: 10px auto;
+  height: 200px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 20%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
 }
