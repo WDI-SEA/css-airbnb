@@ -21,9 +21,13 @@ body {
 
 }
 
+.sanfran {
+	display: inline-block;
+}
+
 .top {
 	text-align: center;
-	
+
 }
 
 .bottom {
@@ -44,17 +48,30 @@ input {
 
 .sanfran {
 	position: relative;
-    text-align: center;
+  text-align: center;
 }
 
-.sanfrantext {
+#sanfrantext {
 	position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
+.newyork {
+	position: relative;
+	text-align: center;
+}
 
+#newyorktext {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
