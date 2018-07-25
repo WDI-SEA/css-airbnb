@@ -1,3 +1,178 @@
 h1 {
   color: salmon;
+  font-color: 16px;
 }
+
+h2 {
+	color: #666a6b;
+	font-size: 14px; 
+}
+
+body {
+	background-color: #ecf0ec;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+
+.city1 {
+	background: URL("/Users/brianglaser/GA/airbnb/css-airbnb/img/san-francisco.jpg") 50% 50% no-repeat;
+	width: 275px;
+	height: 275px;
+	object-fit: cover;
+	display: inline-block;
+	margin: 10px 15px;
+	position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #484848;
+}
+
+.city1-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city2 {
+	background: URL("/Users/brianglaser/GA/airbnb/css-airbnb/img/new-york.jpg") 50% 50% no-repeat;
+	width: 275px;
+	height: 275px;
+	display: inline-block;
+	margin: 10px 15px;
+	position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #484848;
+}
+
+.city2-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city3 {
+	background: URL("/Users/brianglaser/GA/airbnb/css-airbnb/img/london.jpg") 50% 50% no-repeat;
+	width: 275px;
+	height: 275px;
+	display: inline-block;
+	margin: 10px 15px;
+	position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #484848; 
+}
+
+.city3-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button1 {
+	background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #d3d3d3;
+    color: #666a6b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 275px;
+}
+
+/*Second row of elements*/
+
+.city4 {
+	background: URL("/Users/brianglaser/GA/airbnb/css-airbnb/img/napa.jpg") 50% 50% no-repeat;
+	width: 275px;
+	height: 275px;
+	object-fit: cover;
+	display: inline-block;
+	margin: 10px 15px;
+	position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #484848;
+}
+
+.city4-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city5 {
+	background: URL("/Users/brianglaser/GA/airbnb/css-airbnb/img/san-francisco-2.jpg") 50% 50% no-repeat;
+	width: 275px;
+	height: 275px;
+	display: inline-block;
+	margin: 10px 15px;
+	position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #484848;
+}
+
+.city5-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city6 {
+	background: URL("/Users/brianglaser/GA/airbnb/css-airbnb/img/sonoma.jpg") 50% 50% no-repeat;
+	width: 275px;
+	height: 275px;
+	display: inline-block;
+	margin: 10px 15px;
+	position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #484848; 
+}
+
+.city6-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button2 {
+	background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #d3d3d3;
+    color: #666a6b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 275px;
+}
+
+a.img-link {
+    text-decoration: none;
+}
+
+
+
+
+
+
