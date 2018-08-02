@@ -12,6 +12,11 @@ img {
 	width: 300px;
 	overflow: hidden;
 	margin: 0;
+	background-size: cover;
+}
+
+.images {
+
 }
 
 
