@@ -1,3 +1,17 @@
+body {
+	background: rgb(243, 245, 240);
+	font-family: 'Rubik', sans-serif;
+}
+
 h1 {
   color: salmon;
 }
+
+img {
+	display: inline;
+	width: 300px;
+	overflow: hidden;
+	margin: 0;
+}
+
+
