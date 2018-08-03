@@ -1,17 +1,17 @@
 body {
 	background: rgb(243, 245, 240);
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Archivo', sans-serif;;
 	text-align: center;
 }
 
 h1 {
-  color: #808080;
+  color: #696969;
   font-size: 25px
 }
 
 p {
 	font-size: 12.75px;
-	color: gray;
+	color: #696969;
 }
 
 h4 {
@@ -19,15 +19,30 @@ h4 {
 	border: 2px solid #808080;
 	width: 250px;
 	font-size: 15px;
-	color: #808080;
+	color: #696969;
 	margin: 30px 40.25%;
 	padding: 15px 0px;
+}
+
+.overlay{
+	z-index: 2;
+	position: absolute;
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	padding: 105px 13px;
+	color: white;
+
 }
 
 .imageblock {
 	display: inline-block;
 	width: 250px;
 	height: 275px;
+}
+
+#title1 {
+	right: ;
 }
 
 #sf {
