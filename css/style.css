@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: gray;
+  color: #808080;
   font-size: 25px
 }
 
@@ -16,8 +16,12 @@ p {
 
 h4 {
 	background-color: white;
-	border: 2px solid black;
+	border: 2px solid #808080;
 	width: 250px;
+	font-size: 15px;
+	color: #808080;
+	margin: 30px 40.25%;
+	padding: 15px 0px;
 }
 
 .imageblock {
