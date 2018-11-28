@@ -1,0 +1,74 @@
+body {
+	background-color: rgb(237, 239, 236);
+	letter-spacing: .07em;
+	font-family: 'Roboto', sans-serif;
+}
+h1	{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+	color: #484848;
+	font-size: 25px;
+}
+	
+p {
+		font-size: 16px;
+	
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.citycard {
+	display: flex;
+
+}
+
+.flextext {
+		display: flex;
+		justify-content: center;
+		color: white;
+		height: 200px;
+		width: 200px;
+		font-family: 'Roboto', sans-serif;
+		background-size: cover;
+		line-height: 180px;
+		margin: 0 10px;
+		font-weight: 800;
+
+}
+#image1 {
+	background-image: url("../img/san-francisco.jpg");
+}
+#image2 {
+	background-image: url("../img/new-york.jpg");
+}
+#image3 {
+	background-image: url("../img/london.jpg");
+}
+#image4 {
+	background-image: url("../img/napa.jpg");
+}
+#image5 {
+	background-image: url("../img/sonoma.jpg");
+}
+#image6 {
+	background-image: url("../img/san-francisco-2.jpg");
+}
+
+
+.button {
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	padding: 7px 28px;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	letter-spacing: .05em;
+	margin: 25px 0 0 0;
+}
+
+
+

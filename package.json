@@ -12,5 +12,8 @@
   "devDependencies": {
     "browser-sync": "^2.12.5",
     "csslint": "^0.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3"
   }
 }

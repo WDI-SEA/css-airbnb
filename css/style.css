@@ -1,3 +1,69 @@
-h1 {
-  color: salmon;
+body {
+  background: #EDEFEC;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+  color: rgb(72, 72, 72);
+  letter-spacing: .05em;
 }
+.section-head {
+  margin: 40px 0 10px 0;
+}
+ .section-description {
+  margin: 0 0 40px 0;
+  font-weight: 200;
+}
+.site-sections {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.city-suggestions {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+.city-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 275px;
+  width: 250px;
+  background-position: center;
+  background-size: cover; 
+  margin: 10px;
+}
+.city-name {
+  color: #FEFFFF;
+  font-weight: 600;
+}
+ #guidebook1 {
+  background-image:  url("../img/san-francisco.jpg");
+}
+ #guidebook2 {
+  background-image:  url("../img/new-york.jpg");
+}
+ #guidebook3 {
+  background-image:  url("../img/london.jpg");
+}
+ #destinations1 {
+  background-image:  url("../img/napa.jpg");
+}
+ #destinations2 {
+  background-image:  url("../img/sonoma.jpg");
+}
+ #destinations3 {
+  background-image:  url("../img/san-francisco-2.jpg");
+}
+.section-button {
+  font-size: 12px;
+  width: 250px;
+  background: white !important;
+  line-height: 24px;
+  letter-spacing: .05em;
+  font-family: Circular,-apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  padding: 5px 14px;
+  font-weight: 700;
+  box-shadow:  none;
+  color: #484848;
+  margin: 40px 0 0 0;
+  border-color: #c7c7c7;
+} 
