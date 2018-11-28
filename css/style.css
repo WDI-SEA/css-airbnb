@@ -1,3 +1,82 @@
-h1 {
-  color: salmon;
+
+body {
+	background-color: #edefec;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+
 }
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin: 22px, 0 0 0;
+	
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	margin: 10px, 0 0 0;
+}
+
+.gallery {
+	margin: 0 auto;
+	text-align: center;
+	width: 750px;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+
+}
+
+.picbox {
+	width: 200px;
+	height: 215px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 10px;
+	line-height: 215px;
+	position: relative;
+
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+img {
+	object-fit: cover;
+}
+
+
+
+a.button {
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid gray;
+    color: #333131;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 20px 0 40px 0;
+    cursor: pointer;
+    width: 200px;
+    display: inline-block;
+}
+
+
+
+
