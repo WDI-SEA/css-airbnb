@@ -1,3 +1,132 @@
-h1 {
-  color: salmon;
+body {
+margin: 0;
 }
+img {
+	height: 220px;
+	width: 220px;
+	margin: 20px;
+}
+
+.bottomrow .toprow{
+	background: rgb(236,239,236);
+}
+
+.title {
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	color: rgb(85,90,94);
+	margin: 10px;
+}
+
+.subtitle {
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: rgb(85,90,94);
+	margin: 10px;
+}
+
+.cities {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 14px;
+}
+
+.button {
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.citynamestop {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	height: 220px;
+	width: 220px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	margin: 20px 10px;
+}
+
+.citynamesbottom {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	height: 220px;
+	width: 220px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	margin: 20px 10px;
+}
+
+.sanfran {
+	background-image: url("../img/san-francisco.jpg");
+	background-size: 150%;
+	height: 220px;
+	width: 220px;
+}
+
+.newyork {
+	background-image: url("../img/new-york.jpg");
+	background-size: 150%;
+	height: 220px;
+	width: 220px;
+}
+
+.london {
+	background-image: url('../img/london.jpg');
+	background-size: 150%;
+	height: 220px;
+	width: 220px;
+}
+
+.napa {
+	background-image: url("../img/napa.jpg");
+	background-size: 150%;
+	height: 220px;
+	width: 220px;
+}
+
+.sonoma {
+	background-image: url("../img/sonoma.jpg");
+	background-size: 150%;
+	height: 220px;
+	width: 220px;
+}
+
+.sanfran2 {
+	background-image: url("../img/san-francisco-2.jpg");
+	background-size: 150%;
+	height: 220px;
+	width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
