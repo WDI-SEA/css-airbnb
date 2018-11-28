@@ -1,3 +1,68 @@
-h1 {
-  color: salmon;
+
+h1, p {
+	font-family: "arial";
+  	color: #65676b;
 }
+
+h1 {
+  text-align: center;
+  border: none;
+  margin: 10px auto 2px;
+  font-size: 30px;
+
+}
+
+img {
+	position: center;
+	width: 200px;
+	height: 200px;
+	margin: auto 10px;
+}
+
+p {
+	text-align: center;
+	margin: 0 auto 20px;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.container {
+	border: none;
+	background-color: #eff2f0;
+}
+
+.cityname {
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: "arial";
+	position: absolute;
+	bottom: 50%;
+}
+
+.guide {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.pic {
+	position: relative;
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+
+}
+
+.seeall {
+    border: none;
+    margin: 20px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: center;
+}
+
+
+
