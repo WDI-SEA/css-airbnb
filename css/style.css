@@ -1,3 +1,129 @@
-h1 {
-  color: salmon;
+
+body{
+	background-color:#EEF0ED;
 }
+
+h1, h5{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 10px;
+	width: 800px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.one, .two, .three, .four, .five, .six {
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	line-height: 150px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.banner-one{
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row: 1;
+	text-align: center;
+}
+
+.one{
+	grid-column-start:1;
+	grid-row:2;
+	background-image: url("../img/san-francisco.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.two{
+	grid-column-start:2;
+	grid-row:2;
+	background-image: url("../img/new-york.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.three{
+	grid-column-start:3;
+	grid-row:2;
+	background-image: url("../img/london.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-one{
+	background-color: white;
+	border: 1px solid gray;
+	font-size: 20px;
+	font-family:'Open Sans', sans-serif;
+	padding: 10px 100px;
+}
+
+.btn-wrapper-one{
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row: 3;
+	text-align: center;
+}
+
+.banner-two{
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row:4;
+	text-align: center;
+}
+
+.four{
+	grid-column-start:1;
+	grid-row:5;
+	background-image: url("../img/napa.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.five{
+	grid-column-start:2;
+	grid-row:5;
+	background-image: url("../img/sonoma.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.six{
+	grid-column-start:3;
+	grid-row:5;
+	background-image: url("../img/san-francisco-2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-two{
+	background-color: white;
+	border: 1px solid gray;
+	font-size: 20px;
+	font-family:'Open Sans', sans-serif;
+	padding: 10px 100px;
+}
+
+.btn-wrapper-two{
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row:6;
+	text-align: center;
+}
+
