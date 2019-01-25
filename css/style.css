@@ -1,3 +1,64 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: rgb(235, 240, 238);
+  font-family: questrial, sans-serif;
 }
+
+h1 {
+  color: rgb(119, 118, 118);
+  margin: 50px 0px 10px 0px;
+  font-size: 17px;
+}
+
+p {
+  color: rgb(119, 118, 118);
+  margin: 0px 0px 25px 0px;
+  font-size: 8px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center1, .center2, .center3, .center4, .center5, .center6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+div {
+  display: inline-block;
+}
+
+button {
+  background-color: white;
+  border-color: lightgray;
+  font-family: questrial; sans-serif;
+  font-weight: bold;
+  color: gray;
+  width: 150px;
+  padding: 5px;
+  font-size: 8px;
+
+  
+}
+
+.button1, .button2 {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 25px;
+  
+}
+
+
