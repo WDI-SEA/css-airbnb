@@ -1,3 +1,97 @@
-h1 {
-  color: salmon;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+}
+
+/* Content Box ------------------------------------ */
+.content-box {
+  text-align: center;
+}
+
+h2 {
+  margin: 2% 0 0;
+
+  color: #555;
+  font-size: 2em;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+}
+
+.info {
+  margin: 10px 0 30px;
+  color: #777;
+  letter-spacing: 0.5px;
+}
+
+/* Images Box ------------------------------------- */
+
+.places {
+  background-color: #ccc;
+  width: 300px;
+  height: 350px;
+  margin: 0 10px;
+
+  display: inline-block;
+}
+
+.places p {
+  margin: 0;
+  padding: 42% 0;
+  line-height: 100px;
+
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+
+/* Button ----------------------------------------- */
+button {
+  padding: 10px 75px;
+  margin: 50px 0 30px;
+  border-radius: 4px;
+
+  font-size: 1em;
+  font-weight: 600;
+  color: #777;
+}
+
+/* Background Images ------------------------------ */
+.sf1 {
+  background-image: url("/img/san-francisco.jpg");
+  background-position: center;
+}
+
+.nyc {
+  background-image: url("/img/new-york.jpg");
+  background-position: center;
+}
+
+.ldn {
+  background-image: url("/img/london.jpg");
+  background-position: center;
+}
+
+.npa {
+  background-image: url("/img/napa.jpg");
+  background-position: center;
+}
+
+.snm {
+  background-image: url("/img/sonoma.jpg");
+  background-position: center;
+}
+
+.sf2 {
+  background-image: url("/img/san-francisco-2.jpg");
+  background-position: center;
 }
