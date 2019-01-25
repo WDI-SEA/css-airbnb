@@ -1,3 +1,58 @@
+
+body {
+  text-align: center;
+  background-color: rgb(235, 240, 238);
+  font-family: "Helvetica Neue";
+}
 h1 {
-  color: salmon;
+  color: rgb(119, 118, 118);
+  margin: 50px 0 10px 0;
+}
+h2 {
+  position: relative;
+  text-align: center;
+}
+h4 {
+  color: rgb(119, 118, 118);
+  margin: 0 0 35px 0;
+}
+p {
+  color: rgb(119, 118, 118);
+  margin: 0px 0px 25px 0px;
+}
+img {
+  width: 275px;
+  height: 275px;
+  display: inline-block;
+  padding: 10px;
+}
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.c1, .c2, .c3, .c4, .c5, .c6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+div {
+  display: inline-block;
+}
+button {
+  background-color: white;
+  border-color: lightgray;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  color: rgb(119, 118, 118);
+  width: 200px;
+  padding: 10px;
+}
+.button1, .button2 {
+  display: block;
+  margin: 10px 0;
+  border: none;
+  padding: 25px;
 }
