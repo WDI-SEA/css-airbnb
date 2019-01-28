@@ -1,3 +1,58 @@
-h1 {
-  color: salmon;
+/* Airbnb CSS*/
+
+body {
+  text-align: center;
+  background-color: #eceeeb;
+  font-family: "Signika";
 }
+h1 {
+  color: rgb(37, 37, 37);
+  font-size: 16px;
+}
+h2 {
+  color: rgb(46, 46, 46);
+  font-size: 8px;
+}
+button {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  color: black;
+  padding: 4px 28px;
+  font-size: 8px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+}
+/* Container holding the image and the text */
+.container {
+  width: 135px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  font-weight: 400;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  object-fit: cover;
+  width: 130px;
+  height: 140px;
+}
+.block {
+  padding: 20px;
+}
+/* debugging
+* {
+  border: red solid 1px;
+  box-sizing: border;
+}
+*/
