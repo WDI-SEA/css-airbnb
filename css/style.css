@@ -1,3 +1,59 @@
-h1 {
-  color: salmon;
+
+
+body {
+	font-family: Questrial, sans-serif;
+	text-align: center;
+	background-color: #ebebeb;
+
 }
+h1 {
+  color: grey;
+  margin: 50px 0px 10px 0px;
+  font-style: 17px;
+
+}
+p {
+	color: grey;
+	font-size: 17px;
+	margin: 0px 0px 25px 0px;
+}
+img {
+height: 150px;
+width: 200px;
+display: inline;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.center1, .center2, .center3, .center4, .center5, .center6, {
+position: absolute;
+font-size: 12px;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+}
+div {
+	display: inline;
+}
+button {
+background-color: white;
+border: lightgrey;
+font-family: questiral sans-serif;
+color: grey;
+font-weight: bold;
+width: 150px;
+padding: 5px;
+font-size: 8px;
+}
+
+.button1, .button2 {
+display: block;
+margin: 0 auto;
+border: none;
+padding: 25px;
+}
+
