@@ -1,3 +1,63 @@
+body {
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  
+}
+
+h1, p {
+  color: #767676;
+  text-align: center;
+}
+
 h1 {
-  color: salmon;
+  font-size: 1.5em;
+}
+
+div {
+  text-align: center;
+}
+.container {
+  position: relative;
+
+}
+
+.picture {
+  display: inline-block;
+  padding: 10px;
+  margin: -85px 0 15px 0;
+}
+
+img {
+  width: 225px;
+  height: 250px;
+  object-fit: cover;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+}
+
+button {
+  background-color: white;
+  color: #767676;
+  border: 2px solid #e7e7e7;
+}
+
+button:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+
+.pictext {
+  position: relative;
+  top: 165px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.disc {
+  font-size: 0.8em;
+  margin-top: -13px;
 }
