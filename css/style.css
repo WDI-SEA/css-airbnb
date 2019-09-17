@@ -1,3 +1,88 @@
+body {
+  text-align: center;
+  background-color: rgb(217, 230, 235);
+}
+
 h1 {
-  color: salmon;
+  color: rgb(74, 76, 82);
+}
+h2 {
+  color: rgb(74, 76, 82);
+}
+
+p {
+  color: rgb(119, 121, 128);
+}
+
+button {
+  height: 30px;
+  width: 250px;
+}
+
+.container img {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  padding: 15px;
+}
+
+.containertwo img {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  padding: 15px;
+}
+
+.left {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.lefttwo {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 94%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredtwo {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.righttwo {
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: 94%;
+  right: 20%;
+  transform: translate(-50%, -50%);
 }
