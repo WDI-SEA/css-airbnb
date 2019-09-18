@@ -1,3 +1,17 @@
-h1 {
-  color: salmon;
+body {
+  background: #EDEFEC;
+}
+h2 {
+  color: #565A5D;
+  text-align: center; 
+}
+h3 {
+  color: white;
+}
+div {
+  border: 2px solid black;
+  padding: 2px;
+}
+button {
+  margin: 0 auto;
 }
