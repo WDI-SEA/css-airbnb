@@ -1,3 +1,135 @@
-h1 {
-  color: salmon;
+body{
+  background-color: rgba(237, 239, 236, 0.726);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+  color: #566;
+  text-align: center;
+  font-size: 17px;
+  margin: 3px;
+}
+
+p{
+  color: #777;
+  text-align: center;
+  font-size: 10px;
+  margin: 3px;
+}
+
+button{
+  padding: 5px 30px;
+  margin: 20px;
+  
+
+}
+
+.top img {
+  height: 185px;
+  width: 175px;
+  margin: 5px;
+  
+}
+
+.top div{
+  display: inline-block;
+}
+
+.bottom img {
+  height: 185px;
+  width: 175px;
+  margin: 5px;
+}
+
+.bottom div{
+  display: inline-block;
+}
+
+.SF {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+.center-SF {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}
+
+.NY{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-NY{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.London{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-London{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Napa{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-Napa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Sonoma{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-Sonoma{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.SF2{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-SF2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}
+
+
+
+
+
+
