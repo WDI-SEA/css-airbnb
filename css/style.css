@@ -1,5 +1,6 @@
 body {
   background: #EDEFEC;
+  font-family: Helvetica, neue;
 }
 h2 {
   color: #565A5D;
@@ -10,13 +11,14 @@ h3 {
   font-size: 21px;
   font-weight: bold;
   position: relative;
-  top: -100px
+  top: -100px;
 }
 div {
   /* border: 2px solid black; */
   display: inline-block;
   width: 200px;
-  height: 200px;
+  height: 150px;
+  margin-left: 10px;
 }
 img {
   width: 200px;
@@ -25,7 +27,7 @@ img {
 button {
   margin: 0 auto;
   display: block;
-  padding: 10px;
+  padding: 8px 50px;
 
 }
 p {
