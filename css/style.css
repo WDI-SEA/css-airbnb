@@ -1,10 +1,11 @@
 body {
+  font-family: Helvetica, sans-serif;
   margin: auto;
   text-align: center;
 }
 
 h1 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 p {
@@ -25,4 +26,100 @@ img {
 button {
   margin-top: 20px;
   width: 200px;
+}
+.top-row-pictures {
+  position: inline-block;
+  margin: 10px 5px 10px 5px;
+}
+
+.row-two-pictures {
+  position: inline-block;
+  margin: 10px 5px 10px 5px;
+}
+
+.san-fran {
+  background-image: url('../img/san-francisco.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  margin-left: 210px;
+  color: white;
+  text-align: center;
+  
+}
+
+.ny {
+  background-image: url('../img/new-york.jpg');
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  line-height: 200px;
+  margin-top: -200px;
+  margin-left: 425px;
+  color: white;
+}
+
+.london {
+  background-image: url('../img/london.jpg');
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  line-height: 200px;
+  margin-top: -200px;
+  margin-left: 640px;
+  color: white;
+}
+
+.napa {
+  background-image: url('../img/napa.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  line-height: 200px;
+  height: 200px;
+  width: 200px;
+  margin-left: 210px;
+  color: white;
+  text-align: center;
+}
+
+.sonoma {
+  background-image: url('../img/sonoma.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  margin-left: 425px;
+  margin-top: -200px;
+  color: white;
+  text-align: center;
+}
+
+.sf-2 {
+  background-image: url('../img/san-francisco-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  margin-top: -200px;
+  margin-left: 640px;
+  color: white;
+  text-align: center;
 }
