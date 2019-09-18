@@ -1,3 +1,49 @@
-h1 {
-  color: salmon;
+body {
+  background: #f0f0f0;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+button {
+  border: 1px solid #000;
+  width: 300px;
+  height: auto;
+  font-size: 1em;
+  padding: 10px;
+  margin: 40px auto;
+}
+button:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.text-overlay--container {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.text-overlay {
+  position: absolute;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2em;
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+  filter: brightness(80%);
+  width: 300px;
+  height: 300px;
+}
+img:hover {
+  filter: brightness(100%);
+  transition: 0.3s;
 }
