@@ -1,3 +1,118 @@
+body {
+  background-color: #EDEFEC;
+  margin: 0 auto;
+}
+
 h1 {
-  color: salmon;
+  color:#585A5D;
+  text-align: center;
+  min-width: 1400px;
+}
+p {
+  color:#585A5D;
+  text-align: center;
+  min-width: 1400px;
+}
+#container{
+  text-align: center;
+  position: relative;
+  min-width: 1400px;
+  
+  
+}
+#first-three {
+  /* background-color: yellow; */
+  padding: 20px;
+  display: inline-block;
+  
+  color: white;
+  font-size: 50px;
+  min-width: 1200px;
+  
+}
+#napa {
+  height: 300px;
+  width: 300px;
+  padding: 0 40px;
+  
+  
+}
+#new-york {
+  height: 300px;
+  width: 300px;
+  
+  
+}
+#london{
+  height: 300px;
+  width: 300px;
+  
+  
+}
+#btn-container {
+  text-align: center;
+  min-width: 1400px;
+
+}
+#button {
+  display: inline-block;
+}
+#container2 {
+  text-align: center;
+  min-width: 1400px;
+  position: relative;
+  
+  
+}
+#last-three {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  display: inline-block;
+  
+  min-width: 1200px;
+  
+  
+}
+#btn-container2 {
+  text-align: center;
+  min-width: 1400px;
+  
+}
+#button2 {
+  display: inline-block;
+  
+}
+.center {
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  
+}
+.right {
+  position: absolute;
+  top: 42%;
+  left: 44%;
+  
+}
+.left{
+  position: absolute;
+  top: 42%;
+  left: 68%;
+  
+}
+.center2 {
+  position: absolute;
+  top: 40%;
+  left: 19%;
+}
+.right2 {
+  position: absolute;
+  top: 40%;
+  left: 46%;
+}
+.left2 {
+  position: absolute;
+  top: 40%;
+  left: 69%;
 }
