@@ -1,3 +1,110 @@
 h1 {
-  color: salmon;
+  color: grey;
+  font-size: 20px;
+}
+/**************************************************************** 
+***************  Pics top row ********************************
+******************************************************************/
+.image_size {
+  height: 200px;
+  width: 15%;
+  margin: 1%;
+  z-index: -1;
+}
+
+.image_position_top {
+  left: 20vw;
+}
+
+/**************************************************************** 
+*************** Top TExt ********************************
+******************************************************************/
+
+.top_text {
+  text-align: center;
+  margin: 2%;
+}
+
+.bottom_text {
+  text-align: center;
+  margin: 2%;
+}
+
+.fonty {
+  font-size: 20px;
+}
+
+.spaner {
+  color: grey;
+  font-size: 10px;
+}
+
+/**************************************************************** 
+*************** text in pics ********************************
+******************************************************************/
+
+.top_middle {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.top_left {
+  position: absolute;
+  top: 26%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.top_right {
+  position: absolute;
+  top: 26%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/**************************************************************** 
+*************** text in pics bottom ********************************
+******************************************************************/
+
+
+.bottom_middle {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bottom_left {
+  position: absolute;
+  top: 75%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bottom_right {
+  position: absolute;
+  top: 75%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/**************************************************************** 
+*************** Buttons ********************************
+******************************************************************/
+
+.buttons {
+  position: relative;
+  left: 43.5%;
+  height: 30px;
+  border-radius: 2%;
+  width: 200px;
 }
