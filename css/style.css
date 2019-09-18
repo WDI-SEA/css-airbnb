@@ -1,3 +1,88 @@
-h1 {
-  color: salmon;
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  color:#696c6d;
+  letter-spacing:.4px;
+  margin: 0;
+  font-size:1.3em;
+  font-weight:600;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  color:#696c6d;
+}
+
+body {
+  margin: 0;
+}
+
+.inner-section {
+  width: 631px;
+  height:100vh;
+  margin: 0 auto;
+}
+
+.full-width-container {
+  background:#edeeeb;
+  width:100vw;
+  height:110vh;
+}
+
+.spot-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-right:15px;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sf {
+  width:225px;
+}
+
+.discover {
+  overflow:auto;
+}
+
+.discover-subheading {
+  text-align:center;
+  margin: 0;
+  padding-top:5vh;
+}
+
+.discover-subheading p {
+  font-size:.8em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  letter-spacing: -.8px;
+}
+
+.discover-cta {
+  text-align:center;
+  margin-top:5vh;
+}
+
+.no-right-margin {
+  margin-right: 0!important;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 50px;
+  background-color:#fff;
+  font-family: 'Work Sans', sans-serif;
+  color:#696c6d;
+  font-weight: 600;
+  font-size: .8em;
+  border: 1px solid #c5cdd0;
 }
