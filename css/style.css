@@ -1,3 +1,39 @@
-h1 {
-  color: salmon;
+body {
+    background-color: #e3e1df;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424140;
+}
+
+.header-content {
+    align-self: auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.column {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* .row {
+    display: flex;
+} */
+
+.city {
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    right: 50px;
+    left: 50px;
+    color: #ffffff;
+}
+
+.input_1 {
+    padding: 10px 30px;
 }
