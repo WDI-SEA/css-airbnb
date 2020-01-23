@@ -23,6 +23,17 @@ img {
   width: 300px;
   height: 300px;
   padding-right: 1em;
+  position: 
+}
+
+
+li {
+  font-size: 1.5em;
+  color: white;
+  display: inline-block;
+  width: 300px;
+  padding-right: 32px;
+  
 }
 
 button {
@@ -44,14 +55,26 @@ footer {
   margin: 1em;
 }
 
+.names {
+  text-align: center;
+  position: relative;
+  top: 240px;
+  z-index: 3;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
 .top-level {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 3em;
+  position: relative;
+  z-index: 1;
 }
 
 .bottom-level {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 3em;
+  position: relative;
 }
 
 .buttons {
