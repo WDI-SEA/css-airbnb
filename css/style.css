@@ -1,3 +1,56 @@
+* {
+  text-align: center;
+  background-color: rgb(228, 225, 225);
+}
+
 h1 {
-  color: salmon;
+  color: rgb(94, 93, 93);
+  font-size: 20px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+p {
+
+  color: rgb(94, 93, 93);
+  font-size: 11px;
+  margin: 1;
+  margin-bottom: 20px;
+
+  
+}
+
+.names {
+ position: absolute;
+ width: 157px;
+ text-align: center;
+ top: 30%;
+ background-color: transparent;
+ color: white;
+ 
+}
+
+.main {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+
+.content {
+  position: relative;
+ 
+}
+
+.content img {
+  height: 156px;
+  width: 157px;
+  margin-right: 25px;
+
+}
+
+button {
+  margin-top: 20px;
 }
