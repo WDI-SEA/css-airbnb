@@ -1,3 +1,80 @@
-h1 {
-  color: salmon;
+* {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+h1, p, button {
+  color: #584e4e;
+  font-weight: normal;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  padding: 8px;
+  padding-top: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.imgRow {
+  height: 370px;
+}
+
+.imgContainerIndividual {
+  display: inline;
+  position: relative;
+}
+
+button {
+  height: 39px;
+  width: 300px;
+  font-size: 17px;
+}
+
+.h1second {
+padding-top: 20px;
+}
+
+.txtLine {
+  display: block;
+  clear: both;
+}
+
+.titleoverlay {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  bottom: 110px;
+  right: 60px;
+}
+
+#sanfran {
+  right: 60px;
+}
+
+#newyork {
+  right: 90px;
+}
+
+#london {
+  right: 90px;
+}
+
+#napa {
+  right: 122px;
+}
+
+#sonoma {
+  right: 108px;
+}
+
+#sanfran2 {
+  right: 60px;
 }
