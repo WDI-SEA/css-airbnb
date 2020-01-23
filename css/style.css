@@ -1,3 +1,77 @@
-h1 {
-  color: salmon;
+body{
+	background-color: #EDEFEC;
 }
+h1 {
+	text-align: center;
+	color: #58595D;
+	margin: 0;
+	font-size: 22px;
+	font-family: sans-serif;
+}
+p{
+	text-align: center;
+	color: #656766;
+	margin: 0;
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+.image_set_1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.image_set_1 img{
+	height: 180px;
+	margin-left: 12px;
+	width: 180px;
+}
+
+.image_set_2{
+	text-align: center;
+}
+
+
+.image_set_2 img{
+	height: 180px;
+	margin-left: 12px;
+	width: 180px;
+}
+
+button{
+	height: 30px;
+	width: 180px;
+	border-radius: 1px;
+}
+.buttons{
+	margin: 15px 0px;
+	color: #656766;
+	text-align: center;
+}
+.cities_1{
+	text-align: center;
+}
+.city_set_1{
+	position: relative;
+	right: 31px;
+	bottom: 120px;
+}
+.city_set_1 li{
+	display: inline-block;
+	color: white;
+	margin: 0 64px;
+}
+.cities_2{
+	text-align: center;
+}
+.city_set_2{
+	position: relative;
+	right: 19px;
+	bottom: 111px;
+}
+.city_set_2 li{
+	display: inline-block;
+	color: white;
+	margin: 0 48px;
+	width: 100px;
+}
+
+
