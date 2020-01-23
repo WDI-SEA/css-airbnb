@@ -1,3 +1,39 @@
-h1 {
-  color: salmon;
+body {
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+.info_box {
+  margin-top: 50px;
+}
+
+.text_box{
+  color: rgb(85, 88, 91);
+}
+.image_item {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+.image_item img {
+  width: 100%;
+  height: 100%;
+}
+
+.image_item h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+
+button {
+  width: 200px;
+  font-weight: bold;
+  color: rgb(90, 92, 93);
 }
