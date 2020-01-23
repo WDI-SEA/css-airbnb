@@ -1,3 +1,14 @@
-h1 {
-  color: salmon;
+
+body {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin-right: 25px;
 }
