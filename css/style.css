@@ -1,3 +1,61 @@
-h1 {
-  color: salmon;
+
+body {
+  background:#edefec;
+  color: #353b48;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  letter-spacing: 1.25px;
 }
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding-right: 1em;
+}
+
+button {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  border: 2px solid grey;
+  display: inline-block;
+  background-color: white;
+  font-size: 1em;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: #353b48;
+  letter-spacing: 1.25px;
+}
+
+footer {
+  height: 2em;
+  margin: 1em;
+}
+
+.top-level {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.bottom-level {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 3em;
+}
+
