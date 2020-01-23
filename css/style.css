@@ -1,3 +1,52 @@
+* {
+  background-color: rgb(237,239,235);
+}
+
+.wrapper {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(90, 90,90);
+}
 h1 {
-  color: salmon;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+
+}
+
+button {
+  background-color: white;
+  color: black;
+  width: 200px;
+  padding: 5px;
+  margin: 30px;
+
+}
+
+.city_image{
+  position: relative;
+  display: inline-block;
+}
+
+.city {
+  font-size: 22px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 100px;
+  left: 50px;
+  bottom: 50px;
+  right: 50px;
+  background: none;
+  
+
 }
