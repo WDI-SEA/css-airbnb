@@ -6,4 +6,4 @@ Comfort Level (1-5):
 
 Completeness Level (1-5):
 
-What did you think of this deliverable?:
+Do you have any remaining questions about this deliverable?:
