@@ -1,42 +1,56 @@
-html {
-  font-family: sans-serif;
-}
 
 body {
-  background-color: lightgoldenrodyellow;
   margin: 0;
+  background-color: lightgoldenrodyellow;
+  color: #45484D;
+  font-family: Helvetica, sans-serif;
 }
 
-#header {
+section {
+  width: 1000px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 20px;
-  color: darkslategray;
-  /* display: block; */
 }
-#main {
+
+.spots-images {
+  color: white;
+}
+
+.spots-images .spot {
   position: relative;
-  width: 70vw;
-  text-align: center;
-  /* margin: 0 auto; */
-}
-
-.location {
-  text-align: center;
   display: inline-block;
-}
-
-img {
+  background-size: cover;
+  background-color: white;
   width: 300px;
   height: 300px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 15px
 }
-span {
+
+.spots-images .spot-title {
   position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.sf {
+  background-image: url("../img/san-francisco.jpg");
+}
+
+.ny {
+  background-image: url("../img/new-york.jpg");
+}
+
+.ld {
+  background-image: url("../img/london.jpg");
 }
 
 #btn {
   text-align: center;
   font-size: 20px;
   color: darkgrey;
+  padding: 10px;
 }
