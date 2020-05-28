@@ -1,3 +1,133 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebeef2;
+  width: 75%;
+  max-width: 970px;
+  position: relative;
+  margin: auto;
+  padding-top: 20px;
+}
+
 h1 {
-  color: salmon;
+  color: #606060;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 2em;
+  padding-top: 40%;
+}
+
+a {
+  color: #606060;
+  text-align: center;
+  margin: 0;
+  font-size: 0.8em;
+  padding: 0;
+  text-decoration: none;
+}
+
+p {
+  color: #606060;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+#guideButton {
+  text-align: center;
+}
+
+#destinationButton {
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  color: #303030;
+  border: 2px solid #e7e7e7;
+  padding: 10px 72px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  margin: 3em 0 2em 0;
+}
+
+.sanFranTop {
+  background: url("https://github.com/jimmygranadino/css-airbnb/blob/master/img/san-francisco.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.newYork {
+  background: url("https://github.com/jimmygranadino/css-airbnb/blob/master/img/new-york.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.london {
+  background: url("https://github.com/jimmygranadino/css-airbnb/blob/master/img/london.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.napa {
+  background: url("https://github.com/jimmygranadino/css-airbnb/blob/master/img/napa.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.sonoma {
+  background: url("https://github.com/jimmygranadino/css-airbnb/blob/master/img/sonoma.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.sanFranBottom {
+  background: url("https://github.com/jimmygranadino/css-airbnb/blob/master/img/san-francisco-2.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+}
+#topRow img {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+}
+
+#bottomRow img {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
 }
