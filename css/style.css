@@ -1,3 +1,104 @@
+body {
+  text-align: center;
+  background-color: #ffe9e6;
+  color: #6b6766;
+  font-family: 'Karla', sans-serif;
+}
+
 h1 {
-  color: salmon;
+  font-size: 50px;
+  font-weight: 500px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 200px;
+}
+
+button {
+  width: 375px;
+  height: 60px;
+  position: center;
+  margin: 50px;
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  color: #615350;
+  border: 2px solid #d6b7b2;
+  border-radius: 2px;
+}
+
+img {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  object-fit: cover;
+}
+
+.guidebooks {
+  display: inline-block;
+}
+ 
+.destinations {
+  display: inline-block;
+}
+.g_cities {
+  margin-top: -450px;
+  color: white;
+  -webkit-text-stroke: .25px black;
+  font-size: 40px;
+}
+
+#sf {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 400px;
+}
+
+#ny {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 400px;
+}
+
+#l {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 400px;
+}
+
+.d_cities {
+  margin-top: -450px;
+  color: white;
+  -webkit-text-stroke: .25px black;
+  font-size: 40px;
+}
+
+#n {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 400px;
+}
+
+#s {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 400px;
+}
+
+#sf2 {
+  width: 375px;
+  height: 400px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 400px;
 }
