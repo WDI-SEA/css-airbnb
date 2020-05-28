@@ -39,6 +39,7 @@ h4 {
 }
 .box {
   background-color: white;
+  border-style: solid;
   border: 1px;
   border-color: grey;
   margin-right: 10%;
