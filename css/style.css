@@ -1,3 +1,69 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Lato', helvetica;
+}
+
+body {
+  background-color: #edefec;
+}
+
+.heading {
+  text-align: center;
+  color: #5e6265;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.description {
+  text-align: center;
+  color: #5e6265;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  vertical-align: top;
+}
+
+.imgBox {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.city {
+  display: inline-block;
+  min-width: 30%;
+  position: relative;
+}
+
+.cname {
+  position: absolute;
+  color: #ffffff;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  font-size: 24px;
+  width: 250px;
+}
+
+.button {
+  text-align: center;
+  margin: 5px;
+}
+
+.link {
+  border: 1px solid #5c5f62;
+  color: #5e6265;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
