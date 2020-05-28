@@ -1,3 +1,60 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #eeefec;
+  color: #575b5e;
+}
+
 h1 {
-  color: salmon;
+  margin-bottom: 0;
+}
+
+.imgs {
+  position: relative;
+  margin: 0 auto;
+}
+
+.cities { 
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+
+
+h2 {
+  display: inline;
+  color: white;
+  margin: 100px;
+}
+
+
+.destinations {
+  border: 1px solid #959ca3;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-weight: bolder;
+  padding: 5px 40px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 40px 5px;
+}
+
+
+#top-half {
+  padding: 20px;
+  position: relative;
+}
+
+#bottom-half {
+  padding: 20px;
+  position: relative;
 }
