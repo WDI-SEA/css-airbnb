@@ -35,8 +35,8 @@ button {
 
 img {
   display: inline-block;
-  object-fit: cover;
-  /*height: 200px;*/
+  object-fit: none;
+  height: 200px;
   width: 200px;
   margin: 0;
 }
