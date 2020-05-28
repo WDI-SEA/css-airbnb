@@ -1,3 +1,56 @@
-h1 {
-  color: salmon;
+h1, h4 {padding-top: 50px;
+  color: rgb(95, 99, 101);
+  text-align: center;
 }
+
+body{
+  background-color: rgb(237, 240, 236);
+  margin: 0;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+}
+
+#Cont {
+  text-align: center;
+  /* display: block; */
+  position: absolute;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+  padding-right: 20px;
+  position: static;
+}
+
+#cont1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#cont2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  padding: 5px 15px 5px 15px;
+  margin-top: 25px;
+}
+
+.Local {
+  font-size: larger;
+  text-align: center;
+
+}
+
+span {
+  color: white;
+  }
+#text {
+    position: absolute;
+  }
