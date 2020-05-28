@@ -1,3 +1,45 @@
-h1 {
-  color: salmon;
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lato&family=Roboto&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  text-align: center;
+  background-color: #f2efe6;
+}
+
+#header {
+  color: #808080;
+  font-size: 30px;
+}
+
+#greetings {
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
+.cityImg {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 40px;
+}
+
+.cityName {
+  color:white;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  font-size: 22px;
 }
