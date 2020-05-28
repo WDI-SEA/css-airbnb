@@ -7,8 +7,8 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  margin-bottom: -10px;
   font-weight: 500;
+  margin-bottom: -10px;
 }
 
 p {
@@ -18,8 +18,8 @@ p {
 
 img {
   height: 250px;
-  width: 225px;
   object-fit: cover;
+  width: 225px;
 }
 
 .header {
@@ -32,61 +32,34 @@ img {
 }
 
 .city-container {
+  display: inline-block;
+  margin: 5px;
   position: relative;
   width: 225px;
-  display: inline-block;
-  text-align: center;
-  margin: 5px;
 }
 
 .city-text {
-  font-family: 'Roboto', sans-serif;
   color: white;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: 500;
-  position: absolute;
   line-height: 250px;
+  position: absolute;
   width: 225px;
 }
 
 .see-all {
-  margin: 0 auto;
-  text-align: center;
   background-color: white;
+  border: 1px solid #d6d6d6;
   color: #565a5b;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 500;
-  margin-top: 25px;
+  margin: 0 auto;
   margin-bottom: 40px;
-  width: 225px;
-  padding-top: 5px;
+  margin-top: 25px;
   padding-bottom: 5px;
-}
-
-/*
-.city-container {
-  display: inline-block;
-}
-
-.city-img {
-  display: inline-block;
-}
-
-.city-text {
-  width: 225px;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 250px;
+  padding-top: 5px;
   text-align: center;
-  display: inline-block;
-  position: fixed;
-}
-
-.city-img img {
-  height: 250px;
   width: 225px;
-  object-fit: cover;
-}*/
+}
