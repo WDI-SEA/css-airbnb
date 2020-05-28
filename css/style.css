@@ -24,7 +24,7 @@ img {
 }
 
 .buttons {
-  padding: 20px 150px 20px 150px;
+  padding: 20px 70px 20px 70px;
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 18px;
@@ -36,5 +36,5 @@ img {
   left: 0;
   width: 100%;
   color: white;
-  font-size: 44px;
+  font-size: 36px;
 }
