@@ -1,3 +1,49 @@
-h1 {
-  color: salmon;
+body {
+  margin: 0;
+  background-color: #E9EBE7;
+  color: #45484D;
+  font-family: Helvetica, sans-serif;
 }
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.spots-images {
+  color: white;
+}
+
+.spots-images .spot {
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+}
+
+.spots-images .spot-title {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%)
+}
+
+.san-francisco {
+  background-image: url("../img/san-francisco.jpg");
+}
+
+.new-york {
+  background-image: url("../img/new-york.jpg");
+}
+
+.london {
+  background-image: url("../img/london.jpg");
+}
+
