@@ -1,3 +1,40 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #f7eeed;
+  font-family: 'Roboto', sans-serif;
+}
 h1 {
-  color: salmon;
+  font-size: 48px;
+  margin-bottom: -10px;
+}
+p {
+  font-size: 24px;
+}
+
+.photos {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+} 
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.buttons {
+  padding: 20px 150px 20px 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.imgTxt {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-size: 44px;
 }
