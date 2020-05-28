@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+body {
+  color: grey;
+  text-align: center;
+  background-color: rgb(247, 242, 242);
+  font-family: 'Roboto', sans-serif;
+}
+.image{
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  padding: 100px;
+}
+.image-two {
+  position: relative;
+  width: 100px;
+  display: inline-block;
+  padding: 100px;
+}
+.image p { 
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+}
+.image-two p { 
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+  }
+.size { height: 250px;
+  width: 250px;
+
+}
+h1 h2 {
+  font-size: 40px;
+}
+.button{
+  border: none;
+  background-color: rgb(151, 147, 147);
+  padding: 15px 30px;
+  font-size: 12px;
+  display: inline-block;
+  font: rgb(68, 68, 68);
+  font-family: 'roboto', Sans-serif;
 }
