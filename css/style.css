@@ -1,3 +1,39 @@
-h1 {
-  color: salmon;
+body {
+  color: #635f5d;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #dedede;
+}
+
+img {
+  height: 250px;
+}
+
+div h1 {
+  color: white;
+}
+
+.button {
+  background-color: white;
+  border: solid;
+  border-color: grey;
+  display: inline-block;
+  padding: 0px 80px;
+  margin: 15px auto;
+}
+
+.images {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 350px;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
