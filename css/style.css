@@ -1,3 +1,42 @@
-h1 {
-  color: salmon;
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+  margin: 0;
+}
+
+#header {
+  text-align: center;
+  font-size: 20px;
+  color: darkslategray;
+  /* display: block; */
+}
+#main {
+  position: relative;
+  width: 70vw;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.location {
+  text-align: center;
+  display: inline-block;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+span {
+  position: absolute;
+}
+
+#btn {
+  text-align: center;
+  font-size: 20px;
+  color: darkgrey;
 }
