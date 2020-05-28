@@ -1,3 +1,45 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: lightgray;
+  font-family: 'Roboto', sans-serif;
 }
+
+h2 {
+margin: 40px auto 10px auto;
+}
+
+.byline {
+  font-size: .85em;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+ .cities {
+   display: inline-block;
+   position: relative;
+   margin: 5px;
+  
+ }
+
+ img {
+   width: 250px;
+   height: 250px;
+ }
+
+.caption {
+   color: white;
+   display: inline-block;
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+ }
+
+ button {
+   margin: 30px auto;
+   padding: 5px 40px;
+ }
