@@ -1,3 +1,124 @@
+/* background color just a shade off white, turn all text into Montserrat */
+html{
+  background-color: #e8e8e8;
+  font-family:Montserrat;
+}
+
+/* Centered text */
+body {
+  text-align: center;
+}
+
+/* Turn all divs into inline */
+div {
+  position:relative;
+  display: inline-block;
+}
+
+/* Does bolder even do anything here?? */
 h1 {
-  color: salmon;
+  font-size:40px;
+  font-weight: bolder;
+}
+
+/* Button characteristics */
+button {
+  display:block;
+  margin: 0 auto;
+  border : 2px solid darkgray;
+  background-color: white;
+  color : #3a3d3b;
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: bold;
+  width:15%;
+  line-height: 200%;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.guidebook, .weekend {
+  color: #3a3d3b;
+}
+
+/* Image sizes and margins of first row */
+.firstRow div {
+  height: 350px;
+  width: 350px;
+  margin: 0 15px 50px 15px;
+}
+/* Image sizes and margins of second row */
+.secondRow div {
+  height: 350px;
+  width: 350px;
+  margin:20px 15px 20px 15px;
+}
+
+#sf {
+  background-image: url("../img/san-francisco.jpg");
+  background-size:cover;
+}
+
+.firstRow h1 {
+  color:white;
+  position: absolute;
+  top:125px;
+}
+
+.secondRow h1 {
+  color:white;
+  position:absolute;
+  top:125px;
+}
+
+#sf h1 {
+  top:125px;
+  left:40px;
+}
+
+#ny {
+  background-image: url("../img/new-york.jpg");
+  background-size:cover;
+}
+
+#ny h1 {
+  left:80px;
+}
+
+#london {
+  background-image: url("../img/london.jpg");
+  background-size:cover;
+}
+
+#london h1 {
+  left:100px;
+}
+
+#napa {
+  background-image: url("../img/napa.jpg");
+  background-size:cover;
+}
+
+#napa h1 {
+  left:125px;
+}
+
+#sonoma {
+  background-image: url("../img/sonoma.jpg");
+  background-size:cover;
+}
+
+#sonoma h1{
+  left:90px;
+}
+
+#sf2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  background-size:cover;
+}
+
+#sf2 h1 {
+  left:40px;
 }
