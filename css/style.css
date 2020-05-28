@@ -1,3 +1,43 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #ebf0ed;
+  color: #52504c;
+  text-align: center;
+  margin:0;
+}
+
+.bigHeaders {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.city-images {
+display: inline-block;
+position: relative;
+padding: 5px;
+}
+#container{
+  position: relative;
+  text-align: center; 
+  margin: auto;
+}
+.box-link{
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 2px solid #52504c;
+  background-color: white;
+  width: 225px;
+  text-align: center;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+}
+.center{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  bottom: 50%;
+  font-size: 30px;
+  color: white;
+  padding-left: 50px;
+  font-weight: 700;
+
 }
