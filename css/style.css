@@ -1,3 +1,75 @@
-h1 {
-  color: salmon;
+
+body{
+  margin: 0;
+  background-color: lightgray;
+  text-align: center;
 }
+
+#header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.airbnbimg {
+    display: inline-block;
+    padding: 50px;
+    
+}
+
+#container {
+    position: relative;
+    width: 1350px;
+    height: 320px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 300px;
+    white-space: nowrap;
+    background-image: url("../img/san-fransisco.jpg");
+}
+
+img {
+  height: 300px;
+  width: 200;
+  
+}
+
+.airbnbimg2 {
+  display: inline-block;
+  padding: 50px;
+  
+  
+  
+}
+
+#container2 {
+  display: inline-block;
+  position: relative;
+  width: 1350px;
+  height: 320px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 300px;
+  white-space: nowrap;
+ 
+}
+button {
+  margin: 100px;
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+}
+
+}
+section {
+  height: 400px;
+  margin: 300px;
+  width: 1000px;
+}
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
