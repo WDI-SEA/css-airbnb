@@ -1,3 +1,64 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #ebebeb;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+h2 {
+  color: #787774;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #787774;
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 13px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+
+.button {
+  padding: 5px 50px 5px 50px;
+  margin-top: 25px;
+}
+
+.caption {
+  color: white;
+  position: absolute;
+  top: 115px; 
+  left: 100px; 
+  width: 100%; 
+  font-size: 30px;
+}
+
+.placeImageOne {
+  display: inline-block;
+  position: relative;
+  padding: 0 110px 0 100px;
+  width: 50px;
+}
+
+.placeImageTwo {
+  display: inline-block;
+  position: relative;
+  padding: 0 110px 0 100px;
+  width: 50px;
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#container {
+  position: relative;
+  width: 800px;
 }
