@@ -1,3 +1,95 @@
-h1 {
-  color: salmon;
+
+
+body {
+  background-color: #e9e8e5;
+}
+
+div{
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+  color: darkslategray;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+h2{
+  color:  code:	#57595c;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2vw;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin: 1vw; 
+}
+
+#caption1{
+  position: relative;
+  height: 300px;
+
+}
+
+p{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  color: 	#fdfcfb;
+  font-size: 3vw;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-grow: 6vw;
+}
+
+#caption2{
+  position: relative;
+  height: 300px;
+
+}
+
+#container1{
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 750px;
+  height: 300px;
+  padding: 0;
+  position: relative;
+}
+
+#container2{
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 750px;
+  height: 300px;
+  padding-top: 0px;
+  position: relative;
+}
+
+button{
+  background-color: #ffffff;
+  color: 	#646568;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 300px;
+  height: 35px;
+  margin: 20px;
+}
+
+
+#destinations{
+  margin: 0 50% 0px 40%;
+}
+
+#guidebooks{
+  margin: 0 50% 0 40%;
 }
