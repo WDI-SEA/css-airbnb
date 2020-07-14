@@ -4,11 +4,7 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
 
 ## Getting Started
 * Fork and clone this repository to your computer
-* Run `npm install` in the folder to install dependencies
 * A HTML file (`index.html`) and CSS file (`css/style.css`) have been created for you. Content is also provided in a folder called `img`
-* List of handy scripts for this assignment
-  - `npm start` - start the BrowserSync server
-  - `npm run lint:css` - lint your CSS
 
 ## Requirements
 * Look at the deliverable screenshot and see how well you can match it.
