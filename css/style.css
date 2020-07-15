@@ -1,96 +1,63 @@
+body {
+  background-color: white;
+}
+
 h1 {
   color: rgb(75, 73, 73); 
   font-family: 'Montserrat', sans-serif; 
-  font-size: 21px;
   text-align: center;
-  padding-top: 3%;
+  
 }
-h5 {
+h4 {
   color: gray;
   font-family: 'Montserrat', sans-serif; 
-  font-size: 12px;
   font-weight: bold;
   text-align: center;
-  margin-top: 0;
 }
-.container{
-  margin-left: 300px;
+div {
+  border: 2px;
+  text-align: center;
 }
 
 img {
   width: 300px;
   height: 300px;
   margin: 8px;
-  display: inline-block;
-  position: relative;
 }
 
-.sanfrancisco{
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  font-family:'Montserrat', sans-serif;
-  position: absolute;
-  bottom: 670px;
-  left: 380px;
-}
-.newyork{
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  font-family:'Montserrat', sans-serif;
-  position: absolute;
-  bottom: 670px;
-  left: 730px;
-}
-.london{
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  font-family:'Montserrat', sans-serif;
-  position: absolute;
-  bottom: 670px;
-  left: 1050px;
-}
-.napa{
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  font-family:'Montserrat', sans-serif;
-  position: absolute;
-  top: 770px;
-  left: 430px;
-}
-.sonoma{
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  font-family:'Montserrat', sans-serif;
-  position: absolute;
-  top: 770px;
-  left: 740px;
-}
-.sanfrancisco2{
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  font-family:'Montserrat', sans-serif;
-  position: absolute;
-  top: 770px;
-  left: 1030px;
-}
-
-.wrapper {
-  text-align: center; 
-  
-}
 button {
-  margin-top: 20px;
+  padding: 8px 60px;
   background-color: white;
-  color:grey;
-  padding:8px 60px;
   font-weight: bold;
   font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inline-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  align-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size : 20px;
+  font-weight: bold;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center; 
 }
   
 
