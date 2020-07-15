@@ -1,3 +1,51 @@
+body {
+  background-color: lightgray;
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
-  color: salmon;
+  color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+h2 {
+  color: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+p {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item-two {
+  position: absolute;
+  align-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
 }
