@@ -1,3 +1,52 @@
-h1 {
-  color: salmon;
+body {
+  color: #666363;
+  text-align: center;
+  background-color: #ebe9df;
+  font-family: 'Montserrat';
+}
+h2 {
+  font-weight: 600px;
+}
+p {
+  font-size: 13px;
+  margin-top: -15px;
+  font-weight: 300;
+}
+img {
+  margin: 10px;
+  width: 260px;
+  height: 260px;
+  margin-top: 25px;
+  display: block;
+  
+}
+.inline-block {
+  display: inline-block;
+}
+.btn {
+  border: 1px solid #b8b6b6;
+  background-color: white;
+  padding: 9px 70px;
+  font-family: 'Montserrat';
+  color: #666363;
+  margin: 30px;
+}
+.center {
+  position: relative;
+  display: inline-block;
+}
+.center .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  text-align: center;
+  width: 60%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
