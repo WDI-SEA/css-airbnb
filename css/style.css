@@ -1,3 +1,55 @@
+body {
+  color: rgb(72, 72, 72);
+  font-family:  Cereal,-apple-system,BlinkMacSystemFont,Arial,sans-serif;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
 h1 {
-  color: salmon;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+h4{
+  font-size: 8px;
+  margin-top: 5px;
+}
+img {
+width: 164px;
+height: 164px;
+margin: 7px 5px 25px 5px;
+display: inline-block;
+z-index: -1;
+}
+
+.guidebooks-text{
+  color: white;
+    font-size: 15px;
+  
+}
+.block-one{
+  position: relative;
+  margin: 7px 5px 25px 5px;
+    margin: 7px 5px 25px 5px;
+    text-align: left;
+    display: inline;
+}
+.weekend-text{
+  color: white;
+  display:inline;
+}
+
+button {
+  display: block;
+  margin: auto;
+  font-family:  Cereal,-apple-system,BlinkMacSystemFont,Arial,sans-serif;
+  text-align: center;
+  background-color: white;
+  border-width: 1px;
+  border-color:rgb(184, 184, 184);
+  font-size: 8px;
+  font-weight: light;
+  padding: 5px 30px 5px 30px;
+  border: 1px solid rgb(184, 184, 184);
+
 }
