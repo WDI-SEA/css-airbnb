@@ -1,3 +1,124 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+body {
+  background-color:rgb(233, 230, 230);
+}
+.container{
+  width: 610px;
+  background-color: rgb(233, 230, 230);
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  color: rgb(97, 95, 95);
+  font-family: 'Work Sans', sans-serif;
+}
+h5 {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+}
+button {
+  width: 200px;
+  height: 25px;
+  font-family: 'Work Sans', sans-serif;
+  margin: 40px 0 0 205px;
+  position: relative;
+  display: inline-block;
+  color: grey;
+  background-color: white;
+  font-size: 10px;
+  border: none;
+  border-color: grey;
+}
+.one {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background: url("/Users/nataliiadusanovska/Documents/GA/homework/3-15/img/san-francisco.jpg");
+  background-size: cover;
+  background-position: center;
+  margin 5px;
+  padding-top: 100px;
+}
+
+.two {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background: url("/Users/nataliiadusanovska/Documents/GA/homework/3-15/img/new-york.jpg");
+  background-size: cover;
+  background-position: center;
+  margin 5px;
+  padding-top: 100px;
+}
+.three {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background: url("/Users/nataliiadusanovska/Documents/GA/homework/3-15/img/london.jpg");
+  background-size: cover;
+  background-position: center;
+  margin 5px;
+  padding-top: 100px;
+}
+.four {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background: url("/Users/nataliiadusanovska/Documents/GA/homework/3-15/img/napa.jpg");
+  background-size: cover;
+  background-position: center;
+  margin 5px;
+  padding-top: 100px;
+}
+.five {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background: url("/Users/nataliiadusanovska/Documents/GA/homework/3-15/img/sonoma.jpg");
+  background-size: cover;
+  background-position: center;
+  margin 5px;
+  padding-top: 100px;
+}
+.six {
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background: url("/Users/nataliiadusanovska/Documents/GA/homework/3-15/img/san-francisco-2.jpg");
+  background-size: cover;
+  background-position: center;
+  margin 5px;
+  padding-top: 100px;
 }
