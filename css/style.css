@@ -1,3 +1,49 @@
-h1 {
-  color: salmon;
+body {
+  align-content: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: whitesmoke ;
+  
+}
+
+.picture{
+ 
+  width: 200px;
+  height:200px;
+  margin: 50px, 30px, 30px, 100px;
+  border: 30px;
+  
+
+ 
+}
+h3{
+  
+}
+#one{
+ top: 500px;
+ left: 20px;
+}
+#two{
+  top:50px;
+  left: 50px;
+}
+#three{
+  top: 50px;
+  left: 80px;
+}
+  
+#o{
+  top: 50px;
+  left: 20px;
+}
+
+
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+button{
+  align-content: center ;
+  background-color: white;
 }
