@@ -1,3 +1,110 @@
-h1 {
-  color: salmon;
+body
+{
+  background-color: lightgray;
+  color: rgb(82, 82, 82);
+  font-family: sans-serif;
+  text-align: center;
 }
+
+.block
+{
+  position: relative;
+}
+
+h1
+{
+  margin-bottom: -7px;
+}
+
+p
+{
+  font-size: 1.02em;
+  margin-bottom: 42px;
+}
+
+.block
+{
+  position: relative;
+}
+
+.fake-button
+{
+  position: relative;
+  background-color: white;
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid rgb(165, 165, 165);
+  left: 50%;
+  margin-left: -153px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+h4
+{
+  left: 1px;
+}
+
+img
+{
+  width: 315px;
+  height: 340px;
+  object-fit: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+}
+
+ul.one
+{
+  position: absolute;
+  top: 213px;
+  left: 50%;
+  margin-left: -520px;
+}
+
+li
+{
+  display: inline-block;
+  color: white;
+  font-size: 31px;
+  font-weight: 550;
+}
+
+li.sf
+{
+  padding: 30px 25px 30px 40px;
+}
+
+li.ny
+{
+  width: 350px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+li.lon
+{
+  padding-left: 70px;
+}
+
+ul.two
+{
+  position: absolute;
+  top: 245px;
+  left: 50%;
+  margin-left: -417px;
+}
+
+li.son
+{
+  width: 350px;
+  padding-right: 30px;
+  padding-left: 122px;
+}
+
+li.sf-two
+{
+  padding-left: 20px;
+}
+
