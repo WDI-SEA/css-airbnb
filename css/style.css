@@ -1,3 +1,96 @@
 h1 {
-  color: salmon;
+  color: rgb(75, 73, 73); 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 21px;
+  text-align: center;
+  padding-top: 3%;
 }
+h5 {
+  color: gray;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+.container{
+  margin-left: 300px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 8px;
+  display: inline-block;
+  position: relative;
+}
+
+.sanfrancisco{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 670px;
+  left: 380px;
+}
+.newyork{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 670px;
+  left: 730px;
+}
+.london{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 670px;
+  left: 1050px;
+}
+.napa{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  top: 770px;
+  left: 430px;
+}
+.sonoma{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  top: 770px;
+  left: 740px;
+}
+.sanfrancisco2{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  top: 770px;
+  left: 1030px;
+}
+
+.wrapper {
+  text-align: center; 
+  
+}
+button {
+  margin-top: 20px;
+  background-color: white;
+  color:grey;
+  padding:8px 60px;
+  font-weight: bold;
+  font-size: 12px;
+}
+  
+
