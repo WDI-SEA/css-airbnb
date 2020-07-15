@@ -1,3 +1,61 @@
-h1 {
-  color: salmon;
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(228, 228, 228);
+}
+.container {
+  position: relative;
+  align-content: center;
+  width: 675px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+h1, h3 {
+  text-align: center;
+  color: grey;
+}
+h3 {
+  margin-top: -15px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+.grid {
+  display: flex;
+}
+.grid img {
+  width: 100%;
+  max-width: 300px;
+}
+.location {
+  text-align: center;
+  position: relative;
+  margin-right: 25px;
+}
+.location img {
+  height: 200px;
+  width: 200px;
+}
+.location .name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+}
+.view-more {
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  transform: translate(-50%, 0%);
+  height: 25px;
+  width: 300px;
+  padding-top: 10px;
+  margin: 25px 15px 0 0;
+  text-align: center;
+  background-color: white;
+  border: 1px solid rgb(58, 58, 58);
+}
+.view-more a {
+  text-decoration:none;
+  color: grey;
 }
