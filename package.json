@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint:css": "node_modules/csslint/cli.js css/; exit 0",
-    "start": "node_modules/browser-sync/bin/browser-sync.js start --server . --files ."
+    "start": "node_modules/.bin/browser-sync start --server . --files ."
   },
   "author": "",
   "license": "MIT",
