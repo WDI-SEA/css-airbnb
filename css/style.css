@@ -1,3 +1,54 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  
 }
+ .words{
+   font-size: 14px;
+   position: relative;
+   top: 60px;
+   margin: -10px;
+   padding: -10px;
+ }
+button{
+  margin-top: 30px;
+  width: 300px;
+  height: 40px;
+}
+p{
+  color: white;
+  position:relative;
+  top: 220px;
+  font-size: 26px;
+  font-weight: 800;
+ 
+
+}
+
+.container-one {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+
+}
+.container-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+img {
+  width: 300px;
+  height: 340px;
+  margin: 10px;
+  
+  
+
+}
+
+
+  
