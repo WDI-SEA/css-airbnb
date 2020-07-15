@@ -1,4 +1,5 @@
 body{
+  font-family: sans-serif;
   text-align: center;
   background-color: rgb(229, 231, 235);
 }
@@ -12,15 +13,17 @@ h3{
   font-size: 2rem;
   position: absolute;
   top: 40%;
-  /* padding: 60px; */
+  /* left: 10%; */
   /* margin: 0 6%; */
   border:RED solid;
 }
 
 img{
-  margin: 0 -38%;
-  width: 177%;
+  /* margin: 0 -38%; */
+  /* width: 177%; */
   /* display: block; */
+  height: 300px;
+  width: 250px;
 }
 
 button{
@@ -32,9 +35,22 @@ button{
 }
 
 .image{
-  width: 300px;
+  /* width: 300px;
   height: 450px;
   display: inline-block;
   margin: 10px 8px;
-  overflow: hidden;
+  overflow: hidden; */
+  position: relative;
+  margin: 10px;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
