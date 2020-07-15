@@ -1,3 +1,64 @@
+body {
+    background-color: #EDEFEC;
+    margin: 50px 300px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: grey;
+    text-align: center;
+  }
+
 h1 {
-  color: salmon;
+    font-size: 26px;
+  }
+  
+p {
+    font-size: 14px;
+  }
+
+.location {
+    margin: 20px 20px 0px 20px;
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
 }
+
+#sf {
+    display: inline-block;
+}
+
+#ny {
+    display: inline-block;
+}
+
+#lon {
+    display: inline-block;
+}
+
+h2 {
+  position: relative;
+  top: -200px;
+  color: white;
+}
+
+button {
+    margin: 0px 0px 10px 0px;
+    padding: 2px 50px;
+    background-color: white;
+    border: 1px solid grey;
+  }
+
+.heading {
+    margin: 30px;
+}
+#napa {
+    display: inline-block;
+}
+
+#sonoma {
+    display: inline-block;
+}
+
+#sf2 {
+    display: inline-block;
+}
+
+
