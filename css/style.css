@@ -1,3 +1,64 @@
-h1 {
-  color: salmon;
+h1{
+  text-align: center relative;
+  color: gray; 
+  padding: 20px 0 0 0;
+  position: relative;
+}
+body{
+  text-align: center;
+  color: gray;
+  position: relative;
+  background-position: relative;
+}
+img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.San{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  top: 200px;
+  flex: 100%;
+  padding: 0px;
+}
+.Napa{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  top: 200px;
+  flex: 100%;
+  padding: 0px;
+}
+.first{
+  display: flex;
+  padding: 0px 400px 40px 400px;
+  position: relative;
+}
+.columns{
+  flex: 33.33%;
+  padding: 5px;
+  position: relative;
+}
+.second{
+  display: flex;
+  padding: 0px 400px 40px 400px;
+  position: relative;
+}
+.row{
+  flex: 33.33%;
+  padding: 5px;
+  position: relative;
+
+}
+button{
+  width: 300px;
+  height: 35px;
+  color: #747474;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 0 5px 0;
+  position: relative;
 }
