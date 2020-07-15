@@ -1,3 +1,40 @@
+body {
+  position: relative;
+  width: 3400px;
+  background-color: rgba(130, 135, 130, 0.2);
+  text-align: center;
+  top: 30px;
+}
+
 h1 {
-  color: salmon;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  color: rgba(20, 19, 19, 0.7);
+  padding: 40px -15px;
+}
+
+h2 {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  color: rgba(20, 19, 19, 0.7);
+  padding: -50px;
+}
+img {
+  position: relative;
+  width: 500px;
+  height: 520px;
+  margin: 15px;
+}
+
+
+button {
+  position: relative;
+  width: 500px;
+  margin: 53px;
+  padding: 17px 0 17px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  color: rgba(20, 19, 19, 0.7);
+  border: 2px solid rgba(20, 19, 19, 0.25);
 }
