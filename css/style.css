@@ -1,3 +1,54 @@
+body{
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  font-family: 'Montserrat', sans-serif;
+}
 h1 {
-  color: salmon;
+  color: grey;
+}
+h3 {
+  color: grey;
+  font-size: 16px;
+  margin: -20px 0 0 0;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  margin:20px;
+  
+}
+button{
+  width: 250px;
+  padding: 5px;
+  margin: 0 0 25px 0;
+  
+  
+}
+
+.text {
+  position: absolute;
+  color: white;
+  font-size: 25px; 
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  text-align: center;
+  width: 60%;
+ 
+}
+
+#left {
+  left: -550px
+}
+
+#right {
+  left: 445px;
 }
