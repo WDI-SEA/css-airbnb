@@ -1,3 +1,131 @@
+
+body {
+  background-color: rgba(0,0,0,0.1);
+  
+  
+}
 h1 {
-  color: salmon;
+    
+  text-align: center;
+  font-size: 18px;
+  font-family: Times;
+  color: rgb(88,88,88);
+  margin: 0px;
+}
+h2 {
+  text-align: center;
+  font-size: 10px;
+  font: Times;
+  color: grey;
+  margin: 0px;
+}
+
+
+.container_one {
+
+  display: inline;
+  ;
+  
+}
+
+img {
+  height: 225px;
+  width: 225px;
+  display: inline;
+  position: relative;
+  left: 350px;
+  padding: 5px;
+  margin: 0px;
+}
+
+.San_francisco {
+  font-size: 22px;
+  position: relative;
+  left: 400px;
+  bottom: 135px;
+  font: Times;
+  color: white;
+}
+.New_york {
+  font-size: 22px;
+  position: relative;
+  left: 670px;
+  bottom: 160px;
+  font: Times;
+  color: white;
+  }
+
+.London {
+  font-size: 22px;
+  position: relative;
+  left: 920px;
+  bottom: 180px;
+  font: Times;
+  color: white;
+}
+
+
+.container_three {
+  
+  border: 3px;
+  height: 200px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+button{
+  width: 200px;
+  height: 25px;
+  border: none;
+  background: white;
+  color: grey;
+  font-size: 10px;
+  border-color: grey;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container_two {
+
+  display: inline;
+  right: 100px;
+  ;
+  
+}
+
+.napa {
+  font-size: 22px;
+  position: relative;
+  left: 445px;
+  bottom: 135px;
+  font: Times;
+  color: white;
+}
+.sonoma {
+  font-size: 22px;
+  position: relative;
+  left: 675px;
+  bottom: 160px;
+  font: Times;
+  color: white;
+  }
+
+.san-francisco-2 {
+  font-size: 22px;
+  position: relative;
+  left: 895px;
+  bottom: 180px;
+  font: Times;
+  color: white;
+}
+
+.container_four {
+  
+  border: 3px;
+  height: 200px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
