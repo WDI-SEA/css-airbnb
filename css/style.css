@@ -1,3 +1,74 @@
+body {
+  background-color: whitesmoke;
+  
+}
+
 h1 {
-  color: salmon;
+  color: rgb(107, 104, 104);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h4 {
+  color: gray;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  color: white;
+}
+
+
+
+div {
+  border: 2px;
+  text-align: center ;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+
+}
+
+button {
+  padding: 10px 60px 10px 60px;
+  background-color: white;
+
+}
+
+
+.container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.inline-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cities {
+  position: absolute;
+  align-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.button {
+  display: flex;
+  justify-content: center;
+  
+  
+  
 }
