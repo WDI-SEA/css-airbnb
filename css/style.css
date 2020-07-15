@@ -1,3 +1,40 @@
+body{
+  text-align: center;
+  background-color: rgb(229, 231, 235);
+}
+
 h1 {
-  color: salmon;
+  color: rgb(77, 79, 82);
+}
+
+h3{
+  color:white;
+  font-size: 2rem;
+  position: absolute;
+  top: 40%;
+  /* padding: 60px; */
+  /* margin: 0 6%; */
+  border:RED solid;
+}
+
+img{
+  margin: 0 -38%;
+  width: 177%;
+  /* display: block; */
+}
+
+button{
+  background-color: white;
+  border: solid black 1px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 30px;
+}
+
+.image{
+  width: 300px;
+  height: 450px;
+  display: inline-block;
+  margin: 10px 8px;
+  overflow: hidden;
 }
