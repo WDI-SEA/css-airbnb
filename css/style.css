@@ -1,41 +1,71 @@
 body {
-  align-content: center;
+  /* align-content: center; */
   font-family: 'Noto Sans KR', sans-serif;
   background-color: whitesmoke ;
+  width: 600px;
+  margin: 0 auto;
+
   
 }
+/* .main{
+  /* height: 600px; */
+  /* width: 600px;
+  margin: 0 auto;
+  background-color: red;
+}  */
 
 .picture{
  
-  width: 200px;
-  height:200px;
+  width: 150px;
+  height:150px;
   margin: 50px, 30px, 30px, 100px;
-  border: 30px;
+  border: 30px; 
+  padding: 30px;
+
+}
+.mages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+  
   
 
  
-}
-h3{
-  
-}
-#one{
- top: 500px;
- left: 20px;
-}
-#two{
-  top:50px;
-  left: 50px;
-}
-#three{
-  top: 50px;
-  left: 80px;
-}
-  
-#o{
-  top: 50px;
-  left: 20px;
-}
 
+  
+
+
+
+.o{
+  position: relative;
+  top: 140px;
+  left: 47px;
+  
+}
+.t{
+  position: relative;
+  top: 140px;
+  left: 60px;
+}.th{
+  position: relative;
+  top: 140px;
+  left: 70px;
+}.f{
+  position: relative;
+  top: 140px;
+  left: 80px;
+}.fi{
+  position: relative;
+  top: 140px;
+  left: 65px;
+}.s{
+  position: relative;
+  top: 140px;
+  left: 47px;
+}
 
 h2{
   text-align: center;
@@ -46,4 +76,9 @@ p{
 button{
   align-content: center ;
   background-color: white;
+  position: absolute;
 }
+/* .mages{
+  display: flex;
+  flex-direction: row;
+} */
