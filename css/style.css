@@ -1,3 +1,72 @@
-h1 {
-  color: salmon;
+body{
+  background-color: lightgray;
+  font-family: sans-serif;
+
 }
+
+
+h1 {
+  color: gray;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+p {
+  color: gray;
+  text-align: center;
+  margin-top: 0;
+}
+
+.images {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+  
+    /* margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    text-align:center;
+    display: inline-block; */
+}
+
+img {
+  
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  
+
+}
+.button-container{
+  text-align: center;
+  padding: 10px;
+          
+}
+.cityImage {
+  position: relative;
+  
+}
+
+.cityImage h3{
+  margin: 0 auto;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  top: 40%;
+
+}
+
+
+/* h2{
+  position: relative;
+  top: -200px;
+  left: -200px;
+  color: white;
+  display: inline-block;
+} */
+  
+  
