@@ -1,3 +1,75 @@
-h1 {
-  color: salmon;
-}
+* {
+  background-color:#dae3f2;
+  }
+  h1 {
+    color: grey;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 50px 0px 50px;
+    position: relative;
+  }
+  p {
+    color: grey;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    position: relative;
+  }
+  div {
+    text-align: center;
+    height: 300px;
+    width: 900px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    padding: 25px 50px 0px 50px;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 100px 0px 10px 0px;
+    width: 900px;
+  }
+  li {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    display: inline;
+    margin: 10px;
+    height: 150px;
+    width: 100px;
+    padding: 100px 75px 100px 75px;
+  }
+  button {
+    height: 50px;
+    width: 275px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    position: relative;
+    margin: 10px 100px 20px 230px;
+    padding: 5 px 25px 5px 25px;
+    background: white;
+    text-align: center;
+    }
+  #SF {
+    background-image: url("https://i.imgur.com/gtlrRz1.jpg");
+    background-size: cover;
+  }
+  #NY {
+    background-image: url("https://i.imgur.com/GIUSeGw.jpg");
+    background-size: cover;
+  }
+  #L {
+    background-image: url("https://i.imgur.com/1K5KFib.jpg");
+    background-size: cover;
+  }
+  #N {
+    background-image: url("https://i.imgur.com/XqEv800.jpg");
+    background-size: cover;
+  }
+  #SO {
+    background-image: url("https://i.imgur.com/bg4vWow.jpg");
+    background-size: cover;
+  }
+  #SanF {
+    background-image: url("https://i.imgur.com/lgPyFM8.jpg");
+    background-size: cover;
+  }
