@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;
+}
+
+#meet_guidelines {
+  color: grey;
+  text-align: center;
+  margin: 50px;
+  font-family: 'cabin';
+
+}
+
+p {
+  text-align: center;
+  
+}
+
+div {
+  color: grey;
+  text-align: center;
+}
+
+h2 {
+ display:inline-block;
+}
+
+img {
+  display: inline-block;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+.nav {
+  display: center;
+  margin: 50px 25px 50px 25px;
+
+}
+
+button {
+  padding: 10px 50px 10px 50px;
+  margin: 10px 15px 10px 15px;
+}
+
+#the_weekend {
+  color: grey;
+  text-align: center;
+  margin: 50px;
 }
