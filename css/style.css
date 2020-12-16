@@ -20,12 +20,10 @@ h2 {
 img { 
   width: 200px;
 }
-#london_overlay {
-  position: absolute;
-}
 
 .images {
   padding:20px;
+  height: 200px;
 
 }
 #sonoma {
@@ -36,4 +34,19 @@ img {
 }
 #sf2 {
   padding: 4px;
+}
+#sf {
+  padding: 4px;
+  height:200px;
+}
+#ny {
+  padding: 4px;
+  height:200px;
+}
+#london {
+  padding: 4px;
+  height:200px;
+}
+#guidebooks, #hook, #destinations {
+  text-align:center;
 }
