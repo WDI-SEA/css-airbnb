@@ -1,3 +1,36 @@
+body{
+  background: lightgray;
+  margin: 0 auto;
+  font-family: 'Padauk', sans-serif;
+}
 h1 {
-  color: salmon;
+  color:black;
+  text-align: center;
+  font-size: 25px;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+}
+#guidebook {
+  display: flex;
+  justify-content: center;
+}
+#guidebook img {
+  display: inline-block;
+  width: 20%;
+  margin: 5px 5px 5px 5px;
+}
+#weekend {
+  display: flex;
+  justify-content: center;
+}
+#weekend img {
+  display: inline-block;
+  width: 20%;
+  margin: 5px 5px 5px 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
 }
