@@ -1,3 +1,180 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #d6e7ec;
 }
+
+h2 {
+  font-family: Calibri;
+  color: #555555;
+  text-align: center;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family: calibri;
+  color: #555555;
+  text-align: center;
+  border-top: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.pic_container_1 {
+  text-align: center;
+  position: relative;
+}
+
+.pic_container_2 {
+  text-align: center;
+  position: relative;
+}
+
+.pic_1 {
+  float: left;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 40px;
+}
+
+.pic_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.pic_3 {
+  float: right;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-right: 40px;
+}
+
+.pic_4 {
+  float: left;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: 40px;
+}
+
+.pic_5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.pic_6 {
+  float: right;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-right: 40px;
+}
+
+#SF1 {
+  height: 180px;
+  width: 180px;
+}
+
+#NY {
+  height: 180px;
+  width: 180px;
+}
+
+#LND {
+  height: 180px;
+  width: 180px;
+}
+
+#NP {
+  height: 180px;
+  width: 180px;
+}
+
+#SN {
+  height: 180px;
+  width: 180px;
+}
+
+#SF2 {
+  height: 180px;
+  width: 180px;
+}
+
+.SF1Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+}
+
+.NYText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+}
+
+.LNDText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+}
+
+.NPText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+}
+
+.SNText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+}
+
+.SF2Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+}
+
+.button_1 {
+  text-align: center;
+  margin-top: 230px;
+}
+
+.button_2 {
+  text-align: center;
+  margin-top: 230px;
+}
+
+button {
+  font-family: calibri;
+  height: 20px;
+  width: 170px;
+  font-size: 7px;
+  color:#555555;
+  background-color: #dde6e9;
+}
+
+
