@@ -1,3 +1,6 @@
+body {
+  background-color: #e0e1ff;
+}
 h1,h2 {
   color:#5b6373;
   text-align:center;
@@ -16,9 +19,21 @@ h2 {
 }
 img { 
   width: 200px;
-
-
 }
 #london_overlay {
-  position: absolute
+  position: absolute;
+}
+
+.images {
+  padding:20px;
+
+}
+#sonoma {
+  padding:4px;
+}
+#napa {
+  padding: 4px;
+}
+#sf2 {
+  padding: 4px;
 }
