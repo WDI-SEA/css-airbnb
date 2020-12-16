@@ -1,3 +1,89 @@
+body {
+  background-color: rgb(236, 235, 235);
+}
 h1 {
-  color: salmon;
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0px 5px 0px
+}
+p {
+  color: grey;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.top_images{
+  text-align: center;
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.topShots {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background-size: cover;
+  
+}
+
+.imgText {
+  /* top: 50%;
+  left: 20%; */
+  /* transform: translate(-50%, -50%); */
+  /* margin: 0; */
+  position: absolute;
+  width: 20%;
+  margin-top: 15%;
+  margin-left: -27%;
+
+  display: inline-block;
+
+}
+
+
+#seeAllGuidebooks {
+  text-align: center;
+  background: white;
+  border: 2px solid gray;
+  padding: 10px 0px 10px 0px;
+  margin: 25px 320px 25px 320px;
+
+}
+
+
+.bottom_images{
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+/* just the images on the bottom*/
+.bottomShots {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.imgTexts {
+  position: absolute;
+  width: 20%;
+  margin-top: 15%;
+  margin-left: -27%;
+
+  display: inline-block;
+}
+
+/*All Destinations button*/
+#seeAllDestinations {
+  text-align: center;
+  background: white;
+  border: 2px solid gray;
+  padding: 10px 0px 10px 0px;
+  margin: 25px 320px 25px 320px;
 }
