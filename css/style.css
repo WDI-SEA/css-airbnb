@@ -1,3 +1,18 @@
 h1 {
-  color: salmon;
+  color:rgb(75, 72, 72);
+  padding-left: 850px;
+}
+h2 {
+  color:rgb(75, 72, 72);
+  text-align: center;
+}
+h3 {
+  border: black solid 1px;
+  color:rgb(75, 72, 72);
+  padding-left: 750px;
+  margin: 100px;
+}
+img{
+  height: 300px;
+  width: 300px;
 }
