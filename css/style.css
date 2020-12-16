@@ -1,15 +1,14 @@
 body {
   background-color: #edefed;
 }
-h1 {
-  color: salmon;
-}
+
 h1 {
   text-align: center;
   font-size: 32px;
   font-family: Helvetica;
   color: #565a5c;
   margin: 0px 0px 6.25px;
+  margin-top: 50px;
 }
 p {
   text-align: center;
@@ -34,7 +33,8 @@ img {
   width: 1045px;
   margin: 0 auto;
   margin-top: 50px;
-  margin-left: 522.5px;
+  /* margin-left: 500.5px; */
+  text-align: center;
 }
 a {
   color: #565a5c;
@@ -46,5 +46,5 @@ a {
   margin-top: 50px;
   font-family:Helvetica, sans-serif;
   text-decoration: none;
-  text-align: center;
+  align-content: center;
 }
