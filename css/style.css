@@ -1,8 +1,23 @@
 h1,h2 {
   color:#5b6373;
+  text-align:center;
+  line-height: 30px;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+h1 {
+  font-weight: bold;
 }
 h2 {
+  font-size: 10px;
+  color: #787e8a;
   
+}
+img { 
+  width: 200px;
+
+
 }
 #london_overlay {
   position: absolute
