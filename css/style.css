@@ -1,3 +1,59 @@
+body {
+    background-color: #edefec;
+}
+
+.content {
+    display: table;
+    margin: 0 auto;
+}
+
 h1 {
-  color: salmon;
+    color: #595a5e;
+    font-family: sans-serif;
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+button {
+    display: table;
+    margin: 30px auto 30px;
+    padding: 10px 65px;
+    background-color: white;
+    border: 10px #595a5e;
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #595a5e;
+}
+
+p.head-text {
+    display: table;
+    margin: 0 auto 20px;
+    
+    font-size: 13px;
+    font-family: sans-serif;
+    font: grey;
+}
+
+div.pic {
+    display: inline-block;
+    object-position: center;
+    background-size: cover;
+    background-color: darkslategray;
+    width: 250px;
+    height: 250px;
+    
+    margin: 10px;
+}
+
+p.travel-text {
+    padding: 0px;
+    margin: 45% 0;
+    text-align: center;
+    
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
 }
