@@ -1,3 +1,125 @@
+body {
+  background-color: rgb(225, 231, 225);
+}
 h1 {
-  color: salmon;
+  text-align: center;
+  color: #585C5D;
+}
+h2 {
+  text-align: center;
+  color: #585C5D;
+  font-size: 18px;
+  margin-bottom: 25px;
+  
+}
+
+
+  
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}.see {
+  border: rgb(190, 186, 186);
+  border-style: solid;
+  right: 10%;
+  text-align: center;
+  color: #585C5D;
+  font-size: 20px;
+  margin: 35px;
+  background-color: white;
+  
+}
+.column {
+  float: right;
+  width: 330px;
+  height: 330px;
+  padding: 8px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.SF {
+  position:absolute;
+  top: 220px;
+  left: 100px;
+  font-size: 25px;
+  color: white;
+}
+.NY {
+  position: absolute;
+  top: 220px;
+  left: 450px;
+  font-size: 25px;
+  color:white;
+}
+.Don {
+  position: absolute;
+  top: 220px;
+  right: 100px;
+  font-size: 25px;
+  color: white;
+}
+.column2 {
+  float: right;
+  width: 330px;
+  height: 330px;
+  padding: 8px;
+}
+
+.row2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.Napa {
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  font-size: 25px;
+  color: white;
+}
+
+.Sonoma {
+  position: absolute;
+  top: 800px;
+  left: 450px;
+  font-size: 25px;
+  color: white;
+}
+.SanFran {
+  position: absolute;
+  top: 800px;
+  right: 100px;
+  font-size: 25px;
+  color: white;
+}
+
+#york {
+  text-align: center;
 }
