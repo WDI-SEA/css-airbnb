@@ -1,3 +1,108 @@
 h1 {
-  color: salmon;
+  text-align: center;
+  color: darkslategray;
+  font-size: 50px;
+  margin-bottom: 1px;
+  font-family: sans-serif;
+  width: 120%;
+}
+h2 {
+  text-align: center;
+  color: darkslategray;
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+  width: 120%;
+}
+.line1-images {
+  display: inline-block;
+  width: 400px;
+  margin: 0 auto;
+  height: 400px;
+  padding: 10px;
+}
+.line2-images {
+  display: inline-block;
+  width: 400px;
+  margin: 0 auto;
+  max-height: 400px;
+  padding: 10px;
+}
+.row {
+  display: flex;
+}
+.column{
+  flex: 33.33%;
+  padding: 5px;
+}
+.sanfran-text {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+.newyork-text {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+.london-text {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+.napa-text {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 127%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+.sanfran2-text {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 127%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+.sonoma-text {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 127%;
+  left: 99%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
+.button {
+  background-color: white;
+  color: black;
+  padding: 20px 50px;
+  font-size: 20px;
+  width: 100%;
+  border-color: lightgray;
+  border-radius: 4px;
+  margin-left: -102%;
 }
