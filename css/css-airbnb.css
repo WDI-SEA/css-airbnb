@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap')
 
-* {
-box-sizing: border-box;
-}
+
 
 h1 h3 {
   font-family:  "Cabin", sans-serif;
@@ -11,12 +9,7 @@ h1 h3 {
 
 
 body {
-  background-color: gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
-  margin: 0;
+ 
 }
 
 .container {
@@ -25,20 +18,8 @@ body {
 }
 
 .cities_top {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 60vh;
-  color: white;
-  margin: 10px;
-  position: relative;
+ 
 }
 .cities_bottom {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 60vh;
-  color: white;
-  margin: 10px;
-  position: relative;
+
 }
