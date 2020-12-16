@@ -1,0 +1,32 @@
+* {
+    font-family: var(--primary_font);
+}
+
+.ft_xxs {
+    font-size: 16px;
+}
+
+.ft_xs {
+    font-size: 18px;
+}
+
+.ft_sm {
+    font-size: 21px;
+}
+
+.ft_md {
+    font-size: 28px;
+}
+
+.ft_lg {
+    font-size: 32px;
+}
+
+/* Modifications */
+.ft_bold {
+    font-weight: 600;
+}
+
+.ft_chunk {
+    font-weight: 700;
+}

@@ -1,0 +1,16 @@
+.bg_abbey {
+    background-color: var(--abbey);
+}
+.bg_mercury {
+    background-color: var(--mercury);
+}
+
+.cl_abbey {
+    color: var(--abbey);
+}
+.cl_mercury {
+    color: var(--mercury);
+}
+.cl_pure_white {
+    color: var(--pure_white);
+}

@@ -1,0 +1,10 @@
+button {
+    /* Reset */
+    border: none;
+}
+
+.btn {
+    border: 1px solid var(--abbey);
+    padding: 15px 80px;
+    border-radius: 3px;
+}

@@ -1,0 +1,16 @@
+.lay_flex_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lay_flex_images {
+    display: flex;
+}
+
+
+.lay_3 > :not(:first-child):not(:last-child) {
+    /* This selector combo is super helpful for only targeting the middle element of a trio */
+    margin: 0 25px;
+}
