@@ -6,13 +6,26 @@ h2 {
   color:rgb(75, 72, 72);
   text-align: center;
 }
-h3 {
+p {
   border: black solid 1px;
+  background-color:white;
   color:rgb(75, 72, 72);
-  padding-left: 750px;
-  margin: 100px;
+  text-align: center;
+  margin-left: 810px;
+  margin-right: 810px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  
 }
 img{
+  padding-right: 20px;
   height: 300px;
   width: 300px;
+}
+div{
+  text-align: center;
+  height: 300px;
+  
+  
 }
