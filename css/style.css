@@ -1,3 +1,138 @@
+body {
+  background-color: #f8faf7
+}
+
 h1 {
-  color: salmon;
+  color: #606361;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+  color: #606361;
+  text-align: center;
+}
+
+button {
+  font-family: 'Cabin', sans-serif;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  display: block;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  color: #606361;
+}
+
+#SanFranciscoTop {
+  background-image: url('../img/san-francisco.jpg');
+  object-fit: cover;
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#NewYork {
+  background-image: url("../img/new-york.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#London {
+  background-image: url("../img/san-francisco.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#Napa {
+  background-image: url('../img/napa.jpg');
+  object-fit: cover;
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#Sonoma {
+  background-image: url("../img/sonoma.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#SanFranciscoBottom {
+  background-image: url("../img/san-francisco-2.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+.cities {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.destinations {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#Napa h2 {
+  margin: 135px 80px;
+  font-size: 2em;
+}
+
+#Sonoma h2 {
+  margin: 135px 80px;
+  font-size: 2em;
+}
+
+#SanFranciscoBottom h2 {
+  margin: 135px 10px;
+  font-size: 2em;
+}
+
+#SanFranciscoTop h2 {
+  margin: 135px 10px;
+  font-size: 2em;
+}
+
+#NewYork h2 {
+  margin: 135px 80px;
+  font-size: 2em;
+}
+
+#London h2 {
+  margin: 135px 80px;
+  font-size: 2em;
 }
