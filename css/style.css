@@ -1,3 +1,63 @@
+* {
+font-family: 'Roboto', sans-serif;
+color: rgb(86, 89, 90);
+}
+
+header {
+  text-align: center;
+  color: rgb(86, 89, 90);
+}
+
+body {
+  background-color: rgb(237, 239, 236);
+}
+
 h1 {
-  color: salmon;
+  text-align: center;
+  margin: 0auto;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  position: relative;
+}
+
+.pic_text {
+  position: absolute;
+  z-index: 1;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+
+#first_row {
+  display: inline-block; 
+}
+
+#images {
+  display: inline-block;
+  position: relative;
+}
+
+.img {
+  display: inline-block;
+  position: relative;
+  height: 275px;
+  width: 250px;
+  padding: 5px;
+}
+
+.frame {
+  display: inline-block;
+  margin-left: 150px;
+}
+
+button {
+  text-align: center;
+  display: inline;
+  margin-top: 50px;
+  margin-left: 750px;
 }
