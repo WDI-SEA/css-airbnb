@@ -1,10 +1,18 @@
+*{
+  margin: 0px;
+}
+
 h1 {
   color:rgb(75, 72, 72);
-  padding-left: 850px;
+  
+  text-align: center;
+  margin-top: 40px;
 }
 h2 {
   color:rgb(75, 72, 72);
+  
   text-align: center;
+  font-size: 20px;
 }
 p {
   border: black solid 1px;
@@ -22,10 +30,19 @@ img{
   padding-right: 20px;
   height: 300px;
   width: 300px;
+
 }
 div{
   text-align: center;
   height: 300px;
   
-  
+  margin: 40px;
+}
+picture{
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.new-york{
+  background-image: "./img/san-francisco.jpg" alt="San Francisco Picture";
 }
