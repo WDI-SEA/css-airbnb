@@ -1,3 +1,118 @@
+body {
+  background-color: rgb(237, 236, 231);
+}
+
 h1 {
-  color: salmon;
+
+  color: rgb(41, 46, 49) ;
+}
+
+#guidebook_header {
+  text-align: center;
+  color: rgb(41, 46, 49);
+  font-family: Helvetica;
+}
+
+#guidebook_images {
+
+  position: relative;
+  color: white;
+}
+
+.topImg {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  display: inline;
+  margin-left: 100px;
+  margin-right: 50px;
+  background-size: cover;
+}
+
+.topImgText1 {
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  transform: translate(-250%, -250%);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.topImgText2 {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-30%, -35%);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.topImgText3 {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+#weekend_images {
+
+  position: relative;
+  color: white;
+}
+
+.bottomImg {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  display: inline;
+  margin-left: 100px;
+  margin-right: 50px;
+  background-size: cover;
+}
+
+.bottomImgText1 {
+  position: absolute;
+  top: 60%;
+  left: 26%;
+  transform: translate(-250%, -250%);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.bottomImgText2 {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-30%, -35%);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.bottomImgText3 {
+  position: absolute;
+  top: 40%;
+  left: 76.5%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Helvetica;
+}
+button {
+  position: relative;
+  background-color: white;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 500px; 
+}
+#weekend_header {
+  text-align: center;
+  color: rgb(41, 46, 49);
+  font-family: Helvetica;
+}
+.weekend_button {
+  text-align: center;
+
 }
