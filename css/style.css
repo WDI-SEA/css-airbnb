@@ -1,3 +1,122 @@
+* {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(237, 239, 236);
+  padding-bottom: 30px;
+}
+
 h1 {
-  color: salmon;
+  font-size: 25px;
+  color: rgb(88, 90, 93);
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+p {
+  font-size: 13px;
+  color: rgb(88, 90, 93);
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+li {
+  display: inline-block;
+}
+
+.title {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.navigation {
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.button_holder {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.image_title {
+  color:rgb(255, 255, 255)
+}
+
+#San_Fran {
+  width: 280px;
+  height: 320px;
+  line-height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/san-francisco.jpg");
+  background-position: center 100%; 
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#New_York {
+  width: 280px;
+  height: 320px;
+  line-height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/new-york.jpg");
+  background-position: center 100%; 
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#London {
+  width: 280px;
+  height: 320px;
+  line-height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/london.jpg");
+  background-position: center 100%; 
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#Napa {
+  width: 280px;
+  height: 320px;
+  line-height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/napa.jpg");
+  background-position: center 100%; 
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#Sonoma {
+  width: 280px;
+  height: 320px;
+  line-height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/sonoma.jpg");
+  background-repeat: no-repeat;
+  background-position: center 100%; 
+  background-size: auto 100%;
+}
+#San_Fran2 {
+  width: 280px;
+  height: 320px;
+  line-height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("../img/san-francisco-2.jpg");
+  background-position: center 100%; 
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#button {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  line-height: 40px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(194, 194, 194);
 }
