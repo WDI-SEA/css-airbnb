@@ -11,20 +11,22 @@ display: inline-block;
 width: 20%;
 }
 .guidebooks {
-  display: inline-block;
   color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
+  top: 28.5%;
+  left: 38%;
+  z-index: 10;
+  
 }
 .weekendgetaways {
   color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
-  
+  top: 81%;
+  left: 38%;
+  z-index: 10;
 }
 
