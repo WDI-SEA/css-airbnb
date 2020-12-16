@@ -25,24 +25,8 @@ div.image {
 div.image img {
   height: 300px;
   width: 300px;
-  object-fit: cover;
+  object-fit: cover; /* For how to crop images into a square without stretching it: https://reactgo.com/css-crop-images/ */
   padding: 10px;
-  /* https://reactgo.com/css-crop-images/ for how to crop images into a square without stretching it. */
-}
-
-div.image1 {
-  /* position: absolute;
-  left: 0; */
-}
-
-div.image2 {
-  /* position: absolute;
-  left: 50%; */
-}
-
-div.image3 {
-  /* position: absolute;
-  right: 0; */
 }
 
 .caption {
