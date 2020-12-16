@@ -1,3 +1,77 @@
+body {
+  background-color: #EDEFEC;
+  color: #56595E;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
 h1 {
-  color: salmon;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.images {
+  /* position: relative; */
+}
+
+div.image {
+  display: inline-block;
+  position: relative;
+}
+
+div.image img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 10px;
+  /* https://reactgo.com/css-crop-images/ for how to crop images into a square without stretching it. */
+}
+
+div.image1 {
+  /* position: absolute;
+  left: 0; */
+}
+
+div.image2 {
+  /* position: absolute;
+  left: 50%; */
+}
+
+div.image3 {
+  /* position: absolute;
+  right: 0; */
+}
+
+.caption {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: 40%;
+  left: 18%; 
+  width: 200px;
+}
+
+div.click-for-more {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  margin: auto; /* Centers the div box. */
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 300px;
+}
+
+div.click-for-more a {
+  text-decoration: none; /* To remove underlines from hyperlinks: https://www.w3schools.com/css/css_link.asp */
+  color: #56595E;
+}
+
+
+section#just-for-the-weekend {
+  margin-top: 70px;
 }
