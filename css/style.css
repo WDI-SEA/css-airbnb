@@ -13,10 +13,6 @@ h4 {
   font-weight: lighter;
 }
 
-.images {
-  /* position: relative; */
-}
-
 div.image {
   display: inline-block;
   position: relative;
