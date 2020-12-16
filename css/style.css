@@ -9,18 +9,21 @@ h1 {
   color: #565a5c;
   margin: 0px 0px 6.25px;
   margin-top: 50px;
+  margin-left: -36px;
 }
 p {
   text-align: center;
   margin: 0px 0px 15px;
   font-family: Helvetica;
   color: #565a5c;
+  margin-left: -36px;
 }
 
 .image_column1 {
   width: 1045px;
   margin: 0 auto;
   margin-top: 50px;
+  position: relative;
 }
 
 img {
@@ -33,9 +36,17 @@ img {
   width: 1045px;
   margin: 0 auto;
   margin-top: 50px;
-  /* margin-left: 500.5px; */
-  text-align: center;
+  margin-left: 350px;
+  /* text-align: center; */
 }
+
+#button2 {
+  width: 1045px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 357px;
+}
+
 a {
   color: #565a5c;
   border: 1px solid #565a5c;
@@ -48,3 +59,61 @@ a {
   text-decoration: none;
   align-content: center;
 }
+.row1 {
+  display: inline;
+}
+#text1 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 88px;
+  top: 160px;
+}
+#text2 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 451px;
+  top: 160px;
+}
+#text3 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 807px;
+  top: 160px;
+}
+#text4 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 139px;
+  top: 160px;
+}
+#text5 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 459px;
+  top: 160px;
+}
+#text6 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 758px;
+  top: 160px;
+}
+
