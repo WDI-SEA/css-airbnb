@@ -1,3 +1,108 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(236, 253, 245);
+  align-content: center;
 }
+
+h1 {
+  color: Grey;  
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+}
+h2 {
+  color: Grey;  
+  text-align: center;
+  font-family: 'Courier New', Courier,;
+  font-size: 10px
+}
+.photos {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+
+
+
+}
+.San {
+  background-image: url(/home/jj/Desktop/general_assembly/unit_one/homeworks/css-airbnb/css/img/san-francisco.jpg) ;
+  padding: 100px 25px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+  
+}
+.New{
+  background-image: url(/home/jj/Desktop/general_assembly/unit_one/homeworks/css-airbnb/css/img/new-york.jpg);
+  padding: 100px 25px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+}
+.Lon {
+  background-image: url(/home/jj/Desktop/general_assembly/unit_one/homeworks/css-airbnb/css/img/london.jpg);
+  padding: 100px 25px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+}
+
+.Napa {
+  background-image: url(/home/jj/Desktop/general_assembly/unit_one/homeworks/css-airbnb/css/img/napa.jpg) ;
+  padding: 100px 25px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+
+}
+.Sonoma{
+  background-image: url(/home/jj/Desktop/general_assembly/unit_one/homeworks/css-airbnb/css/img/sonoma.jpg);
+  padding: 100px 25px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+}
+.SanF {
+  background-image: url(/home/jj/Desktop/general_assembly/unit_one/homeworks/css-airbnb/css/img/san-francisco-2.jpg);
+  padding: 100px 25px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  background-size: cover;
+}
+.button1 {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: Grey;  
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  
+}
+.button2 {
+  margin: 0;
+  position: relative;
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: Grey;  
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  
+
+}
+
