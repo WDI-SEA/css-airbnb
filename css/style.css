@@ -30,6 +30,21 @@ img {
   margin: 0 10px;
 }
 
-button {
+#button {
+  width: 1045px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 522.5px;
+}
+a {
+  color: #565a5c;
+  border: 1px solid #565a5c;
+  background-color: #ffffff;
+  width: 314;
+  height: 42;
+  padding: 9px 85.33px;
+  margin-top: 50px;
+  font-family:Helvetica, sans-serif;
+  text-decoration: none;
   text-align: center;
 }
