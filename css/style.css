@@ -4,18 +4,14 @@ body {
 }
 h1 {
   color: dimgray;
-  border: 1px solid black;
   margin-top: 40px;
   margin-bottom: 4px;
   
 }
 p {
   color: gray;
-  border: 1px solid black;
 }
 td {
-  border: 1px solid black;
-  /*box-sizing: border-box;*/
   background-size: cover;
   width: 13%;
   height: 250px;
