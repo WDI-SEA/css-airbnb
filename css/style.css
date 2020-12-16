@@ -20,8 +20,6 @@ img {
 .imgRow {
   display: inline-block;
   position: relative;
-  /*display: flex;
-  justify-content: center;*/
 }
 
 button {
@@ -31,15 +29,31 @@ button {
   display: inline-block;
   border-color: black;
   border-width: 0.5px;
-  justify-content: center;
-  align-items: center;
 }
 
 .btn {
   display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .all {
   display: inline-block;
   position: relative;
 }
+/*
+.text-img {
+  background-image: url("..img/san-francisco.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  width: 50vw;
+}
+
+.name {
+  margin: 45% 0%;
+}*/
