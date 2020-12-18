@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+
+h1, h3 {
+  color: #585c5d;
+  text-align: center;
+} 
+
+div {
+  display: inline-block;
+  background-size: cover;
+}
+
+.sf1 {
+  background-image: url("../img/san-francisco.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.ny {
+  background-image: url("../img/new-york.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.ld {
+  background-image: url("../img/london.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
 }
