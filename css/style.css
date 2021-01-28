@@ -1,3 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 h1 {
   color: salmon;
+}
+
+.container {
+  background: rgba(150px, 150px, 150px, 1.0);
+  display: inline-block;
+  padding: 20px;
+}
+.topRow {
+  margin-bottom: 5em;
+}
+#gbButton {
+  width: 30%;
+}
+.bottomRow {
+  margin-top: 5em;
+}
+img {
+  /* width: 30%;
+  height: 40rem;
+  margin: 20px */
+}
+
+
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  
 }
