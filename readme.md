@@ -9,7 +9,6 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
 ## Requirements
 * Look at the deliverable screenshot and see how well you can match it.
 * Keep the following in mind when recreating the screenshot
-  * Using the right font
   * Obtaining and using relevant images
   * Aligning the text in the center of each image
   * Aligning the images in the center of each page
