@@ -1,3 +1,62 @@
-h1 {
-  color: salmon;
+background {
+  color:lightgoldenrodyellow;
+}
+
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color:dimgray;
+}
+
+.guidebookImg {
+  display: flex;
+  justify-content: center;
+}
+
+.sanfran {
+  position: relative;
+  padding: 35px;
+}
+
+.sanfran h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.newyork {
+  position: relative;
+  padding: 35px;
+}
+
+.newyork h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.london {
+  position: relative;
+  padding: 35px;
+}
+
+.london h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lower-container {
+
+}
+.weekend {
+  
 }
