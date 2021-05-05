@@ -1,3 +1,28 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgb(107, 107, 107);
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.topimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space around;
+
+.bottomimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space around;
+}
+
+button {
+  background-color: whitesmoke;
+  /* border: rgb(107, 107, 107;
+  border-style: solid;
+  border-width: 1px; */
+  color: rgb(107, 107, 107;
+  padding: 10px 50px;
 }
