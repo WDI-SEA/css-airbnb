@@ -1,3 +1,42 @@
+h1,
+p {
+  color: rgb(110, 107, 107);
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
 h1 {
-  color: salmon;
+  margin-top: 30px;
+}
+.container {
+  display: flex;
+  margin: 100px;
+}
+
+.tiles {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fff;
+  flex: 0.9;
+  margin: 10px;
+  margin-top: -70px;
+  margin-bottom: -50px;
+  position: relative;
+}
+
+.tiles h3 {
+  font-size: 25px;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 5px 90px;
+  color: gray;
 }
