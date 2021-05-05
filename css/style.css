@@ -1,3 +1,37 @@
-h1 {
-  color: salmon;
+
+body {
+  background-color: rgb(240, 240, 232);
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: gray;
+  
 }
+
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+.city-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-container {
+position: relative;
+padding: 35px;
+}
+
+.image-container h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
