@@ -1,3 +1,86 @@
+
+body {
+  background-color: #ECEFEC;
+}
 h1 {
-  color: salmon;
+  color: #565A5D;
+  text-align: center;
+  font-family: sans-serif;
+}
+ h4 {
+   color: #565A5D;
+   text-align: center;
+   font-family: sans-serif;
+ }
+
+ span {
+   position: absolute;
+ }
+ 
+
+ #mod {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: space-between;
+ }
+
+ #mod2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+ #gb {
+display: flex;
+justify-content: center;
+align-content: center;
+ }
+
+ #wkd {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+   }
+ 
+ .guidebooks {
+  align-self: center ;
+   margin: 10px;
+  height: 350px;
+   width: 350px;
+   object-fit: cover;
+ }
+
+ .weekend {
+  margin: 10px;
+   height: 350px;
+  width: 350px;
+ }
+
+ button {
+   margin: 20px;
+   width: 350px;
+   align-self: center;
+   background-color: white ;
+   border-color: #C4C4C3;
+   box-shadow: none;
+   padding: 20px 20px;
+   font-size: 20px;
+   border-radius: 4px;
+   color: #58595A;
+ }
+
+.image-container {
+  position: relative;
+}
+
+h3 {
+  position :absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: sans-serif;
+
 }
