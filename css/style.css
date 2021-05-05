@@ -1,3 +1,59 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(236, 236, 236);
 }
+
+h1 {
+  color: rgb(92, 85, 85);   
+  text-align: center;
+  font-family: 'Work Sans', sans-serif; 
+}
+
+h4 {
+  color:rgb(92, 85, 85);
+  text-align: center;
+  margin-top: -20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 15px 0px 15px;
+}
+
+img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+p {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px dark gray;
+  color: rgb(92, 85, 85)
+} 
