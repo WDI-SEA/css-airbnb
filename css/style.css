@@ -1,3 +1,26 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+h1, h2 {
+  text-align: center;
+  color: grey;
 }
+
+img {
+  margin: 12px;
+  position: relative;
+  object-fit: cover;
+}
+
+
+div.image  {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#Weekend {
+margin: 45px auto 0 auto;
+
+}
+
