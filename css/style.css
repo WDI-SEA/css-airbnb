@@ -1,3 +1,64 @@
-h1 {
-  color: salmon;
+
+
+
+body {
+  background: rgb(212, 212, 212);
+  font-family: Roboto;
 }
+
+h1 {
+  color: rgb(65, 65, 65);
+  display: flex;
+  justify-content: center;
+}
+h6 {
+  color:rgb(65, 65, 65);
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+
+}
+img {
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  padding: 10px;
+  position: relative;
+
+}
+
+p {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+    }
+
+.overlay {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.destination {
+
+  padding: 10px;
+}
+.button { 
+  font-style: bold;
+  border: 15px 20px;
+  color: rgb(92, 92, 92);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
