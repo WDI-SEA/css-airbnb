@@ -1,3 +1,68 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+  background-color:gainsboro;
+  font-family: Roboto;
 }
+
+h1, h2 {
+  text-align: center;
+  color:#4b4545;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+#second_heading {
+  margin: 50px auto 0 auto;
+}
+
+div.image_set {
+  display:flex;
+  justify-content:center;
+  margin: 15px auto;
+}
+
+div.image_cell {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: Roboto;
+}
+
+img {
+  margin: 10px;
+  object-fit: cover;
+  position:relative;
+}
+
+p {
+  position:absolute;
+  font-size: 30px;
+  color:white;
+  font-family: Roboto;
+}
+
+.buttons {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  text-align:center;
+  font-size:15px;
+  width: 325px;
+  height: 35px;
+  font-family: Roboto;
+  font-weight:bold;
+  color:#4b4545;
+}
+
