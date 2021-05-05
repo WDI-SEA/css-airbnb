@@ -1,3 +1,64 @@
-h1 {
-  color: salmon;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  color: dimgray;
+}
+
+h1 { 
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.locs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border: none;
+  color: white;
+  background-image: url(http://www.placekitten.com/300/300);
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.pics {
+  display: flex;
+  
+}
+
+.see {
+  width: 250px;
+  margin: 10px;
+}
+
+#san-francisco {
+  background-image: url(/img/san-francisco.jpg)
+}
+
+#new-york {
+  background-image: url(/img/new-york.jpg);
+}
+
+#london {
+  background-image: url(/img/london.jpg);
+}
+
+#napa {
+  background-image: url(/img/napa.jpg);
+}
+
+#sonoma {
+  background-image: url(/img/sonoma.jpg);
+}
+#san-francisco-2 {
+  background-image: url(/img/san-francisco-2.jpg);
 }
