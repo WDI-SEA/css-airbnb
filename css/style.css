@@ -1,3 +1,57 @@
 h1 {
   color: salmon;
 }
+h1 {
+  color: rgb(107, 106, 106);
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: center;
+}
+h4 {
+  color: rgb(107, 106, 106);
+  font-family: sans-serif;
+  text-align: center;
+}
+.photo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.guidebook {
+    line-height: 2.5;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(107, 106, 106);
+    background-color: white;
+    font-family: sans-serif;
+    margin: auto;
+}
+  .destinations {
+      line-height: 2.5;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(107, 106, 106);
+      background-color: white;
+      font-family: sans-serif;
+
+}
+body {
+  background-color: rgb(233, 233, 233);
+}
+p {
+  text-align: center
+  
+}
