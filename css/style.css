@@ -1,3 +1,101 @@
+body {
+  background-color: #ebecf0;
+}
+
 h1 {
-  color: salmon;
+  color: #7e7e7e;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+p {
+  color: #aaaaaa;
+  margin: 0 auto 30px auto;
+  font-weight: bold 600;
+}
+
+button {
+  color: #7e7e7e;
+  font-weight: bolder;
+  background-color: white;
+  border: 1px solid #c1c1c1;
+  padding: 10px 150px;
+  display: block;
+  margin: 50px auto;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imgText1 {
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 22.5%;
+  font-size: 2.5em;
+}
+
+.imgText2 {
+  color: white;
+  position: absolute;
+  font-size: 2.5em;
+  top: 35%;
+  left: 45%;
+}
+
+.imgText3 {
+  color: white;
+  position: absolute;
+  font-size: 2.5em;
+  top: 35%;
+  left: 68%;
+}
+
+.imageContainer2 {
+  position: relative;
+}
+
+.row1 {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 26.5%;
+  font-size: 2.5em;
+}
+
+.row2 {
+  color: white;
+  position: absolute;
+  font-size: 2.5em;
+  top: 40%;
+  left: 46.5%;
+}
+
+.row3 {
+  color: white;
+  position: absolute;
+  font-size: 2.5em;
+  top: 40%;
+  left: 65%;
+}
+
+.heading {
+  text-align: center;
+}
+
+#flex1 {
+  display: flex;
+  justify-content: center;
+}
+
+#flex2 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 350px;
+  height: 375px;
+  margin: 20px 25px 0 25px;
 }
