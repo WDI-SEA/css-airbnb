@@ -2,20 +2,25 @@ body {
   background-color: rgb(230, 230, 230);
   color: rgb(107, 107, 107);
   font-family: 'Karla', sans-serif;
+}
+
+.center-horizontal {
   display: flex;
   align-content: center;
   flex-direction: column;
 }
 
+.container {
+  text-align: center;
+}
 .topimages {
   display: flex;
-  flex-direction: row;
-  justify-content: space around;
+  justify-content: center;
+}  
 
 .bottomimages {
   display: flex;
-  flex-direction: row;
-  justify-content: space around;
+  justify-content: center;
 }
 
 button {
@@ -23,6 +28,22 @@ button {
   /* border: rgb(107, 107, 107;
   border-style: solid;
   border-width: 1px; */
-  color: rgb(107, 107, 107;
+  color: rgb(107, 107, 107);
   padding: 10px 50px;
+}
+.image-container {
+  position: relative;
+  padding: 15px;
+}
+
+.image-container img {
+  width: 400px;
+  height: 400px;
+}
+
+.image-container h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
