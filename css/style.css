@@ -1,3 +1,57 @@
-h1 {
-  color: salmon;
+* {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  color: rgb(100, 100, 100);
+  background-color: rgb(230, 230, 230);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+img {
+  width: 220px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  padding: 5px 40px;
+  background-color: white;
+  border: rgb(168, 168, 168) solid 1px;
+  border-radius: 2px;
+  display: block;
+  margin: auto;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  display: inline;
+}
+
+span {
+  position: absolute;
+  top: -1000%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
 }
