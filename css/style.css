@@ -1,3 +1,33 @@
+
 h1 {
-  color: salmon;
+  text-align: center;
+  color:gray
 }
+p {
+  text-align: center;
+  color:gray
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+div{
+  background-color: white;
+  align-self: center;
+  justify-content: space-around;
+}
+.button{
+  position: relative;
+  border-color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid gray;
+  border-width: 1px;
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
