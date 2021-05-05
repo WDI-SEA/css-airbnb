@@ -22,6 +22,7 @@ h1 {
   color: #fff;
   flex: 0.9;
   margin: 10px;
+  width: 100%;
   margin-top: -70px;
   margin-bottom: -50px;
   position: relative;
@@ -35,6 +36,7 @@ h1 {
 
 .btn {
   display: flex;
+  width: auto;
   margin: auto;
   margin-bottom: 5px;
   padding: 5px 90px;
