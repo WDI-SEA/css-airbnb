@@ -1,6 +1,6 @@
 # Airbnb Mockup
 
-Lots of websites, including Facebook and Airbnb, use a grid layout to display common elements, such as information cards, photos, and other information. The best way to learn how to create these different layouts is to try them ourselves. So let's try recreating a portion of [Airbnb's website](https://www.airbnb.com/?logo=1).
+Lots of websites, including Facebook and Airbnb, use CSS Grid and/or CSS Flexbox to display common elements, such as information cards, photos, and other information. The best way to learn how to create these different layouts is to try them ourselves. So let's try recreating a portion of [Airbnb's website](https://www.airbnb.com/?logo=1).
 
 ## Getting Started
 * Fork and clone this repository to your computer
@@ -9,10 +9,10 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
 ## Requirements
 * Look at the deliverable screenshot and see how well you can match it.
 * Keep the following in mind when recreating the screenshot
-  * Obtaining and using relevant images
+  * Linking to and using the relevant images (They're all included in the `img` folder!)
   * Aligning the text in the center of each image
   * Aligning the images in the center of each page
-  * Thinking of the layout in terms of rows and columns
+  * Thinking of the layout either in terms of a Grid (rows and columns) or multiple Flexbox rows
 
 ## Deliverable
 
