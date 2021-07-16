@@ -1,3 +1,74 @@
 h1 {
   color: salmon;
 }
+
+#guidebooks, #destinations {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.square {
+  margin: 10px;
+  line-height: 260px;
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+  color:gray;
+}
+
+#san-francisco-one {
+  background-image: url("../../css-airbnb/img/san-francisco.jpg");
+  background-size: cover;
+}
+
+#new-york {
+  background-image: url("../../css-airbnb/img/new-york.jpg");
+  background-size: cover;
+}
+
+#london{
+  background-image: url("../../css-airbnb/img/london.jpg");
+  background-size: cover;
+}
+
+#napa {
+  background-image: url("../../css-airbnb/img/napa.jpg");
+  background-size: cover;
+}
+
+#sonoma {
+  background-image: url("../../css-airbnb/img/sonoma.jpg");
+  background-size: cover;
+}
+
+#san-francisco-two {
+  background-image: url("../../css-airbnb/img/san-francisco-2.jpg");
+  background-size: cover;
+}
+
+.button {
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  width: 280px;
+  font-size: 15px;
+}
+
+.headings {
+  font-size: 30px;
+  margin: 20px 20px 0px 20px;
+}
+
+.subheadings {
+  font-size: 13px;
+}
