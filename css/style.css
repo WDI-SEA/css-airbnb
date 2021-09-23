@@ -1,63 +1,59 @@
+/* css variables */
+:root {
+  --dark-white: #E9EBE7;
+  --dark-gray: #45484D;
+  --bright-white: #FFFFFF;
+}
+
 body {
   margin: 0;
-  background-color: #E9EBE7;
-  color: #45484D;
+  background-color: var(--dark-white);
+  color: var(--dark-gray);
   font-family: Helvetica, sans-serif;
 }
 
-.center-horizontal {
+.center {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
-.containter {
-  text-align: center;
-}
-
-.containter button {
-  padding: 10px 70px;
-  background-color: white;
-  border: 1px solid #45484D;
-  color: #45484D;
+.big-button {
+  padding: 1rem 3rem;
+  background-color: var(--bright-white);
+  border: 1px solid var(--dark-gray);
+  color: var(--dark-gray);
   font-size: 18px;
   font-weight: bold;
-}
-
-.city-images {
-  display: flex;
-  justify-content: center;
 }
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
 .image-container {
   position: relative;
-  padding: 30px;
+  padding: 3rem;
 }
 
-.image-container h3 {
-  font-size: 2em;
-  color: white;
+.image-container > h3 {
+  font-size: 2rem;
+  color: var(--bright-white);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.image-container img {
-  width: 400px;
-  height: 400px;
+.image-container > img {
+  width: 30rem;
+  height: 30rem;
 }
 
 .wireframe-black {
-  border: 4px solid black;
+  border: .3rem solid black;
 }
 
 .wireframe-green {
-  border: 4px solid chartreuse;
+  border: .3rem solid chartreuse;
 }
 
 .wireframe-pink {
-  border: 4px solid hotpink;
+  border: .3rem solid hotpink;
 }
-
