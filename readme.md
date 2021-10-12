@@ -14,7 +14,7 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
   * Obtaining and using relevant images
   * Aligning the text in the center of each image
   * Aligning the images in the center of each page
- 
+  * Think about rows and columns 
  
 
 ## Deliverable
