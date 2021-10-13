@@ -1,3 +1,149 @@
-h1 {
-  color: salmon;
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(74, 75, 79);
+  font-weight: bold;
+  background-color: rgb(237, 239, 236);
 }
+
+.firstRow {
+  padding-left: 20%;
+}
+.container {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h5 {
+  font-weight: normal;
+  margin-top: -20px;
+}
+
+#click {
+  margin-left: 450px;
+  margin-top: 36px;
+  margin-bottom: 26px;
+  background-color: white; /* Green */
+  border: 2px solid #e7e7e7;
+  color: rgb(74, 75, 79);
+  padding: 10px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.photoOne {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 260px; /* You must set a specified height */
+  width: 230px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("../img/san-francisco.jpg");
+  display: inline-block;
+}
+
+.photoTwo {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 260px; /* You must set a specified height */
+  width: 230px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("../img/new-york.jpg");
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.photoThree {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 260px; /* You must set a specified height */
+  width: 230px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("../img/london.jpg");
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.W1, .W4 {
+  text-align: center;
+  position: static;
+  padding-top: 85px;
+  padding-left: 40px;
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.W2, .W5 {
+  text-align: center;
+  position: static;
+  padding-top: 85px;
+  padding-left: 40px;
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.W3, .W6 {
+  text-align: center;
+  position: static;
+  padding-top: 85px;
+  padding-left: 40px;
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.secondRow {
+  padding-left: 20%;
+}
+
+.photoFour {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 260px; /* You must set a specified height */
+  width: 220px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("../img/napa.jpg");
+  display: inline-block;
+}
+
+.photoFive {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 260px; /* You must set a specified height */
+  width: 220px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("../img/sonoma.jpg");
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.photoSix {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 260px; /* You must set a specified height */
+  width: 220px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("../img/san-francisco-2.jpg");
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
