@@ -10,9 +10,6 @@ h1 {
 h2 {
   font-size: 17px;
 }
-p {
-  display: inline;
-}
 img {
   width: 380px;
   height: 400px;
@@ -20,6 +17,7 @@ img {
 }
 .container {
   position: relative;
+  display: inline-block;
 }
 .city {
   color: white;
