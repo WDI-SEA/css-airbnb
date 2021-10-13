@@ -1,3 +1,71 @@
+body {
+  background-color: #EDEFEC;
+  font-family: "Roboto", serif;
+}
 h1 {
-  color: salmon;
+  color: #575B5E;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+
+
+}
+p {
+    color: #575B5E;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-top: -20px;
+  }
+
+img {
+   display: inline;
+}
+
+
+h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  font-family: "Roboto";
+  float: left;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.text-block {
+  position: absolute;
+  bottom: 120px;
+  right: 20px;
+  left: 20px;
+  color: white;
+}
+.square {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  color: #5B5C5E;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border: 2px solid;
+  border-color: silver;
+  display: block;
+  width: 400px;
+}
+
+.sf {
+  position: relative:
+  top: 50%;
+  bottom: 50%;
+  color: white;
 }
