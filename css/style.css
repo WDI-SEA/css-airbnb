@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #EDEFEC;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #595A5C;
+}
+.header {
+  margin-top: 50px;
+  margin-bottom: -5px;
+
+}
+
+li {
+  display: inline-block;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.images {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 30px 15px;
+  
+}
+
+.city { 
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  right: auto;
+}
+
+button  {
+  
+  display: block;
+  font-family: inherit;
+  color: #595A5C;
+  background: white;
+  border: 1px solid lightgray;
+  min-width: 400px;
+  font-size: 15px;
+  padding: 0px;
+  margin: 40px auto;
+  
 }
