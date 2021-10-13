@@ -1,3 +1,61 @@
-h1 {
-  color: salmon;
+body {
+  margin: 0;
+  background-color: #F2F2F2;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: #545759;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+p {
+  color: #545759;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+img {
+  width: 275px;
+  height: 250px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  color: black;
+  width: 100%;
+  height: 350px;
+}
+
+.column {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  height: 300px;
+  padding: 20px;
+  display: inline;
+  text-align: center;
+  float: left;
+  margin-left: 175px;
+}
+
+.centered {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: 20%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.seeAllButton {
+padding: 10px;
+font-size: 10px;
+margin-left: 775px;
+background-color: white;
+border: 5px;
 }
