@@ -1,3 +1,17 @@
 h1 {
-  color: salmon;
+  color: black;
+  text-align: center;
+}
+
+h2 { 
+  text-align:center;
+
+}
+h3 {
+  text-align: center;
+}
+.column {
+  width: 500px;
+  display: inline;
+  height: 500px
 }
