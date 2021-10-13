@@ -1,3 +1,33 @@
 h1 {
-  color: salmon;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
 }
+
+p{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+}
+
+h2 {
+  text-align: center;
+ font-family: 'Source Sans Pro', sans-serif;
+ color: grey;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+}
+
+ div {
+  position: absolute;
+};
