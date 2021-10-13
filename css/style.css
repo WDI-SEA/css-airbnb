@@ -1,3 +1,99 @@
-h1 {
-  color: salmon;
+body{
+  background-color: rgba(237, 239, 236, 0.904);
+}
+.header{
+  text-align: center;
+  font-family: Arial;
+  margin:0px 0px 0px 0px;
+  font-weight: bold;
+  font: 0px;
+  color: rgba(88, 90, 95, 0.904);
+  
+}
+div {
+  text-align: justify;
+  padding: 0 25% 0 25%;
+}
+
+div img {
+  display: inline-block;
+  width: 150px;
+  height: 160px;
+
+}
+
+div:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.footer{
+  float:left;
+  clear:right;
+  padding: 5% 0 0 30%;
+  margin:0px 0px 0px 0px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font: 0px;
+  color: gray;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: arial;
+}
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: arial;
+  
+}
+.San_Francisco{
+  position: absolute;
+  top: 75px;
+  left: 35px;
+} 
+.New_York{
+  position: absolute;
+  top: 75px;
+  left:210px;
+
+}
+.London{
+  position: absolute;
+  top: 75px;
+  left: 360px;
+}
+.Napa{
+  position: absolute;
+  bottom: 75px;
+  left: 70px;
+}
+.Sonoma{
+  position: absolute;
+  bottom: 75px;
+  left: 210px;
+
+}
+.San_Francisco2{
+  position: absolute;
+  bottom: 75px;
+  right: 35px;
+}
+#click{
+  margin-left: 400px;
+  border: 20px 40px 20px 40px;
+  color: rgba(88, 90, 95, 0.904);
+  background-color: white;
+
+}
+#click2{
+  margin-left: 400px;
+  border: 100%;
+  color: rgba(88, 90, 95, 0.904);
+  background-color: white;
 }
