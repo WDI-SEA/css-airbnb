@@ -1,3 +1,47 @@
+body {
+  font-family: montserrat, cursive;
+  background-color: #F2F2F2;
+}
 h1 {
-  color: salmon;
+  font-size: small;
+  color: #545859;
+  text-align: center;
+}
+
+h4 {
+  font-size: xx-small;
+  color: #707574;
+  text-align: center;
+}
+.toprow {
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+.bottomrow {
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+.cities {
+  display: inline-block;
+}
+img {
+  width: 150px;
+  height: 155px;
+  padding: 0px 5px 0px 5px;
+}
+
+
+#click {
+font-size: x-small;
+text-align: center;  
+border: .3px solid rgb(105, 105, 105);
+padding: 5px 30px 5px 30px;
+margin: 10px;
+background-color: white;
+position: relative;
+left: 44.25%;
 }
