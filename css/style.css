@@ -1,3 +1,114 @@
 h1 {
-  color: salmon;
+  color: #545859;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0px 0px 0px;
+}
+
+h2 {
+  color: #545859;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+h3 {
+  color: #545859;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0px 0px 0px;
+}
+
+h4 {
+  color: #545859;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+body {
+  background-color: #ECEFEC;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sanfran {
+  background:url(/Users/eddy/Desktop/airbnb/css-airbnb/img/san-francisco.jpg);
+  height: 255px;
+  width: 232px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+  
+}
+
+.ny {
+  background:url(/Users/eddy/Desktop/airbnb/css-airbnb/img/new-york.jpg);
+  height: 255px;
+  width: 232px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.london {
+  background:url(/Users/eddy/Desktop/airbnb/css-airbnb/img/london.jpg);
+  height: 255px;
+  width: 232px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.button1 {
+  padding: 15px 32px;
+  display: inline-block;
+}
+
+.napa {
+  background:url(/Users/eddy/Desktop/airbnb/css-airbnb/img/napa.jpg);
+  height: 255px;
+  width: 232px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.sonoma {
+  background:url(/Users/eddy/Desktop/airbnb/css-airbnb/img/sonoma.jpg);
+  height: 255px;
+  width: 232px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.sanfran2 {
+  background:url(/Users/eddy/Desktop/airbnb/css-airbnb/img/san-francisco-2.jpg);
+  height: 255px;
+  width: 232px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
 }
