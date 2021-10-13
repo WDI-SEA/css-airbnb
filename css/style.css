@@ -1,3 +1,89 @@
+
+
+body {
+  text-align: center;
+}
+
 h1 {
-  color: salmon;
+  color: gray;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+p {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.first-images {
+  text-align: center;
+  position: relative;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}
+
+.city-one {
+  position: absolute;
+  top: 47%;
+  left: 31%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.city-two {
+  position: absolute;
+  color: white;
+  top: 47%;
+  left: 47%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.city-three {
+  position: absolute;
+  top: 47%;
+  left: 63%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.city-four{
+  position: absolute;
+  top: 65%;
+  left: 34%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.city-five {
+  position: absolute;
+  top: 65%;
+  left: 48%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.city-six {
+  position: absolute;
+  top: 65%;
+  left: 61%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.button-one {
+padding: 10px 50px 10px 50px;
+margin: 0 0 40px 0;
+}
+
+.button-two {
+  padding: 10px 50px 10px 50px;
 }
