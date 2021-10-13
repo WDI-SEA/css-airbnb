@@ -1,3 +1,79 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: lightgrey;
+}
+
 h1 {
-  color: salmon;
+  color: black;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.firstRow{
+  object-fit: cover;
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  
+}
+  
+.column{
+  float: left;
+  width: 17%;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 160%; 
+}
+.San-Francisco{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.New-York{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.London{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.Napa{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.Sonoma{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.San-Fran{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+p{
+  text-align: center;
+  margin-top: 25%;
+  font-weight: bold;
+  border: black solid 1px;
+  width: 400px;
+  padding: 10px 0 10px 0;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondHeading{
+  margin-top: 40px;
+  padding: 0;
 }
