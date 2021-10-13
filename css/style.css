@@ -1,3 +1,85 @@
-h1 {
-  color: salmon;
+body {
+  margin: auto;
+  text-align: center;
+  background: #ECEFEC;
+  color: #565B5E;
+  font-family: "Work Sans";
+}
+
+section {
+  margin: auto;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 60px 0 0 0;
+}
+
+div {
+  display: inline-block;
+  width: 458px;
+  height: 500px;
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 500px;
+  margin: 0px 10px;
+}
+
+p {
+  font-size: 20px;
+  margin: 15px 0 50px 0;
+}
+
+button {
+  display: block;
+  margin: 60px auto;
+  width: 458px;
+  height: 80px;
+  font-size: 25px;
+  font-family: "Work Sans";
+  font-weight: 900;
+  color: #565B5E;
+  background: white;
+  border-radius: 3px;
+  border-width: 3px;
+  border-color: #a9adb1;
+  border-style: solid;
+}
+
+#sanFranciscoGuidebook{
+  background: url("../img/san-francisco.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#newYorkGuidebook {
+  background: url("../img/new-york.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#londonGuidebook {
+  background: url("../img/london.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#napaDestination {
+  background: url("../img/napa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#sonomaDestination {
+  background: url("../img/sonoma.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#sanFranciscoDestination {
+  background: url("../img/san-francisco-2.jpg");
+  background-size: cover;
+  background-position: center;
 }
