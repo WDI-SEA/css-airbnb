@@ -1,3 +1,35 @@
+body {
+  background color: rgb (237, 239, 236);
+  color: rgb (87, 89, 92);
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
 h1 {
-  color: salmon;
+  font-size: 37px;
+}
+h2 {
+  font-size: 17px;
+}
+p {
+  display: inline;
+}
+img {
+  width: 380px;
+  height: 400px;
+  padding: 10px;
+}
+.container {
+  position: relative;
+}
+.city {
+  color: white;
+  font-size: 37px;
+  position: absolute;
+  top: 40%;
+  left: 42%;
+}
+button {
+  padding: 5px 70px 5px 70px;
+  background-color: white;
+  border: 1px solid black;
 }
