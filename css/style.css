@@ -1,3 +1,112 @@
 h1 {
-  color: salmon;
+  color: #545759;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  color: #545759;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+p {
+  color: #949494;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+img {
+  height: 450px;
+  width: 450px;
+  margin: 10px;
+}
+
+#threeCities {
+  text-align: center;
+}
+.topThree {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.London {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.san-francisco {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.new-york {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bottomThreeCities {
+  text-align: center;
+}
+.bottomThree {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.napa {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sonoma {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.san-francisco-2 {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+#click {
+  font-family:'Montserrat', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 25px;
+  padding: 15px 90px 15px 90px;
 }
