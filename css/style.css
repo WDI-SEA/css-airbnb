@@ -1,3 +1,106 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #EDEFEC;
+  font-family: 'Nunito Sans', cursive;
+  text-align: center;
+  color: #565A5B; 
+}
+.smaller {
+font-size: 16px;
+position: relative;
+top: -20px;
+}
+
+.bigger {
+  font-size: 33px;
+  
+}
+.pics {
+  float: none;
+  width: 22%;
+  height: 320px;
+  margin: 30px 10px 30px 10px;
+  border: 50px 25px 50px 25px;
+}
+
+#sf {
+  clear: none;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  left: 303px;
+  top: 280px;
+}
+#ny {
+  clear: none;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  left: 655px;
+  top: 280px;
+}
+#ld {
+  clear: none;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  left: 1006px;
+  top: 280px;
+}
+
+button {
+  color: rgb(95, 102, 107); 
+  background-color: white;
+  border-color: #C4C4C4;
+  padding: 12px 95px 12px 95px;
+  margin-top: 16px;
+}
+.guide{
+  font-weight: bold;
+}
+.lower {
+  float: none;
+  width: 22%;
+  height: 320px;
+  margin: 30px 10px 30px 10px;
+  border: 50px 25px 50px 25px;
+}
+#bottomtxt {
+  margin-top: 65px;
+}
+#lowtxt {
+  margin-top: 20px;
+}
+#np {
+  clear: none;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -215px;
+  left: 340px;
+}
+#sn {
+  clear: none;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -215px;
+  left: 657px;
+}
+#sff {
+  clear: none;
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -215px;
+  left: 962px;
+}
+.destinations {
+  font-weight: bold;
+  margin-bottom: 30px;
 }
