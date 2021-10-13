@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+/* CSS RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,14 +11,14 @@
   font-size: 18px;
 }
 
+
 body {
   font-family: 'Inter', helvetica, sans-serif;
   background-color: rgb(236, 239, 235);
   color: rgb(88, 88, 93)
 }
 
-
-
+/* FONT STYLING */
 h1 {
   font-size: 1.5rem;
 }
@@ -36,48 +37,47 @@ h3 {
 
 /* LAYOUT */
 .page-content {
-  width: 70%;
+  width: 70%; /*once the browser window becomes smaller than 70%, it appears that the inline-block overflow makes things responsive to the images? Nice. */
   margin: 0px auto;
-
 }
 
 .location-box {
-  text-align: center;
+  text-align: center; /*Center Elements in section div*/
   margin-top: 20px;
 }
 
-.main-component {
+.main-component { /* Setting Spacing*/
   margin-top: 70px;
-  width: 100%;
+  width: 100%; /* equal to parent container */
 }
 
 .section-heading {
   text-align: center;
 }
 
-/* ATTEMPTING A WRAPPER GETAROUND */
+/* ATTEMPTING TO POSITION TEXT CONSTRAINED IN CONTAINER */
 
 .image-container {
-  display: inline-block;
-  text-align: center;
+  display: inline-block; /* to set elements spaced inline */
   padding: auto;
-  position: relative;
+  position: relative; /* setting relative to absolutely position text */
   margin: 20px 10px;
 }
 
 .location-names {
   position: absolute;
   width: 100%;
+  transform: translateY(-50%); /*TAKES half of container as 2D Y offset*/
   top: 50%; /* pushes back into center */
-  transform: translateY(-50%); /*TAKES half of container as Y offset*/
-
 }
 
-img {
+img { /* Constraining size so no overflow */
   width: 300px;
   height: 300px;
   object-fit: fill;
 }
+
+/* BUTTON STYLING */
 
 .button-wrapper {
   display: block;
@@ -94,5 +94,4 @@ button {
   border-radius: 3px;
   border-color: rgb(195, 195, 195);
   border-width:thin;
-  
 }
