@@ -1,3 +1,86 @@
-h1 {
-  color: salmon;
+body {
+  background: #EDEFEC;
+  font-family: 'Roboto', sans-serif;
+  color: #56595C;
+  text-align: center;
+}
+
+button {
+  padding: 7px 52px;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+  border: 1px solid #C6C6C6;
+  border-radius: 5%;
+}
+
+.first-row-cities {
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.NY-des {
+  position: relative;
+  bottom: 50px;
+  left: 240px;
+}
+
+.london-des {
+  position: absolute;
+  top: 0px;
+  left: 525px;
+}
+
+.bigHeader {
+  margin-top: 50px;
+  margin-bottom: 7px;
+  clear: left;
+}
+
+.lilHeader {
+  margin-top: 0px;
+  clear: left;
+}
+
+.image {
+  float: left;
+  width: 225px;
+  height: 225px;
+  margin: 10px;
+}
+
+.image-row {
+  position: relative;
+  text-align: center;
+  margin: 0 335px;
+}
+
+/* Second Row */
+
+.second-row-cities {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.napa-des {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+}
+
+.somona-des {
+  position: relative;
+  bottom: 225px;
+  right: 5px;
+}
+
+.sanFran-des-2 {
+  position: absolute;
+  bottom: 200px;
+  right: 65px;
 }
