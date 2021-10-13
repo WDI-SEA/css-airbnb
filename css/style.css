@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px dotted red;
+}
+
+
+
 h1 {
-  color: salmon;
+  color: rgb(87, 90, 93);
+}
+
+body {
+  font-family: Montserrat, helvetica;
+
+}
+
+
+/* LAYOUT */
+.page-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.location-box {
+  text-align: center;
+}
+
+/* ATTEMPTING A WRAPPER GETAROUND */
+
+.image-container {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 80px;
+  
 }
