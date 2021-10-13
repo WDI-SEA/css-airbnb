@@ -28,6 +28,7 @@ img {
   color: black;
   width: 100%;
   height: 350px;
+  display: inline-block;
 }
 
 .column {
@@ -35,7 +36,7 @@ img {
   border: 1px solid #F2F2F2;
   height: 300px;
   padding: 20px;
-  display: inline;
+  display: inline-block;
   text-align: center;
   float: left;
   margin-left: 175px;
@@ -48,6 +49,7 @@ img {
   left: 50%;
   margin-right: 20%;
   transform: translate(-50%, -50%);
+  color: white;
   
 }
 
