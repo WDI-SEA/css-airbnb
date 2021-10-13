@@ -1,3 +1,63 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #525659;
+  background: #f2f2f2;
+}
+
 h1 {
-  color: salmon;
+  font-size: 22px;
+}
+
+h2 {
+  width: 100%;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: -10px 0 20px 0;
+}
+
+button {
+  width: 250px;
+  height: 35px;
+  margin: 30px 0 -10px 0;
+  border: 1.5px solid #C4C4C4;
+  border-radius: 2px;
+  color: #525659;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background: #FFF;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 275px;
+  margin: 10px 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card h2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: 600;
+  color: white;
+}
+
+.card img {
+  height: 275px;
+  margin: 0 -100px;
 }
