@@ -1,3 +1,124 @@
+body {
+  background-color: #EDEFEC;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+h1, p {
+  color: #565A5B;
+  clear: both;
+}
+
 h1 {
-  color: salmon;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: -10px;
+}
+
+p {
+  font-size: 14px;
+  margin: -15px 0 35px 0;
+}
+
+h2{
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  padding: 75px 0 0 30px;
+  top: 20%;
+}
+
+button {
+  color: #828487;
+  background-color: #FFFFFF;
+  display: block;
+  margin-top: 15%;
+  margin-left: 44%;
+  padding: 5px 50px 5px 50px;
+  border-color: 0px solid #FFFFFF;
+  font-weight: bold;
+  clear: both;
+}
+
+img {
+  position: relative;
+  display: inline-block;
+  max-width: 50%;
+  height: 50%;
+}
+
+#sanfran {
+  margin-left: 30%;
+  background-image: url(../img/san-francisco.jpg);
+  background-size: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+#nyc {
+  margin-left: 1%;
+  background-image: url(../img/new-york.jpg);
+  background-size: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+#london {
+  margin-left: 1%;
+  background-image: url(../img/london.jpg);
+  background-size: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+#napa {
+  margin-left: 30%;
+  background-image: url(../img/napa.jpg);
+  background-size: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+#sonoma {
+  margin-left: 1%;
+  background-image: url(../img/sonoma.jpg);
+  background-size: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+#sannyfran {
+  margin-left: 1%;
+  background-image: url(../img/san-francisco-2.jpg);
+  background-size: cover;
+  max-width: 300px;
+  height: 300px;
+}
+
+.firstrow, .secondrow {
+  float: left;
+  width: 15%;
+  padding: 5px 5px 20px 5px;
+  position: relative;
+}
+
+#sf, #hill {
+  left: 20%;
+}
+
+#ny {
+  left: 25%;
+}
+
+#uk {
+  left: 30%;
+}
+
+#valley {
+  left: 32%;
+}
+
+#ca {
+  left: 28%;
 }
