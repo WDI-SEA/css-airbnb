@@ -1,28 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: 1px dotted red;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Inter', helvetica, sans-serif;
+  background-color: rgb(236, 239, 235);
+  color: rgb(88, 88, 93)
 }
 
 
 
 h1 {
-  color: rgb(87, 90, 93);
+  font-size: 1.5rem;
 }
 
-body {
-  font-family: Montserrat, helvetica;
+h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 
+h3 {
+  font-weight: 600;
+  margin: 20px;
 }
 
 
 /* LAYOUT */
 .page-content {
   width: 70%;
-  margin: 0 auto;
+  margin: 0px auto;
   text-align: center;
 
 }
@@ -31,24 +46,51 @@ body {
   text-align: center;
 }
 
+.main-component.guidebook {
+
+}
+
+.main-component.destination {
+  margin-top: 100px;
+}
+
+
 /* ATTEMPTING A WRAPPER GETAROUND */
 
 .image-container {
   display: inline-block;
   text-align: center;
-  margin: auto;
   padding: auto;
+  position: relative;
+  margin: 20px 10px;
+}
+
+.location-names {
+  position: absolute;
+  width: 100%;
+  top: 45%;
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: fill;
+}
+
+.button-wrapper {
+  display: block;
+  margin: 10px 10px 10px 10px;
 }
 
 button {
   display: block;
-  margin: 0 auto;
+  margin:  auto;
   padding: 10px 80px;
+  background-color: white;
+  font-weight:700;
+  color: inherit;
+  border-radius: 3px;
+  border-color: rgb(195, 195, 195);
+  border-width:thin;
   
 }
