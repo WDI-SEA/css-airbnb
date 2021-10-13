@@ -1,3 +1,103 @@
-h1 {
-  color: salmon;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(238, 238, 238);
+  margin: 1.25rem 0 1rem 0;
+  text-align: center;
+}
+
+.headings {
+  color: rgb(107, 106, 106);
+  font-size: 1rem;
+  margin-bottom: 1pt;
+}
+
+p {
+  margin-top: 0pt;
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.buttons {
+  color: rgb(87, 86, 86);
+  font-size: 0.5rem;
+  font-weight: bold;
+  padding: 6px 50px;
+  border: 1px solid lightgray;
+  border-radius: 0.07rem;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+p {
+  color: rgb(58, 58, 58);
+  font-size: 0.5rem;
+  font-weight: 500;
+}
+
+img {
+  width: 160px;
+  height: 180px;
+  display: inline;
+}
+
+#middlepix {
+  padding: 0 6pt;
+}
+
+#firstbutton {
+  margin-bottom: 0.8rem;
+}
+
+#sf {
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  color: white;
+  font-weight: bolder;
+}
+
+#np {
+  position: absolute;
+  top: 40%;
+  left: 12%;
+  color: white;
+  font-weight: bolder;
+}
+
+#ny {
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  color: white;
+  font-weight: bolder;
+}
+
+#ld {
+  position: absolute;
+  top: 40%;
+  left: 78%;
+  color: white;
+  font-weight: bolder;
+}
+
+
+#sn {
+  position: absolute;
+  top: 40%;
+  left: 44%;
+  color: white;
+  font-weight: bolder;
+}
+
+
+#sftwo {
+  position: absolute;
+  top: 40%;
+  left: 74%;
+  color: white;
+  font-weight: bolder;
 }
