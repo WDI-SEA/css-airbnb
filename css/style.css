@@ -1,3 +1,71 @@
-h1 {
-  color: salmon;
+body {
+  background: #F2F2F2;
+  text-align: center;
 }
+
+
+
+h1 {
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  color: darkgray;
+  text-align: center;
+  font-size: 15px;
+}
+
+.top3 {
+  text-align: center;
+}
+
+h3 {
+  display: inline;
+  margin-left: 41%;
+  text-align: center;
+  background: white;
+  border: 1px solid gray;
+  padding: 10px 80px 10px 80px;
+  color: gray;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+h5 {
+  text-align: center;
+  color: darkgray;
+  font-size: 15px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+.bottom {
+  text-align: center;
+}
+
+h6 {
+  display: inline;
+  margin-left: 41%;
+  text-align: center;
+  background: white;
+  border: 1px solid gray;
+  padding: 10px 80px 10px 80px;
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 100px;
+}
+
