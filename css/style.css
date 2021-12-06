@@ -5,6 +5,8 @@ h1 {
 }
 
 p{
+  position: relative;
+  bottom: 900px;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   color: grey;
@@ -17,6 +19,8 @@ h2 {
 }
 
 h3 {
+  position: relative;
+  bottom: 900px;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   color: grey;
@@ -28,6 +32,154 @@ h4 {
   color: grey;
 }
 
- div {
-  position: absolute;
-};
+html, body {
+  min-width: 50%;
+  min-height: 50%;
+  background-color: lightgrey;
+}
+
+.Top1 {
+  position: relative;
+  text-align: center;
+  margin: auto 0;
+  color: white;
+  display: inline-block;
+}
+
+.Top2 {
+  position: relative;
+  bottom: 420px;
+  left: 10%;
+  margin: auto 0;
+  text-align: center;
+  color: white;
+}
+
+.Top3 {
+    position: relative;
+    bottom: 880px;
+    left: 50%;
+    margin: auto 0;
+    text-align: center;
+    color: white;
+}
+
+.Bottom1 {
+  position: relative;
+  bottom: 900px;
+  right: 450px;
+  margin: auto 0;
+  text-align: center;
+  color: white;
+}
+
+.Bottom2 {
+  position: relative;
+  bottom: 1625px;
+  left: 250px;
+  margin: auto 0;
+  text-align: center;
+  color: white;
+}
+
+.Bottom3 {
+  position: relative;
+  bottom: 2350px;
+  margin: auto 0;
+  left: 950px;
+  text-align: center;
+  color: white;
+}
+
+#Sanf {
+ position: relative;
+ bottom: 235px;
+ right: 450px;
+ color: white;
+ margin: auto 0;
+ font-family: "Monsterrat", sans-serif;
+ font-weight: bold;
+ font-size: 40px;
+ display: inline-block;
+}
+
+#NY {
+  position: relative;
+  bottom: 675px;
+  left: 855px;
+  margin: auto 0;
+  color: white;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#Lon {
+  position: relative;
+  bottom: 1135px;
+  left: 1495px;
+  margin: auto 0;
+  color: white;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#Napa {
+    position: relative;
+    bottom: 1235px;
+    left: 270px;
+    margin: auto 0;
+    color: black;
+    font-family: "Monsterrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Son {
+  position: relative;
+  bottom: 1965px;
+  left: 950px;
+  margin: auto 0;
+  color: black;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#San2 {
+  position: relative;
+  bottom: 2690px;
+  left: 1600px;
+  margin: auto 0;
+  color: black;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#Guide{
+  position: relative;
+  bottom: 900px;
+  left: 650px;
+  background-color: white;
+  border-color: white;
+  width: 15%;
+  height: 30px;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+
+#Destinations{ 
+  position: relative;
+  bottom: 2350px;
+  left: 700px;
+  background-color: white;
+  border-color: white;
+  width: 15%;
+  height: 30px;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold;
+  color: grey;
+}
