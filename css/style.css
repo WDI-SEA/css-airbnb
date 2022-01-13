@@ -1,185 +1,162 @@
-h1 {
+body{
+  background-color: lightgray;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: grey;
-}
-
-p{
   position: relative;
-  bottom: 900px;
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: grey;
+  margin: 0;
+  font-size: 100%;
+  padding: 1px;
 }
 
-h2 {
-  text-align: center;
- font-family: 'Source Sans Pro', sans-serif;
- color: grey;
-}
-
-h3 {
-  position: relative;
-  bottom: 900px;
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: grey;
-}
-
-h4 {
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: grey;
-}
-
-html, body {
-  min-width: 50%;
-  min-height: 50%;
-  background-color: lightgrey;
-}
-
-.Top1 {
-  position: relative;
-  text-align: center;
-  margin: auto 0;
-  color: white;
-  display: inline-block;
-}
-
-.Top2 {
-  position: relative;
-  bottom: 420px;
-  left: 10%;
-  margin: auto 0;
-  text-align: center;
-  color: white;
-}
-
-.Top3 {
-    position: relative;
-    bottom: 880px;
-    left: 50%;
-    margin: auto 0;
-    text-align: center;
-    color: white;
-}
-
-.Bottom1 {
-  position: relative;
-  bottom: 900px;
-  right: 450px;
-  margin: auto 0;
-  text-align: center;
-  color: white;
-}
-
-.Bottom2 {
-  position: relative;
-  bottom: 1625px;
-  left: 250px;
-  margin: auto 0;
-  text-align: center;
-  color: white;
-}
-
-.Bottom3 {
-  position: relative;
-  bottom: 2350px;
-  margin: auto 0;
-  left: 950px;
-  text-align: center;
-  color: white;
-}
-
-#Sanf {
+#p1{
  position: relative;
- bottom: 235px;
- right: 450px;
- color: white;
- margin: auto 0;
- font-family: "Monsterrat", sans-serif;
- font-weight: bold;
- font-size: 40px;
- display: inline-block;
+ bottom: 20px;
 }
 
-#NY {
+#p2{
   position: relative;
-  bottom: 675px;
-  left: 855px;
-  margin: auto 0;
-  color: white;
-  font-family: "Monsterrat", sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-}
+  bottom: 25px;
+ }
 
-#Lon {
-  position: relative;
-  bottom: 1135px;
-  left: 1495px;
-  margin: auto 0;
-  color: white;
-  font-family: "Monsterrat", sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-#Napa {
-    position: relative;
-    bottom: 1235px;
-    left: 270px;
-    margin: auto 0;
-    color: black;
-    font-family: "Monsterrat", sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-#Son {
-  position: relative;
-  bottom: 1965px;
-  left: 950px;
-  margin: auto 0;
-  color: black;
-  font-family: "Monsterrat", sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-#San2 {
-  position: relative;
-  bottom: 2690px;
-  left: 1600px;
-  margin: auto 0;
-  color: black;
-  font-family: "Monsterrat", sans-serif;
-  font-weight: bold;
-  font-size: 40px;
+h3{
+ position: relative;
+ bottom: 5px;
 }
 
 #Guide{
-  position: relative;
-  bottom: 900px;
-  left: 650px;
-  background-color: white;
-  border-color: white;
-  width: 15%;
-  height: 30px;
-  font-family: "Monsterrat", sans-serif;
-  font-weight: bold;
-  color: grey;
+ background-color: white;
+ border-color: white;
+ width: 15%;
+ height: 30px;
 }
 
-#Destinations{ 
-  position: relative;
-  bottom: 2350px;
-  left: 700px;
+#Destinations{
   background-color: white;
   border-color: white;
   width: 15%;
   height: 30px;
-  font-family: "Monsterrat", sans-serif;
+}
+
+.Topside{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Bottomside{
+  display: flex;
+  flex-direction: row;
+}
+
+#Top1{
+margin: auto 0;
+border: 1px;
+width: 20%;
+height: 20%;
+padding: 5px;
+position: relative;
+left: 16%;
+}
+
+#Top2{
+  margin: auto 0;
+  border: 1px;
+  width: 20%;
+  height: 20%;
+  padding: 5px;
+  position: relative;
+  left: 17%;
+}
+
+#Top3{
+  margin: auto 0;
+  border: 1px;
+  width: 20%;
+  height: 20%;
+  padding: 5px;
+  position: relative;
+  left: 18%;
+}
+
+#Bottom1{
+  margin: auto 0;
+  border: 1px;
+  width: 20%;
+  height: 20%;
+  padding: 5px;
+  position: relative;
+  left: 16%;
+}
+
+#Bottom2{
+  margin: auto 0;
+  border: 1px;
+  width: 20%;
+  height: 20%;
+  padding: 5px;
+  position: relative;
+  left: 17%;
+}
+
+#Bottom3{
+  margin: auto 0;
+  border: 1px;
+  width: 20%;
+  height: 20%;
+  padding: 5px;
+  position: relative;
+  left: 18%;
+}
+
+#Sanf{
   font-weight: bold;
-  color: grey;
+  font-size: 150%;
+  color: white;
+  position: absolute;
+  left: 22%;
+  top: 25%;
+}
+
+#NY{
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+
+#Lon{
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  position: absolute;
+  left: 67%;
+  top: 25%;
+}
+
+#Napa{
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  position: absolute;
+  left: 25%;
+  bottom: 22%;
+}
+
+#San2{
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  position: absolute;
+  left: 44%;
+  bottom: 22%;
+}
+
+#Son{
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  position: absolute;
+  left: 67%;
+  bottom: 22%;
 }
