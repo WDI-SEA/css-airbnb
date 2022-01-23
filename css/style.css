@@ -13,8 +13,13 @@ body {
 }
 
 .center {
+  
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+  
+  /* if you are not using flexbox, you can center like this */
+  /* text-align: center;
+  margin: 0 auto; */
 }
 
 .big-button {
@@ -28,6 +33,8 @@ body {
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
 .image-container {
+  /* if you are not using flexbox, you need to change the display here */
+  /* display: inline-block; */
   position: relative;
   padding: 3rem;
 }
@@ -44,6 +51,8 @@ body {
 .image-container > img {
   width: 30rem;
   height: 30rem;
+  display: inline-block;
+  position: relative;
 }
 
 .wireframe-black {
