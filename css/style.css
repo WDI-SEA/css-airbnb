@@ -13,10 +13,8 @@ body {
 }
 
 .center {
-  
   display: flex;
   justify-content: center; 
-  
   /* if you are not using flexbox, you can center like this */
   /* text-align: center;
   margin: 0 auto; */
