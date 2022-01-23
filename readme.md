@@ -27,7 +27,7 @@ Here's a screenshot of the portion that should be replicated. Deliver the mockup
 
 ## Bonus
 
-* Revisit this on friday using Grid and Flexbox to refactor it!
+* After we study CSS Flexbox and refactor it!
 
 
 ---
