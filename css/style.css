@@ -1,3 +1,87 @@
-h1 {
-  color: salmon;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600;800&display=swap'); */
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  background: #ffffff;
+}
+h1, h2,h3 h4, h6 {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  color: rgb(80, 80, 80);
+  box-align: center;
+  border: 1px;
+  border-color: black;
+  border-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.cities { 
+  
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  padding: 120px 85px;
+  
+ }
+.wrapper {
+text-align: center;  
+width: 100%;  
+padding-top: 40px;  
+}
+ small {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+ }
+
+h6 {
+  font-size: 12px;
+  padding: 0;
+}
+button {
+  width: 240px;
+  background-color: #FFFFFF;
+  color: rgb(80, 80, 80);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border-style: solid;
+  padding: 2px 0 2px 0;
+  
+
+}
+.sanfrancisco {
+  background-image: url("../img/san-francisco.jpg");
+  color: #FFFFFF;
+ align-self: left;
+}
+.newyork {
+  background-image: url("../img/new-york.jpg");
+  color: #FFFFFF;
+  align-self: center;
+}
+.london {
+  background-image: url("../img/london.jpg");
+  color: #FFFFFF;
+ align-self: right;
+}
+.napa {
+  background-image: url("../img/napa.jpg");
+  color: #FFFFFF;
+ align-self: left;
+}
+.sonoma {
+  background-image: url("../img/sonoma.jpg");
+  color: #FFFFFF;
+  align-self: center;
+}
+.sanfrancisco2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  color: #FFFFFF;
+  align-self: right;
 }
