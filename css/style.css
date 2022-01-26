@@ -18,6 +18,11 @@ h1, h2,h3 h4, h6 {
   width: 100%;
   text-align: center;
 }
+.center {
+  text-align: center;
+  /* top-bottom = 0, side-side are auto (take up all space)     */
+  margin: 0 auto;
+}
 .cities { 
   
   background-size: cover;
