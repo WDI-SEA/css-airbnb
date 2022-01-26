@@ -1,3 +1,56 @@
-h1 {
-  color: salmon;
+*{
+  color: gray;
+}
+h1{
+  font-size: 4em;
+}
+strong{
+  text-align: center;
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+button{
+  padding: 10px 60px;
+  color: black;
+}
+
+.sub-header{
+  text-align: center;
+}
+.guidebooks-container{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.button-div{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.destinations-container{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.location{
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  text-align: center;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
