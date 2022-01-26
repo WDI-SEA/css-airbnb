@@ -1,3 +1,91 @@
-h1 {
-  color: salmon;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: normal;
+  text-align: center;
 }
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+div {
+  height: 220px;
+  width: 200px;
+  line-height: 220px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#sf {
+  background-image: url("../img/san-francisco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#ny {
+  background-image: url("../img/new-york.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+#lndn {
+  background-image: url("../img/london.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#napa {
+  background-image: url("../img/napa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#sonoma {
+  background-image: url("../img/sonoma.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+#sf2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.headermargin {
+  margin-top: 40px;
+}
+
+button {
+  margin-top: 15px;
+  height: 30px;
+  width: 200px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: white;
+  border-color: lightgrey;
+}
+
+/* button 475 x 65 */
