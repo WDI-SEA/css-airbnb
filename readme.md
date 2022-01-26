@@ -27,7 +27,7 @@ Here's a screenshot of the portion that should be replicated. Deliver the mockup
 
 ## Bonus
 
-* After we study CSS Flexbox and refactor it!
+* After we study CSS Flexbox, refactor it!
 
 
 ---
