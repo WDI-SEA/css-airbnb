@@ -24,8 +24,8 @@ h5{
 }
 
 *{
-  /background-color: var(--dark-white); 
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--dark-white); 
+  font-family: Helvetica, sans-serif;
   color: var(--dark-grey);
 }
 
