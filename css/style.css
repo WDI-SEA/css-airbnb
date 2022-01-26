@@ -1,3 +1,102 @@
-h1 {
-  color: salmon;
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap%27'); */
+@import url('https://rsms.me/inter/inter.css%27');
+
+:root {
+  --primary-color: #55585B;
+  --secondary-color: #EDEFEC;
+  --primary-font: 
+}
+
+* {
+ background-color: var(--secondary-color);
+ color: var(--primary-color);
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 1rem;
+ font-family: 'Inter', sans-serif;
+}
+h2 {
+  font-size: 3rem;
+}
+section {
+  width: 70%;
+  padding: 2%;
+  position: relative;
+}
+img {
+  padding-left: 3%;
+  width: 20vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+button {
+  margin: 1%;
+  padding: .5rem 2rem ;
+  border-radius: 3px;
+}
+
+.city1, .city2, .city3 {
+  font-size: 2rem;
+  position: absolute;
+  top: 46%;
+  background-color: rgba(255, 0, 0, 0);
+  color: white;
+  /* display: inline; */
+}
+
+.city1{
+  left: 12rem;
+} 
+
+.city2 {
+  left: 41rem;
+}
+
+.city3 {
+  left: 68.5rem;
+}
+.napa {
+  left: 16rem;
+}
+
+.sonoma {
+  left: 41.5rem;
+}
+
+.sanFran {
+  left: 66rem;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+  /*
+  adding this because the text doesnt center on my macbook screen, but centers on a bigger screen.
+  */
+  .city1, .city2, .city3 {
+    font-size: 1.5rem;
+  }
+  .city1{
+    left: 9rem;
+  } 
+  
+  .city2 {
+    left: 31rem;
+  }
+  
+  .city3 {
+    left: 51.5rem;
+  }
+  .napa {
+    left: 12.2rem;
+  }
+  
+  .sonoma {
+    left: 31.7rem;
+  }
+  
+  .sanFran {
+    left: 49.5rem;
+  }
 }
