@@ -1,3 +1,105 @@
-h1 {
-  color: salmon;
+:root {
+  --dark-white: rgb(219, 221, 219);
+  --dark-gray: rgb(76, 76, 79);
+  --bright-white: #FFFFFF;
 }
+
+* {
+  background-color: var(--dark-white);
+  font-family: Helvetica, sans-serif;
+  color: var(--dark-gray);
+}
+
+button {
+  background-color: var(--bright-white);
+  color: var(--dark-gray);
+  border: .2rem solid var(--dark-gray);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-container {
+  position: relative;
+  /* display inline but still have a box model */
+  display: inline-block;
+}
+
+/* select child of element */
+.img-container > img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-container > h3 {
+  font-size: 2rem;
+  color: var(--bright-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* This helps make page look like the wire frame to know where you are working in */
+.wireframe-red {
+  border: .5rem solid red;
+}
+
+.wireframe-green {
+  border: .5rem solid rgb(93, 201, 93);
+}
+.wireframe-dark-green {
+  border: .5rem solid darkgreen;
+}
+
+.wireframe-yellow {
+  border: .5rem solid yellow;
+}
+
+
+
+
+
+
+/* MY CODE
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h3, p {
+  text-align: center;
+}
+.row-one {
+  padding: 0px 130px 0px 130px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px 10px 3px 10px;
+  position: relative;
+}
+.row-one {
+  position: relative;
+}
+.text-block {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+button {
+  /* background-color: white; */
+  /* background-color: rgba(0, 0, 0, 0);
+  padding: 10px 20px 10px 20px;
+} */
