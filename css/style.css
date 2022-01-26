@@ -1,3 +1,136 @@
+:root {
+  --background-color: #edefec;
+  --font-color: #585c5f;
+  --buttun-border: #c4c4c4;
+  --image-text: #fdfdfd;
+}
+
+* {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  margin-top: 35px;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.button {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  padding: 12px 50px;
+  border: 1px solid var(--buttun-border);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--buttun-border);
+  color: white;
+  cursor: pointer;
+}
+
+.center-button {
+  margin: 0 auto;
+}
+
 h1 {
-  color: salmon;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 22px;
+  width: 100%;
+  color: var(--image-text);
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 300px;
+  position: relative;
+}
+
+.image1 {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/san-francisco.jpg");
+  background-position: center;
+}
+
+.image2 {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/new-york.jpg");
+  background-position: center;
+}
+
+.image3 {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/london.jpg");
+  background-position: center;
+}
+
+.image4 {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/napa.jpg");
+  background-position: center;
+}
+
+.image5 {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/sonoma.jpg");
+  background-position: center;
+}
+
+.image6 {
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/san-francisco-2.jpg");
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.wrapper {
+  padding-top: 20px;
+}
+
+.box {
+  position: relative;
+}
+
+.box:not(:last-child) {
+  padding-right: 10px;
+}
+
+.main-content-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
 }
