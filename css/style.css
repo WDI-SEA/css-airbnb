@@ -1,3 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4&display=swap');
+
+:root {
+  --primary-font: 'Source Serif 4', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+}
+
+
+* {
+  text-align: center;
+  background-color: #EEEFED;
+}
+
 h1 {
-  color: salmon;
+  color: #54595C;
+  margin: 0;
+  padding: 24px 0 10px 0;
+  font-size: 24px;
+  font-family: var(--primary-font);
+}
+
+p {
+  color:#5E5F5E;
+  font-family: var(--primary-font);
+  margin: 0 0 2rem 0;
+  font-size: 12px;
+}
+
+
+img {
+  display: inline;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  padding: 6px
+}
+
+button {
+  padding: 10px 5rem;
+  margin: 1rem;
+  color: #5D5E5F;
+  font-weight: bold;
+  background: white;
+  border: 1px solid #cfcfcf;
+}
+
+.container {
+  color: black;
+}
+
+.text {
+  position: static;
+}
+
+span {
+  display: block;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: unset;
+  border: none;
+  font-family: var(--secondary-font);
+
+}
+
+#sanf {
+  position: absolute;
+  top: 13.5rem;
+  left: 29rem;
+}
+
+#nyc {
+  position: relative;
+  bottom: 7.1rem; 
+  left: 13rem;
+}
+
+#london {
+  position: relative;
+  bottom: 8rem;
+}
+
+#napa {
+  position: absolute;
+  bottom: 2rem;
+  left: 31rem;
+}
+
+#sonoma {
+  position: relative;
+  bottom: 7.5rem;
+  left: 0.3rem;
+}
+
+#sanf2 {
+  position: relative;
+  bottom: 8.5rem;
+  left: 13rem;
 }
