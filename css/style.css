@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
   color: grey;
 }
 h5{
@@ -15,4 +15,67 @@ h5{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
+} */
+
+:root{
+  --dark-white: rgba(219, 221, 219);
+  --dark-grey: rgba(76, 76, 79);
+  --bright-white: #FFFFFF;
+}
+
+*{
+  /background-color: var(--dark-white); 
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark-grey);
+}
+
+button{
+  background-color: var(--bright-white);
+  color: var(--dark-grey);
+  border: .2rem solid var(--dark-grey);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+  /* top-bottom = 0, side-side are auto(take up all the space) */
+  margin: 0 auto;
+}
+
+.img-container{
+  position: relative;
+  display: inline-block;
+}
+/* select child of element */
+.img-container > img{
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-container > h3{
+  font-size: 2rem;
+  color: var(--bright-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wireframe-dark-green{
+  border: .5rem solid darkgreen;
+}
+
+.wireframe-yellow{
+  border: .5rem solid yellow;
+}
+
+.wireframe-red{
+  border: .5rem solid red;
+}
+
+.wireframe-green{
+  border: .5rem solid chartreuse;
+
 }
