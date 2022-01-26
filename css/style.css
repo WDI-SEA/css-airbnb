@@ -1,4 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+  --dark-white: rgb(219, 221, 219);
+  --dark-gray: rgb(76, 76, 79);
+  --bright-white: #FFFFFF
+}
+
+* {
+  background-color: var(--dark-white);
+  font-family: Helvetica, sans-serif;
+  color: var(--dark-gray);
+}
+
+button {
+  background-color: var(--bright-white);
+  color: var(--dark-gray);
+  border: .2rem solid var(--dark-gray);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* got this from w3 school how to center text on image */
+.img-container {
+  position: relative;
+    /* display inline but still have a box model */
+    display: inline-block;
+}
+
+/* this is how you select child of element */
+.img-container > img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-container > h3 {
+  font-size: 2rem;
+  color: var(--bright-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wireframe-dark-green {
+  border: .5rem solid darkgreen;
+}
+.wireframe-yellow {
+  border: .5rem solid yellow;
+}
+
+.wireframe-red {
+  border: .5rem solid red;
+}
+
+.wireframe-green {
+  border: .5rem solid chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
   --primary-font: 'Lato', sans-serif;
@@ -46,7 +120,7 @@ div:after {
 
 /* width: 33%;
 height: 50vh; */
-
+/* 
 button {
   background-color: rgba(255, 255, 255, 0.733);
   border-style: solid;
@@ -81,7 +155,7 @@ button:active {
   position: absolute;
   padding: 155px 70px;
   margin: 0 auto;
-}
+} */
 
 /* .column {
   display: flex;
@@ -92,10 +166,10 @@ button:active {
   padding: 5px;
 } */
 
-.fit {
+/* .fit {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   height: 50vh;
-}
+} */
