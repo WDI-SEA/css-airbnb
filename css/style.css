@@ -1,3 +1,121 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+  --primary-font:  'Inter', sans-serif;
+  /* --primary-font: 'Inter', sans-serif; */
+  --text-color: rgba(78, 78, 78, 0.822);
+  --margin-between-photos: 0 30px 30px 30px;
+
+}
+
+*{
+  font-family: var(--primary-font);
+  text-align: center;
+  margin: 0 auto;
+
+}
+body{
+  background-color: rgb(237,239,236);
+}
 h1 {
-  color: salmon;
+  font-size: 60px;
+  color: var(--text-color);
+  margin-top: 1.75em;
+  margin-bottom: .1em;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: -.1em;
+  margin-bottom: 1.5em;
+  color: var(--text-color);
+}
+
+.first-group {
+  display: inline;
+}
+.san-fran-one {
+  display: inline-block;
+  background-image: url("../img/san-francisco.jpg") ;
+  height: 500px;
+  width: 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin: var(--margin-between-photos);
+  position: relative;
+}
+
+.new-york {
+  display: inline-block;
+  background-image: url("../img/new-york.jpg") ;
+  height: 500px;
+  width: 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: var(--margin-between-photos)
+}
+
+.london {
+  display: inline-block;
+  background-image: url("../img/london.jpg") ;
+  height: 500px;
+  width: 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: var(--margin-between-photos)
+}
+
+.napa {
+  display: inline-block;
+  background-image: url("../img/napa.jpg") ;
+  height: 500px;
+  width: 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: var(--margin-between-photos)
+}
+
+.sonoma {
+  display: inline-block;
+  background-image: url("../img/sonoma.jpg") ;
+  height: 500px;
+  width: 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: var(--margin-between-photos)
+}
+
+.san-fran-two {
+  display: inline-block;
+  background-image: url("../img/san-francisco-2.jpg");
+  height: 500px;
+  width: 500px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: var(--margin-between-photos)
+}
+
+
+
+.picture-text {
+  line-height: 30px;
+  font-size: 50px;
+  color: white;
+  margin: 45% auto;
+  padding: auto 0;
+  line-height: 100%;
+}
+
+.button {
+  color: var(--text-color);
+  font-weight: bold;
+  background-color: rgb(255,255,255);
+  border: 2px solid rgba(128, 128, 128, 0.493);
+  font-size: 25px;
+  margin-top: 1.5em;
+  display: block;
+  height: 60px;
+  width: 500px;
+  margin-bottom: 75px;
 }
