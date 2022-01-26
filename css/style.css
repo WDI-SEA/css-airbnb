@@ -1,3 +1,90 @@
-h1 {
-  color: salmon;
+:root {
+  --dark-white: rgb(237, 239, 236);
+  --dark-grey: rgb(76, 76, 79);
+  --brght-white: #FFFFFF;
 }
+
+* {
+  background-color: var(--brght-white);
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  background-color: var(--dark-grey);
+  color: var(--dark-grey)
+
+}
+
+.center {
+  
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+
+/* select child of element */
+.img-container > img {
+  width: 30rem;
+  height: 30rem;
+  display: inline-block;
+
+}
+
+.img-container > h3 {
+  /* Centered text */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.wireframe-red {
+  border: .5rem solid red;
+}
+
+.wireframe-green {
+  border: .5rem solid chartreuse;
+}
+
+.wireframe-yellow {
+  border: .5rem solid yellow;
+
+}
+
+.wireframe-darkgreen {
+  border: .5rem solid darkgreen;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+body {
+  font-family: "josefin sans";
+  color: #48453d;
+  text-align: center;
+  background-color: #80808040;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+p  {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+ .img {
+    width: 200px;
+    height: 200px;
+    display: inline; 
+ }
+
+ button {
+  width: 250px;
+  height: 3em;
+  margin: 2rem;
+} */
