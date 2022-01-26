@@ -1,3 +1,67 @@
-h1 {
-  color: salmon;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Orbitron&family=VT323&display=swap');
+
+:root {
+  --primary-color: #EDEFEC;
+  --secondary-color: #565A5C; 
 }
+h1, h2{
+  text-align: center;
+}
+
+*{
+  background-color: var(--primary-color);
+  color: var(--secondary-color) ;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.button {
+  text-align: center;
+}
+
+.bottom-button {
+  text-align: center;
+ 
+}
+button:hover{
+background-color: var(--secondary-color);
+cursor: pointer;
+;
+}
+.photos-top{
+  text-align: center;
+  padding: 
+}
+
+.photos-bottom{
+  text-align: center;
+}
+
+.button{
+  color: white;
+  font-size: 20px;
+  width: ;
+}
+
+.container {
+  position: relative;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  
+
+}
+/* Centered text */
+.centered {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+/* how to style buttons like site */
+/* how to get photos to stay fixed in center without changing position attribute */
