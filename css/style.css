@@ -1,4 +1,4 @@
-*{
+/* *{
   color: gray;
 }
 h1{
@@ -23,7 +23,6 @@ button{
 }
 .guidebooks-container{
   max-width: 100%;
-  margin: 0 auto;
 }
 .button-div{
   margin: 0 auto;
@@ -49,8 +48,70 @@ button{
   color: white;
 }
 .centered{
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  color: white;
+} */
+:root{
+  --dark-white: rgb(219, 221, 219);
+  --dark-gray: rgb(76, 76, 79);
+  --bright-white: #FFF;
+}
+
+*{
+  background-color: var(--dark-white);
+  font-family: Helvetica, sans-serif;
+  color: var(--bright-white);
+}
+
+button{
+  background-color: var(--bright-white);
+  color: var(--dark-gray);
+  border: .2rem solid var(--dark-gray);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-container{
+  position: relative;
+  display: inline-block;
+}
+
+.img-container > img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-container > h3 {
+  font-size: 2rem;
+  color: var(--bright-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.wireframe-red {
+  border: .5rem solid red;
+}
+
+.wireframe-green{
+  border: .5rem solid chartreuse;
+}
+
+.wireframe-yellow{
+  border: .5rem solid yellow;
+}
+
+.wireframe-dark-green{
+  border: .5rem solid darkgreen;
 }
