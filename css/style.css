@@ -1,3 +1,96 @@
-h1 {
-  color: salmon;
+/* :root {
+  --primarytext-color: #424242;
+  --primary-color: rgb(205, 206, 203);
+}
+
+* {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+h2,h4 {
+  color: var(--primarytext-color);
+}
+
+img {
+  display: inline;
+  object-fit: cover;
+  height: 250px;
+  width: 225px;
+  padding: 10px 10px 0 10px;
+}
+
+button {
+  background-color: white;
+  border: 2px var(--primarytext-color);
+  padding: 5px 15px;
+  position: relative;
+  bottom: 1vh;
+}
+
+li {
+  display: inline;
+} */
+
+:root {
+  --dark-white: rgb(219, 221, 219);
+  --dark-gray: rgb(76, 76, 79);
+  --bright-white: #FFFFFF;
+}
+
+* {
+  background-color: var(--dark-white);
+  font-family: Helvetica, sans-serif;
+  color: var(--dark-gray);
+}
+
+button {
+  background-color: var(--bright-white);
+  color: var(--dark-gray);
+  border: .2rem solid var(--dark-gray);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* select child of element */
+.img-container > img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-container > h3 {
+  font-size: 2rem;
+  color: var(--bright-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+}
+
+.wireframe-red {
+  border: 0.5rem solid red;
+}
+
+.wireframe-green {
+  border: .5rem solid green;
+}
+
+.wireframe-yellow {
+  border: .5rem solid yellow;
+}
+
+.wireframe-dark-green {
+  border: .5rem solid darkgreen;
 }
