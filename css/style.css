@@ -24,7 +24,10 @@ h1, h2,h3 h4, h6 {
   margin: 0 auto;
   text-align: center;
   display: inline-block;
-  padding: 120px 85px;
+  /* padding: 120px 85px; */
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 240px;
   
  }
 .wrapper {
