@@ -1,3 +1,76 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  background-color: #ededed;
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+h4 {
+  margin-top: -15px;
+}
+
+.top-header {
+  margin-top: 30px;
+  color: #575757;
+}
+
+.bottom-header {
+  margin-top: 60px;
+  color: #575757;
+  margin-bottom: 15px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.image {
+  width: 25%;
+  padding: 10px;
+  height: 170px;
+}
+
+.button {
+  background-color: white;
+  width: 240px;
+  height: 35px;
+  border: 1px grey solid;
+  display: block;
+  margin: 20px auto;
+  border-radius: 3px;
+}
+
+.left-city-text {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.center-city-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.right-city-text {
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.button:hover {
+  background-color: #a8a8a8;
 }
