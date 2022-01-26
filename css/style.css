@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+:root{
+  --bg-color: #EDEFEC;
+  --ft-color: #55585B;
+}
+
+*{
+  text-align: center;
+  background-color: var(--bg-color);
+  font-family: 'DM Sans', Courier, monospace;
+}
+
 h1 {
-  color: salmon;
+  color: var(--ft-color);
+}
+
+.bg{
+  background-color: rgba(1, 0, 0, 0);
+  color: white;
+  font-size: 150%;
+}
+
+.box{
+  width: 30%
+}
+
+img{
+  display:inline;
+  width: 30%;
+  padding-bottom: 1rem;
+}
+
+
+#newYork{
+    position: absolute;
+    background-color: none;
+    left: 48vw;
+    top: 27vh;
+}
+
+#sanFrancisco{
+  position: absolute;
+  background-color: none;
+  left: 16vw;
+  top: 27vh;
+}
+
+#london{
+  position: absolute;
+  background-color: none;
+  left: 78vw;
+  top: 27vh;
+}
+
+#sonoma{
+  position: absolute;
+  background-color: none;
+  left: 48vw;
+  bottom: 0vh;
+}
+#napa{
+  position: absolute;
+  background-color: none;
+  left: 18vw;
+  bottom: 0vh;
+}
+#sanFrancisco2{
+  position: absolute;
+  background-color: none;
+  left: 78vw;
+  bottom: 0vh;
 }
