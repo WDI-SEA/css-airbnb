@@ -1,3 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+  --text-color: rgb(111,111,111);
+  --primary-font: 'Lato', sans-serif;
+  --primary-color: #EDEFEC;
+}
+
+* {
+  background-color: var(--primary-color);
+}
+
+.words {
+  color: var(--text-color);
+  font-family: var(--primary-font);
+
+}
+
 h1 {
-  color: salmon;
+  padding: 1rem;
+
+}
+
+h3 {
+  padding: 2vh;
+}
+
+
+.topPictures {
+  margin: auto;
+  text-align: center;
+}
+
+.firstSetPictures {
+  padding: 1rem;
+}
+
+.bottomPictures {
+  margin: auto;
+  text-align: center;
+}
+
+.secondSetPictures {
+  padding: 1rem;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons {
+  margin: 4rem;
+  font-size: 2vh;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centeredImageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.2rem;
+  font-family: var(--primary-font);
+}
+
+.removeBackgroundColor {
+  background-color: transparent;	
+}
+
+img {
+  height: 35vh;
+  width: 35vh;
+}
+
+.inline {
+  display: inline-block;
 }
