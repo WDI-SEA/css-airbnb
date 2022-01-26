@@ -1,3 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+  --primary-text-color: rgb(82, 82, 82);
+  --secondary-text-color: white;
+  --primary-font: 'Rubik', sans-serif;
+}
+
+* {
+  background-color: rgb(230, 230, 230);
+}
+
 h1 {
-  color: salmon;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+p {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+.table {
+  display: table;
+  margin: 2rem auto;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+
+.button {
+  display: table;
+  text-decoration: none;
+  text-align: center;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+}
+
+img {
+  height: 25vh;
+  width: 25vh;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  background: transparent;
 }
