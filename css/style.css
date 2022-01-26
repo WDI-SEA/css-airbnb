@@ -1,3 +1,99 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+  --primary-color: dimgray;
+  --secondary-color: white;
+  --third-color: whitesmoke;
+  --primary-font: 'Raleway', sans-serif;
 }
+
+* {
+  background-color: var(--third-color);
+  font-family: var(--primary-font);
+}
+
+h2, p, button {
+  color: var(--primary-color);
+}
+
+h2 {
+  font-weight: 1000;
+}
+
+img {
+  width: 238px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.margin {
+  margin: 20rem 8rem;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 7px 50px;
+  margin-top: 10rem;
+}
+
+a.button {
+  background-color: var(--secondary-color);
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.row {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  margin: 1rem -1.5rem;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.textcenter  .column img {
+  width: 100%;
+  margin: 0;
+}
+
+.textcenter {
+  max-width: 600px;
+}
+
+.textcenter {
+  position: relative;
+}
+
+.textcenter figcaption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-align: none;
+}
+
+
+/* this won't adjust when i make the page smaller */
+/* img{
+  object-fit: cover;
+  width: 18rem;
+  height: 18rem;
+} */
+
