@@ -1,3 +1,23 @@
-h1 {
-  color: salmon;
-}
+  h1 {
+      color: gray;
+      text-align: center;
+  }
+  h2 {
+      text-align: center;
+      color: gray;
+  }
+  .images { 
+      position: relative;
+    
+    }
+  .box {
+      position: relative;
+      text-align: center;
+      color: black;
+      margin: 50px;
+    }
+  /* text{
+      position: relative;
+      top: 50%;
+      left: 50%;
+      } */
