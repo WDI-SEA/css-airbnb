@@ -6,18 +6,42 @@
       text-align: center;
       color: gray;
   }
-  .images { 
-      position: relative;
-    
-    }
-  .box {
-      position: relative;
-      text-align: center;
-      color: black;
-      margin: 50px;
-    }
-  /* text{
-      position: relative;
-      top: 50%;
-      left: 50%;
-      } */
+  div {
+    width: 375px;
+    height: 375px;
+    color: white;
+    line-height: 350px;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    z-index: 2;
+    display: inline-block;
+    margin-left: 35px;
+    text-align: center;
+}
+      button{
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        padding: auto;
+        height: 60px;
+        width: 400px;
+        background-color: white;
+        color: gray;
+      }
+      
+      .pics {
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+      }
+      
+      img {
+        display: inline-block;
+        position: relative;
+        width: 400px;
+        height: 400px;
+        z-index: -1; 
+      }
