@@ -1,3 +1,77 @@
-h1 {
-  color: salmon;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e8ebe7;
+  color: #585e61;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+section {
+  /* Add space on top and bottom */
+  padding: 1.5rem 0;
+
+  /* Align center horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.images {
+  display: flex;
+  gap: 1rem;
+}
+
+.titled-image {
+  /* Ensure the child h2 is positioned relative to this element */
+  position: relative;
+
+  margin-bottom: 2.5rem;
+}
+
+.titled-image img {
+  /* Correct image aspect ratio without stretching */
+  object-fit: cover;
+  max-width: 300px;
+  aspect-ratio: 1/1.1;
+}
+
+.titled-image h2 {
+  /* position based on parent element */
+  position: absolute;
+
+  /* center vertically */
+  top: 50%;
+  transform: translateY(-50%);
+
+  /* center horizontally */
+  text-align: center;
+  width: 100%;
+
+  color: white;
+
+  /* Ensure the title is on one line instead of two */
+  white-space: nowrap;
+}
+
+.more-btn {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 0.75rem 5rem;
+  font-weight: 600;
+  color: inherit;
 }
