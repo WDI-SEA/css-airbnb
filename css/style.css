@@ -1,3 +1,48 @@
-h1 {
-  color: salmon;
+body {
+  background-color: beige; 
+}
+
+p {
+  font-family: 'Archivo', sans-serif;
+}
+.header-top {
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(80, 80, 80);
+  margin-bottom: 0;
+  text-align: center;
+}
+.header-mini {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: rgb(110, 110, 110);
+}
+ 
+button {
+  height: 55px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 490px;
+  margin-bottom: 20px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+.second-line {
+  font-size: 42px;
+  font-weight: bold;
+  color: rgb(80, 80, 80);cd
+  text-align: center;
+  margin-bottom: -20px;
+  padding-bottom: -20px;
+}
+.third-line {
+  font-size: 24px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 45px;
+  color: rgb(110, 110, 110);
 }
