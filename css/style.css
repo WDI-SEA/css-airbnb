@@ -1,3 +1,218 @@
 h1 {
-  color: salmon;
+  color: gray;
+  text-align: center;
+  font-family: sans-serif;
 }
+
+ p {
+   text-align: center;
+   font-family: sans-serif;
+   color: gray;
+ }
+.sfimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+
+}
+.nyimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.londonimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+
+}
+.napaimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.sonomaimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.sf2image {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.image {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.imgdiv {
+
+  margin: 4rem 8rem 2rem 24.5rem;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  width: 200px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+h2 {
+
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+/*
+h1 {
+    color: gray;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+   p {
+     text-align: center;
+     font-family: sans-serif;
+     color: gray;
+   }
+  .image {
+    margin-left: 20px;
+    width: 20%;
+    height: 250px;
+    display: inline;
+
+  }
+  .image {
+    margin-left: 20px;
+    width: 20%;
+    height: 250px;
+    display: inline;
+  }
+  .image {
+    margin-left: 20px;
+    width: 20%;
+    height: 250px;
+    display: inline;
+  }
+  .imgdiv {
+
+    margin: 4rem 8rem 2rem 28rem;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  body {
+    background-color: rgba(255, 255, 255, 0.849);
+  }
+
+*/
+
+
+/*
+h1 {
+  color: gray;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+ p {
+   text-align: center;
+   font-family: sans-serif;
+   color: gray;
+ }
+.sfimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+
+}
+.nyimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.londonimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+
+}
+.napaimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.sonomaimage {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.sf2image {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.image {
+  margin-left: 20px;
+  width: 20%;
+  height: 250px;
+  display: inline;
+}
+.imgdiv {
+
+  margin: 4rem 8rem 2rem 24.5rem;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  width: 200px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+h2 {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
