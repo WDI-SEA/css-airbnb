@@ -1,3 +1,106 @@
 h1 {
-  color: salmon;
+  color: rgb(90, 90, 90);
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 7px;
+
+}
+
+h2 {
+  color: rgb(90, 90, 90);
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 7px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: rgb(247, 241, 233);
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  /* padding: 5px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* width: 50%; */
+  position: relative;
+  /* left: 0%; */
+  max-width: 290px;
+  height: 350px;
+  object-fit: cover;
+
+}
+
+.center-trick {
+  /* center block elements (h's, divs, etc */
+  /* margin: 0 auto; */
+  /* center inline elements */
+  /* css assumes inline elements are text */
+  /* text-align: center; */
+
+  text-align: center;
+
+}
+
+button {
+  display: block;
+  position: center;
+  left: auto;
+  width: 290px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  color: grey;
+  font-weight: bold;
+  height: 32px;
+
+}
+
+.left-text {
+  position: relative;
+  left: 190px;
+  bottom: 140px;
+  transform: (-50%, -50%);
+  z-index: +1;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+span {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  text-align: center;
+  /* z-index: +1; */
+}
+
+.container {
+
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  padding: 0 20px;
+}
+
+
+p {
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+
 }
