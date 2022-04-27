@@ -1,3 +1,51 @@
 h1 {
-  color: salmon;
+ text-align: center;
+ font-size: 40px;
+ color:rgb(92, 92, 92);
+}
+
+p {
+text-align: center;
+font-size: 20px;
+color:rgb(92, 92, 92);
+}
+
+.image-container {
+  text-align: center;
+}
+
+.images{
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+}
+.images > p {
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  margin:  0 auto;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  transform: translate(-50%, -50%)
+}
+
+
+img {
+height: 20rem;
+max-width:20rem;
+}
+
+button {
+ padding: 15px 130px;
+ margin: 25px;
+ font-weight: bold;
+ font-size: 20px;
+ color: rgb(92, 92, 92);
+ background-color: white;
+ border: 1px solid rgb(92, 92, 92);
+}
+
+* {
+  font-family: sans-serif;
 }
