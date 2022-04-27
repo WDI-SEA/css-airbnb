@@ -1,3 +1,114 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(238, 241, 240);
 }
+
+h1 {
+  color: grey;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  color: gray;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: small;
+  font-weight: normal;
+}
+
+.sanfran {
+  font-family: sans-serif;
+  color: white;
+  font: 500px;
+  position: absolute;
+  top: 36%;
+  left:27%;
+}
+.newyork {
+  font-family: sans-serif;
+  color: white;
+  font: 500px;
+  position: absolute;
+  top: 36%;
+  left: 47%;
+}
+.londonn {
+  font-family: sans-serif;
+  color: white;
+  font: 500px;
+  position: absolute;
+  top: 36%;
+  left:66%;
+}
+.images {
+
+  display: block;
+  margin-left: 21%;
+  margin-right: 25%;
+  width: 60%;
+}
+
+.images img {
+  margin-left: 17px;
+  
+}
+
+.button {
+ text-align: center;
+  padding: 25px;
+}
+
+h3 {
+  color: grey;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h4 {
+  color: grey;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: small;
+  font-weight: normal;
+}
+
+.napaa {
+  font-family: sans-serif;
+  color: white;
+  font: 500px;
+  position: absolute;
+  top: 106%;
+  left: 30%;
+}
+.sonomaa {
+  font-family: sans-serif;
+  color: white;
+  font: 500px;
+  position: absolute;
+  top: 106%;
+  left: 47%;
+}
+.sanfran2 {
+  font-family: sans-serif;
+  color: white;
+  font: 500px;
+  position: absolute;
+  top: 106%;
+  left:64%;
+}
+
+.images2 {
+  display: block;
+  margin-left: 21%;
+  margin-right: 25%;
+  width: 60%
+}
+
+.images2 img {
+  margin-left: 17px;
+  position: relative;
+}
+
+.button2 {
+  text-align: center;
+   padding: 25px;
+ }
