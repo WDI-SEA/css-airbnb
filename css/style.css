@@ -1,3 +1,101 @@
 h1 {
-  color: salmon;
+  color: rgb(88, 91, 93);
+  margin: 40px auto 0px auto;
+}
+/* the image is cropped for all the images :( */
+.sanFran {
+  background-image: url("../img/san-francisco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 175px 100px;
+  font-size: 35px;
+}
+/* only need margin on center image */
+.newYork {
+  background-image: url("../img/new-york.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  /* width: 350px; */
+  text-align: center;
+  font-weight: bold;
+  padding: 175px 130px;
+  font-size: 35px;
+  margin: 0 15px;
+}
+
+.london {
+  background-image: url("../img/london.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  /* width: 350px; */
+  text-align: center;
+  font-weight: bold;
+  padding: 175px 150px;
+  font-size: 35px;
+}
+
+.napa {
+  background-image: url("../img/napa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  /* width: 350px; */
+  text-align: center;
+  font-weight: bold;
+  padding: 175px 175px;
+  font-size: 35px;
+}
+/* only need margin on center image */
+.sonoma {
+  background-image: url("../img/sonoma.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  /* width: 350px; */
+  text-align: center;
+  font-weight: bold;
+  padding: 175px 140px;
+  font-size: 35px;
+  margin: 0 15px;
+}
+
+.sanFran2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  /* width: 350px; */
+  text-align: center;
+  font-weight: bold;
+  padding: 175px 95px;
+  font-size: 35px;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(237, 239, 236);
+}
+
+.button {
+  padding: 15px 75px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid rgb(196, 196, 196);
+  background-color: rgb(255, 255, 255);
+  color: rgb(71, 70, 70);
 }
