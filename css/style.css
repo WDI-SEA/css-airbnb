@@ -6,6 +6,7 @@
 h1, h2 {
   color: gray;
   text-align: center;
+  font-weight: bold;
 }
 
 h1{
@@ -13,8 +14,9 @@ h1{
 }
 
 h2 {
-  margin: .5rem auto;
+  margin: 0rem auto 1.5rem auto;
   font-size: 1rem;
+
 }
 
 body {
@@ -49,8 +51,11 @@ img {
 
 .buttons {
   height: 2rem;
-  width: 10rem;
+  width: 23rem;
   color: gray;
+  background-color: white;
+  border: 1px solid gray ;
+  font-weight: bold;
 }
 
 .button-container {
