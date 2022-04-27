@@ -1,3 +1,55 @@
-h1 {
-  color: salmon;
+body {
+  background-color: blanchedalmond;
+  position: relative;
+}
+img {
+  width: 20rem;
+  height: 23rem;
+  object-fit: cover;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+p {
+  text-align: center;
+  font-family: sans-serif;
+}
+.box {
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+  margin: 0px 10px;
+  max-width: 400px;
+}
+.box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  text-align: center;
+}
+.cities {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: row;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+.buttons {
+  color: dimgray;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+button {
+  background-color: antiquewhite;
+  border: 1px solid dimgray;
+  border-radius: 4px;
 }
