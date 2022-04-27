@@ -1,3 +1,84 @@
-h1 {
-  color: salmon;
+body {
+  /* position: relative; */
+  font-family: sans-serif;
+}
+div {
+  text-align: center;
+}
+h1, h2, h4, h5 {
+  color: slategray;
+  /* position: absolute; */
+  text-align: center;
+}
+h1, h4 {
+  font-size: 40px;
+}
+h2, h5 {
+  font-size: 20px;
+}
+h6, h3 {
+  font-size: 20px;
+  color: slategray;
+  /* position: absolute; */
+  text-align: center;
+  border: 2px solid slategray;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 500px;
+}
+.imagegrid {
+  display: table;
+  margin: 0 auto;
+} 
+.guidebooks > li {
+  font-size: 50px;
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  margin: 30px 20px;
+  width: 17rem;
+}
+.sanfrancisco {
+  background-image: url("../img/san-francisco.jpg");
+  /* position: absolute; */
+  padding: 200px 60px;
+  background-repeat: no-repeat;
+}
+.newyork {
+  background-image: url("../img/new-york.jpg");
+  /* position: absolute; */
+  padding: 200px 60px;
+  background-repeat: no-repeat;
+}
+.london {
+  background-image: url("../img/london.jpg");
+  /* position: absolute; */
+  padding: 200px 60px;
+  background-repeat: no-repeat;
+}
+.weekends > li {
+  font-size: 50px;
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  margin: 30px 20px;
+  width: 17rem;
+}
+.napa {
+  background-image: url("../img/napa.jpg");
+  /* position: absolute; */
+  padding: 200px 60px;
+  background-repeat: no-repeat;
+}
+.sonoma {
+  background-image: url("../img/sonoma.jpg");
+  /* position: absolute; */
+  padding: 200px 60px;
+  background-repeat: no-repeat;
+}
+.sanfrancisco2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  /* position: absolute; */
+  padding: 200px 60px;
+  background-repeat: no-repeat;
 }
