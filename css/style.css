@@ -1,3 +1,59 @@
-h1 {
-  color: salmon;
+*{
+  color: white;
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  color: gray;
+  text-align: center;
+}
+
+h1{
+  margin: 0rem auto;
+}
+
+h2 {
+  margin: .5rem auto;
+  font-size: 1rem;
+}
+
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+.block {
+  position: relative;
+  text-align: center;
+  margin: 0rem auto;
+}
+
+.img-text {
+  display: inline-block;
+  position: relative;
+  margin: 0rem .3rem;
+}
+
+.img-font {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+img {
+  height: 22rem;
+  max-width: 22rem;
+}
+
+.buttons {
+  height: 2rem;
+  width: 10rem;
+  color: gray;
+}
+
+.button-container {
+  text-align: center;
+  margin: 2rem auto;
 }
