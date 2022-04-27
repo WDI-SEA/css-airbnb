@@ -1,3 +1,79 @@
+* {
+  /* css browser reset */
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: #585B5E;
+}
+
+h1, h2, .buttons {
+  color: #525E61;
+  text-align: center;
+}
+
+.images {
+  display: inline-block;
+  position: relative;
+}
+
+/* use obj-fit to place the image within its block
+obj-pos moves it around, no need to use scaling */
+img {
+  height: 24rem;
+  margin: 0px -4px 0px -4px;  
+  width: 100%;
+  max-width: 20rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+  padding: 5px;
+}
+
+/* add bckgrd color to body insteadf of all ^^ */
+body {
+  text-align: center;
+  background-color: #EDEFED;
+}
+
+.buttons {
+  border: 2px solid #C4C4C4;
+  background-color: white;
+  padding: 14px 90px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 26px;
+  font-size: smaller;
+  font-weight: 500
+}
+
+h2 {
+  font-size: .8rem;
+}
+
+/* transform think of transform from art, moves the obj
+ translate such as x-y move, can use perc and pixels */
+ /* white space: nowrap means text will stay on one line */
+.img-font {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  z-index: 1;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 550;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 h1 {
-  color: salmon;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: smaller;
+  font-weight: lighter;
+  margin-bottom: 2rem;
 }
