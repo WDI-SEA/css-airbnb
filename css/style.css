@@ -1,3 +1,76 @@
 h1 {
-  color: salmon;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(87, 88, 89);
+
+}
+
+h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(87, 88, 89);
+
+}
+
+.container {
+  text-align: center;
+}
+
+
+p {
+  top: 50%;
+  left: 35%;
+  position: absolute;
+  z-index: 4;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  
+}
+.sf {
+ 
+  display: inline-block;
+  position: relative;
+}
+
+.ny {
+  
+  display: inline-block;
+  position: relative;
+}
+
+.ln {
+  
+  display: inline-block;
+  position: relative;
+}
+
+.np {
+  display: inline-block;
+  position: relative;
+}
+
+.sn {
+  display: inline-block;
+  position: relative;
+}
+.sf2 {
+  display: inline-block;
+  position: relative;
+}
+body {
+  background-color: rgb(237, 239, 236);
+  font-family: sans-serif;
+}
+* {
+  color:
+}
+
+.button1 {
+  background-color: white;
+  border: 1px solid #55595c;
+  width: 20rem;
+  padding: .5rem;
 }
