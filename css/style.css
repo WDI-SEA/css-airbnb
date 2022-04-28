@@ -1,3 +1,53 @@
-h1 {
-  color: salmon;
+*{
+  /*css brower reset */
+  margin: 0;
+  box-sizing: border-box;
+  /* font styling */
+  font-family: sans-serif;
+  color: #55595C;
 }
+
+body {
+  background-color: #edefec;
+  text-align: center;
+  
+} 
+
+
+.image-container img {
+  width: 20rem;
+  height: 25rem;
+  /* stop to distortion */
+  object-fit: cover;
+}
+
+.card {
+  text-align: center;
+  margin: 1rem;
+}
+
+.card section {
+  display: inline-block;
+  position: relative;
+}
+
+.city {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.card btn {
+  border : 1px solid #55595c;;
+  background-color: white;
+  width: 20rem;
+  padding: .5rem;
+  font-weight: 600;
+
+  
+}
+
