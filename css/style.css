@@ -1,3 +1,49 @@
-h1 {
-  color: salmon;
+*{
+/* css browser resert */
+margin: 0;
+box-sizing: border-box;
+/* font styling */
+font-family: san-serif
+color: #55595C;
 }
+body {
+  background-color: #edefec
+}
+.images img{
+  /* set img to workable sixze */
+  width: 20rem;
+  height: 25rem;
+  /* stop the distortion */
+  object-fit: cover;
+}
+.card {
+  text-align: center
+  margin: 1rem;
+}
+.card section {
+  display: inline-block;
+  position: relative;
+}
+.images p {
+  /* font styles */
+  color: white;
+  font-weight: 600;
+  /* play with position */
+  /* width: max-content; */
+  position: absolute;
+  /* use top and left to push text around */
+  top: 50%;
+  left: 50%
+/* transform translates to center using negative values */
+transform: translate(-50%,-50%);
+}
+
+card button {
+  /* set coloring */
+  background-color: white;
+  border: 1px solid #55595C;
+  /* set sizing */
+  width: 20rem;
+  padding: .5rem;
+}
+
