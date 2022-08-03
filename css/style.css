@@ -16,6 +16,11 @@ a{
   padding: 100px;
   font-size: 25px;
   position: relative;
+  bottom: 150px;
+  color: white;
+}
+.inner2{
+  bottom: 100px;
 }
 p{
   text-align: center;
