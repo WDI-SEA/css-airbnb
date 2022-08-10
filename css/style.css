@@ -1,3 +1,105 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: rgb(237,239,236)
 }
+
+
+h1 {
+  margin: 50px 0 10px 0;
+  color: rgb(86,90,93);
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0 0 50px 0;
+  color: rgb(89,92,92);
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+img {
+  width: 430px;
+  height: 430px;
+}
+
+Section {
+  margin: 0 200px 0 200px;
+}
+
+.pic-1, .pic-4 {
+  position: relative;
+  float: left;
+  width: 33.33%;
+}
+
+.pic-2, .pic-5 {
+  position: relative;
+  float: left;
+  width: 33.33%;
+  }
+
+.pic-3, .pic-6 {
+  position: relative;
+  float: left;
+  width: 33.33%;
+}
+
+.text-1, .text-6 {
+  position: absolute;
+  top: 34%;
+  left: 25%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-2 {
+  position: absolute;
+  top: 34%;
+  left: 32%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-3 {
+  position: absolute;
+  top: 34%;
+  left: 34%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-4 {
+  position: absolute;
+  top: 34%;
+  left: 39%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-5 {
+  position: absolute;
+  top: 34%;
+  left: 34%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  text-align: center;
+  margin: 50px 0 10px 0;
+  background-color: white;
+  border-color: rgb(196,196,196);
+  padding: 10px 80px;
+  color: rgb(89,92,92);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+   }
