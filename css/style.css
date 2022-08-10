@@ -20,11 +20,13 @@ body {
 
 .top-photos {
   display: flex;
+  justify-content: center;
 
 }
 
 .bottom-photos {
   display: flex;
+  justify-content: center;
 }
 
 .btn {
