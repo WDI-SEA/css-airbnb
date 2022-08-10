@@ -8,6 +8,21 @@ h1 {
 }
 
 .image {
-  width: 100px;
-  height: 100px;
+  width:  15em;
+  height: 15em;
+}
+
+.image>img {
+  height: 100%;
+  width: 100%;
+}
+
+h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: rgb(87,90,93)
 }
