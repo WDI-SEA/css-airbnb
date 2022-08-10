@@ -1,3 +1,69 @@
+
 h1 {
-  color: salmon;
+  color: rgb(74,78,79);
+  text-align: center;
+  font-family: Arial Helvetica, sans-serif;
+  font-size: 25px;
+  top: 25px;
+
+}
+
+.info1 {
+  text-align: center;
+  color: rgb(74,78,79);
+  font-family: Arial Helvetica, sans-serif;
+  font-size: 11px;
+  padding: 1px 0px 0px 0px;
+}
+
+body {
+  background-color: rgb(234,237,233);
+  margin: 40px;
+}
+
+
+.row1 {
+  padding: 12px;
+  float: left;
+  height: 250px;
+  width: 250px;
+}
+
+img {
+  width: 250px;
+  height: 250px;  
+}
+.block {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.city {
+position: relative;
+bottom: 65%;
+text-align: center;
+color: white;
+font-family: Arial Helvetica, sans-serif;
+font-size: 25px;
+}
+
+.button {
+  position: relative;
+  text-align: center;
+  top: -10px;
+  color: rgb(74,78,79);
+  font-family: Arial Helvetica, sans-serif;
+}
+
+button {
+  padding: 10px 70px 10px 70px;
+  border-color: rgb(179,179,179);
+  background-color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  color: rgb(74,78,79);
+  border: 1px solid rgb(179,179,179);
+  font-family: Arial Helvetica, sans-serif;
+  font-weight: 500;
 }
