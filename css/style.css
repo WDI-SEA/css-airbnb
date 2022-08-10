@@ -1,3 +1,72 @@
 h1 {
-  color: salmon;
+  color: rgb(80, 79, 79);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  margin: 0px 0px;
+}
+
+h3 {
+  color: rgb(80, 79, 79);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 1px 0px 10px 0px;
+  font-weight: lighter;
+}
+
+body {
+  background-color: white;
+  margin: 40px;
+}
+
+.centered {
+  display: flex;
+  position: relative;
+}
+.top-images {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.photos {
+  height: 300px;
+  width: 295px;
+  margin: 0 -10px;
+}
+
+.city {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+section {
+  text-align: center;
+  margin-top: 10px;
+
+}
+button {
+  position: relative;
+  text-align: center;
+  top: 10px;
+  color: rgb(80, 79, 79);
+  font-family: Helvetica, sans-serif;
+  padding: 10px 60px 10px 60px;
+  border-color: rgb(179,179,179);
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid rgb(179,179,179);
+  font-size: 12px;
+  margin: 10px 20px 50px 20px;
+  font-weight: bold;
 }
