@@ -1,3 +1,58 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  background-color: rgb(237, 239, 236);
 }
+h1 {
+  text-align: center;
+  color: rgb(88, 89, 93);
+  font-family:Verdana, sans-serif;
+  font-weight:90px;
+}
+.sub-title {
+  text-align: center;
+  color: rgb(88, 89, 93);
+  font-family: sans-serif;
+}
+.second {
+  position: relative;
+  bottom: 45px;
+}
+.childs {
+  padding: 12px;
+  float: left;
+  height: 250px;
+  width: 250px;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+.families {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.city {
+  position: relative;
+  bottom: 65%;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.button {
+  position: relative;
+  bottom: 90px;
+}
+button {
+  background-color: white;
+  border: 2px solid #c5c4c5;
+  color: rgb (87, 90, 94);
+  padding: 15px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
