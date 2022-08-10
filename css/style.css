@@ -15,11 +15,12 @@ body {
 }
 
 .top-photos {
- 
+  display: flex;
+
 }
 
 .bottom-photos {
-  display: inline;
+  display: flex;
 }
 
 .btn {
@@ -39,6 +40,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: sans-serif;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 500;
+}
+
+img {
+  height: 350px;
+  width: 310px;
+  padding: 0px 5px 0px 5px;
+  
 }
