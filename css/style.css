@@ -2,9 +2,11 @@ body {
   background-color: rgb(237,239,236);
 }
 
-h1 {
+h1, h3 {
   color: rgb(87,90,93);
   text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
 }
 
 .image {
@@ -17,12 +19,31 @@ h1 {
   width: 100%;
 }
 
-h3 {
-  font-size: xx-large;
+.pics {
+  margin: 35px;
+}
+
+h2, h4 {
+  font-size: x-large;
   text-align: center;
+  font-family: sans-serif;
+  color: rgb(87,90,93)
 }
 
 p {
   text-align: center;
-  color: rgb(87,90,93)
+  color: rgb(87,90,93);
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 50px;
+  font-size: xx-large;
 }
