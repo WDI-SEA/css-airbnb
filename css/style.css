@@ -1,3 +1,74 @@
-h1 {
-  color: salmon;
+h1, h4 { 
+  text-align: center;
+  color: grey;
 }
+img {
+width: 250px;
+height: 250px;
+}
+/*.row{
+  
+  justify-content: center; 
+  height: 400px;
+} */
+.div {
+  align-items: ;
+  margin: auto 0;
+}
+.city {
+  text-align: center;
+  bottom: 175px;
+  color : green;
+  position: relative;
+  font size 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pic1 {
+float: left;
+width: 33.33%;
+width:300px;
+ position: relative;
+ left:100px;
+}
+.pic2 {
+  float: left;
+  width: 33.33%;
+  width:300px;
+   position: relative;
+   left: 350px;
+   bottom: 250px;
+  }
+
+  .pic3 {
+    float: left;
+    width: 33.33%;
+    width:300px;
+     position: relative;
+     left: 400px;
+     bottom: 250px;
+    }
+.row::first-line {
+  content: " ";
+  display: table;
+  padding 20px;
+}
+.button {
+  position: relative;
+  text-align: center;
+  top:30px
+}
+
+}
+
+
+/* .column2 {
+float: left;
+width: 33.33%;
+
+}
+.row2::first-line {
+  content: " ";
+  display: table;
+  padding 20px;
+}
+ */
