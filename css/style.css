@@ -25,7 +25,9 @@ body {
 
 .btn {
   display: block;
-  margin: 0 auto;
+  margin-top: 24px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container {
