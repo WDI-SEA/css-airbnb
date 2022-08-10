@@ -1,3 +1,58 @@
+body {
+  background-color: grey;
+}
+
 h1 {
   color: salmon;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.images1 {
+    display:flex
+}
+
+.row1 {
+  flex:30%;
+  padding 5px;
+}
+
+.images2 {
+  display:flex
+}
+
+.row2 {
+  flex:30%;
+  padding 5px;
+}
+
+.button {
+  text-align: center;
+}
+
+.names1 {
+  text-align: center;
+}
+
+.names2 {
+  text-align: center;
+}
+
+.button1 {
+  text-align: center;
+}
+
+.button2 {
+  text-align: center;
 }
