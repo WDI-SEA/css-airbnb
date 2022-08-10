@@ -1,3 +1,57 @@
-h1 {
-  color: salmon;
+h1{
+  margin:30px 0px 0px 0px;
+  color:rgb(84,87,90);
+}
+p{
+  margin:0px;
+  color:rgb(84,87,90);
+  font-size: small;
+}
+body{
+  text-align: center;
+  background-color:rgba(237,239,236,1);
+}
+div{
+  margin:20px;
+}
+input{
+  border-radius:0.1px;
+  border-color: rgba(238,240,237,1);
+  padding: 5px 40px;
+  background-color: white;
+}
+.pic{
+  width: 200px;
+  height:210px;
+  margin:10px 5px;
+  object-fit: cover;
+}
+.inline{
+  display: inline;
+}
+
+.container1,.container2, .container3{
+  position: relative;
+  display: inline;
+}
+.left{
+  position: absolute;
+  bottom:450%;
+  left: 33%;
+  color:white;
+}
+.middle{
+  position: absolute;
+  bottom: 450%;
+  left: 33%;
+  color:white;
+}
+.right{
+  position: absolute;
+  bottom: 450%;
+  left:33%;
+  color:white;
+}
+span{
+  font-size: 20px;
 }
