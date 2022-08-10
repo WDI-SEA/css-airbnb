@@ -1,3 +1,36 @@
 h1 {
   color: salmon;
 }
+
+body {
+  text-align: center;
+}
+
+.top-photos {
+ 
+}
+
+.bottom-photos {
+  display: inline;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+}
