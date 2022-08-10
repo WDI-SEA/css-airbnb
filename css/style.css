@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+.headertext {
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+.picturecontainer {
+  position: relative;
+  text-align: center;
+  white-space: 35px;
+}
+
+.pictures {
+  height: 250px;
+  width: 250px;
+}
+
+.buttoncontainer{
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.subtext{
+  margin-top: -13px;
+  margin-bottom: 28px;
+}
+
+.left{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  color: white;
+  left: 210px;
+  top: 120px;
+}
+
+.center{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  color: red;
+  top: 120px;
+}
+
+.right{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  color: white;
+  right: 250px;
+  top: 120px;
 }
