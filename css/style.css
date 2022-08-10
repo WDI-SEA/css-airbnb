@@ -1,3 +1,9 @@
-h1 {
-  color: salmon;
+* {
+  /* browser css reset */
+  margin: 0;
+  box-sizing: border-box;
+  /* set some basic font styling */
+  font-family: "Raleway", sans-serif;
+  /* use digital color picker to get hex values */
+  color: #4b4c4e;
 }
