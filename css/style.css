@@ -1,3 +1,82 @@
+body {
+  background-color: rgb(237, 239, 236);
+}
+
+.head-title {
+  margin: auto;
+  width: 50%;
+}
+.head-title p{
+  color: rgb(87, 88, 92);
+  font-family: Tahoma, sans-serif;
+}
 h1 {
-  color: salmon;
+  color: rgb(87, 88, 92);
+  margin: auto;
+  font-family: Tahoma, sans-serif;
+}
+
+.row {
+  display:block;
+  width: 60%;
+  align-content: center;
+}
+
+.row1 {
+  display:inline-block;
+  }
+  .row img {
+    width: 200px;
+      height: 200px;
+      object-fit: scale-down;
+      float: right;
+  }
+  .row1 .city{
+  position: absolute;
+  color: rgb(254, 255, 255);
+  }
+  
+  .row2 {
+    display:inline-block;
+    position: relative;
+    }
+    .row2 img{
+      width: 200px;
+      height: 200px;
+      object-fit: scale-down;
+      float: right;
+    }
+.row2 .city{
+  position: absolute;
+  color: rgb(254, 255, 255);
+}
+
+h2 {
+  width: 50%;
+  color: rgb(87, 88, 92);
+  font-family: Tahoma, sans-serif;
+  align-content: center;
+  margin: auto;
+}
+
+.p2 {
+width: 50%;
+color: rgb(87, 88, 92);
+font-family: Tahoma, sans-serif;
+align-content: center;
+margin: auto;
+}
+
+.button {
+  margin: auto;
+  width: 20%;
+}
+
+.button2 {
+  margin: auto;
+  width: 20%;
+}
+
+.city {
+  font-family: Tahoma, sans-serif;
 }
