@@ -1,0 +1,38 @@
+* {
+    /* browser css reset */
+    margin: 0;
+    box-sizing: border-box;
+    /* set some basic font styling */
+    font-family: Arial, Helvetica, sans-serif;
+    /* use digital color picker to get hex values */
+    color: #4b4c4e;
+}
+
+body {
+    background-color: #e9ebe7;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    text-align: center;   
+}
+
+.card section {
+    display: inline-block;
+    position: relative;
+
+}
+.imgages p {
+    color: white;
+    font-weight: 600px;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%)
+}
