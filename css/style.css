@@ -1,3 +1,61 @@
+body {
+  background-color: rgb(234, 237, 233);
+  color: rgb(71, 75, 78);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  margin: 55px 0;
+  width: 235px;
+  height: 30px;
+  
+}
+
+h1, p {
+  margin: 0;
+}
+
 h1 {
-  color: salmon;
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 255px;
+  width: 235px;
+  display: inline;
+  
+  
+}
+
+.center-pic {
+  margin: 0 15px;
+}
+
+.paragraph{
+  margin-top: 75px;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+.centered {
+  font-size: 30px;
+  font-weight: 900;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
