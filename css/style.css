@@ -1,3 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebe6;
+}
+
+section {
+  text-align: center;
+  color: #616161;
+}
+
 h1 {
-  color: salmon;
+  font-family: helvetica, sans-serif;
+  font-size: 2rem;
+  margin-top: 60px;
+  margin-bottom: -5px;
+}
+
+p {
+  font-family: arial, sans-serif;
+  font-weight: 400;
+}
+
+button {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background-color: #ffffff;
+  padding: .6em 5.2em;
+  border: 1px solid #a1a1a1;
+}
+
+.div-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px auto;
+}
+
+.grid-box img {
+  width: 100%;
+  max-width: 320px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.img-text {
+  display: absolute;
+  margin-top: -195px;
+  margin-bottom: 160px;
+  font-family: helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#destinations {
+  margin-bottom: 60px;
 }
