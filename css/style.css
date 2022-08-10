@@ -1,3 +1,130 @@
-h1 {
-  color: salmon;
+title, h1{
+  font-family: sans-serif;
+  font-size: larger;
+  font-stretch: expanded;
+  color: rgba(83, 83, 83);
+  position: absolute;
+  right: 44%;
+}
+body{
+  background-color: rgb(244, 242, 242);
+}
+h2{
+  font-size: small;
+}
+.font{
+  position: absolute;
+  top: 35px;
+  right: 37%;
+}
+/* I am def doing this the long way. Ask how I could have done it easier. */
+.Lon{
+  position: relative;
+  left: 60%;
+  top: 80px;
+}
+.text{
+  position: relative;
+  left: 65%;
+  top: -43px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.san1{
+  position: relative;
+  left: 21%;
+  top: -155px;
+}
+.text2{
+  position: absolute ;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  left: 25%;
+  top: 176px;
+}
+.ny{
+  position: relative;
+  left: 41.4%;
+  top: -357px;
+}
+.ny1{
+  position: absolute ;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  left: 46.5%;
+  top: 176px;
+}
+.box{
+  position: absolute;
+  top: 45%;
+  left: 43%;
+    border: 1px solid darkgray;
+    padding: 10px 30px;
+}
+.box2{
+    position: absolute;
+    top: 101%;
+    left: 43%;
+      border: 1px solid darkgray;
+      padding: 10px 30px;
+}
+
+
+
+.Weekend{
+  font-family: sans-serif;
+  font-size: larger;
+  font-stretch: expanded;
+  color: rgba(83, 83, 83);
+  position: absolute;
+  right: 43%;
+  top: 55%;
+}
+.font2{
+  position: absolute;
+  top: 60%;
+  right: 41%;
+}
+.Napa{
+  position: relative;
+  left: 21%;
+  top: -148px;
+}
+.Ntext{
+  position: relative;
+  left: 26.8%;
+  top: -270px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.Sonoma{
+  position: relative;
+  left: 41%;
+  top: -380px;
+}
+.Stext{
+  position: relative;
+  left: 45.5%;
+  top: -500px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.san2{
+  position: relative;
+  left: 60%;
+  top: -612px;
+}
+.s2{
+  position: relative;
+  left: 62.2%;
+  top: -730px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+
 }
