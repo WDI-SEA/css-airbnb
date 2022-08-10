@@ -1,3 +1,58 @@
 h1 {
-  color: salmon;
+  color: rgba(76, 80, 84);
+  text-align: center;
+
 }
+
+h2 {
+  color: rgba(76, 80, 84);
+  text-align: center;
+  font-size: 15px;
+}
+
+.city {
+width: 33%;
+display: inline-block;
+text-align: center;
+position: relative;
+}
+
+p{
+  text-align: center;
+  background-color: rgba(255);
+  padding: 40px;
+}
+
+.centered {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 30px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding-top: 20px;
+
+}
+
+.button {
+  background-color: white;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  border-color:#7e7878;
+  color: rgba(76, 80, 84);
+
+}
+
+body {
+  background-color: rgba(233, 237, 233);
+}
+
+
