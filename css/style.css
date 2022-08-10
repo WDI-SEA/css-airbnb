@@ -1,3 +1,42 @@
-h1 {
-  color: salmon;
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(237,239,236);
+}
+h2 {
+  color: rgb(60,60,60);
+
+}
+p {
+  color: rgb(100,100,100);
+  margin-top: -15px;
+  font-size: 13px;
+}
+img {
+  height: 300px;
+  width: 275px;
+  object-fit: cover;
+  margin: 0px -30px 0px -30px;
+}
+figcaption {
+  color: white;
+  position: relative;
+  bottom: 167px;
+  font-size: 28px;
+}
+button {
+  background-color: white;
+  color: rgb(60,60,60);
+  height: 37px;
+  width: 275px;
+  font-size: .8rem;
+  border:  1px solid rgb(195,195,195);  
+}
+
+.img-line-1 , .img-line-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -15px;
 }
