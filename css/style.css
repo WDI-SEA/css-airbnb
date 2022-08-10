@@ -18,13 +18,7 @@ body {
   text-align: center;
 }
 
-.top-photos {
-  display: flex;
-  justify-content: center;
-
-}
-
-.bottom-photos {
+.photos {
   display: flex;
   justify-content: center;
 }
