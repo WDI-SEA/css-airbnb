@@ -1,3 +1,102 @@
+body {
+  background-color: rgb(237,239,236);
+}
+
+.top-header, .bottom-header{
+  text-align: center;
+  color: rgb(85, 89, 90);
+}
+
 h1 {
-  color: salmon;
+  font-size: 20px;
+  font-family: 'Chivo', sans-serif;
+  margin: 33px 0px 0px 0px;
+}
+
+p {
+  font-size: 10px;
+  font-family: 'Chivo', sans-serif;
+  margin: 2px 0px 20px 0px; 
+}
+
+#SF1 {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: -125px 0px 0px 480px;
+}
+
+#NY {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: -125px 0px 0px 715px;
+}
+
+#L {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: -125px 0px 0px 935px;
+}
+
+.group1 {
+  position: relative;
+  float: center;
+  margin: 0px 6px 0px 6px;
+  width: 196px;
+  height: 220px;
+  object-fit: cover;
+}
+
+#N {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: -125px 0px 0px 520px;
+}
+
+#S {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: -125px 0px 0px 720px;
+}
+
+#SF2 {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: -125px 0px 0px 905px;
+}
+
+
+.group2 {
+  float: center;
+  margin: 0px 6px 0px 6px;
+  width: 198px;
+  height: 220px;
+  object-fit: cover;
+}
+
+button {
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+  margin: 30px 0px 0px 0px;
+  padding: 6px 47px;
+  font-size: 11px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(220, 220, 220);
+  color: rgb(85, 89, 90);
+}
+
+.bottom-header {
+  text-align: center;
 }
