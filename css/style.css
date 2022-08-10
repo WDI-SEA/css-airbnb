@@ -30,6 +30,10 @@ body {
 .btn {
   display: block;
   margin: 24px auto;
+  padding: 8px 90px;
+  font-family: sans-serif;
+  color: grey;
+  font-weight: 700;
 }
 
 .container {
