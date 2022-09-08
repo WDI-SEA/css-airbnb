@@ -1,3 +1,81 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+body {
+  background: lightgray;
+  font-family: 'Poppins', sans-serif;
+}
+div {
+  margin: auto;
+  text-align: center;
+}
+section {
+  text-align: center;
+}
+.image-item {
+  margin: 10px;
+  padding: 150px 0;
+  align-items: center;
+  width: 300px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+section {
+  text-align: center;
+}
+.buttons {
+  margin: 10px 0 0 0;
+}
+.buttons a {
+  /* display: table; */
+  background: #f3f3f3;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 60px;
+  color: #444;
+  font-size: 11px;
+  border: solid thin #999;
+}
+.buttons a:hover {
+  background: #999;
+  color: white;
+}
+#sf-1 {
+  background:url('../img/san-francisco.jpg');
+  background-size: cover;
+}
+#ny {
+  background:url('../img/new-york.jpg');
+  background-size: cover;
+}
+#london {
+  background:url('../img/london.jpg');
+  background-size: cover;
+}
+#napa {
+  background:url('../img/napa.jpg');
+  background-size: cover;
+}
+#sonoma {
+  background:url('../img/sonoma.jpg');
+  background-size: cover;
+}
+#sf-2 {
+  background:url('../img/san-francisco-2.jpg');
+  background-size: cover;
+}
+.headings h2 {
+  font-size: 30px;
+  color:#444;
+  margin: 40px 0 0 0;
+}
+.headings p {
+  color: dimgray;
+  margin: 0;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+.buttons {
+  /* margin: auto; */
+  /* width: 50%; */
+  padding: 10px;
 }
