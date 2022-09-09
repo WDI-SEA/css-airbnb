@@ -1,3 +1,66 @@
 h1 {
-  color: salmon;
+  color: solid grey;
+  text-emphasis: bold;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  
+}
+
+h2 {
+  color: solid grey;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+
+}
+
+div.column {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 45px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.button {
+  background-color: white; 
+  border: 1px, solid, grey;
+  color: solid grey;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+body {
+  background-color: aliceblue;
+
+}
+
+.city {
+  aspect-ratio: 1/1;
 }
