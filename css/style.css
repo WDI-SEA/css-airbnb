@@ -1,3 +1,62 @@
-h1 {
-  color: salmon;
+body{
+ 
+}
+h1{
+  color: grey;
+  text-align: center;
+}
+h2{
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 5px, 0px, 25px, 0px;
+}
+
+container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+div{
+  display: flex;
+  height: 229px;
+  justify-content: center;
+  width: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30p;
+
+}
+#sf-bg-img {
+  background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco.jpg);
+  display:inline-block;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  size: 50%;
+}
+#ny-bg-img {
+  background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/new-york.jpg?raw=true);
+  display:inline-block
+}
+#london-bg-img {
+  background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/london.jpg?raw=true); 
+  display:inline-block
+}
+#napa-bg-img {
+  background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/napa.jpg?raw=true);
+  display:inline-block
+}
+.sonoma-bg-img {
+  background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/sonoma.jpg?raw=true);
+  display:inline-block
+}
+.sanfran2-bg-img {
+  background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco-2.jpg?raw=true);
+  display:inline-block
 }
