@@ -1,3 +1,13 @@
 h1 {
   color: salmon;
 }
+.london {
+  background-image: url("../img/london.jpg");
+  height:500px;
+  width: 500px;
+}
+.sanFrancesco{
+  background-image: url("../img/san-francisco.jpg");
+  height:500px;
+  width: 500px;
+}
