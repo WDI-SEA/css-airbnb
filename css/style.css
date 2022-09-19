@@ -1,3 +1,9 @@
 h1 {
-  color: salmon;
+  color: #575A5D;
 }
+
+body{
+  background-color: #EDEFEC;
+  /* url("../img/london/") cuz it's inside css folder so when need to get out first then get in the image folder */
+}
+
