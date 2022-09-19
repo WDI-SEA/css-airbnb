@@ -1,3 +1,54 @@
 h1 {
-  color: salmon;
+  color: Black;
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+  font-family: cursive;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: antiquewhite;
+}
+.top-left {
+  position: absolute;
+  font-size: 40px;
+  top: 260px;
+  left: 12%;
+  color: antiquewhite;
+
+}
+.top-right {
+  position: absolute;
+  font-size: 50px;
+  top: 260px;
+  right: 5%;
+  color: antiquewhite;
+}
+.bottom-left {
+  position: absolute;
+  font-size: 40px;
+  bottom: -160px;
+  left: 7%;
+  color: antiquewhite;
+}
+.bottom-right {
+  position: absolute;
+  font-size: 40px;
+  bottom: -160px;
+  right: 15%;
+  color: antiquewhite;
 }
