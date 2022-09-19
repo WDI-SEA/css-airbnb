@@ -1,6 +1,14 @@
 body{
   color: #575A5D;
-  background-color: #EDEFEC;
+  background-color: #EDEFEC;  
+  max-width: 300px; 
+  margin: 0 auto;
+  text-align: center;
+  
   /* url("../img/london/") cuz it's inside css folder so when need to get out first then get in the image folder */
 }
+
+
+
+
 
