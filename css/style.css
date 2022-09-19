@@ -1,85 +1,64 @@
 body {
-  background-color: rgb(250, 246, 242);
+  background-color: rgb(237,239,236);
+  margin-bottom: 50px;
 }
 
 
 h1 {
-  color: rgb(96, 95, 95);
-  font-family: 'Geneva', sans-serif;
+  color: rgb(91,95,98);
+  font-family: 'Arial Rounded MT Bold', sans-serif;
   text-align: center;
 
 }
 
-
 h4 {
-  color: rgb(96, 95, 95);
+  color: rgb(88,89,91);
   text-align: center;
   font-family: 'Geneva', sans-serif;
 }
 
 .div-h1 {
   color: rgb(255, 255, 255);
-
-
-    /* width: 100px; */
-
-    text-align: center;
-    vertical-align: middle;
-
-    top: 50%;
-
-    margin-left: auto;
-    margin-right: auto;
+  font-family: 'Geneva', sans-serif;
+  text-align: center;
+  vertical-align: middle;
 }
-
 
 .main-div {
   margin: 0 auto;
-  /* position: absolute; */
-
   height: 500px;
-  width: 1000px;
-  /* border: 10px black solid; */
-
-
-  padding: 50px 50px 0px 50px;
+  width: 900px;
+  padding: 40px 40px 30px 40px;
 }
 
 .child {
   margin: 10px;
-
-  width: 250px;
-  height: 275px;
-
-  /* border: 10px black solid; */
-
+  width: 275px;
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  font-size: 11px;
   display: inline-block;
-  /* border: 10px black solid; */
   background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-position: center;
 }
-
-
 
 .details-btn {
   background-color: aquamarine;
   margin: 50px auto;
   height: 20px;
   width:200px;
-
-  padding: 10px 40px;
+  padding: 10px 70px;
   text-align: center;
-
   border: 2px rgb(213, 210, 210) solid;
   background-color: rgb(255, 255, 255);
-
   color: rgb(96, 95, 95);
   font-family: 'Geneva', sans-serif;
   font-weight: bold;
 }
 
-
-
+/* Adding the images*/
 
 #san-francisco {
   background-image: url("../img/san-francisco.jpg");
