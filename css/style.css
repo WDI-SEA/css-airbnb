@@ -53,5 +53,31 @@ button{
 }
 
 
+.napa{
+  background-image: url("../img/napa.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+ 
+}
+.sonoma{
+  background-image: url("../img/sonoma.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+.san-fran2{
+  background-image: url("../img/san-francisco-2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
 
 
