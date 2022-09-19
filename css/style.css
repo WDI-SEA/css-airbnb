@@ -1,13 +1,56 @@
 body{
   color: #575A5D;
-  background-color: #EDEFEC;  
-  max-width: 300px; 
-  margin: 0 auto;
+  background-color: #EDEFEC; 
   text-align: center;
-  
-  /* url("../img/london/") cuz it's inside css folder so when need to get out first then get in the image folder */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+h2{
+  color: white;
+  margin-top: 150px;
+}
+
+.san-fran{
+  background-image: url("../img/san-francisco.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+ 
+}
+.new-york{
+  background-image: url("../img/new-york.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+.london{
+  background-image: url("../img/london.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.second-div{
+  padding: 20px;
+}
+
+button{
+  background-color: whitesmoke;
+  font-size: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #575A5D;
+  font-weight: bold;
+  border: 2px solid rgb(172, 171, 171);
+  padding: 5px 35px 5px 35px;
+  text-align: center;
+  margin: 20px;
+}
 
 
 
