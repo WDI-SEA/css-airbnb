@@ -1,14 +1,18 @@
 body{
+  background: lightgrey;
  
 }
 h1{
-  color: grey;
+  color: rgb(95, 93, 93);
   text-align: center;
 }
+
 h2{
   font-size: 15px;
   font-weight: lighter;
   margin: 5px, 0px, 25px, 0px;
+  text-align: center;
+  color: rgb(102, 101, 101);
 }
 
 .container1 {
@@ -26,13 +30,24 @@ div{
   background-position: center;
 }
 
-p {
+button {
+  display: block;
+  position: absolute;
+  
+  justify-content: center;
+  padding: 20px;
+  margin: 30px;
+  background: white;
+
+}
+
+/* p {
   display: flex;
   align-items: center;
   color: white;
   font-size: 30p;
 
-}
+} */
 
 .container2 {
   display: flex;
@@ -51,21 +66,25 @@ p {
 }
 #ny-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/new-york.jpg?raw=true);
-  display:inline-block
+  display:inline-block;
 }
 #london-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/london.jpg?raw=true); 
-  display:inline-block
+  display:inline-block;
 }
 #napa-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/napa.jpg?raw=true);
-  display:inline-block
+  display:inline-block;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  size: 50%;
 }
 .sonoma-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/sonoma.jpg?raw=true);
-  display:inline-block
+  display:inline-block;
 }
 .sanfran2-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco-2.jpg?raw=true);
-  display:inline-block
+  display:inline-block;
 }
