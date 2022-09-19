@@ -1,3 +1,61 @@
-h1 {
-  color: salmon;
+h2 {
+  color: black;
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+body {
+  background: rgb(214, 205, 205);
+}
+#new-york {
+  float: left;
+  background: rgb(214, 205, 205);
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 78px;
+}
+#london {
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+}
+#san-francisco {
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+}
+.first-row {
+  width: 600px;
+  margin: auto;
+}
+#button1 {
+  text-align: center;
+  margin-left: 220px;
+}
+#san-francisco2 {
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+}
+#napa {
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+}
+#sonoma {
+  width: 120px;
+  height: 150px;
+  padding: 10px;
+}
+.second-row {
+  width: 600px;
+  display: inline;
+}
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
