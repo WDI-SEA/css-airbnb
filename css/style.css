@@ -1,3 +1,112 @@
-h1 {
-  color: salmon;
+html{
+  height: 100%;
 }
+body {
+  height: 100%;
+  background-color: #EDEFEC;
+  text-align: center;
+  color: #575B5E;
+}
+
+
+/* .guidebooksImages {
+  position: relative;
+} */
+
+
+
+#img1 {
+  display: inline-block;
+  color: white;
+  background-image: url(../img/san-francisco.jpg);
+  background-size: 100% 100%;
+  /* padding: 90px 50px 90px 50px; */
+  background-repeat: no-repeat;
+  min-width: 220px;
+  min-height: 240px;
+  margin: 0 0.1%;
+
+}
+
+#img2 {
+  color: white;
+  display: inline-block;
+  background-image: url(../img/new-york.jpg); 
+  background-size: 100% 100%;
+  /* padding: 90px 50px 90px 50px; */
+  background-repeat: no-repeat;
+  min-width: 220px;
+  min-height: 240px;
+  margin: 0 0.1%;
+}
+
+#img3 {
+  color: white;
+  display: inline-block;
+  background-image: url(../img/london.jpg);
+  background-size: 100% 100%;
+  /* padding: 90px 50px 90px 50px; */
+  background-repeat: no-repeat;
+  min-width: 220px;
+  min-height: 240px;
+  margin: 0 0.1%;
+
+}
+
+
+
+#img4 {
+  display: inline-block;
+  color: white;
+  background-image: url(../img/napa.jpg);
+  background-size: 100% 100%;
+  /* padding: 90px 50px 90px 50px; */
+  background-repeat: no-repeat;
+  min-width: 220px;
+  min-height: 240px;
+  margin: 0 0.1%;
+
+}
+
+#img5 {
+  color: white;
+  display: inline-block;
+  background-image: url(../img/sonoma.jpg); 
+  background-size: 100% 100%;
+  /* padding: 90px 50px 90px 50px; */
+  background-repeat: no-repeat;
+  min-width: 220px;
+  min-height: 240px;
+  margin: 0 0.1%;
+
+}
+
+#img6 {
+  color: white;
+  display: inline-block;
+  background-image: url(../img/san-francisco-2.jpg);
+  background-size: 100% 100%;
+  /* padding: 90px 50px 90px 50px; */
+  background-repeat: no-repeat;
+  min-width: 220px;
+  min-height: 240px;
+  margin: 0 0.1%;
+
+
+}
+
+h3{
+  margin-top: 50%;
+}
+
+button{
+  margin: 3% 0 5% 0;
+  color: #575B5E;
+  background-color: white;
+  padding: 1% 3%;
+  border: 1px solid #C4C4C4; 
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+
