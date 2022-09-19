@@ -11,7 +11,7 @@ h2{
   margin: 5px, 0px, 25px, 0px;
 }
 
-container {
+.container1 {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -25,6 +25,7 @@ div{
   background-repeat: no-repeat;
   background-position: center;
 }
+
 p {
   display: flex;
   align-items: center;
@@ -32,6 +33,14 @@ p {
   font-size: 30p;
 
 }
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
 #sf-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/san-francisco.jpg);
   display:inline-block;
