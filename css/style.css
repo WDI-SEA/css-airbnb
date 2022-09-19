@@ -3,8 +3,111 @@ h2 {
 }
 
 body {
-  background-color: lightgrey;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #bebebe;
+  color:#4f4b4b; 
 }
+
+button  {
+  padding: 8px 40px;
+  font-size: 12px;
+  font-weight: 600;
+  color:#4f4b4b;
+
+}
+
+#SF1 {
+  background-image: url("../img/san-francisco.jpg");
+  display:inline-block;
+  background-size: cover;
+  max-width: 180px;
+  height: 140px;
+  padding: 50px 10px;
+  color:white;
+ font-size: 25px;
+ font-weight: 800;
+ text-align: center;
+ width: 30%;
+  margin:10px;
+}
+
+#NY {
+  background-image: url("../img/new-york.jpg");
+  display:inline-block;
+  background-size: cover;
+  max-width: 180px;
+  height: 140px;
+  padding: 50px 10px;
+  color:white;
+ font-size: 25px;
+ font-weight: 800;
+ text-align: center;
+ width: 30%;
+  margin:10px;
+}
+
+#London {
+  background-image: url("../img/london.jpg");
+  display:inline-block;
+  background-size: cover;
+  max-width: 180px;
+  height: 140px;
+  padding: 50px 10px;
+  color:white;
+ font-size: 25px;
+ font-weight: 800;
+ text-align: center;
+ width: 30%;
+  margin:10px;
+}
+
+#Napa {
+  background-image: url("../img/napa.jpg");
+  display:inline-block;
+  background-size: cover;
+  max-width: 180px;
+  height: 140px;
+  padding: 50px 10px;
+  color:white;
+ font-size: 25px;
+ font-weight: 800;
+ text-align: center;
+ width: 30%;
+  margin:10px;
+}
+
+#Sonoma {
+  background-image: url("../img/sonoma.jpg");
+  display:inline-block;
+  background-size: cover;
+  max-width: 180px;
+  height: 140px;
+  padding: 50px 10px;
+  color:white;
+ font-size: 25px;
+ font-weight: 800;
+ text-align: center;
+ width: 30%;
+  margin:10px;
+}
+#SF2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  display:inline-block;
+  background-size: cover;
+  max-width: 180px;
+  height: 140px;
+  padding: 50px 10px;
+  color:white;
+ font-size: 20px;
+ font-weight: 800;
+ text-align: center;
+ width: 30%;
+  margin:10px;
+}
+
+
+
 
  /* .test {
   background-image: url("../img/london.jpg");
