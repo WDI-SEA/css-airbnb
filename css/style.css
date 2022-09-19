@@ -1,5 +1,5 @@
 body{
-  background: lightgrey;
+  background: rgb(236, 236, 236);
  
 }
 h1{
@@ -8,11 +8,11 @@ h1{
 }
 
 h2{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
   margin: 5px, 0px, 25px, 0px;
   text-align: center;
-  color: rgb(102, 101, 101);
+  color: rgb(77, 76, 76);
 }
 
 .container1 {
@@ -30,30 +30,54 @@ div{
   background-position: center;
 }
 
-button {
-  display: block;
+#sanFranscico-text{
   position: absolute;
-  
-  justify-content: center;
-  padding: 20px;
-  margin: 30px;
-  background: white;
+  top: 215px;
+  left: 70px;
+  font-size: 40px;
+  color: aliceblue;
 
 }
 
-/* p {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 30p;
+#new-york-text {
+  position: absolute;
+  top: 215px; 
+  font-size: 40px;
+  color: aliceblue;
+}
 
-} */
+#london-text{
+  position: absolute;
+  top: 215px;
+  right: 70px;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+button {
+  position: absolute;
+  justify-content: center;
+  left: 350px;
+  padding: 20px;
+  margin: 50px;
+  background: rgb(249, 248, 248);
+  width: 350px;
+  color: rgb(102, 101, 101);
+  font-size: 20px;
+}
+
+h3 {
+  position: absolute;
+  margin: 200px;
+}
 
 .container2 {
   display: flex;
-  justify-content: center;
+  margin: 60px;
   gap: 20px;
   width: 100%;
+  height: 250px;
+  left: 20px;
 }
 
 #sf-bg-img {
@@ -75,10 +99,7 @@ button {
 #napa-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/napa.jpg?raw=true);
   display:inline-block;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  size: 50%;
+  
 }
 .sonoma-bg-img {
   background-image: url(https://github.com/sei-ec-remote/css-airbnb/blob/main/img/sonoma.jpg?raw=true);
