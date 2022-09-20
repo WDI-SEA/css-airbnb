@@ -1,3 +1,51 @@
-h1 {
-  color: salmon;
+.body{
+  background-color: beige;
+  height: fit-content;
+}
+
+
+.headings-style {
+  font-size: 25px;
+  font-weight: 680;
+  color: grey;
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.description {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: grey;
+text-align: center;
+font-size: 12px;
+}
+.button{
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid grey;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  }
+
+  .text-center{
+  text-align: center;
+}
+.images-container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+
+}
+.images-container img{
+  width: 300px;
+  height: 400px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 3px;
+  padding-bottom: 15px;
 }
