@@ -1,3 +1,45 @@
 h1 {
-  color: salmon;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
 }
+
+.two {
+    background-image: url("../img/new-york.jpg");
+    height: 350px;
+    width: 300px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+  }
+
+  .three {
+    background-image: url("../img/new-york.jpg");
+    height: 350px;
+    width: 300px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+
+  }
+
+  .four {
+    background-image: url("../img/new-york.jpg");
+    height: 350px;
+    width: 300px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+
+  }
