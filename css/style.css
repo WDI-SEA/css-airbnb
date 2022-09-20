@@ -1,3 +1,114 @@
-h1 {
-  color: salmon;
+@import 
+url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  background-image: linear-gradient(160deg,#b9d9e4 , #fff472);
 }
+
+h1 {
+  color:black;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Monoton', cursive;
+  margin-bottom: 10px;
+  word-spacing: 1vw;
+}
+
+h2{
+  text-align: center;
+  margin-top: 47%;
+  margin-bottom: 43%;
+  font-size: 2vw;
+  padding-bottom: 0%;
+  color: azure;
+  font-family: 'Monoton', cursive;
+  word-spacing: 1vw;
+}
+
+p{
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 5px;
+  font-family: 'Bebas Neue', cursive;
+  word-spacing: 0.5vw;
+}
+
+div{
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.zoom :hover{
+  transform: scale(1.5);
+}
+
+.zoom{
+  transition: transform .2s;
+}
+
+button{
+  width: 25vw;
+  margin: 3% 67% 5% 38.5%;
+  padding: 15px;
+  border-radius: 0%;
+  background-color: azure;
+  font-size: 1.5vw;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+.img1 {
+  background: url('../img/san-francisco.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 1% 0% 0 20%;
+}
+
+.img1ch{
+  
+}
+
+.img2{
+  background-image: url('../img/new-york.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.img3{
+  background-image: url('../img/london.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 1% 10% 0 0%;
+}
+
+.img4 {
+  background: url('../img/napa.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 1% 0% 0 20%;
+}
+
+.img5{
+  background-image: url('../img/sonoma.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.img6{
+  background-image: url('../img/san-francisco-2.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 1% 10% 0 0%;
+}
+
+
