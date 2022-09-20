@@ -9,7 +9,7 @@ Lots of websites, including Facebook and Airbnb, use a grid layout to display co
 * A HTML file (`index.html`) and CSS file (`css/style.css`) have been created for you. Content is also provided in a folder called `img`
 
 ## Requirements
-* Look at the deliverable screenshot and see how well you can match it.
+* **Look at the deliverable screenshot and see how well you can match it.**
 * Keep the following in mind when recreating the screenshot
   * Obtaining and using relevant images
   * Aligning the text in the center of each image
