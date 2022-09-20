@@ -2,6 +2,17 @@ h1 {
   color: Black;
   text-align: center;
 }
+
+body {
+  background-image:radial-gradient(white, rgb(76, 76, 76))
+}
+
+.button-container{
+  font-size: 20px;
+  height: 20%;
+  text-align: center;
+  }
+
 nav {
   text-align: center;
 }
