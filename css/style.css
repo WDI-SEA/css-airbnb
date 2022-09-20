@@ -14,32 +14,78 @@ header, p, .NY, .SF1, .L, .N, .S, .SF2 {
 header {
   font-weight: bold;
   font-size: 20px;
+  padding-top: 15px;
+}
+p {
+  padding-bottom: 20px;
 }
 
-/* .NY {
-  background-image: url("../img/new-york.jpg");
-  height: auto;
-  width: 100px;
+a {
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid #DEDEDE;
+  padding: 5px 30px 5px 30px;
+  background-color: white;
+}
+
+.SF1 {
+  background-image: url("../img/san-francisco.jpg");
   color: white;
   font-weight: bold;
-} */
+}
+.NY {
+  background-image: url("../img/new-york.jpg");
+  color: white;
+  font-weight: bold;
+}
+.L {
+  background-image: url("../img/london.jpg");
+  color: white;
+  font-weight: bold;
+}
+
+.N {
+  background-image: url("../img/napa.jpg");
+  color: white;
+  font-weight: bold;
+}
+.S {
+  background-image: url("../img/sonoma.jpg");
+  color: white;
+  font-weight: bold;
+}
+.SF2 {
+  background-image: url("../img/san-francisco-2.jpg");
+  color: white;
+  font-weight: bold;
+}
+
+#image {
+  display: inline-block;
+  text-align: center; /*This does not work*/
+  height: 200px;
+  width: 30%;
+  max-width: 200px;
+  margin: 5px;
+}
 
 .right {
-  background-color: grey;
-  position: fixed;
-  height: 100%;
-  width: 20%;
-  right: 0px;
-  top: 0px;
+  height: 700px;
+  width: 10%;
+  border: 4px solid #F5F5F5;
   float: right;
+  margin-top: 0px;
+  position: relative;
 }
 
 .left {
-  background-color: grey;
-  position: fixed;
-  height: 100%;
-  width: 20%;
-  left: 0px;
-  top: 0px;
+  height: 700px;
+  width: 10%;
+  border: 4px solid #F5F5F5;
   float: left;
-}
+  margin-top: 0px;
+  position: relative;
+  }
