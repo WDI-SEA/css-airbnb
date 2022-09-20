@@ -1,3 +1,148 @@
+body {
+  background-color: rgb(237, 239, 236);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-div-container,
+.second-div-container {
+  text-align: center;
+  color: rgb(85, 89, 90);
+}
+
 h1 {
-  color: salmon;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 33px 0px 0px 0px;
+}
+
+p {
+  font-size: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 2px 0px 20px 0px;
+}
+
+#overylay1 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: 80px 0 0 40px;
+
+}
+
+#overylay2 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: 80px 0 0 55px;
+}
+
+#overylay3 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: 80px 0 0 75px;
+}
+
+#overylay4 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: 100px 0 0 75px;
+}
+
+#overylay5 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: 100px 0 0 75px;
+}
+
+#overylay6 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  margin: 100px 0 0 50px;
+}
+
+.image1 {
+  background-image: url('../img/san-francisco.jpg');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 0px 6px 0px 6px;
+  display: inline-block;
+}
+
+.image2 {
+  background-image: url('../img/new-york.jpg');
+  background-size: cover;
+  position: relative;
+  margin: 0px 6px 0px 6px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+
+.image3 {
+  background-image: url('../img/london.jpg');
+  background-size: cover;
+  position: relative;
+  margin: 0px 6px 0px 6px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.image4 {
+  background-image: url('../img/Napa.jpg');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 0px 6px 0px 6px;
+  display: inline-block;
+}
+
+.image5 {
+  background-image: url('../img/sonoma.jpg');
+  background-size: cover;
+  position: relative;
+  margin: 0px 6px 0px 6px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+
+.image6 {
+  background-image: url('../img/san-francisco-2.jpg');
+  background-size: cover;
+  position: relative;
+  margin: 0px 6px 0px 6px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+footer {
+  background-color: lightgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: grey;
+  padding: auto;
+  margin-top: auto;
 }
