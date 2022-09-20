@@ -1,3 +1,127 @@
 h1 {
-  color: salmon;
+  color: rgb(114, 112, 112);
+  font-size: medium;
+  font-family:Arial;
+  text-align:center;
+  line-height: 4;
 }
+h2 {
+  color: rgb(114, 112, 112);
+  font-size: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:center;
+  line-height: 1%;
+  margin: -25px 0px 0px 0px;
+}
+h3 {
+  color: rgb(114, 112, 112);
+  font-size: medium;
+  font-family:Arial;
+  text-align:center;
+  line-height: 2px;
+  margin: -200px 0px 0px 0px;
+}
+h4 {
+  color: rgb(114, 112, 112);
+  font-size:7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:center;
+  line-height: 1%;
+  margin: 16px -11px 0px 0px;
+}
+.one {
+  background-image: url("../img/san-francisco.jpg");
+  background-position:center;
+  background-size: cover;
+  width: 150px;
+  height: 160px;
+}
+.two {
+  background-image: url("../img/new-york.jpg");
+  background-position:center;
+  background-size: cover;
+  width: 150px;
+  height: 160px;
+  
+}
+.three {
+  background-image: url("../img/london.jpg");
+  background-position:center;
+  background-size: cover;
+  width: 150px;
+ height: 160px;
+}
+.one1 {
+  background-image: url("../img/napa.jpg");
+  background-position:center;
+  background-size: cover;
+  width: 150px;
+  height: 160px;
+}
+.two2 {
+  background-image: url("../img/sonoma.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 160px;
+  
+}
+.three3 {
+  background-image: url("../img/san-francisco-2.jpg");
+  background-position:center;
+  background-size: cover;
+  width: 150px;
+ height: 160px;
+}
+.picture {
+  position: relative;
+  top: 10 px;
+  left: 208px;
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px 0px 0px;
+
+}
+.picture-2 {
+  position: relative;
+  top: 10 px;
+  left: 208px;
+  display: flex;
+  gap: 10px;
+  margin: 100px 0px 0px 0px;
+}
+
+
+.Theboxe1 {
+  display: flex;
+  gap: 200px;
+  font-family: sans-serif;
+}
+
+a {
+  
+  flex: 1;
+  color: rgb(88, 86, 86);
+  text-decoration: none;
+  font-size: medium;
+  font-family:Arial;
+  text-align:center;
+  line-height: 2;
+  margin: 206px 221px 0px 211px;
+  
+}
+
+a:link,
+a:visited,
+a:focus {
+  background:white;
+  border: 2px solid gray;
+    height: 29px;
+    width: 12px;
+}
+a:active {
+  background:yellow;
+  color: white;
+}
+
+
