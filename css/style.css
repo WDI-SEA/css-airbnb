@@ -1,5 +1,7 @@
 body{
-  background-color: linen;
+  background: rgb(205, 204, 218);
+background: linear-gradient(90deg, rgb(206, 205, 154) 0%, rgb(145, 145, 130) 35%, rgb(255, 255, 255) 100%);
+font-family: 'Kanit', sans-serif;
 }
 button{
   text-align: center;
@@ -22,9 +24,16 @@ h1 {
     background-position: center;
     align-items: center;
     justify-content: center;
-    vertical-align: middle;
+    vertical-align: middle; 
+  }
+  h2{
+    margin-top: 50%;
+    color: white;
+    text-shadow: 40px;
+    font-family: 'Paytone One', sans-serif;
   }
 .san-fran1{
+  margin-left: 30%;
   background-image: url("/img/san-francisco.jpg");
 }
  .new-york{
@@ -34,6 +43,7 @@ h1 {
   background-image: url("/img/london.jpg");
 }
 .napa{
+  margin-left: 30%;
   background-image: url("/img/napa.jpg");
 }
 .sonoma{
