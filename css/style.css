@@ -1,3 +1,73 @@
 h1 {
-  color: salmon;
+  color: black;
 }
+.main {
+  background-color: lightgrey   ;
+  font-size: 15px;
+  color: black ;
+  text-align: center;
+}
+
+.one {
+  background-color: lightgrey  ;
+  text-align: center;
+  height: 40%;
+  width: 50%;
+  margin: 5% auto;
+}
+ .san-francisco {
+  background-image: url("../img/san-francisco.jpg");
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+  color: whitesmoke ;
+}
+.new-york {
+  background-image: url("../img/new-york.jpg");
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+  color: whitesmoke ;
+}
+.london {
+  background-image: url("../img/london.jpg");
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+  color: whitesmoke ;
+}
+
+
+
+.two {
+  background-color: lightgrey  ;
+  text-align: center;
+  height: 40%;
+  width: 50%;
+  margin: 5% auto;
+
+}
+.Napa {
+  background-image: url("../img/napa.jpg");
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+}
+.Sonoma {
+  background-image: url("../img/sonoma.jpg");
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+}
+.San-Francisco {
+  background-image: url("../img/san-francisco-2.jpg");
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+}<button> See All destination </button>
