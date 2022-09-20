@@ -4,34 +4,30 @@
   background-color: lightgray;
   font-size: 15px;
   text-align: center;
-  text-decoration-color: darkgray;
+  color: darkgray;
 
 }
 
 .first {
   display: inline-block;
   color: white;
+  text-align: center;
+  font-size: 30px;
+  
 }
 
 .San {
   float: left;
   width: 33.33%;
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
-  
   background-image: url(../img/san-francisco.jpg);
   width: 400px;
   height: 400px;
+  
 } 
 
 .New {
   float: left;
   width: 33.33%;
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
   background-image: url(../img/new-york.jpg);
   width: 400px;
   height: 400px;
@@ -40,9 +36,6 @@
 .Lon {
   float: left;
   width: 33.33%;
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
   background-image: url(../img/london.jpg);
   width: 400px;
   height: 400px;
@@ -52,15 +45,13 @@
 .second {
   display: inline-block;
   color: white;
+  font-size: 30px; 
+  text-align: center;
 }
 
 .Nap {
   float: left;
   width: 33.33%;
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
   background-image: url(../img/napa.jpg);
   width: 400px;
   height: 400px;
@@ -69,11 +60,6 @@
 .Son {
   float: left;
   width: 33.33%;
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
-  
   background-image: url(../img/sonoma.jpg);
   width: 400px;
   height: 400px;
@@ -82,11 +68,6 @@
 .SanF {
   float: left;
   width: 33.33%;
-  padding: 1px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
-  
   background-image: url(../img/san-francisco-2.jpg);
   width: 400px;
   height: 400px;
