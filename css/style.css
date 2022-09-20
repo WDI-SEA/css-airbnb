@@ -3,11 +3,66 @@ h2 {
 }
 
 body {
+  /* border:1px solid red;
+  height:70vh; */
   text-align: center;
   font-family: 'Roboto', sans-serif;
   background-color: #bebebe;
   color:#4f4b4b; 
 }
+/* 
+.div-container {
+  border: 1pxx solid black;
+  height:  40%;
+  width: 50%;
+  margin: 5% auto;
+}
+/* this will select all the child elements of the div-container */
+.div-container > div {
+border: 1px solid grey;
+
+}
+
+
+.title-container {
+  text-align: center;
+}
+
+.title-container > p {
+  font-size: 15px;
+}
+
+/* .images-container {
+
+  height: 30%;
+} */
+
+/* .image {
+  height: 100%;
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid purple;
+  display:inline-block;
+} */ */
+/* to select two classes at once */
+/* .image.one {
+background-image: url("../img/san-francisco.jpg");
+background-size: cover;
+}
+
+.image.two {
+  background-image:url("../img/new-york.jpg");
+  background-size: cover;
+  }
+  
+  .image.three{
+    background-image: url("../img/london.jpg");
+    background-size: cover;
+    }
+
+    .image.one, .image.two, .image.three {
+      font-color:white;
+    } */
 
 button  {
   padding: 8px 40px;
