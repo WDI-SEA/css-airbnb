@@ -67,16 +67,16 @@ body {
 
 .container {
   color: white;
-  padding: 50px;
   display: flex;
+  margin: 50px 180px 50px 180px;
   justify-content: space-around;
   
 }
 
 .container2 {
   color: white;
-  padding: 50px;
   display: flex;
+  margin: 50px 180px 50px 180px;
   justify-content: space-around;
 }
 
@@ -87,4 +87,10 @@ body {
 
 h3 {
   text-align: center;
+}
+
+button {
+  text-align: center;
+  margin: 0px 0px 80px 500px;
+  font-size: 20px;
 }
