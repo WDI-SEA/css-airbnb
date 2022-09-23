@@ -1,29 +1,46 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+.container {
+display: flex;
+justify-content: space-evenly;
+}
+
+
+div {
+  position: relative;
+  text-align: center;
+  color: white;
+  font: bold;
+  font-size: larger;
+}
+
+span {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   color: gray;
-  
 }
-
-/* .img {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  
-} */
 
 .photo {
-  height: 250px;
-  width: 250px;
+  height: 300px; 
+  width: 300px;
   display: inline-block;
   /* position: absolute; */
-  margin-left: 300px;
+  margin-left: 100px;
+  margin-right: 100px; 
 }
-.Text {
 
+.Text {
   color: gray;
   text-align: center;
-
 }
-
 .button {
   height: 60px;
   width: 400px;
@@ -35,9 +52,8 @@ h1 {
   color: gray;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
 
-
-
-
+.class {
+  color: gray;
+}
