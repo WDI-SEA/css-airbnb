@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 25px;
+
+    .img-container {
+      display: flex;
+      max-width: 50%;
+      gap: 3%;
+      margin: 0 auto;
+
+      img {
+        height: 100px;
+        width: 33%;
+      }
+    }
+  }
+}
