@@ -1,3 +1,70 @@
-h1 {
-  color: salmon;
+body{ 
+  font-family: ircular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  background-color: rgb(237, 239, 236)
+}
+h2{
+  color: #474749;
+  font-family: ircular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-weight:500;
+  padding: 0px;
+  text-align:center;
+  margin: 40px 0 0 0;
+
+}
+h4 {
+  color: #474749;
+  font-family: ircular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-weight:500;
+  font-size: 11px;
+  padding:0px;
+  text-align:center;
+  margin: 10px 0 0 0;
+}
+img{
+  width:225px;
+  height:250px;
+  object-fit: cover;
+  text-align: center;
+  margin:30px 7px;
+  display: inline-block;
+}
+
+.center{
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.overlay {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+.label {
+  position: absolute;
+  top: 145px;
+  right: 70px;
+  left: 70px;
+  bottom: 150px;
+  margin: 0 auto;
+  font-family: ircular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  display: inline-block;
+  font-size: 23px;
+  font-weight:600;
+  margin:0 -50px;
+}
+
+.butt {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  color: #474749;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 56px;
+  border: 1px solid;
+  border-color: #BFC5C8;
 }
