@@ -1,3 +1,90 @@
+body {
+  text-align: center;
+  background-color: rgb(223, 217, 217);
+}
 h1 {
   color: salmon;
+}
+h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: azure;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+.center-image {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  background-color: white;
+  padding: 10px;
+  width: 250px;
+}
+.top-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/san-francisco.jpg");
+}
+.top-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/new-york.jpg");
+}
+.top-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/london.jpg");
+}
+.bottom-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/napa.jpg");
+}
+.bottom-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/sonoma.jpg");
+}
+.bottom-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/san-francisco-2.jpg");
+}
+button {
+  margin-top: 30px;
 }
