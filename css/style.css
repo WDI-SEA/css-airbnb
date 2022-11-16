@@ -1,3 +1,115 @@
-h1 {
-  color: salmon;
+/* only works in big browser */
+/* images get resized weird */
+/* need to add media queries for resizing */
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ddefde;
+  font-family: 'Noto Sans KR', sans-serif;
+
 }
+
+.text {
+  color: #675b5b;
+}
+
+h1 {
+  font-size: 37px;
+  margin-bottom: -5px;
+}
+
+p {
+  font-size: 18.4px;
+}
+
+/* TEXT ON PICTURES | this shit way too klunky */
+/* way we learning in class: make div img-container to contain both img and text(as h2) position ab */
+
+.names1 {
+  position: absolute;
+  top: 33.9%;
+  left: 27%;
+  z-index: 20;
+  color: white;
+  font-size: 26px;
+
+}
+.names2 {
+  position: absolute;
+  color: white;
+  top: 33.9%;
+  left: 47%;
+  z-index: 20;
+  font-size: 26px;
+}
+.names3 {
+  position: absolute;
+  color: white;
+  top: 33.9%;
+  left: 66%;
+  z-index: 20;
+  font-size: 26px;
+}
+
+/* THE OTHER NAMES */
+
+.names11 {
+  position: absolute;
+  top: 104%;
+  left: 30%;
+  z-index: 20;
+  color: white;
+  font-size: 26px;
+
+}
+.names21 {
+  position: absolute;
+  color: white;
+  top: 104%;
+  left: 47.2%;
+  z-index: 20;
+  font-size: 26px;
+}
+.names31 {
+  position: absolute;
+  color: white;
+  top: 104%;
+  left: 64.5%;
+  z-index: 20;
+  font-size: 26px;
+}
+
+/* NOW THE ACTUAL THINGS */
+
+.button {
+  margin: ;
+  margin-top: 35px;
+  display: inline-block;
+  line-height: 50%;
+  text-align: center;
+  border: none;
+  
+}
+
+.button img {
+  object-fit: cover;;
+  height: 350px;
+  width: 340px;
+  position: relative;
+  left: 0%;
+  top: 0%;
+}
+
+.seeAll {
+  width: 300px;
+  height: 35px;
+  margin-top: 27px;
+  margin-bottom: 35px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border: 1px solid #grey;
+  color:#675b5b
+}
+
+
+/* would want to add onhover commands to buttons, add more accessibility? */
