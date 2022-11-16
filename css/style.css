@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #edefec;
+  color: rgb(85, 85, 93);
+}
+h2{
+  font-size: 2rem;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid rgb(85, 85, 93);
+  padding: 10px 80px;
+}
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.container{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+h3 {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
