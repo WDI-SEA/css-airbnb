@@ -1,3 +1,113 @@
-h1 {
-  color: salmon;
+/* .head {
+  color: hsla(240, 3%, 13%, 0.767);
+  text-align: center;
+  font-size: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+.imgContainer{
+  text-align:center;
+  display:flex;
+  flex-direction: row;
+
+
+
+}
+
+.main div{
+margin: 0 auto;
+text-align:center;
+}
+.empty{
+  padding: 3px 0px;
+}
+img{
+  width: 220px;
+  height: 220px;
+position: relative;
+  margin: 0 auto;
+}
+.left{
+  margin-left: auto;
+  position: relative;
+}
+.center{
+margin: 0 16px;
+position: relative;
+}
+.right{
+  margin-right: auto;
+  position: relative;
+}
+.name{
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  color:rgba(255, 248, 248, 0.897);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.button{
+  text-align:center;
+
+margin: 28px;
+  
+}
+button{
+  
+  margin-left: center;
+  margin-right: center;
+  color: rgba(11, 11, 11, 0.769);
+  background-color: white;
+  border: 1px solid rgba(75, 73, 73, 0.377);
+  padding: 12px 60px 12px 60px;
+}
+
+
+body{
+  background-color: rgba(41, 40, 40, 0.122);
+  
+  
+ 
+} */
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237,238,236);
+  color:rgb(85,85,93)
+}
+button{
+  margin-top:40px;
+  color: rgb(85,85,93);
+  padding: 10px 80px;
+  background-color: white;
+  border: 1px solid rgb(85, 85, 93);
+}
+.center{
+  /* to center inline elements text-align:center */
+  text-align:center;
+  /* to center block elements margin: 0 auto; */
+  margin: 0 auto;
+}
+.imgContainer{
+display: inline-block;
+position: relative;
+
+}
+.imgContainer > img{
+ 
+ 
+  width: 300px;
+  height: 300px;
+}
+.imgContainer > h2 {
+  color: rgba(255, 255, 255, 0.939);
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
+
 }
