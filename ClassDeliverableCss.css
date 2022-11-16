@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetics, sans-serif;
+    background-color: rgb(237, 239, 236);
+    color: rgb(85,85,93);
+}
+button {
+    margin-top: 40px;
+    padding: 10px 80px;
+    background-color: white;
+
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+
+.img-container > img {
+    /* display: inline-block; */
+    /* position: relative; */
+    width: 300px;
+    height: 300px;
+}
+
+.img-container > h2 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
