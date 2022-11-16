@@ -1,3 +1,78 @@
-h1 {
-  color: salmon;
+body{
+  background-color: whitesmoke;
 }
+
+h1 {
+  text-align: center;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-weight: normal;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+  text-align: center;
+}
+
+img {
+  position:inline;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+
+.img-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.button {
+  background-color: white;
+  margin: 30px 815px;
+  padding: 10px 20px;
+  border: 1px solid grey;
+}
+
+/* 
+REVIEW FOLLOW ALONG
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237, 239, 236)
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.img-container > img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.img-container > h2 {
+  color: white
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  margin-top: 40px;
+  padding: 10px 80px;
+  background-color: white;
+  border: 1px solid rbg(85,85,93);
+*/
