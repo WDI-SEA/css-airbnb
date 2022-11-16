@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>AIRBNB</title>
+
+</head>
+
+<body>
+<main>
+  <section>
+  <div>
+    <h1 class="center"><bold>Meet Guide Books</bold></h1>
+</div>
+
+<div class="img-container">
+    <p class="center">Discover hundreds of local spots recommended by Airbnb hosts</p>
+</div>    
+<div>
+    <div class="center">
+        
+     <img src="./img/san-francisco.jpg" alt="San Francisco" />
+        <h2>San Francisco</h2>
+     
+    <div class="img-container">
+        <img src="./img/new-york.jpg" alt="New York" />
+        <h2>New York</h2>
+    </div>
+    <div class="img-container">
+        <img src="./img/london.jpg" alt="London" />
+        <h2>London</h2>
+    </div>    
+    </div>
+   <div class="center">
+        <a href="#">See all guide books</a>
+    </div>
+    
+
+    <h1 class="center">Just for the weekend</h1>
+      <p class="center">Discover new, inspiring places close to home.</p>
+
+        <div class="img-container">
+        <img src="./img/napa.jpg" alt="Napa" />
+        <h2>Napa</h2>
+</div>
+    <div class="img-container">
+        <img src="./img/sonoma.jpg" alt="Sonoma" />
+         <h2>Sonoma</h2>
+    </div>
+    <div class="img-container"></div>
+     <img src="./img/san-francisco-2.jpg" alt="San Francisco" />
+        <h2>San Francisco</h2>
+    </div>
+</div>
+<a href="#">See All Destinations</a>
+</section>
+</main>  
+</body>
+</html>
+ 
