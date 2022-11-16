@@ -1,3 +1,61 @@
-h1 {
-  color: salmon;
+/*body {
+  background-color: whitesmoke;
 }
+h2, p {
+  color: black;
+  text-align: center;
+  opacity: 70%;
+}
+.fend {
+  color: black;
+  text-align: center;
+  opacity: 70%;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+img {
+  object-fit: cover;
+  height: 230px;
+  width: 210px;
+  display: inline-block;
+} */
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237, 239, 236));
+  color: rgb(85, 85, 93);
+}
+
+button {
+  margin-top: 40px;
+  padding: 10px 80px;
+  background-color: white;
+  border: 1px solid rgb(85, 85, 93);
+  color: rgb(gb(85, 85, 93);
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.img-container > img {
+ /* display: inline-block;*/
+  width: 300px;
+  height: 300px;
+}
+
+.img-container > h2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
