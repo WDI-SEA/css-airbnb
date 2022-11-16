@@ -1,4 +1,4 @@
-body {
+/* body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightgray;
@@ -62,4 +62,46 @@ button {
   margin: 50px;
   color: gray;
   padding: 10px;
+} */
+
+
+/* morning code along review */
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237, 239, 236);
+  color: rgb(85, 85, 93);
 }
+
+button {
+  margin-top: 40px;
+  padding: 10px 80px;
+  background-color: white;
+  border: 1px solid rgb(85, 85, 93);
+  color: rgb(85, 85, 93);
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.img-container > img {
+  /* display: inline-block; */
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.img-container > h2 {
+  color: white; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
