@@ -5,19 +5,18 @@ main {
   .main-section {
     display: flex;
     flex-direction: column;
-    height: 50vh;
-    margin-top: 25px;
+    height: 50%;
+    text-align: center;
+    max-width: 90%;
+    margin: 25px auto;
 
     .img-container {
       display: flex;
-      max-width: 50%;
+      height: 100%;
       gap: 3%;
-      margin: 0 auto;
-
-      img {
-        height: 100px;
-        width: 33%;
-      }
+      margin: 10px auto;
+      width: 100%;
+      justify-content: center;
     }
   }
 }

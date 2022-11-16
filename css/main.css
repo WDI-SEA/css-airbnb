@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Londrina+Shadow&display=swap");
 *,
 *:before,
 *:after {
@@ -105,7 +106,56 @@ table {
 
 input {
   -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   border-radius: 0;
+}
+
+body {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+main {
+  font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  color: #4d5156;
+  font-weight: bold;
+  margin: 16px 0 8px 0;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.button {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  width: 25%;
+  margin: 15px auto;
+  width: 250px;
+  color: #4d5156;
+  font-weight: 600;
+}
+
+.card {
+  position: relative;
+}
+
+.card p {
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  bottom: 125px;
+  right: 125px;
 }
 
 main {
@@ -116,16 +166,16 @@ main {
 main .main-section {
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  margin-top: 25px;
+  height: 50%;
+  text-align: center;
+  max-width: 90%;
+  margin: 25px auto;
 }
 main .main-section .img-container {
   display: flex;
-  max-width: 50%;
+  height: 100%;
   gap: 3%;
-  margin: 0 auto;
-}
-main .main-section .img-container img {
-  height: 100px;
-  width: 33%;
+  margin: 10px auto;
+  width: 100%;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

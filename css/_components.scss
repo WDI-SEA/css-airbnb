@@ -1,0 +1,21 @@
+.button {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  width: 25%;
+  margin: 15px auto;
+  width: 250px;
+  color: #4d5156;
+  font-weight: 600;
+}
+
+.card {
+  position: relative;
+}
+
+.card p {
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  bottom: 125px;
+  right: 125px;
+}
