@@ -1,3 +1,45 @@
-h1 {
-  color: salmon;
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237, 239, 236);
+}
+
+.box_title {
+  color: rgb(85, 85, 93);
+}
+
+.description {
+  color: rgb(85, 85, 93);
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* could not get my button to work for some reason, 
+I don't know where I mess up */
+.button {
+  margin-top: 40px;
+  padding: 10px 80px;
+}
+
+.img_pref {
+  display: inline-block;
+  position: relative;
+}
+
+.img_pref>img {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+/* used transform command to precisely center INSIDE of picture */
+.img_pref>h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
 }
