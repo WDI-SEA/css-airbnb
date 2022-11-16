@@ -1,3 +1,116 @@
-h1 {
-  color: salmon;
+/* MY CODE */
+
+/* body {
+  background-color: #EDEFEC;
 }
+
+div{
+  color: #55595B;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2{
+  letter-spacing: 3px;
+  margin-bottom: 1px;
+  font-size: 40px;
+}
+
+h3{
+  letter-spacing: 3px;
+  font-size: 40px;
+  color: white;
+}
+
+img {
+  margin: 10px;  
+  padding: 10px; 
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  margin-top: 2px;
+  font-size: 20px;
+}
+
+button {
+  color: #55595B;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  padding: 10px 40px;
+  letter-spacing: 1px;
+  border: 2px solid #C4C4C4 ;
+  margin: 30px auto;
+}
+
+.container {
+  position: relative;
+  margin: 10px;
+}
+
+
+.left {
+  position: absolute;
+  display: inline;
+  top: 40%;
+  left: 20%;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+
+.right {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+} */
+
+
+/* CLASS CODE */
+
+
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237,239,236);
+  color: rgb(85,85,93);
+}
+
+button{
+  margin-top: 40px;
+  padding: 10px 80px;
+  background-color: white;
+  color: rgb(85,85,93);
+  border: 1px solid rgb(85,85,93);
+
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.img-container{
+  display: inline-block;
+  position: relative;
+}
+
+.img-container > img {
+  width: 300px;
+  height: 300px;
+}
+
+.img-container > h2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
