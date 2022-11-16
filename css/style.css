@@ -1,3 +1,83 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #ecedef;
+  font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+  color: #474747;
+  position: relative;
+  top: 25px;
+  text-align: center;
+  border: 15px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 25px;
+}
+
+h4 {
+  color: #474747;
+  position: relative;
+  top: 15px;
+  text-align: center;
+  border: 15px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.imageall {
+  margin: 30px 0px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.imageborder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+}
+
+.middle {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+}
+
+.right {
+  position:absolute;
+  color: white;
+  font-size: 25px;
+}
+
+.picture {
+  object-fit: cover;
+  width: 250px;
+  height: 275px;
+  padding: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickit {
+  color: #474747;
+  background-color: white;
+  border: 1px solid grey;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 60px;
+}
+
