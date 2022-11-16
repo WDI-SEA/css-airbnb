@@ -1,3 +1,49 @@
-h1 {
-  color: salmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body {
+  background-color: rgb(247, 248, 243);
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+h2{
+  font-weight: bold;
+}
+h2, p {
+  color: rgb(63, 61, 60);
+  text-align: center;
+  margin: 5px;
+}
+.img{
+  width: 270px;
+  height: 270px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.button {
+  padding: 10px 80px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+/* Got from W3Schools https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.imgDiv{
+  position: relative;
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+
+/* Got from W3Schools https://www.w3schools.com/howto/howto_css_image_text.asp */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: large;
+  font-weight: bold;
+}
+.parentimgdiv{
+  margin: 0 auto;
+  max-width: 900px;
 }
