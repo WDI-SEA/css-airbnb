@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+h1,h3 {
+  color: grey;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(237, 239, 236);
+  color: rgb(85, 85, 93);
+}
+button {
+  margin-top: 40px;
+  padding: 10px 80px;
+  background-color: white;
+  border: 1px solid rbg (85, 85, 93);
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+.img-container {
+  display: inline-block;
+  position: relative;
+
+}
+.img-container > img {
+  width: 300px;
+  height: 300px;
+}
+.img-container > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
