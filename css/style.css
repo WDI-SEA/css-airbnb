@@ -26,13 +26,14 @@ button {
   border: 1px solid #cfcfcf;
   padding: 10px 80px;
   font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: #4a4a4a;
+  border-radius: 5px;
 }
 
 div.container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .imgBox {
