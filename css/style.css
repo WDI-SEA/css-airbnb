@@ -38,8 +38,8 @@ div.location {
   font-size: 30px;
 }
 
-button {
-  margin: 40px 0 0;
+.button {
+  margin-top: 20px;
   padding: 10px 40px;
   border: 1px solid gray;
 }
