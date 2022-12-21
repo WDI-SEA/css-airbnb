@@ -1,3 +1,10 @@
 h1 {
   color: salmon;
 }
+img {
+width:250px;
+height:250px;
+}
+body {
+  text-align: center;
+}
