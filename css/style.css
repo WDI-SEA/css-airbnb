@@ -1,7 +1,10 @@
+
+
 body {
   display:flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(237,239,236);
 }
 
 h1 {
@@ -17,7 +20,8 @@ p {
 button {
   background-color: white;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 15px 46px ;
+  padding: 15px 90px;
+  border-color: rgb(196, 196,196);
 }
 
 img {
