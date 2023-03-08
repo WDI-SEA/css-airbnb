@@ -1,3 +1,63 @@
 h1 {
-  color: salmon;
+  color: rgb(94, 92, 92);
+  position: center;
+}
+h2{
+  color:rgb(139, 135, 135);
+}
+
+.image-block{
+  display: flex;
+  justify-content: center;
+}
+
+.city-image{
+width: 350px;
+height: 500px;
+object-fit: none;
+padding: 0px 20px 0px 20px ;
+position: relative;
+}
+
+.city-one{
+  position: absolute;
+  padding: 200px 0 0 0;
+}
+.city-two{
+  position: absolute;
+  padding: 200px 800px 0 0;
+}
+.city-three{
+  position: absolute;
+  padding: 200px 0 0 800px;
+}
+.city-name{
+  color:white;
+  font-weight:bold;
+  font-size: 2.5em;
+}
+.guidebooks{
+  border: 2px solid lightgray;
+  display:inline-flex;
+  justify-content:center;
+  padding: 15px 114px;
+  flex-basis: content;
+}
+
+.guidebook-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+  
+}
+
+.headerone-div{
+    display: flex;
+    justify-content: center;
+  
+}
+.headertwo-div{
+  display: flex;
+  justify-content: center;
+
 }
