@@ -1,5 +1,11 @@
+{
+ margin: o;
+ box-sixing: border-box;
+ font-family: "Raleway", "sans-serif";
+ color: rgb(88 91 94);
+}
 body {
-  color: rgb(237 239 236);
+  background-color: rgb(237 239 236);
 }
 h1 {
   color: rgb(88 91 94);
