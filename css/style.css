@@ -1,3 +1,130 @@
-h1 {
-  color: salmon;
+/* body { */
+  background: rgba(237, 239, 236, 1);}
+/* h1 { */
+  color: rgba(87, 91, 94, 1);
+  text-align: center;
+  margin: 40px 0px -5px 0px;  
+  font-family: 'Raleway', sans-serif;;
+  font-size: 25px;}
+/* h2 {
+  color: rgba(87, 91, 94, 1);
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  word-spacing: 2px;
 }
+h3 {
+  margin: 0px 80px 0 52px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: -164px;
+  right: 201px;
+}
+h4 {
+  margin: 0px 80px 0 52px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: -184px;
+  left: 5px;
+}
+h5 {
+  margin: 0px 80px 0 52px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: -202px;
+  left: 228px;
+}
+
+p {
+  color: rgba(87, 91, 94, 1);
+  text-align: center;
+  background-color: white;
+  padding: 7px;
+    font-size: 11px;
+    margin: 0 auto;
+    border: 1px lightgray solid;
+    width: 10%;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    bottom: 67px;
+}
+
+img {
+  display: inline;
+  width: 200px;
+  height: 250px;
+}
+
+
+.row {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 10px;
+padding: 30px;
+}
+
+.style {
+  margin: -70px 0px 5px 0px;;
+}
+ */
+/* .center { */
+  margin: 0 auto;}
+
+/* .center{   */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+
+
+
+  * {
+    /* browser css reset */
+    margin: 0;
+    box-sizing: border-box;
+    /* set some basic font styling */
+    font-family: "Raleway", sans-serif;
+    /* use digital color picker to get hex values */
+    color: #4b4c4e;
+  }
+  body {
+    background-color: #E9EBE7;
+  }
+  
+  button  {
+    padding: 1rem 5rem ;
+  }
+  .card {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .images {
+    display: flex;
+  }
+  
+  .images section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .images p {
+    /* border: yellow 2px solid; */
+    position: absolute;
+    color: white;
+  }
