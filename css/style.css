@@ -1,3 +1,103 @@
+*{
+  background: lightgrey;
+}
+
 h1 {
-  color: salmon;
+  color: grey;
+  text-align: center;
+}
+
+h2{
+  color: grey;
+  text-align: center;
+}
+
+#top-photos{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+#bottom-photos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  
+}
+
+#guidebooks-button{
+text-align: center;
+
+
+}
+
+#destination-button{
+text-align: center;
+}
+
+#top-button{
+  background-color: white;
+}
+
+#bottom-button{
+  background-color: white;
+}
+
+.photos{
+  margin: 15px 15px;
+}
+
+#san-francisco{
+position: absolute;
+top: 40%;
+color: white;
+background-color: rgba(255, 255, 255, 0);
+margin: 0 auto;
+
+}
+
+#new-york{
+  position:absolute;
+  top: 50%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+
+}
+
+#london{
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+
+}
+
+#napa{
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+
+}
+
+#sonoma{
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+
+}
+
+#san-francisco-2{
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0 auto;
+
 }
