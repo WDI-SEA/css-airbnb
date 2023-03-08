@@ -1,3 +1,107 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(237, 239, 236) ;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 20px;
+}
+
+/* These blocks style the div with class name section head and the contents inside it */
+.section_head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section_head p {
+  margin-top: 5px;
+  color: rgb(92, 95, 98);
+}
+
+.section_head h2 {
+  margin-bottom: 0;
+  color: rgb(92, 95, 98);
+}
+
+/* These blocks style the div with class name locations and the contents inside it */
+
+.locations {
+  display: flex;
+  justify-content: center;
+
+}
+
+.location_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 275px;
+  width: 275px;
+  margin: 10px
+
+}
+
+.SF {
+  background-image: url(../img/san-francisco.jpg);
+  background-size: cover;
+  color: rgb(253, 252, 251);
+  font-size: 28px; 
+}
+
+.NY {
+  background-image: url(../img/new-york.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  color: rgb(253, 252, 251);
+  font-size: 28px;
+}
+
+.London {
+  background-image: url(../img/london.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  color: rgb(253, 252, 251);
+  font-size: 28px; 
+}
+
+.napa {
+  background-image: url(../img/napa.jpg);
+  background-size: cover;
+  color: rgb(253, 252, 251);
+  font-size: 28px; 
+}
+
+.sonoma {
+  background-image: url(../img/sonoma.jpg);
+  background-size: cover;
+  color: rgb(253, 252, 251);
+  font-size: 28px;
+}
+
+.SF2 {
+  background-image: url(../img/san-francisco-2.jpg);
+  background-size: cover;
+  color: rgb(253, 252, 251);
+  font-size: 28px; 
+}
+
+/* These blocks style the button to the guidebooks */
+
+.guide_books {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.guide_books a {
+  border: 1px solid rgb(221,225,221);
+  padding: 8px 61px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(92, 95, 98);
+  font-weight: 600; 
+  border-radius: 3%;
+  background-color: white;
 }
