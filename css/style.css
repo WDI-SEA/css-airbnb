@@ -1,3 +1,44 @@
-h1 {
-  color: salmon;
+* {
+  /* browser css reset */
+  margin: 0;
+  box-sizing: border-box;
+  /* set some basic font styling */
+  font-family: "Raleway", sans-serif;
+  /* use digital color picker to get hex values */
+  color: #4b4c4e;
+}
+body {
+  background-color: #E9EBE7;
+}
+
+button {
+  padding: 1rem 7rem;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+}
+
+.images section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.images p {
+  /* border: yellow 2px solid; */
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
 }
