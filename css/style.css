@@ -1,3 +1,13 @@
+body {
+  color: rgb(237 239 236);
+}
 h1 {
-  color: salmon;
+  color: rgb(88 91 94);
+  font-family: Fjalla One;
+  text-align: center;
+}
+
+p {
+  color: rgb(88 91 94);
+  text-align: center;
 }
