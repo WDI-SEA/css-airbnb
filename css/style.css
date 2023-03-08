@@ -1,3 +1,37 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: #4b4c4e;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.images{
+  display: flex;
+}
+
+.images section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .images p{
+  position:absolute; 
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+ }
+
+button {
+  padding: 1rem 7rem;
 }
