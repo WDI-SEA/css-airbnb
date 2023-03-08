@@ -18,10 +18,23 @@ p {
   gap: 20px;
 }
 
+.img-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+
+.img-div p {
+  position: absolute;
+  color: white;
+  font-size: 24px;
 }
 
 button {
