@@ -1,3 +1,144 @@
-h1 {
-  color: salmon;
+/* Set a standard style for body element to cascade down as necessary */
+body {
+  /* background color for the web page */
+  background-color: rgba(237, 239, 236, 1);
+  /* font family for web page (not AirBnB's cereal font :/) */
+  font-family: 'Open Sans', sans-serif;
+}
+/* styling for section classes, which there are two */
+.section {
+  /* justify divs within .section to center */
+  justify-content: center;
+}
+/* styling for the two headings  */
+.heading {
+  /* height of div */
+  height: 10vh;
+  /* width of div */
+  width: 50%;
+  /* centering .heading div, adding specific top margin */
+  margin: 5vh auto 0;
+  /* adding specific margin to bottom of .heading */
+  margin-bottom: 2vh;
+}
+/* adding styling to text in both .heading-copy & .subtitle-copy */
+.heading-copy, .subtitle-copy {
+  /* align text to center */
+  text-align: center;
+  /* get rid of margin because it is better applied in .heading styling (above) */
+  margin: 0;
+}
+/* specific styling for the two headings text */
+.heading-copy {
+  /* font size relative to doc standard (16px) */
+  font-size: 1.7em;
+  /* making heading a little more bold */
+  font-weight: 600;
+  /* font color  */
+  color: rgb(73, 78, 81);
+}
+/* specific styling for the two subtitle text */
+.subtitle-copy {
+  /* adding some margin to seperate from .heading-copy text */
+  margin-top: .5vh;    /* font size relative to doc standard (16px) */
+  font-size: 0.8em;
+  /* font color */
+  color: rgba(91, 95, 95, 1);
+}
+/* image gallery div */
+.gallery {
+/* display to images flexbox */
+  display: flex;
+  /* horizontally centering the gallery of images */
+  justify-content: center;
+  /* vertically centering the gallery of images */
+  align-items: center;
+  /* ensuring the flex direction is a row */
+  flex-direction: row;
+  /* ensuring the order is sequentially correct */
+  align-items: flex-start;
+  /* ensuring the images don't wrap into a second row */
+  flex-wrap: nowrap;
+}
+/* I made a invisible frame to fix the images on the web page as desired so I can later crop & reposition */
+.img-frame {
+  /* positioning the .img-frames relative to keep normal flow but allow the absolute child text-overlays (later in stylesheet) to be correctly positioned*/
+  position: relative;
+  /* height of frame */
+  height: 30vh;
+  /* aspect ratio of frame as the images don't share a consistent aspect-ratio */
+  aspect-ratio: 1/1;
+  /* hide the overflow so the frame acts like a frame */
+  overflow: hidden;
+  /* added some margin to the side of the frame to allow for some spacing between images */
+  margin: 0 1vw;
+}
+.text-overlay {
+  /* width of text overlay to fill the .img-frame*/
+  width: 100%;
+  /* positioning adjustment from the top of the frame */
+  top: 13vh;
+  /* giving the text-overlay an absolute position so it appears on the image as desired */
+  position: absolute;
+  /* aligning the text to center of the div */
+  text-align: center;
+  /* font color */
+  color: rgba(255, 255, 255, 1);
+  /* font size */
+  font-size: 1.3em;
+  /* making text a little bold */
+  font-weight: bold;
+}
+/* top images adjustments within .img-frame */
+.top-image-crop {
+  /* same height as .img-frame */
+  height: 30vh;
+  /* position relative so I can move them around as desired but as the images stay in the normal flow of the doc */
+  position: relative;
+  /* positioning the images from the right */
+  right: 5.5vw;
+  /* positioning the images from the bottom */
+  bottom: 1vh;
+  /* scaling the images a tad for framing */
+  transform:scale(105%);
+}
+/* bottom images adjustments within .img-frame. Different from top images because these images maintain a consistent aspect ratio (1:1) */
+.btm-image-crop {
+  /* same height as .img-frame */
+  height: 30vh;
+  /* position relative so I can move them around as desired but as the images stay in the normal flow of the doc */
+  position: relative;
+    /* scaling the images a tad for framing */
+  transform:scale(110%);
+}
+/* styling for the button div */
+.button-div {
+  /* some margin above the .button-div */
+  margin-top: 4vh;
+}
+/* styling for the button itself */
+.button {
+  /* the width of the button */
+  width: 20vw;
+  /* changing the button from an inline element to a block element */
+  display: block;
+  /* centering the button  */
+  margin: 0 auto;
+  /* greating some padding around the content but within the border */
+  padding: 1vh;
+  /* font size adjustment */
+  font-size: 0.9em;
+  /* make the text a little bold */
+  font-weight: 600;
+  /* background color of the button */
+  background-color: rgba(255, 255, 255, 1);
+  /* font color of the button */
+  color: rgba(98, 101, 105, 1);
+  /* border styling of the button */
+  border: 1px solid rgba(202, 202, 202, 1);
+}
+/* adding a footer to give a little padding to the bottom of the doc */
+footer {
+  /* height of the footer padding */
+  height: 3vh;
 }
