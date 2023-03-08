@@ -1,43 +1,43 @@
 * {
-  background-color: #d3d3d3;
+  /* browser css reset */
+  margin: 0;
+  box-sizing: border-box;
+  /* set some basic font styling */
+  font-family: "Raleway", sans-serif;
+  /* use digital color picker to get hex values */
+  color: #4b4c4e;
 }
-h1 {
-  color: rgb(74, 68, 68);
-  text-align: center;
-  font-size: large;
-}
-
-h2 {
-  color: rgb(74, 68, 68);
-  text-align: center;
-  font-size: small;
-  font-weight: 100;
+body {
+  background-color: #E9EBE7;
 }
 
-.img {
+button {
+  padding: 1rem 7rem;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.images {
   display: flex;
-  flex-direction: row;
+}
+
+.images section {
+  display: flex;
   justify-content: center;
-  height: 150px;
-  width: 150px;
-  margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  position: relative;
-  text: absolute;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
 }
-.img1 {
-  padding-right: 5px;
-}
-.img2 {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.img3 {
-  padding-left: 5px;
-}
-.button1 {
-  display: block;
-  margin: 0 auto;
+
+.images p {
+  /* border: yellow 2px solid; */
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
 }
