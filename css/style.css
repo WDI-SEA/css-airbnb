@@ -44,14 +44,14 @@ body {
 }
 
 .SF {
-  background-image: url(/img/san-francisco.jpg);
+  background-image: url(../img/san-francisco.jpg);
   background-size: cover;
   color: rgb(253, 252, 251);
   font-size: 28px; 
 }
 
 .NY {
-  background-image: url(img/new-york.jpg);
+  background-image: url(../img/new-york.jpg);
   background-size: cover;
   background-position-x: 50%;
   color: rgb(253, 252, 251);
@@ -59,7 +59,7 @@ body {
 }
 
 .London {
-  background-image: url(img/london.jpg);
+  background-image: url(../img/london.jpg);
   background-size: cover;
   background-position-x: 50%;
   color: rgb(253, 252, 251);
@@ -67,21 +67,21 @@ body {
 }
 
 .napa {
-  background-image: url(img/napa.jpg);
+  background-image: url(../img/napa.jpg);
   background-size: cover;
   color: rgb(253, 252, 251);
   font-size: 28px; 
 }
 
 .sonoma {
-  background-image: url(file:///Users/wrkshp/seir-306/unit1/css-airbnb/img/sonoma.jpg);
+  background-image: url(../img/sonoma.jpg);
   background-size: cover;
   color: rgb(253, 252, 251);
   font-size: 28px;
 }
 
 .SF2 {
-  background-image: url(file:///Users/wrkshp/seir-306/unit1/css-airbnb/img/san-francisco-2.jpg);
+  background-image: url(../img/san-francisco-2.jpg);
   background-size: cover;
   color: rgb(253, 252, 251);
   font-size: 28px; 
