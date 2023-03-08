@@ -53,3 +53,11 @@ button {
   border-radius: 2px;
   margin-bottom: 40px;
 }
+
+button:hover {
+  background-color: #eee;
+}
+
+button:active {
+  background-color: #ddd;
+}
