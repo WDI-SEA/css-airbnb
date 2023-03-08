@@ -1,3 +1,57 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(237 239 236);
 }
+h1, p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(86 90 91);
+  text-align: center;
+}
+
+.photos {
+  width: 300px;
+  height: 300px;
+}
+  
+ .top-row {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+/*Future link to all the guide books*/
+.see-all {
+   color:rgb(86 90 91);
+  text-align: center;
+  border: 2px solid darkgrey;
+  background-color: white;
+  margin: 30px 15px 30px 15px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bottom-row {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+/*Will be future link to everywhere in the world*/
+.destinations {
+  color:rgb(86 90 91);
+  text-align: center;
+  border: 2px solid darkgrey;
+  background-color: white;
+  margin: 30px 15px 30px 15px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+/*the class that should be trying to lay text over photos*/
+.overlay {
+  display: flex;
+  flex-direction: row;
+  z-index: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+}  
