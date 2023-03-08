@@ -4,9 +4,15 @@
 }
 
 body {
-  background-color: #f0f1f2;
+  background-color: rgba(237, 239, 236, 1);
 }
 
-h1 {
-  color: #555;
+h1,
+p {
+  color: rgba(86, 89, 92, 1);
+}
+
+button {
+  background-color: white;
+  color: rgba(86, 89, 92, 1);
 }
