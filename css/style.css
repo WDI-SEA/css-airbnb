@@ -1,3 +1,5 @@
+
+
 body {
   display: flex;
   flex-direction: column;
@@ -30,6 +32,10 @@ button {
   border-color: rgb(200, 200, 200);
   margin-bottom: 1rem;
   font-size: 0.7rem;
+  font-weight: bold;
+  border-width: thin;
+  outline: none;
+  border-radius: 3px;
 }
 
 img {
