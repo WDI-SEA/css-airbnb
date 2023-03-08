@@ -7,3 +7,33 @@
   /* use digital color picker to get hex values */
   color: #4b4c4e;
 }
+body {
+  background-color: #E9EBE7;
+}
+button {
+  padding: 1rem 6rem;
+  font-weight: 600;
+}
+.images img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+}
+.card {
+  text-align: center;
+}
+.card section {
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+}
+.images p {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
