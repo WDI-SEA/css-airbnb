@@ -4,9 +4,67 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <title>CSS-AirBnB</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <!-- started by making a section to include the heading, subtitle, image gallery and button -->
+  <div class= "section">
+    <!-- made a div for the heading copy -->
+    <div class="heading">
+      <!-- I didn't think an h1 was appropriate since the styling repeats lower in the webpage.  -->
+      <h2 class="heading-copy">Meet Guidebooks</h2>
+      <!-- p element for the subtitle -->
+      <p class="subtitle-copy">Discover hundreds of local spots recommended by AirBnB hosts</p>
+    </div>
+    <!-- div for the image gallery -->
+    <div class="gallery">
+      <!-- within the gallery I made img-frame divs for each images -->
+      <div class="img-frame">
+        <img class="top-image-crop" src="./img/san-francisco.jpg" alt="Foggy San Francisco"/>
+        <div class="text-overlay">San Francisco</div>
+      </div>
+      <div class="img-frame">
+        <img class="top-image-crop" src="./img/new-york.jpg" alt="Empire State Building in New York"/>
+        <div class="text-overlay">New York</div>
+      </div>
+      <div class="img-frame">
+        <img class="top-image-crop" src="./img/london.jpg" alt="Big Ben in London"/>
+        <div class="text-overlay">London</div>
+      </div>
+    </div>
+    <!-- I made a seperate div for the button -->
+    <div class="button-div">
+      <button class="button">See All Guidebooks</button>
+    </div>
+</div>
+<!-- Copied and pasted the above code and made the necessary adjustments to the content -->
+<div class= "section" id="section">
+  <div class="heading" id="heading">
+    <h2 class="heading-copy">Just for the weekend</h2>
+    <p class="subtitle-copy">Discover new, inspiring places close to home.</p>
+  </div>
+  <div class="gallery">
+    <div class="img-frame">
+      <img class="btm-image-crop" src="./img/napa.jpg" alt="Hot air balloons above Napa Valley"/>
+      <div class="text-overlay">Napa</div>
+    </div>
+    <div class="img-frame">
+      <img class="btm-image-crop" src="./img/sonoma.jpg" alt="A vineyard in Sonoma"/>
+      <div class="text-overlay">Sonoma</div>
+    </div>
+    <div class="img-frame">
+      <img class="btm-image-crop" src="./img/san-francisco-2.jpg" alt="Buena Vista Park in San Francisco"/>
+      <div class="text-overlay">San Francisco</div>
+    </div>
+  </div>
+  <div class="button-div">
+    <button class="button">See All Destinations</button>
+  </div>
+  <!-- created a footer to add some natural padding -->
+  <footer></footer>
+</div>
 </body>
 </html>
