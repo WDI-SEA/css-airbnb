@@ -1,51 +1,43 @@
-h1 {
-  color: rgb(86, 90, 93);
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-}
-
-p {
-  color: rgb(86, 90, 93);
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-}
-
-.cities {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: #4b4c4e;
 }
 
 body {
-  text-align: center;
   background-color: rgb(236, 240, 236);
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+}
+
+.images section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.images p {
+  position: absolute;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
 }
 
 button {
-  color: rgb(86, 90, 93);
-  background-color: white;
-  padding: 6px 42px 6px 42px;
-  border-radius: 3px;
-  font-size: 11.5px;
+  padding: .5rem 5rem;
   border: 1px solid rgb(196, 196, 196);
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: (-50%,-50%);
-  font-family: 'Roboto', sans-serif;
-}
-
-.flex-row {
-  display: flex;
-  justify-content: center;
-  height: 33vh;
 }
