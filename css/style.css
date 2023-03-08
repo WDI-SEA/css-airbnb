@@ -1,66 +1,44 @@
-body{
-  background-color:rgb(237, 238, 236);
+* {
+  /* browser css reset */
+  margin: 0;
+  box-sizing: border-box;
+  /* set some basic font styling */
+  font-family: "Raleway", sans-serif;
+  /* use digital color picker to get hex values */
+  color: #4b4c4e;
+}
+body {
+  background-color: #E9EBE7;
+}
+
+button {
+  padding: 1rem 7rem;
+}
+
+.card {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
   text-align: center;
 }
-.photos{
-  flex-direction: column;
-  border: 10%;
+
+.images {
+  display: flex;
 }
 
-h1 {
-  color: rgb(92, 95, 96);
+.images section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
-h2{
-  color: rgb(88, 90, 90);
-}
-#bottom-button{
-background-color: white;
 
-}
-.photos{
-  margin: 15px 15px;
-  display: inline;
-}
-#san-francisco{
+.images p {
+  /* border: yellow 2px solid; */
   position: absolute;
-  top: 5px;
   color: white;
-  color: rgb(255, 255, 255, 0);
-  margin: auto;
-  
-}
-#new-york{
-  position: absolute;
-  top: 5px;
-  color: white;
-  color: rgb(255, 255, 255, 0);
-  margin: auto;
-}
-#london{
-  position: absolute;
-  top: 5px;
-  color: white;
-  color: rgb(255, 255, 255, 0);
-  margin: auto;
-}
-#napa{
-  position: absolute;
-  top: 5px;
-  color: white;
-  color: rgb(255, 255, 255, 0);
-  margin: auto;
-}
-#sonoma{
-  position: absolute;
-  top: 5px;
-  color: white;
-  color: rgb(255, 255, 255, 0);
-  margin: auto;
-}
-#san-francisco-2{
-  position: absolute;
-  top: 5px;
-  color: white;
-  color: rgb(255, 255, 255, 0);
-  margin: auto;
+  font-weight: 600;
+  font-size: 36px;
 }
