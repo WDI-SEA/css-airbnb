@@ -12,6 +12,18 @@ p {
   color: rgba(86, 89, 92, 1);
 }
 
+.image-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 button {
   background-color: white;
   color: rgba(86, 89, 92, 1);
