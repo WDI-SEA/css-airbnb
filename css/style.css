@@ -1,3 +1,43 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: #4b4c4e;
+}
+
+body {
+  background-color: rgb(236, 240, 236);
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+}
+
+.images section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.images p {
+  position: absolute;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+button {
+  padding: .5rem 5rem;
+  border: 1px solid rgb(196, 196, 196);
 }
