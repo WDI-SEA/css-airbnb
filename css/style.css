@@ -1,3 +1,74 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Raleway", sans-serif; 
+  color: #4b4c4e;
 }
+
+body {
+  background-color: rgb(237,239,236);
+  
+}
+button {
+  padding: 1.5rem 13rem;
+  background-color: rgb(255,255,255);
+  text-align: right;
+  position: relative;
+  display: flex;
+  margin-left: 780px;
+  color:#4b4c4e;
+  margin-bottom: 100px;
+  font-size: 15px;
+
+ 
+}
+  h1 {
+    color: rgb(87,90,92);
+    text-align: center;
+    font-size: 45px;
+    margin-right: 7%;
+    
+  }
+  h2 {
+    color: rgb(89,89,89);
+    text-align: center;
+    font-size: 18px;
+    margin-right: 7%;
+  }
+  
+  img {
+     justify-content: center;  
+     width: 640px; 
+     height: 660px; 
+     display: flex;
+     padding: 50px;
+     
+   }
+    
+  
+ .images {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      margin: 100px 100px;
+      position: relative;
+      display: flex;
+      
+  }
+  .images p {
+    font-weight: 600;
+    color: white;
+    position: relative;
+    justify-content: center;
+    margin-left: 27%;
+    top: -50%; 
+    left: 15%;
+    font-size: 30px;
+    text-align: left;
+
+  }
+  
+  
+  
+  
+  
