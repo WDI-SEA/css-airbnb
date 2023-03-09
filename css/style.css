@@ -10,7 +10,7 @@ h1 {
   font-size: 1.4rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 10 0 0 0;
+  margin: 25px 0 5px 0;
 }
 
 p {
@@ -25,9 +25,9 @@ button {
   background-color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 6px 57px;
+  padding: 10px 57px;
   color: rgb(87, 89, 94);
-  border-color: rgb(200, 200, 200);
+  border-color: #cecece;
   margin-bottom: 1rem;
   font-size: 0.7rem;
   font-weight: bold;
